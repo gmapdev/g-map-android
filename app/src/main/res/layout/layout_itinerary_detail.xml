@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/top_rounded_blue_with_shadow_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginEnd="@dimen/margin_medium"
+        
+
+        >
+        <ImageView
+            android:id="@+id/iv_itinerary_detail_back"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:layout_gravity="bottom"
+            android:src="@drawable/ic_leftarrow"
+            android:scaleType="centerInside"
+            app:tint="@android:color/white"
+            android:contentDescription="@string/back_button"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/iv_itinerary_detail_expander"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/icon_height"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_handle"
+            android:contentDescription="@string/itinerary_detail_expander"
+            app:tint="@android:color/white" />
+
+   </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/sv_itinerary_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rl_start_route"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_marginEnd="@dimen/margin_medium"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginBottom ="5dp"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/padding_medium"
+                android:background="@drawable/rounded_primary_frame_bg"
+                android:visibility="gone"
+                >
+                <ImageView
+                    android:id="@+id/iv_start_route"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_globe"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_large"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/iv_start_route"
+                    android:text="@string/start_route"
+                    android:textSize="@dimen/content_text_size_sp"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    />
+
+            </RelativeLayout>
+            <LinearLayout
+                android:id="@+id/ll_plan_trip_detail_errors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_marginEnd="@dimen/margin_medium"
+                android:layout_marginTop="@dimen/margin_small"
+                android:layout_marginBottom ="5dp"
+                android:accessibilityHeading="true"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:background="@color/colorLightGrey">
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_itinerary_detail_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="@dimen/margin_small"
+                android:layout_marginEnd="@dimen/margin_small"
+                android:background="@color/colorLightGrey"
+                />
+
+            <ListView
+                android:id="@+id/lv_itinerary_leg_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0dp"
+                />
+
+            <LinearLayout
+                android:id="@+id/ll_trip_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_medium"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:paddingTop="@dimen/padding_medium"
+                android:paddingBottom="@dimen/padding_medium"
+                android:background="@drawable/rounded_white_with_shadow_bg"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/address_input_text_size_sp"
+                    android:accessibilityHeading="true"
+                    tools:targetApi="p"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:text="@string/trip_details"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_vertical"
+                    >
+                    <ImageView
+                        android:layout_width="@dimen/layer_icon_size"
+                        android:layout_height="@dimen/layer_icon_size"
+                        android:layout_gravity="center_vertical"
+
+                        android:src="@drawable/ic_calendar"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/margin_medium"
+                        android:textSize="@dimen/content_text_size_sp"
+                        android:textColor="@android:color/black"
+                        android:text="@string/depart"
+                        android:ellipsize="end"
+                        />
+                    <TextView
+                        android:id="@+id/tv_itinerary_detail_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/margin_small"
+                        android:textSize="@dimen/content_text_size_sp"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:text="April 26, 2021"
+                        />
+                    <TextView
+                        android:id="@+id/tv_itinerary_detail_date_at"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/margin_small"
+                        android:textSize="@dimen/content_text_size_sp"
+                        android:textColor="@android:color/black"
+                        android:text="@string/at"
+                        />
+                    <TextView
+                        android:id="@+id/tv_itinerary_detail_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/margin_small"
+                        android:textSize="@dimen/content_text_size_sp"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:text="11:08 am"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_itinerary_detail_date_and_time_accessibility"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="35dp"
+                    android:visibility="visible"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_medium"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center_vertical"
+                        android:visibility="visible"
+                        >
+
+                    <TextView
+                        android:id="@+id/tv_itinerary_detail_date_accessibility"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/margin_small"
+                        android:textSize="@dimen/content_text_size_sp"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:text="April 26, 2021"
+                        />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_medium"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center_vertical"
+
+                        android:visibility="visible"
+                        >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/margin_small"
+                        android:textSize="@dimen/content_text_size_sp"
+                        android:textColor="@android:color/black"
+                        android:text="@string/at"
+                        />
+                    <TextView
+                        android:id="@+id/tv_itinerary_detail_time_accessibility"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/margin_small"
+                        android:textSize="@dimen/content_text_size_sp"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:text="11:08 am"
+                        />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_itinerary_detail_fare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_large"
+                    android:orientation="horizontal"
+                    >
+                    <ImageView
+                        android:layout_width="@dimen/layer_icon_size"
+                        android:layout_height="@dimen/layer_icon_size"
+                        android:src="@drawable/ic_fare"
+                        android:layout_gravity="center"
+                        />
+
+                    <ImageView
+                        android:layout_width="@dimen/stop_marker_icon_size"
+                        android:layout_height="@dimen/stop_marker_icon_size"
+                        android:src="@drawable/ic_resume"
+                        android:padding="1dp"
+                        android:layout_marginStart="@dimen/margin_medium"
+                        android:layout_gravity="center"
+                        android:visibility="gone"
+           />
+                    <TextView
+                        android:id="@+id/tv_itinerary_fare_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/margin_medium"
+                        android:textSize="@dimen/content_text_size_sp"
+                        android:textColor="@color/colorBlack"
+                        android:text="@string/transit_fare"
+                        android:ellipsize="end"
+                        />
+                    <TextView
+                        android:id="@+id/tv_itinerary_detail_fare"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/margin_small"
+                        android:textSize="@dimen/content_text_size_sp"
+                        android:textColor="@color/colorBlack"
+                        android:textStyle="bold"
+                        android:text="$16.75"
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_itinerary_detail_fare_accessibility"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="37dp"
+                    android:textSize="@dimen/content_text_size_sp"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:text="$16.75"
+                    android:visibility="gone"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/ll_itinerary_detail_calories_burned"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:orientation="horizontal"
+                    >
+                    <ImageView
+                        android:layout_width="@dimen/layer_icon_size"
+                        android:layout_height="@dimen/layer_icon_size"
+
+                        android:src="@drawable/ic_calories"
+                        android:layout_gravity="center"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/margin_medium"
+                        android:textSize="@dimen/content_text_size_sp"
+                        android:textColor="@android:color/black"
+                        android:text="@string/time_spent_active"
+                        android:ellipsize="end"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_itinerary_detail_calories_burned"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="@dimen/content_text_size_sp"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:text="36"
+                        android:layout_marginStart="5dp"
+                        />
+                    <LinearLayout
+                        android:id="@+id/ll_more_info_on_calories_burned"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/calories_info_hide_details">
+                        <ImageView
+                            android:id="@+id/iv_itinerary_detail_calories_burned"
+                            android:layout_width="@dimen/layer_icon_size"
+                            android:layout_height="@dimen/layer_icon_size"
+                            android:layout_marginStart="@dimen/margin_small"
+                            android:padding="@dimen/padding_small"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_help_solid"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_itinerary_detail_calories_burned_accessibility"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    >
+
+                <TextView
+                    android:id="@+id/tv_itinerary_detail_calories_burned_accessibility"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="37dp"
+                    android:textSize="@dimen/content_text_size_sp"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:text="36"
+                    />
+                <LinearLayout
+                    android:id="@+id/ll_more_info_on_calories_burned_accessibility"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/calories_info_hide_details">
+                    <ImageView
+                        android:id="@+id/iv_itinerary_detail_calories_burned_accessibility"
+                        android:layout_width="@dimen/layer_icon_size"
+                        android:layout_height="@dimen/layer_icon_size"
+                        android:layout_marginStart="@dimen/margin_small"
+                        android:padding="@dimen/padding_small"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_help_solid"
+                        />
+                </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_calories_burned_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:paddingEnd="@dimen/padding_medium"
+                    android:paddingStart="@dimen/padding_medium"
+                    android:paddingTop="@dimen/padding_medium"
+                    android:orientation="horizontal"
+                    android:background="@drawable/grey_frame_white_bg"
+                    android:visibility="visible"
+                    >
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="@dimen/padding_small"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:id="@+id/tv_calories_burned_detail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/address_list_view_text_size_sp"
+                            android:text="@string/calories_burned_detail"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_calories_burned_guidelines"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/address_list_view_text_size_sp"
+                            android:text="@string/calories_burned_guidelines"
+                            android:visibility="gone"
+                            />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_calories_burned_detail_close"
+                        android:layout_width="@dimen/aoda_width"
+                        android:layout_height="@dimen/aoda_height">
+
+                    <ImageView
+                        android:id="@+id/iv_calories_burned_detail_close"
+                        android:layout_width="@dimen/layer_icon_size"
+                        android:layout_height="@dimen/layer_icon_size"
+                        android:padding="@dimen/margin_small"
+                        android:src="@drawable/ic_cancel"
+                        android:layout_alignParentEnd="true"
+                        android:contentDescription="@string/close"
+                        />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

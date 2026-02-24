@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@color/colorHalfTransparent"
+    android:gravity="center"
+    android:maxHeight="500dp"
+    >
+
+    <ImageView
+        android:id="@+id/iv_close_search_mode_accessibility"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginEnd="@dimen/margin_large"
+        android:layout_marginBottom="@dimen/margin_large"
+        android:contentDescription="@string/close_search_mode"
+        android:src="@drawable/ic_close" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_extra_large"
+        android:layout_marginEnd="@dimen/margin_large"
+        android:layout_marginBottom="@dimen/margin_extra_large"
+        android:background="@drawable/rounded_white_with_shadow_bg"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_medium">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:id="@+id/rl_search_mode_transit_accessibility_new"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+
+
+                    <RelativeLayout
+                        android:id="@+id/rl_transit_status"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true">
+
+                        <ImageView
+                            android:id="@+id/iv_transit_selected"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_layer_square_active"
+                            android:visibility="gone" />
+
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/rl_search_mode_transit_accessibility"
+                        android:layout_width="@dimen/search_mode_width_accessibility"
+                        android:layout_height="@dimen/search_mode_width_accessibility"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/rl_transit_status"
+                        android:background="@drawable/rounded_primary_bg"
+                        android:contentDescription="@string/transit_search_mode">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/margin_small"
+                            android:src="@drawable/black_circle_bg"
+                            app:tint="@android:color/white" />
+
+                        <ImageView
+                            android:id="@+id/iv_search_mode_transit_accessibility"
+                            android:layout_width="@dimen/search_mode_image_height"
+                            android:layout_height="@dimen/search_mode_image_height"
+                            android:layout_centerInParent="true"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_classicmode"
+                            app:tint="@android:color/black" />
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tv_search_mode_transit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/rl_search_mode_transit_accessibility"
+                        android:text="@string/transit"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <RelativeLayout
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/iv_home_setting_transit_expand"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_plus" />
+
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/ll_sub_transit_search_modes_accessibility"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginEnd="20dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_home_setting_bus_accessibility"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginBottom="10dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/iv_home_setting_bus"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_bus"
+                            app:tint="@color/colorPrimary" />
+
+                        <TextView
+                            android:id="@+id/tv_home_setting_bus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="10dp"
+                            android:layout_toEndOf="@+id/iv_home_setting_bus"
+                            android:gravity="start"
+                            android:text="@string/bus"
+                            android:textColor="@android:color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+
+                        <RelativeLayout
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:id="@+id/iv_home_setting_bus_active"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/ic_layer_toggle_on" />
+
+
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_home_settings_link_accessibility"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginBottom="10dp">
+
+                        <ImageView
+                            android:id="@+id/iv_home_setting_link"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/ic_mode_link"
+                            app:tint="@color/colorPrimary" />
+
+                        <TextView
+                            android:id="@+id/tv_home_setting_link"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginStart="10dp"
+                            android:layout_toEndOf="@+id/iv_home_setting_link"
+                            android:gravity="start"
+
+                            android:maxWidth="100dp"
+                            android:text="@string/link"
+                            android:textColor="@android:color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+
+                        <RelativeLayout
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true">
+
+                            <ImageView
+                                android:id="@+id/iv_home_setting_link_active"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/ic_layer_toggle_on" />
+
+
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp">
+
+                        <ImageView
+                            android:id="@+id/iv_home_setting_atl_street_car"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/ic_streetcar"
+                            app:tint="@color/colorPrimary" />
+
+                        <TextView
+                            android:id="@+id/tv_home_setting_atl_street_car"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginStart="10dp"
+                            android:layout_toEndOf="@+id/iv_home_setting_atl_street_car"
+                            android:gravity="start"
+                            android:text="@string/atl_street_car"
+                            android:maxWidth="100dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+
+                        <RelativeLayout
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true">
+
+                            <ImageView
+                                android:id="@+id/iv_home_setting_atl_street_car_active"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ic_layer_toggle_on" />
+
+
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp">
+
+                        <ImageView
+                            android:id="@+id/iv_home_setting_marta_rail"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/ic_rail"
+                            app:tint="@color/colorPrimary" />
+
+                        <TextView
+                            android:id="@+id/tv_home_setting_marta_rail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginStart="10dp"
+                            android:layout_toEndOf="@+id/iv_home_setting_marta_rail"
+                            android:gravity="start"
+                            android:text="@string/marta_rail"
+                            android:maxWidth="100dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+
+                        <RelativeLayout
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true">
+
+                            <ImageView
+                                android:id="@+id/iv_home_setting_marta_rail_active"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ic_layer_toggle_on" />
+
+
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_home_setting_ferry_accessibility"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp">
+
+                        <ImageView
+                            android:id="@+id/iv_home_setting_ferry"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/ic_ferry"
+                            app:tint="@color/colorPrimary" />
+
+                        <TextView
+                            android:id="@+id/tv_home_setting_ferry"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginStart="10dp"
+                            android:layout_toEndOf="@+id/iv_home_setting_ferry"
+                            android:gravity="start"
+                            android:maxWidth="100dp"
+                            android:text="@string/ferry"
+                            android:textColor="@android:color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+
+                        <RelativeLayout
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true">
+
+                            <ImageView
+                                android:id="@+id/iv_home_setting_ferry_active"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ic_layer_toggle_on" />
+
+
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_home_setting_water_taxi_accessibility"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_gravity="start">
+
+                        <ImageView
+                            android:id="@+id/iv_home_setting_water_taxi"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/ic_mode_water_taxi"
+                            app:tint="@color/colorPrimary" />
+
+                        <TextView
+                            android:id="@+id/tv_home_setting_water_taxi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginStart="10dp"
+                            android:layout_toEndOf="@+id/iv_home_setting_water_taxi"
+                            android:gravity="start"
+                            android:maxWidth="100dp"
+                            android:text="@string/water_taxi"
+                            android:textColor="@android:color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+
+                        <RelativeLayout
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true">
+
+                            <ImageView
+                                android:id="@+id/iv_home_setting_water_taxi_active"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ic_layer_toggle_on" />
+
+
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/rl_home_setting_monorail_accessibility"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_gravity="start">
+
+                        <ImageView
+                            android:id="@+id/iv_home_setting_monorail"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/ic_mode_monorail"
+                            app:tint="@color/colorPrimary" />
+
+                        <TextView
+                            android:id="@+id/tv_home_setting_monorail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginStart="10dp"
+                            android:layout_toEndOf="@+id/iv_home_setting_monorail"
+                            android:gravity="start"
+                            android:maxWidth="100dp"
+                            android:text="@string/water_taxi"
+                            android:textColor="@android:color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+
+                        <RelativeLayout
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true">
+
+                            <ImageView
+                                android:id="@+id/iv_home_setting_monorail_active"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ic_layer_toggle_on" />
+
+
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/rl_home_search_mode_bike_accessibility_new"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="10dp">
+
+
+                    <RelativeLayout
+                        android:id="@+id/rl_bike_status"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true">
+
+                        <ImageView
+                            android:id="@+id/iv_bike_selected"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_layer_square_active"
+                            android:visibility="gone" />
+
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/rl_search_mode_bike_accessibility"
+                        android:layout_width="@dimen/search_mode_width_accessibility"
+                        android:layout_height="@dimen/search_mode_width_accessibility"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/rl_bike_status"
+                        android:background="@drawable/rounded_primary_bg"
+                        android:contentDescription="@string/transit_search_mode">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/margin_small"
+                            android:src="@drawable/black_circle_bg"
+                            app:tint="@android:color/white" />
+
+                        <ImageView
+                            android:id="@+id/iv_search_mode_bike_accessibility"
+                            android:layout_width="@dimen/search_mode_image_height"
+                            android:layout_height="@dimen/search_mode_image_height"
+                            android:layout_centerInParent="true"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_bicycle"
+                            app:tint="@android:color/black" />
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tv_search_mode_bike"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="start"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/rl_search_mode_bike_accessibility"
+                        android:text="@string/bike"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/rl_search_mode_drive_accessibility_new"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="10dp">
+
+
+                    <RelativeLayout
+                        android:id="@+id/rl_car_status"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true">
+
+                        <ImageView
+                            android:id="@+id/iv_car_selected"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_layer_square_active"
+                            android:visibility="gone" />
+
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/rl_search_mode_drive_accessibility"
+                        android:layout_width="@dimen/search_mode_width_accessibility"
+                        android:layout_height="@dimen/search_mode_width_accessibility"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/rl_car_status"
+                        android:background="@drawable/rounded_primary_bg"
+                        android:contentDescription="@string/transit_search_mode">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/margin_small"
+                            android:src="@drawable/black_circle_bg"
+                            app:tint="@android:color/white" />
+
+                        <ImageView
+                            android:id="@+id/iv_search_mode_drive_accessibility"
+                            android:layout_width="@dimen/search_mode_image_height"
+                            android:layout_height="@dimen/search_mode_image_height"
+                            android:layout_centerInParent="true"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_car"
+                            app:tint="@android:color/black" />
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tv_search_mode_drive"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="start"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/rl_search_mode_drive_accessibility"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="@string/car"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:id="@+id/rl_search_mode_walk_accessibility_new"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="10dp">
+
+
+                    <RelativeLayout
+                        android:id="@+id/rl_walk_status"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true">
+
+                        <ImageView
+                            android:id="@+id/iv_walk_selected"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_layer_square_active"
+                            android:visibility="gone" />
+
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/rl_search_mode_walk_accessibility"
+                        android:layout_width="@dimen/search_mode_width_accessibility"
+                        android:layout_height="@dimen/search_mode_width_accessibility"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/rl_walk_status"
+                        android:background="@drawable/rounded_primary_bg"
+                        android:contentDescription="@string/transit_search_mode">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/margin_small"
+                            android:src="@drawable/black_circle_bg"
+                            app:tint="@android:color/white" />
+                        <ImageView
+                            android:id="@+id/iv_search_mode_walk_accessibility"
+                            android:layout_width="@dimen/search_mode_image_height"
+                            android:layout_height="@dimen/search_mode_image_height"
+                            android:layout_centerInParent="true"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_walk"
+                            app:tint="@android:color/black" />
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tv_search_mode_walk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="start"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/rl_search_mode_walk_accessibility"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="@string/walk"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+
+
+
+
+                <RelativeLayout
+                    android:id="@+id/rl_search_mode_rental_accessibility_new"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="10dp">
+
+
+                    <RelativeLayout
+                        android:id="@+id/rl_rental_status"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true">
+
+                        <ImageView
+                            android:id="@+id/iv_rental_selected"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_layer_square_active"
+                            android:visibility="gone" />
+
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/rl_search_mode_rental_accessibility"
+                        android:layout_width="@dimen/search_mode_width_accessibility"
+                        android:layout_height="@dimen/search_mode_width_accessibility"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/rl_rental_status"
+                        android:background="@drawable/rounded_primary_bg"
+                        android:contentDescription="@string/transit_search_mode">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/margin_small"
+                            android:src="@drawable/black_circle_bg"
+                            app:tint="@android:color/white" />
+
+                        <ImageView
+                            android:id="@+id/iv_search_mode_rental_accessibility"
+                            android:layout_width="@dimen/search_mode_image_height"
+                            android:layout_height="@dimen/search_mode_image_height"
+                            android:layout_centerInParent="true"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_mobile"
+                            app:tint="@android:color/black" />
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tv_search_mode_rental"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="start"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/rl_search_mode_rental_accessibility"
+                        android:text="@string/rent"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

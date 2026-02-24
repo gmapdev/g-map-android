@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rl_home"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <FrameLayout
+        android:id="@+id/plan_view_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.mapbox.mapboxsdk.maps.MapView
+            android:id="@+id/map_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <RelativeLayout
+            android:id="@+id/rl_locate_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:layout_marginEnd="@dimen/margin_medium"
+            android:contentDescription="@string/locate_me_button"
+            >
+            <ImageView
+                android:id="@+id/iv_locate_me_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_layer_bkg_default"
+                />
+            <ImageView
+                android:id="@+id/iv_locate_me"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_locateme"
+                />
+        </RelativeLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_small"
+            android:fillViewport="true"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rl_map_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    >
+
+                    <RelativeLayout
+                        android:id="@+id/rl_search_bar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <include
+                            android:id="@+id/ll_search_bar"
+                            layout="@layout/layout_search_bar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/margin_medium"
+                            android:layout_marginTop="@dimen/margin_medium"
+                            android:layout_marginEnd="@dimen/margin_medium"
+                            android:layout_marginBottom="@dimen/margin_medium" />
+                        <include
+                            android:id="@+id/rl_route_search_address"
+                            layout="@layout/layout_route_search_address"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/margin_medium"
+                            android:visibility="gone"
+                            />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_layer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/rl_search_bar"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="@dimen/margin_medium"
+
+                        android:contentDescription="@string/map_settings"
+                        >
+                        <ImageView
+                            android:id="@+id/iv_layer_bg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_layer_bkg_default"
+                            />
+                        <ImageView
+                            android:id="@+id/iv_layer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/ic_layer"
+                            />
+                    </RelativeLayout>
+
+
+                    <ImageView
+                        android:id="@+id/iv_save_trip"
+                        android:layout_width="@dimen/layer_icon_bg_width"
+                        android:layout_height="@dimen/layer_icon_bg_height"
+                        android:layout_marginStart="@dimen/margin_medium"
+                        android:layout_below="@+id/rl_search_bar"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ic_save_new"
+                        android:background="@drawable/ic_layer_bkg_default"
+                        android:visibility="gone"
+                        android:contentDescription="@string/save_route"
+                        />
+                    <ImageView
+                        android:id="@+id/iv_indoor_navigation"
+                        android:layout_width="@dimen/layer_icon_bg_width"
+                        android:layout_height="@dimen/layer_icon_bg_height"
+                        android:layout_marginStart="@dimen/margin_medium"
+                        android:layout_below="@+id/iv_save_trip"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ic_building"
+                        android:visibility="gone"
+                        android:contentDescription="@string/indoor_navigation"
+                        />
+                    <include
+                        android:id="@+id/sv_address_search"
+                        layout="@layout/layout_address_search"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/margin_medium"
+                        android:visibility="gone"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+    <include
+        android:id="@+id/ll_itinerary_list"
+        layout="@layout/layout_itinerary_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        />
+
+    <include
+        android:id="@+id/ll_accessibility_legend_pop_up"
+        layout="@layout/layout_accessibility_legend"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        />
+
+
+
+
+
+    <include
+        android:id="@+id/ll_accessibility_legend_pop_up_accessibility"
+        layout="@layout/layout_accessible_legend_accessibility"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        />
+
+    <include
+        android:id="@+id/ll_itinerary_detail"
+        layout="@layout/layout_itinerary_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        />
+
+    <include
+        android:id="@+id/rl_service_alerts"
+        layout="@layout/layout_service_alerts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        />
+    <include
+        android:id="@+id/ll_layout_layers"
+        layout="@layout/layout_layers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        />
+    <include
+        android:id="@+id/rl_home_date_time"
+        layout="@layout/layout_home_date_time"
+        android:visibility="gone"
+        />
+    <include
+        android:id="@+id/rl_home_setting"
+        layout="@layout/layout_home_setting"
+        android:visibility="gone"
+        />
+
+    <include
+        android:id="@+id/rl_home_setting_accessibility"
+        layout="@layout/layout_home_setting_accessibility"
+        android:visibility="gone"
+        />
+
+    <include
+        android:id="@+id/ll_save_new_trip"
+        layout="@layout/layout_save_new_trip_accessibility"
+        android:visibility="gone"
+        />
+
+    <include
+        android:id="@+id/rl_home_search_modes"
+        layout="@layout/layout_home_search_modes"
+        android:visibility="gone"
+        />
+    <include
+        android:id="@+id/rl_indoor_navigation_popup"
+        layout="@layout/layout_indoor_navigation_popup"
+        android:visibility="gone"
+        />
+    <include
+        android:id="@+id/rl_home_search_modes_accessibility"
+        layout="@layout/layout_home_search_modes_accessibility"
+        android:visibility="gone"
+        />
+    <include
+        android:id="@+id/ll_home_setting_walk_speed_accessibility_page"
+        layout="@layout/layout_home_setting_walk_speed_accessibility"
+        android:visibility="gone"
+        />
+    <include
+        android:id="@+id/cl_advanced_preferences"
+        layout="@layout/layout_advanced_preferences"
+        android:visibility="gone" />
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/tv_my_favorite_stops"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/my_favorite_stops"
+        android:textSize="@dimen/title_text_size"
+        android:accessibilityHeading="true"
+        tools:targetApi="p"
+        android:textColor="@android:color/black"
+        />
+    <ListView
+        android:id="@+id/lv_fav_stops"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginEnd="@dimen/margin_medium"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        />
+</LinearLayout>

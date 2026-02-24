@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#084C8D</color>
+    <color name="colorPrimaryDark">#084C8D</color>
+    <color name="colorAccent">#084C8D</color>
+    <color name="colorLightBlue">#ADD8E6</color>
+    <color name="colorGrey">#B0B0B0</color>
+    <color name="colorLightGrey">#FFCACACA</color>
+    <color name="colorDarkGrey">#868686</color>
+    <color name="colorTransitModeBG">#EFEFEF</color>
+    <color name="colorSearchBG">#F5F5A7</color>
+    <color name="colorRecentSearched">#01017F</color>
+    <color name="colorItineraryHighlight">#008080</color>
+    <color name="colorSearchOptionSelectedBG">#AED8E6</color>
+
+    <color name="colorCarRoute">#888888</color>
+    <color name="colorBikeRoute">#FF0103</color>
+    <color name="colorWalkRoute">#87CEFA</color>
+    <color name="colorMicroMobilityRoute">#F5A729</color>
+
+    <color name="colorBusMode">#e05522</color>
+    <color name="colorSubwayMode">#e05522</color>
+    <color name="colorBikeMode">#8b331d</color>
+    <color name="colorWalkMode">#2a66af</color>
+    <color name="colorCarMode">#897329</color>
+    <color name="colorScooterBg">#BEB0B0</color>
+    <color name="colorTransitMode">#e05522</color>
+
+    <color name="colorPureBlue">#0000FF</color>
+    <color name="colorSubwayRouteBG">#0F6BAC</color>
+
+    <color name="colorDepartureTimesInfoBG">#D9EDF8</color>
+    <color name="colorDepartureTimesInfoText">#31718F</color>
+
+    <color name="colorStopViewerBlue">#5AA6FC</color>
+    <color name="colorTripViewerTransitAllowedBG">#5CB85C</color>
+    <color name="colorTripViewerAccessibilityAllowedBG">#337AB7</color>
+    <color name="colorSplashBG">#1D68A5</color>
+    <color name="colorRouteViewerHighlight">#F6F8FA</color>
+    <color name="colorHighlightText">#5D666F</color>
+    <color name="colorUnhighlightText">#9EA3A8</color>
+    <color name="colorUnhighlightDivider">#DFE0E2</color>
+
+    <color name="colorSignUpPasswordGreen">#FF80CF37</color>
+    <color name="colorSignUpPasswordRed">#FFBD4629</color>
+
+    <color name="colorPhoneNumberPending">#F1AD4E</color>
+    <color name="colorPhoneNumberVerified">#5DB85C</color>
+    <color name="colorTabUserUnselected">#EEC659</color>
+    <color name="colorSignOut">#FFBC1A1A</color>
+    <color name="colorRoutesViewerSelectedBg">#FFE6EDF3</color>
+    <color name="colorItineraryListHighlight">#FFFFF0</color>
+    <color name="colorItineraryGrey">#FF696969</color>
+    <color name="colorItineraryBlack">#2F3234</color>
+
+    <color name="colorItineraryRouteNumberBg">#006AA9</color>
+    <color name="colorFavStopSelectedBg">#1A084C8D</color>
+    <color name="colorSettingsChanged">#34A853</color>
+
+    <color name="colorItineraryLate">#E05423</color>
+    <color name="colorItineraryEarly">#3A853A</color>
+
+    <color name="colorHalfTransparent">#7f000000</color>
+    <color name="colorInvalidDateText">#BB6867</color>
+    <color name="colorInvalidDateBg">#F2DEDE</color>
+    <color name="colorValidDateBg">#337AB7</color>
+    <color name="colorDateCheckBoxBg">#0075FF</color>
+    <color name="defaultMarkerBackground">#007AFF</color>
+    <color name="defaultRouteBackground">#AAAAAA</color>
+    <color name="tabColorSelected">#FF0000</color>
+    <color name="tabColorUnselected">#000000</color>
+    <color name="colorFilterBackground">#E8E8E8</color>
+
+    <color name="colorHintText">#6F6E6E</color>
+
+
+    <color name="colorPlanTrip">#FCC422</color>
+    <color name="colorModesBackground">#084C8D</color>
+
+    <color name="accessibile">#a2e099</color>
+    <color name="likely_acessibile">#b5d1ff</color>
+    <color name="unaccessible">#ffb5b9</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="button_primary_bg">#FFF28F2B</color>
+    <color name="button_primary_border">#FFF28F2B</color>
+    <color name="button_primary_font">#FFFFFF</color>
+    <color name="button_primary_bg_selected">#FFF28F2B</color>
+    <color name="button_primary_border_selected">#FFF28F2B</color>
+    <color name="button_primary_font_selected">#FFFFFF</color>
+    <color name="button_primary_bg_disabled">#55777777</color>
+    <color name="button_primary_border_disabled">#55777777</color>
+    <color name="button_primary_font_disabled">#55FFFFFF</color>
+    <color name="colorDarkPrimary">#084C8D</color>
+
+    <color name="colorPreviewTripHighlight">#EDC9A9</color>
+    <color name="colorBgGrayDark">#FF929292</color>
+
+    <color name="colorIndoorNavigationPopupConfirm">#4fad32</color>
+
+    <color name="colorEmptyTripName">#FFa94442</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorStopViewerButtonBlue">#1515EE</color>
+    <color name="colorSplashBackground">#D39948</color>
+    <color name="colorfullTransparent">#00FFFFFF</color>
+    <color name="colorHomeSettingModeForeground">#000000</color>
+
+
+    <color name="superLightGrey">#F1F1F1</color>
+    <color name="colorUnsavePopup">#FBC322</color>
+    <color name="colorIndoorLine">#86cdf9</color>
+
+    <color name="colorMoreDetailsLinkBlue">#007AFF</color>
+    <color name="colorPlanTripBackground">#3F8020</color>
+
+    <color name="switch_thumb_checked">#FF4CAF50</color> <!-- Green when ON -->
+    <color name="switch_thumb_unchecked">#FFFFFF</color> <!-- White when OFF -->
+    <color name="switch_track_checked">#FF8FAF56</color> <!-- Green with transparency -->
+    <color name="switch_track_unchecked">#808080</color> <!-- Gray with transparency -->
+</resources>

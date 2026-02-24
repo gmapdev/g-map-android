@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="@dimen/padding_medium"
+    android:paddingBottom="@dimen/padding_medium"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@drawable/grey_frame_rounded_white_bg"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/ll_menu_route_viewer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_width"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/padding_medium"
+            android:src="@drawable/ic_bus"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/route_viewer"
+            android:textSize="@dimen/title_text_size"
+            android:accessibilityHeading="true"
+            tools:targetApi="p"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_menu_start_over"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_width"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/padding_medium"
+            android:src="@drawable/ic_setting_refresh"
+            app:tint="@android:color/black" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/start_over"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/title_text_size"
+            android:accessibilityHeading="true"
+            tools:targetApi="p"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+

@@ -1,0 +1,58 @@
+query StopTimesMode($stopId: String!) {
+                    stop(id: $stopId) {
+                      __typename
+                      id: gtfsId
+                      code
+                      lat
+                      lon
+                      locationType
+                      name
+                      wheelchairBoarding
+                      zoneId
+                      routes {
+                        __typename
+                        id: gtfsId
+                        agency {
+                          __typename
+                          id: gtfsId
+                          name
+                        }
+                        longName
+                        mode
+                        color
+                        textColor
+                        shortName
+                      }
+                      stopTimes: stoptimesForPatterns(numberOfDepartures: 3) {
+                        __typename
+                        pattern {
+                          __typename
+                          desc: name
+                          headsign
+                          id: code
+                        }
+                        times: stoptimes {
+                          __typename
+                          arrivalDelay
+                          departureDelay
+                          headsign
+                          realtime
+                          realtimeArrival
+                          realtimeDeparture
+                          realtimeState
+                          scheduledArrival
+                          scheduledDeparture
+                          serviceDay
+                          stop {
+                            __typename
+                            id: gtfsId
+                          }
+                          timepoint
+                          trip {
+                            __typename
+                            id
+                          }
+                        }
+                      }
+                    }
+                  }

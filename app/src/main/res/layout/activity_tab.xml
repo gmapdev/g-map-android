@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:filterTouchesWhenObscured="true"
+    android:fitsSystemWindows = "true"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:filterTouchesWhenObscured="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <FrameLayout
+                android:id="@+id/fl_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="76dp"
+                />
+
+            <include
+                android:id="@+id/ll_account_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="76dp"
+                layout="@layout/layout_account_menu"
+                android:visibility="gone"
+                />
+
+            <include
+                android:id="@+id/ll_bottom_tab"
+                layout="@layout/layout_bottom_tab"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentBottom="true" />
+
+
+            <include
+                android:id="@+id/ll_bottom_tab_accessibility"
+                layout="@layout/layout_bottom_tab_accessibility"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentBottom="true"
+                android:visibility="gone"/>
+
+            <include
+                android:id="@+id/ll_bottom_tab_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                layout="@layout/layout_bottom_tab_menu_accessibility"
+                android:visibility="gone"
+                />
+
+            <RelativeLayout
+                android:id="@+id/rl_pb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:focusable="true"
+                android:visibility="gone"
+                android:background="@color/colorHalfTransparent"
+                >
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/ll_drawer"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="start"
+        android:background="@android:color/white">
+        <ListView
+            android:id="@+id/left_drawer"
+            android:layout_width="300dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="@dimen/margin_medium"
+            />
+        <TextView
+            android:id="@+id/tv_menu_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_medium"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/tab_menu_text_size"
+            />
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_place_type"
+        android:layout_width="@dimen/icon_width"
+        android:layout_height="@dimen/icon_height"
+        android:padding="@dimen/padding_medium"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_account_location"
+        android:tint="@android:color/black"
+        />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/margin_small"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/tv_added_location_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set_place_name"
+            android:textColor="@android:color/black"
+            android:textSize= "@dimen/address_input_text_size_sp"
+            />
+        <TextView
+            android:id="@+id/tv_added_location_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search_for_location"
+            android:textColor="@color/colorDarkGrey"
+            android:textSize="@dimen/content_text_size_sp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

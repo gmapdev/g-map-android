@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.NFC" />
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <queries>
+        <!-- Browser -->
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http" />
+        </intent>
+
+        <!-- Camera -->
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+
+        <!-- Gallery -->
+        <intent>
+            <action android:name="android.intent.action.GET_CONTENT" />
+        </intent>
+    </queries>
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_rounded"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <service
+            android:name=".fcm.FirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".manager.LocationUpdatesService"
+            android:enabled="true"
+            android:exported="true"
+            android:foregroundServiceType="location" />
+        <service
+            android:name="androidx.work.impl.foreground.SystemForegroundService"
+            android:foregroundServiceType="location"
+            tools:node="merge" />
+
+        <activity
+            android:name=".AddressSearchActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".LogInSignUpActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
+            />
+        <activity
+            android:name=".AuthLogInSignUpActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".VerifyEmailActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".CreateNewAccountActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ScreenSplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.auth0.android.lock.LockActivity"
+            android:theme="@style/MyTheme"
+            tools:replace="android:theme"
+            android:exported="false"
+            />
+        <activity
+            android:name="com.auth0.android.provider.RedirectActivity"
+            android:exported="true"
+            />
+        <activity
+            android:name="com.auth0.android.lock.PasswordlessLockActivity"
+            android:exported="true"
+            />
+        <activity
+            android:name=".AddLocationsActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".AccountSetupCompleteActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".NotificationPreferencesActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".MyAccountActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            />
+        <activity android:name=".TripViewerActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".StopViewerActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".RouteViewerFilterActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".StopsFilterActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateAlwaysVisible"
+            />
+        <activity android:name=".TabActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".AccessibilityProfileActivity" />
+        <activity android:name=".ActiveRouteActivity" />
+        <activity android:name=".IndoorNavigationActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".PreviewTripActivity" />
+    </application>
+
+</manifest>

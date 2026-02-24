@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_verify_email_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_extra_large"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/title_text_size"
+        android:accessibilityHeading="true"
+        tools:targetApi="p"
+        android:text="@string/verify_email_address"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/tv_verify_email_address_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:text="@string/verify_email_address_hint"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/content_text_size"/>
+
+    <TextView
+        android:id="@+id/tv_email_is_verified"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/aoda_height"
+        android:gravity="center_vertical"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:paddingStart="@dimen/padding_medium"
+        android:paddingEnd="@dimen/padding_medium"
+        android:background="@drawable/rounded_primary_bg"
+        android:text="@string/email_is_verified"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/content_text_size"/>
+
+    <TextView
+        android:id="@+id/tv_resend_verification_email"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/aoda_height"
+        android:gravity="center_vertical"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:text="@string/resend_verification_email"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/content_text_size"/>
+</LinearLayout>
+

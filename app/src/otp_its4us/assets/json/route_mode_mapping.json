@@ -1,0 +1,5 @@
+{
+  "route_mode_agencies_mapping": "Gwinnett County Transit,Ride Gwinnett;Metropolitan Atlanta Rapid Transit Authority,MARTA;",
+  "route_mode_name_mapping": "rail,MARTA Rail;tram,Streetcar;SUBWAY,MARTA Rail",
+  "route_mode_overrides":"96:B,LINK;96:A,LINK;40:TLINK,LINK;40:TLINE,LINK;40:100479,LINK;kcm:100336,WATER_TAXI;kcm:100337,WATER_TAXI;kcm:100340,STREETCAR;kcm:102638,STREETCAR;seattlemonorail-wa-us:1778,MONORAIL;Kitsap:501,WATER_TAXI;Kitsap:500,WATER_TAXI;Kitsap:400,WATER_TAXI;Kitsap:401,WATER_TAXI;Kitsap:402,WATER_TAXI;Kitsap:403,WATER_TAXI;Kitsap:404,WATER_TAXI;Kitsap:405,WATER_TAXI"
+}

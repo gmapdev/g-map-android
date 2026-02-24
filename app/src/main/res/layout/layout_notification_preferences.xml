@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="@string/receive_notifications_via"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/address_input_text_size_sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_medium"
+            android:paddingTop="@dimen/padding_small"
+            android:paddingBottom="@dimen/padding_small"
+            android:background="@drawable/grey_frame_rounded_white_bg"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/ll_preference_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:id="@+id/cb_preference_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:text="@string/email"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/content_text_size_sp" />
+                    <TextView
+                        android:id="@+id/tv_notification_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_medium"
+                        android:text="hjt323@hotmail.com"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/content_text_size_sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_preference_sms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:id="@+id/cb_preference_sms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:text="@string/sms"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/content_text_size_sp" />
+                    <LinearLayout
+                        android:id="@+id/ll_notification_sms"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/ll_notification_sms_new_number"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_medium"
+                            android:layout_marginEnd="@dimen/margin_medium"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/enter_phone_number_for_sms_notifications"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/content_text_size_sp"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:id="@+id/et_notification_sms"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:hint="@string/notification_sms_hint"
+                                android:inputType="phone"
+                                android:minHeight="@dimen/aoda_height"
+                                android:text="" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_medium"
+
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/tv_sent_verification_text"
+                                    android:layout_width="0dp"
+                                    android:layout_height="@dimen/aoda_height"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/rounded_primary_bg"
+                                    android:gravity="center"
+                                    android:text="@string/send_verification_text"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="@dimen/content_text_size_sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_sent_verification_text_cancel"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="@dimen/aoda_height"
+                                    android:layout_marginStart="@dimen/margin_medium"
+                                    android:background="@drawable/rounded_transit_mode_bg"
+                                    android:gravity="center_vertical"
+                                    android:paddingStart="@dimen/padding_medium"
+                                    android:paddingEnd="@dimen/padding_medium"
+                                    android:text="@string/cancel"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="@dimen/content_text_size_sp" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv_sms_hint"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_small"
+                                android:text="@string/sms_hint"
+
+                                android:textColor="@android:color/darker_gray"
+                                android:textSize="@dimen/content_text_size_sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_notification_sms_sent_to"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/margin_medium"
+                            android:layout_marginTop="@dimen/margin_medium"
+                            android:layout_marginEnd="@dimen/margin_medium"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/sms_notifications_sent_to"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/content_text_size_sp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_medium"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/tv_notification_sms_number"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text=""
+                                    android:textColor="@android:color/black"
+                                    android:textSize="@dimen/content_text_size_sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_notification_sms_number_status"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/margin_small"
+                                    android:background="@drawable/rounded_primary_bg"
+                                    android:gravity="center_vertical"
+                                    android:minHeight="@dimen/aoda_height"
+                                    android:paddingStart="@dimen/padding_medium"
+                                    android:paddingEnd="@dimen/padding_medium"
+                                    android:text="@string/verified"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="@dimen/content_text_size_sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_change_number"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/margin_small"
+                                    android:gravity="center_vertical"
+                                    android:minHeight="@dimen/aoda_height"
+                                    android:text="@string/change_number"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="@dimen/content_text_size_sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/ll_verify_sms"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/margin_small"
+                                    android:text="@string/check_verification_code_hint"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="@dimen/content_text_size_sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/margin_small"
+                                    android:text="@string/verification_code"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="@dimen/content_text_size_sp"
+                                    android:textStyle="bold" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <EditText
+                                        android:id="@+id/et_verification_code"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="center_vertical"
+                                        android:hint="@string/verification_code_hint"
+                                        android:inputType="number"
+                                        android:minHeight="@dimen/aoda_height" />
+
+                                    <TextView
+                                        android:id="@+id/tv_verification_code_verify"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="@dimen/margin_small"
+                                        android:background="@drawable/rounded_primary_bg"
+                                        android:gravity="center_vertical"
+                                        android:minHeight="@dimen/aoda_height"
+                                        android:paddingStart="@dimen/padding_medium"
+                                        android:paddingEnd="@dimen/padding_medium"
+                                        android:text="@string/verify"
+                                        android:textColor="@android:color/white"
+                                        android:textSize="@dimen/content_text_size_sp" />
+                                </LinearLayout>
+
+                                <TextView
+                                    android:id="@+id/tv_request_a_new_code"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/margin_small"
+                                    android:gravity="center_vertical"
+                                    android:minHeight="@dimen/aoda_height"
+                                    android:text="@string/request_a_new_code"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="@dimen/content_text_size_sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_preference_push"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:id="@+id/cb_preference_push"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:text="@string/push_notifications"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/content_text_size_sp" />
+
+                    <TextView
+                        android:id="@+id/tv_registered_devices_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="@dimen/content_text_size_sp" />
+                </LinearLayout>
+            </LinearLayout>
+            <CheckBox
+                android:id="@+id/cb_haptic_feedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/aoda_width"
+                android:minHeight="@dimen/aoda_height"
+                android:text="@string/haptic_feedback"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_text_size_sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
+

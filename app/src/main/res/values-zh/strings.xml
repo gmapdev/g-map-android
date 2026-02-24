@@ -1,0 +1,1898 @@
+<resources>
+    <string name="sign_in">
+        登录
+    </string>
+    <string name="ok">
+        确定
+    </string>
+    <string name="cancel">
+        取消
+    </string>
+    <string name="streets">
+        街道
+    </string>
+    <string name="satellite">
+        卫星
+    </string>
+    <string name="park_and_ride_locations">
+        停车和乘车
+    </string>
+    <string name="from_here">
+         从这里
+    </string>
+    <string name="to_here">
+         到这里
+    </string>
+    <string name="stop_viewer">
+         车站查看器
+    </string>
+    <string name="stop_id_colon">
+        车站 ID:
+    </string>
+    <string name="today">
+        今天
+    </string>
+    <string name="leave_now">
+        现在离开
+    </string>
+    <string name="recently_searched">
+        最近搜索到的
+    </string>
+    <string name="current_location_address">
+        (当前位置)
+    </string>
+    <string name="duration">
+        旅行时长
+    </string>
+    <string name="cost">
+        费用
+    </string>
+    <string name="depart_at">
+        出发时间
+    </string>
+    <string name="arrive_by">
+        到达
+    </string>
+    <string name="yesterday">
+        昨天
+    </string>
+    <string name="trip_details">
+        行程详情
+    </string>
+    <string name="fare_table">
+        票价表
+    </string>
+    <string name="route">
+        路线
+    </string>
+    <string name="departure">
+        出发
+    </string>
+    <string name="capital_scheduled">
+        预定的
+    </string>
+    <string name="bike">
+        自行车
+    </string>
+    <string name="drive">
+        驾驶
+    </string>
+    <string name="bus">
+        公共汽车
+    </string>
+    <string name="cap_continue">
+        继续
+    </string>
+    <string name="right">
+        右转
+    </string>
+    <string name="left">
+        左转
+    </string>
+    <string name="hard_right">
+        硬右
+    </string>
+    <string name="hard_left">
+        硬左
+    </string>
+    <string name="slight_right">
+        稍向右
+    </string>
+    <string name="slight_left">
+        稍稍左
+    </string>
+    <string name="due">
+        到达
+    </string>
+    <string name="log_in">
+        登录
+    </string>
+    <string name="sign_up">
+        报名
+    </string>
+    <string name="email_hint">
+        电子邮件
+    </string>
+    <string name="your_password">
+        密码
+    </string>
+    <string name="create_new_account">
+        创建一个新账户
+    </string>
+    <string name="create_new_account_hint">
+        您必须同意服务条款才能继续.
+    </string>
+    <string name="notification_preferences_hint">
+        您可以收到有关您经常进行的旅行的通知。
+    </string>
+    <string name="how_to_receive_notifications">
+        您希望如何接收通知？
+    </string>
+    <string name="notification_emails_sent_to">
+        通知电子邮件将发送至：
+    </string>
+    <string name="email">
+        电子邮件
+    </string>
+    <string name="sms">
+        短信
+    </string>
+    <string name="back">
+        后退
+    </string>
+    <string name="next">
+        下一页
+    </string>
+    <string name="add_your_locations_hint">
+        添加你经常去的地点以节省计划行程的时间:
+    </string>
+    <string name="email_invalid">
+        必须是一个有效的E-mail地址。
+    </string>
+    <string name="your_password_must_contain">
+        您的密码必须包含：
+    </string>
+    <string name="at_least_eight_characters">
+        至少 8 个字符。
+    </string>
+    <string name="at_least_3_out_of_4_types_characters">
+        至少满足以下 3 项：
+    </string>
+    <string name="verify_email_address">
+        验证您的电子邮件地址
+    </string>
+    <string name="send_verification_text">
+        发送验证短信
+    </string>
+    <string name="sms_notifications_sent_to">
+        短信通知将发送至：
+    </string>
+    <string name="change_number">
+        更改电话号码
+    </string>
+    <string name="verify">
+        核实
+    </string>
+    <string name="request_a_new_code">
+        申请一个新的代码
+    </string>
+    <string name="check_verification_code_hint">
+        请检查您手机上的短信应用查看是否有验证码的短信并输入以下代码 (代码在10分钟后失效).
+    </string>
+    <string name="verification_code">
+        验证码:
+    </string>
+    <string name="home">
+        家
+    </string>
+    <string name="set_home_address">
+        设置您的家庭住址
+    </string>
+    <string name="work">
+        工作
+    </string>
+    <string name="set_work_address">
+        设置您的工作地址
+    </string>
+    <string name="add_another_place">
+        添加另一个地点
+    </string>
+    <string name="finish">
+        完成
+    </string>
+    <string name="account_setup_complete">
+        账户设置完成!
+    </string>
+    <string name="ready_to_start_planning_trips">
+        你已经准备好开始计划你的旅行.
+    </string>
+    <string name="verified">
+        已验证
+    </string>
+    <string name="preferences_saved">
+        您的偏好已被保存.
+    </string>
+    <string name="add_new_place">
+        添加新地点
+    </string>
+    <string name="set_place_name">
+        设置地名
+    </string>
+    <string name="search_for_location">
+        搜索地点
+    </string>
+    <string name="save">
+        保存
+    </string>
+    <string name="help">
+        帮助
+    </string>
+    <string name="sign_out">
+        签出
+    </string>
+    <string name="terms">
+        条款
+    </string>
+    <string name="my_locations">
+        最喜欢的地点
+    </string>
+    <string name="notifications">
+        通知
+    </string>
+    <string name="delete_my_account">
+        删除我的账户
+    </string>
+    <string name="save_preferences">
+        保存偏好
+    </string>
+    <string name="no_saved_trips">
+        你没有保存的行程
+    </string>
+    <string name="no_saved_trips_hint">
+        首先从地图上进行行程搜索.
+    </string>
+    <string name="verification_code_sent">
+        验证码已发送，请检查
+    </string>
+    <string name="pending">
+        待定
+    </string>
+    <string name="save_preferences_successfully">
+        您的偏好已被保存.
+    </string>
+    <string name="no">
+        否
+    </string>
+    <string name="save_new_trip">
+        保存新的行程
+    </string>
+    <string name="trip_information">
+        行程信息
+    </string>
+    <string name="select_itinerary">
+        选择行程：
+    </string>
+    <string name="name_trip">
+        请为这次旅行提供一个名称:
+    </string>
+    <string name="trip_days">
+        您这次行程是在哪天进行的?
+    </string>
+    <string name="trip_days_hint">
+        您的行程可以在上述一周的日子里进行.
+    </string>
+    <string name="trip_notifications">
+        行程通知
+    </string>
+    <string name="notify_via_email">
+        出现以下情况时通知我：
+    </string>
+    <string name="realtime_alert_on_journey">
+        在我的行程中有一个实时警报标志着
+    </string>
+    <string name="alternative_route_recommended_options">
+        建议采用替代路线或换乘点
+    </string>
+    <string name="delay_options">
+        延误或中断超过
+    </string>
+    <string name="advanced_settings">
+        进阶设置
+    </string>
+    <string name="mon">
+        周一
+    </string>
+    <string name="tue">
+        周二
+    </string>
+    <string name="wed">
+        周三
+    </string>
+    <string name="thu">
+        周四
+    </string>
+    <string name="fri">
+        周五
+    </string>
+    <string name="sat">
+        周六
+    </string>
+    <string name="sun">
+        周日
+    </string>
+    <string name="monday">
+        周一
+    </string>
+    <string name="tuesday">
+        周二
+    </string>
+    <string name="wednesday">
+        周三
+    </string>
+    <string name="thursday">
+        周四
+    </string>
+    <string name="friday">
+        周五
+    </string>
+    <string name="saturday">
+        周六
+    </string>
+    <string name="sunday">
+        周日
+    </string>
+    <string name="pause">
+        暂停
+    </string>
+    <string name="edit_saved_trip">
+        编辑已保存的行程
+    </string>
+    <string name="unsnooze_trip_analysis">
+        重新开启行程分析功能
+    </string>
+    <string name="unsnooze_trip_analysis_hint">
+        重新启用行程监控以查看最新状态
+    </string>
+    <string name="unsnooze_trip_analysis_title">
+        今天行程监控为打盹状态
+    </string>
+    <string name="pause_trip_title">
+        行程监控暂停了
+    </string>
+    <string name="pause_trip_hint">
+        恢复行程监控以查看最新状态
+    </string>
+    <string name="snoose_for_rest_today">
+        将今天剩下的时间设为打盹状态
+    </string>
+    <string name="title_home">
+        家
+    </string>
+    <string name="title_notifications">
+        通知
+    </string>
+    <string name="routes">
+        路线
+    </string>
+    <string name="my_trips">
+        我的行程
+    </string>
+    <string name="account_settings">
+        我的设置
+    </string>
+    <string name="map_details">
+        地图详细信息
+    </string>
+    <string name="map_type">
+        地图类型
+    </string>
+    <string name="auto_refresh">
+        自动刷新
+    </string>
+    <string name="departures">
+        出发
+    </string>
+    <string name="schedule">
+        时刻表
+    </string>
+    <string name="destination">
+        目的地
+    </string>
+    <string name="view_on_agency_website">
+        更多细节
+    </string>
+    <string name="my_favorite_stops">
+        我收藏的公车站
+    </string>
+    <string name="rental">
+        租
+    </string>
+    <string name="ride">
+        骑
+    </string>
+    <string name="please_enter_a_trip_name">
+        请输入一个行程名称
+    </string>
+    <string name="back_button">
+        后退
+    </string>
+    <string name="close">
+        关闭
+    </string>
+    <string name="favorite_places">
+        最喜欢的地点
+    </string>
+    <string name="saved_trips">
+        我的行程
+    </string>
+    <string name="before_scheduled_departure">
+        在预定出发时间之前
+    </string>
+    <string name="on_time">
+        准时
+    </string>
+    <string name="no_available_dates">
+        今天的行程已不可能进行
+    </string>
+    <string name="towards">
+        邁向
+    </string>
+    <string name="car">
+        驾驶
+    </string>
+    <string name="walk">
+        步行
+    </string>
+    <string name="transit">
+        公共交通
+    </string>
+    <string name="ferry">
+        渡船
+    </string>
+    <string name="all_agencies">
+        所有运输机构
+    </string>
+    <string name="all_modes">
+        所有模式
+    </string>
+    <string name="street_car">
+        Streetcar
+    </string>
+    <string name="menu">
+        菜单
+    </string>
+    <string name="service_alerts">
+        声音运输 服务提醒
+    </string>
+    <string name="accessibility">
+        声音运输的无障碍
+    </string>
+    <string name="safety_and_security">
+        海湾运输安全与安保
+    </string>
+    <string name="stations">
+        车站
+    </string>
+    <string name="how_to_pay">
+        如何付款
+    </string>
+    <string name="walk_transit">
+        步行 + 公共交通
+    </string>
+    <string name="drive_transit">
+        驾驶 + 公共交通
+    </string>
+    <string name="other">
+        其他
+    </string>
+    <string name="bike_transit">
+        自行车 + 公共交通
+    </string>
+    <string name="bikeshare_transit">
+        公共交通 + 共享单车
+    </string>
+    <string name="scooter_transit">
+        电动滑板车 + 公共交通
+    </string>
+    <string name="enter_start_location">
+        输入起始位置
+    </string>
+    <string name="enter_destination">
+        输入目的地
+    </string>
+    <string name="or">
+        或
+    </string>
+    <string name="link">
+        LINK 轻轨
+    </string>
+    <string name="water_taxi">
+        水上出租车
+    </string>
+    <string name="time_spent_active">
+        活动时间: ~
+    </string>
+    <string name="switch_locations">
+        切换位置
+    </string>
+    <string name="rent">
+        租
+    </string>
+    <string name="avoid_walking">
+        避免步行
+    </string>
+    <string name="accessible_routing">
+        无障碍路由
+    </string>
+    <string name="allow_bike_rental">
+        允许租赁自行车
+    </string>
+    <string name="walk_speed_no_caps">
+        行走速度
+    </string>
+    <string name="allow_scooter_rental">
+        允许租赁电动滑板车
+    </string>
+    <string name="verify_email_to_save_trips">
+        请验证您的电子邮件以保存您最喜欢的旅行。
+    </string>
+    <string name="mostly_accessible">
+        可使用轮椅到达
+    </string>
+    <string name="inaccessible">
+        不可使用轮椅到达
+    </string>
+    <string name="title_alerts">
+        个警报
+    </string>
+    <string name="more">
+        更多的
+    </string>
+    <string name="more_alert">
+        个警报
+    </string>
+    <string name="sms_hint">
+        提供您的电话号码即表示您同意接收验证和行程监控短信。您的手机运营商可能会收取额外费用。
+    </string>
+    <string name="hour">
+        小时
+    </string>
+    <string name="hours">
+        小时
+    </string>
+    <string-array name="walk_speed_arrays_otp">
+        <item>
+            1 MPH
+        </item>
+        <item>
+            2 MPH
+        </item>
+        <item>
+            3 MPH
+        </item>
+        <item>
+            4 MPH
+        </item>
+        <item>
+            5 MPH
+        </item>
+    </string-array>
+    <string-array name="itinerary_sort_arrays">
+        <item>
+            旅行时长
+        </item>
+        <item>
+            抵达时间
+        </item>
+        <item>
+            出发时间
+        </item>
+        <item>
+            步行时间
+        </item>
+        <item>
+            费用
+        </item>
+    </string-array>
+    <string-array name="walk_speed_arrays_value_otp">
+        <item>
+            0.45
+        </item>
+        <item>
+            0.89
+        </item>
+        <item>
+            1.34
+        </item>
+        <item>
+            1.78
+        </item>
+        <item>
+            2.23
+        </item>
+    </string-array>
+    <string-array name="monitor_trip_arrays_value">
+        <item>
+            15
+        </item>
+        <item>
+            30
+        </item>
+        <item>
+            45
+        </item>
+        <item>
+            60
+        </item>
+    </string-array>
+    <string-array name="delay_arrays_value">
+        <item>
+            5
+        </item>
+        <item>
+            10
+        </item>
+        <item>
+            15
+        </item>
+    </string-array>
+    <string-array name="maximum_walk_arrays">
+        <item>
+            1/10 英里
+        </item>
+        <item>
+            1/4 英里
+        </item>
+        <item>
+            1/2 英里
+        </item>
+        <item>
+            3/4 英里
+        </item>
+        <item>
+            1 英里
+        </item>
+        <item>
+            2 英里
+        </item>
+        <item>
+            5 英里
+        </item>
+    </string-array>
+    <string-array name="default_control_arrays">
+        <item>
+            是（默认）
+        </item>
+        <item>
+            不
+        </item>
+    </string-array>
+    <string-array name="optimize_option_arrays">
+        <item>
+            速度
+        </item>
+        <item>
+            最少的传输
+        </item>
+    </string-array>
+    <string-array name="maximum_walk_arrays_value">
+        <item>
+            160.9
+        </item>
+        <item>
+            402.3
+        </item>
+        <item>
+            804.5
+        </item>
+        <item>
+            1207
+        </item>
+        <item>
+            1609
+        </item>
+        <item>
+            3218
+        </item>
+        <item>
+            8045
+        </item>
+    </string-array>
+    <string-array name="walk_speed_arrays">
+        <item>
+            2 MPH
+        </item>
+        <item>
+            3 MPH
+        </item>
+        <item>
+            4 MPH
+        </item>
+    </string-array>
+    <string-array name="default_control_arrays_value">
+        <item>
+            正确
+        </item>
+        <item>
+            假
+        </item>
+    </string-array>
+    <string-array name="optimize_option_arrays_value">
+        <item>
+            快的
+        </item>
+        <item>
+            转账
+        </item>
+    </string-array>
+    <string-array name="monitor_trip_arrays">
+        <item>
+            15 分钟
+        </item>
+        <item>
+            30 分钟（默认）
+        </item>
+        <item>
+            45 分钟
+        </item>
+        <item>
+            1 小时
+        </item>
+    </string-array>
+    <string-array name="walk_speed_arrays_value">
+        <item>
+            0.89
+        </item>
+        <item>
+            1.34
+        </item>
+        <item>
+            1.79
+        </item>
+    </string-array>
+    <string-array name="delay_arrays">
+        <item>
+            5 分钟（默认）
+        </item>
+        <item>
+            10 分钟
+        </item>
+        <item>
+            15 分钟
+        </item>
+    </string-array>
+    <string name="allowed">
+        允许的
+    </string>
+    <string name="enter_phone_number_for_sms_notifications">
+        输入您的电话号码以接收短信通知：
+    </string>
+    <string name="add_your_locations">
+        添加您的位置
+    </string>
+    <string name="delete_saved_trip_warning">
+        你想取消这次旅行吗?
+    </string>
+    <string name="bikeshare">
+        共享单车
+    </string>
+    <string name="view_all_options">
+        查看所有选项
+    </string>
+    <string name="resume">
+        继续
+    </string>
+    <string name="cannot_save_trip">
+        无法保存
+    </string>
+    <string name="resend_verification_email_successfully">
+        电子邮件验证信息已被重新发送.
+    </string>
+    <string name="mode_gondola">
+        贡多拉
+    </string>
+    <string name="calories_info_show">
+        显示详细资料
+    </string>
+    <string name="gondola">
+        贡多拉
+    </string>
+    <string name="warning">
+        警告
+    </string>
+    <string name="my_account">
+        我的账户
+    </string>
+    <string name="trip_viewer">
+        行程查看器
+    </string>
+    <string name="origin">
+        出发地
+    </string>
+    <string name="arrival_time">
+        抵达时间
+    </string>
+    <string name="click_view_details">
+        点击查看详情
+    </string>
+    <string name="tomorrow">
+        明天
+    </string>
+    <string name="edit_place">
+        编辑地点
+    </string>
+    <string name="calories_info_hide">
+        隐藏细节
+    </string>
+    <string name="destination_lower_case">
+        目的地
+    </string>
+    <string name="delete_account_warning">
+        您确定要删除你的用户账户吗?一旦您这样做, 它就无法恢复.
+    </string>
+    <string name="route_filter_mode_rail">
+        火车
+    </string>
+    <string name="use">
+        使用
+    </string>
+    <string name="departure_time">
+        出发时间
+    </string>
+    <string name="settings">
+        设置
+    </string>
+    <string name="best_option">
+        最佳选择
+    </string>
+    <string name="route_viewer">
+        路线查看器
+    </string>
+    <string name="notification_preferences">
+        通知偏好
+    </string>
+    <string name="edit">
+        编辑
+    </string>
+    <string name="plan_trip">
+        计划行程
+    </string>
+    <string name="e_scooter">
+        电动滑板车
+    </string>
+    <string name="plan_new_trip">
+        计划新的行程
+    </string>
+    <string name="trips">
+        行程
+    </string>
+    <string name="to">
+        到
+    </string>
+    <string name="transit_stops">
+        公共交通站点
+    </string>
+    <string name="view">
+        查阅
+    </string>
+    <string name="view_schedule">
+        查看时间表
+    </string>
+    <string name="last">
+        最后一次
+    </string>
+    <string name="walk_time">
+        步行时间
+    </string>
+    <string name="setting_button">
+        设置
+    </string>
+    <string name="receive_notifications_via">
+        如何接收已保存行程的通知:
+    </string>
+    <string name="play_button">
+        继续
+    </string>
+    <string name="itinerary_search_button">
+        计划行程
+    </string>
+    <string name="plan_a_trip">
+        计划行程:
+    </string>
+    <string name="save_trip">
+        保存行程
+    </string>
+    <string name="mode_combination_error">
+        无法使用所选模式计划行程。尝试在模式选择中包括公交。
+    </string>
+    <string name="rail">
+        火车
+    </string>
+    <string name="current_location_not_available">
+        当前位置不详
+    </string>
+    <string name="haptic_feedback">
+        触觉反馈
+    </string>
+    <string name="no_assistive_device">
+        无辅助器具
+    </string>
+    <string name="delete_work">
+        删除您的工作住址按钮，双击即可删除 %1
+    </string>
+    <string name="user_profile_button">
+        用户配置文件按钮，双击可激活
+    </string>
+    <string name="search_rail_mode">
+        地铁
+    </string>
+    <string name="rental_search_mode">
+        重置按钮，双击可激活
+    </string>
+    <string name="search_for_a_route">
+        查找路线
+    </string>
+    <string name="consent_to_terms_to_save_trips">
+        请同意服务条款以保存最喜欢的旅行。\n
+    </string>
+    <string name="ride_duration_with_stops">
+        乘坐 %1$d / %2$d 站
+    </string>
+    <string name="link_first_capital">
+        关联
+    </string>
+    <string name="manual_walker">
+        手动助行器
+    </string>
+    <string name="am">
+        是。
+    </string>
+    <string name="lost_data_warning">
+        您尚未保存您的新旅行。 如果你离开，它就会消失。
+    </string>
+    <string name="low_vision">
+        低视力
+    </string>
+    <string name="calories_burned_guidelines">
+        <![CDATA[改编自<font color=#295680>美国人膳食指南 2005 年，第 16 页，表 4。</font>]]>
+    </string>
+    <string name="at">
+        在
+    </string>
+    <string name="mode_filter_button">
+        模式筛选按钮，双击可激活.
+    </string>
+    <string name="login_to_see_fav_stops">
+        请登录以保存位置。
+    </string>
+    <string name="bold_stop_id_with_num">
+        车站 ID: %1$s
+    </string>
+    <string name="itineraries_found_with_num">
+        找到 %1$d 次行程
+    </string>
+    <string name="wheeled_walker">
+        轮式助行器
+    </string>
+    <string name="monorail">
+        单轨电车
+    </string>
+    <string name="mins">
+        分钟
+    </string>
+    <string name="set">
+        放
+    </string>
+    <string name="route_to">
+        &lt;b&gt;%1$s&lt;/b&gt; 到 %2$s
+    </string>
+    <string name="get_address_failed">
+        检索地址失败。请稍后再试。
+    </string>
+    <string name="h">
+        小时
+    </string>
+    <string name="walk_search_mode">
+        步行搜索模式
+    </string>
+    <string name="no_vision_limitations">
+        无视力限制
+    </string>
+    <string name="capital_departure">
+        出发
+    </string>
+    <string name="type_of_payment">
+        付款方式
+    </string>
+    <string name="reset_button">
+        重置按钮，双击可激活
+    </string>
+    <string name="verification_code_sent_failed">
+        请求电话号码的新代码失败
+    </string>
+    <string name="set_destination">
+        输入目的地
+    </string>
+    <string name="password_cant_blank">
+        密码不能为空
+    </string>
+    <string name="failed_update_trip">
+        找不到行程信息
+    </string>
+    <string name="last_checked">
+        最后一次检查: %1$s 前
+    </string>
+    <string name="notification_channel_default">
+        应用
+    </string>
+    <string name="empty_fav_stops">
+        没有最喜欢的车站
+    </string>
+    <string name="transit_fare">
+        公共交通费:
+    </string>
+    <string name="route_agency_info">
+        由 %1$s 运营
+    </string>
+    <string name="calories_burned">
+        燃烧的卡路里：
+    </string>
+    <string name="start_over">
+        重来
+    </string>
+    <string name="send_email">
+        发送电子邮件
+    </string>
+    <string name="one_alert">
+        1 个警报
+    </string>
+    <string name="expander">
+        扩张器
+    </string>
+    <string name="real_time_bus_unavailable">
+        没有找到公交车站。 请稍后再试。
+    </string>
+    <string name="stop_viewer_expander">
+        公车站查看器按钮，双击可打开公车站查看器
+    </string>
+    <string name="menu_tag">
+        菜单标签
+    </string>
+    <string name="request_fine_location_confirmation">
+        访问您的位置被阻止。 若要使用当前位置，请从浏览器启用位置权限，然后重新加载页面。
+    </string>
+    <string name="retrieve_user_info_failed_unauthorized">
+        用户权限被拒绝
+    </string>
+    <string name="verify_email_address_hint">
+        在完成账户设置之前请检查您的电子邮件收件箱并按照信息中的链接来验证您的电子邮件地址.\n\n一旦您被验证，请点击下面的按钮继续.
+    </string>
+    <string name="token_expired_message">
+        建立授权使用时出现错误
+    </string>
+    <string name="push_notifications">
+        推送通知
+    </string>
+    <string name="waiting">
+        等待
+    </string>
+    <string name="capital_status">
+        地位
+    </string>
+    <string name="add_new_location_hint">
+        输入位置
+    </string>
+    <string name="fav_stops">
+        我收藏的公车站
+    </string>
+    <string name="shared_bike">
+        自行车
+    </string>
+    <string name="fav_stop_hint">
+        要查找停靠点，请在上面的栏中搜索或在地图上点击公交站
+    </string>
+    <string name="uturn_right">
+        右掉头
+    </string>
+    <string name="set_time">
+        日期和时间选择器
+    </string>
+    <string name="create_new_account_optional">
+        <b>可选的</b>: 我同意 旅行计划 存储我的历史计划行程，以改善我所在地区的交通服务.
+    </string>
+    <string name="more_information">
+        更多信息
+    </string>
+    <string name="stroller">
+        婴儿车
+    </string>
+    <string name="we_found_options_with_num">
+        我们发现了 %1$d 选项
+    </string>
+    <string name="departure_time_info">
+        出发时间以 &lt;b&gt;%1$s&lt;/b&gt; 显示.
+    </string>
+    <string name="failed_get_trip_list_cdta">
+        &lt;b&gt;&lt;font color=#FFFFFF&gt;获取行程时出现错误&lt;/font&gt;&lt;/b&gt;
+    </string>
+    <string name="calories_burned_detail">
+        在本次行程中，您将步行 %1$s 分钟，骑行 %2$s 分钟。
+    </string>
+    <string name="from_origin_to_destination">
+        从 %1$s 到 %2$s
+    </string>
+    <string name="itinerary_detail_expander">
+        行程详情
+    </string>
+    <string name="edit_work">
+        设置您的工作地址
+    </string>
+    <string name="crutches">
+        拐杖
+    </string>
+    <string name="notification_channel_second">
+        通知
+    </string>
+    <string name="notifications_lead_time">
+        <![CDATA[<b>%1$d 分钟</b>]]>
+    </string>
+    <string name="modes">
+        模式
+    </string>
+    <string name="sign_in_to_save_trip">
+        请验证您的电子邮件以保存您最喜欢的旅行。
+    </string>
+    <string name="start_route">
+        起始路线
+    </string>
+    <string name="departure_pdt">
+        出发时间以 PDT 显示.
+    </string>
+    <string name="finding_your_options">
+        寻找你的选择…
+    </string>
+    <string name="leave_now_two_lines">
+        现在离开
+    </string>
+    <string name="auto_refresh_arrivals">
+        自动刷新
+    </string>
+    <string name="effective_as_of">
+        生效日期
+    </string>
+    <string name="no_fare_information">
+        无票价信息
+    </string>
+    <string name="save_route">
+        保存新的行程
+    </string>
+    <string name="plan_trip_tag">
+        计划旅行标签
+    </string>
+    <string name="loading">
+        正在加载...
+    </string>
+    <string name="hr_min_with_num">
+        %1$d 小时, %2$d 分钟
+    </string>
+    <string name="edit_home">
+        编辑主页
+    </string>
+    <string name="from_hint">
+        从这里
+    </string>
+    <string name="connection_failed_msg">
+        无法访问服务器。 请稍后再试。
+    </string>
+    <string name="stop_id_with_num">
+        车站 ID: %1$s
+    </string>
+    <string name="departure_colon">
+        "出发: "
+    </string>
+    <string name="you_arrive">
+        "到达: "
+    </string>
+    <string name="accessibility_profile">
+        无障碍简介
+    </string>
+    <string name="shared_car">
+        共享驱动器（汽车）
+    </string>
+    <string name="locate_me_button">
+        我的位置，双击可激活
+    </string>
+    <string name="failed_retrieve_auto_complete">
+        无法检索自动完成
+    </string>
+    <string name="agency_filter_button">
+        机构筛选按钮，双击可激活
+    </string>
+    <string name="calories_info_show_details">
+        关闭按钮，双击可关闭卡路里计算说明
+    </string>
+    <string name="accessibility_profile_subtitle">
+        定义您的移动配置文件
+    </string>
+    <string name="slightly_right">
+        稍向右
+    </string>
+    <string name="routes_viewer_expander">
+        路线查看器扩展器，双击并按住，然后滑动以展开路线查看器窗格。
+    </string>
+    <string name="search_bar_back_button">
+        退出搜索栏
+    </string>
+    <string name="verify_verification_code_successfully">
+        电话号码已成功提交。
+    </string>
+    <string name="create_new_account_terms_start">
+        我确认我已年满 13 岁并且我已阅读并同意
+    </string>
+    <string name="terms_of_service">
+        服务条款
+    </string>
+    <string name="create_new_account_terms_end">
+        使用 旅行计划.
+    </string>
+    <string name="location_blocked">
+        访问您的位置被阻止。 若要使用当前位置，请从浏览器启用位置权限，然后重新加载页面。
+    </string>
+    <string name="request_fine_location_explanation">
+        访问您的位置被阻止。若要使用当前位置，请从浏览器启用位置权限，然后重新加载页面。
+    </string>
+    <string name="electric_wheelchair">
+        电动轮椅
+    </string>
+    <string name="failed_create_trip">
+        无法创建行程信息
+    </string>
+    <string name="notifications_disabled">
+        &lt;b&gt;已禁用&lt;/b&gt;
+    </string>
+    <string name="walk_speed">
+        步行速度
+    </string>
+    <string name="save_preferences_failed">
+        保存首选项失败
+    </string>
+    <string name="next_trip_starts_on">
+        下一趟旅程于 %1$s %2$s 开始.
+    </string>
+    <string name="expand">
+        沿此方向展开停止
+    </string>
+    <string name="minutes_with_num">
+        %1$d 分钟
+    </string>
+    <string name="marta_rail">
+        玛塔铁路
+    </string>
+    <string name="delete">
+        删除行程
+    </string>
+    <string name="create_new_account_terms_url">
+        https://atlrides.com/#/terms-of-service
+    </string>
+    <string name="delete_account_successfully">
+        您的用户账户已被删除.
+    </string>
+    <string name="head">
+        头
+    </string>
+    <string name="and">
+        “ 和 ”
+    </string>
+    <string name="title_dashboard">
+        仪表板
+    </string>
+    <string name="feet_with_num">
+        %1$d 英尺
+    </string>
+    <string name="from_here_two_lines">
+        从\n这里
+    </string>
+    <string name="checking_itinerary_existence">
+        检查一周中每一天的行程存在…
+    </string>
+    <string name="dont_remember_password">
+        你忘了你的密码？
+    </string>
+    <string name="resend_verification_email_failed">
+        重新发送验证邮件
+    </string>
+    <string name="stops_found">
+        找到 %1$d 个停靠点
+    </string>
+    <string name="shared_vehicle">
+        共享车辆
+    </string>
+    <string name="leave_feedback">
+        留下反馈
+    </string>
+    <string name="pm">
+        下午。
+    </string>
+    <string name="collapse">
+        塌陷停止在这个方向
+    </string>
+    <string name="miles_with_num">
+        %1$.1f 英里
+    </string>
+    <string name="notification_sms_hint">
+        0123456789
+    </string>
+    <string name="expand_map">
+        地图详细信息
+    </string>
+    <string name="reset_password_text">
+        请输入您的电子邮件。我们将向您发送一封电子邮件以确认密码更改。
+    </string>
+    <string name="before_begins_ends">
+        在它开始之前直到它结束。
+    </string>
+    <string name="forgot_my_options">
+        忘记我的选择
+    </string>
+    <string name="accessibility_profile_hint">
+        请回答几个问题，以便根据您的需求和偏好定制旅行计划体验。
+    </string>
+    <string name="accessibility_profile_second_section_title">
+        2. 您是否存在行动不便的情况，导致您比其他人走路更慢或更小心？
+    </string>
+    <string name="we_found_option_with_num">
+        我们发现了 %1$d 选项
+    </string>
+    <string name="mobility_scooter">
+        代步车
+    </string>
+    <string name="sign_up_terms">
+        注册即表示您同意我们的服务条款和隐私政策，双击即可激活
+    </string>
+    <string name="create_new_account_optional_url">
+        https://atlrides.com/#/terms-of-storage
+    </string>
+    <string name="free_floating_bike">
+        自由浮动的自行车
+    </string>
+    <string name="stops">
+        公共交通站点
+    </string>
+    <string name="failed_get_trip_list">
+        检索保存的行程通知项目失败
+    </string>
+    <string name="routes_found">
+        找到 %1$d 条路线
+    </string>
+    <string name="title_activity_tab">
+        选项卡活动
+    </string>
+    <string name="search_for_a_route_text_field">
+        寻找路线
+    </string>
+    <string name="stay_on_board_at">
+        留在 %1$s 的巴士上
+    </string>
+    <string name="routes_tag">
+        路线标签
+    </string>
+    <string name="route_viewer_route">
+        &lt;b&gt;%1$s&lt;/b&gt; %2$s
+    </string>
+    <string name="min">
+        分钟
+    </string>
+    <string name="retrieve_user_info_failed_other">
+        检索用户信息失败。请稍后再试。
+    </string>
+    <string name="switch_origin_destination_button">
+        切换起点和终点按钮，双击可激活
+    </string>
+    <string name="search_mode_title">
+        选择交通方式:
+    </string>
+    <string name="special_characters">
+        特殊字符（例如！@#$%^&amp;*）
+    </string>
+    <string name="enter_phone_number">
+        输入你的电话号码
+    </string>
+    <string name="drive_search_mode">
+        驱动器搜索模式
+    </string>
+    <string name="no_stops_found">
+        未找到该日期的车站时间.
+    </string>
+    <string name="no_internet_message">
+        我们无法访问互联网。 尝试通过 WiFi 或蜂窝数据连接。
+    </string>
+    <string name="close_search_mode">
+        关闭模式搜索弹出
+    </string>
+    <string name="restore_my_defaults">
+        恢复我的默认值
+    </string>
+    <string name="layer_control_button">
+        图层控制
+    </string>
+    <string name="remove_fav_stop_warning">
+        您将从收藏夹列表中删除 [%1$s]。 你确定吗？
+    </string>
+    <string name="stops_expander">
+        停止扩展器，双击并按住，然后滑动以展开“停止”查看器窗格。
+    </string>
+    <string name="no_internet">
+        没有互联网
+    </string>
+    <string name="bike_search_mode">
+        自行车搜索模式
+    </string>
+    <string name="numbers">
+        数字 (0-9)
+    </string>
+    <string name="link_scooter">
+        “链接”滑板车
+    </string>
+    <string name="minute_with_num">
+        %1$d 分钟
+    </string>
+    <string name="light_rail">
+        轻轨
+    </string>
+    <string name="lower_case_letters">
+        小写字母
+    </string>
+    <string name="transfer_discount_info">
+        应用了 $%.2f 的转让折扣
+    </string>
+    <string name="min_with_num">
+        %1$d 分钟
+    </string>
+    <string name="min_with_num_with_about">~ %1$d 分钟</string>
+    <string name="itinerary_leg_description">
+        %1$s %2$s 到 %3$s
+    </string>
+    <string name="accessibility_profile_third_section_title">
+        3. 您有视力限制吗？
+    </string>
+    <string name="accessibility_profile_first_section_title">
+        1. 您经常使用行动辅助器具吗？（检查所有适用）
+    </string>
+    <string name="my_trips_tag">
+        我的旅行标签
+    </string>
+    <string name="arrive_colon">
+        "到达: "
+    </string>
+    <string name="failed_delete_trip">
+        删除行程失败
+    </string>
+    <string name="verification_code_hint">
+        123456
+    </string>
+    <string name="search_bar_collapse_button">
+        折叠按钮，双击可激活
+    </string>
+    <string name="close_setting">
+        关闭设置弹出窗口
+    </string>
+    <string name="cane">
+        甘蔗
+    </string>
+    <string name="service_animal">
+        服务性动物
+    </string>
+    <string name="optimize_for">
+        优化
+    </string>
+    <string name="atl_street_car">
+        亚特兰大\n有轨电车
+    </string>
+    <string name="distance">
+        距离
+    </string>
+    <string name="to_here_two_lines">
+        到这里
+    </string>
+    <string name="email_cant_blank">
+        必须是一个有效的E-mail地址。
+    </string>
+    <string name="mins_late">
+        %1$d 分钟迟到
+    </string>
+    <string name="happens_on">
+        &lt;b&gt;%1$s&lt;/b&gt;
+    </string>
+    <string name="we_found_one_option">
+        我们发现了 1 选项
+    </string>
+    <string name="hr_with_num">
+        %1$d 小时
+    </string>
+    <string name="arrive">
+        到达
+    </string>
+    <string name="Logged_in_as_email">
+        登录身份 %1$s
+    </string>
+    <string name="yes">
+        是 (默认)
+    </string>
+    <string name="you_leave">
+        您已离开
+    </string>
+    <string name="calculating">
+        等待计算…
+    </string>
+    <string name="subway_route_provider">
+        服务运营商 &lt;font color=#4182BC&gt;%1$s &amp;nbsp&lt;/font&gt;
+    </string>
+    <string name="set_origin">
+        设置出发地
+    </string>
+    <string name="itinerary_found_with_num">
+        找到 %1$d 次行程
+    </string>
+    <string name="filter_control_button">
+        过滤器控制
+    </string>
+    <string name="successfully_update_trip">
+        此设置已更新。
+    </string>
+    <string name="step_on">
+        %1$s 在 %2$s
+    </string>
+    <string name="manual_traditional_wheelchair">
+        手动/传统轮椅
+    </string>
+    <string name="where_to_go">
+        输入目的地或在地图上选择
+    </string>
+    <string name="view_next_arrivals">
+        查看下一个到达的航班
+    </string>
+    <string name="dont_notify_me">
+        不要通知我
+    </string>
+    <string name="delete_account_failed">
+        更新配置文件出错。
+    </string>
+    <string name="trip_is_due_to">
+        您的行程将于 %1$s 开始. (实时跟踪将于 %2$s 开始)
+    </string>
+    <string name="resend_verification_email">
+        重新发送验证邮件
+    </string>
+    <string name="request_post_push_explanation">
+       该应用程序需要启用通知服务才能运行。
+    </string>
+    <string name="pick_up_spin_e_scooter">
+        拿起旋转电动滑板车
+    </string>
+    <string name="legally_blind">
+        法盲
+    </string>
+    <string name="use_current_location">
+        使用当前位置
+    </string>
+    <string name="around_distance">
+        %1$s 左右
+    </string>
+    <string name="mins_early">
+        %1$d 分钟早
+    </string>
+    <string name="search_for_a_stop">
+        搜索公交站
+    </string>
+    <string name="agency">
+        机构
+    </string>
+    <string name="monitor_this_trip">
+        在这次旅行开始之前监控它直到结束
+    </string>
+    <string name="vehicle_on_route_speed">
+        以 %1$d MPH 行进
+    </string>
+    <string name="search_empty_field_warning">
+        请定义以下字段来计划行程：%1$s
+    </string>
+    <string name="verify_verification_code_failed">
+        请求电话号码的新代码失败
+    </string>
+    <string name="vehicle_on_route_time">
+        %1$d 几秒钟前
+    </string>
+    <string name="itinerary_leg_transit_description_without_route_name">
+        到 %1$s
+    </string>
+    <string name="review_accessibility_questions">
+        查看辅助功能问题
+    </string>
+    <string name="request_post_push_confirmation">
+        要接收已保存行程的提醒, 请在你的账户设置中启用通知, 并尝试再次保存一个行程.
+    </string>
+    <string name="white_cane">
+        白手杖
+    </string>
+    <string name="transit_search_mode">
+        公交搜索模式
+    </string>
+    <string name="duration_left">
+        %1$s 左边
+    </string>
+    <string name="uturn_left">
+        左转
+    </string>
+    <string name="slightly_left">
+        「稍微偏左一点」
+    </string>
+    <string name="from">
+        从这里
+    </string>
+    <string name="depart">
+        离开
+    </string>
+    <string name="search_bar_expand_button">
+        展开搜索栏按钮，双击可激活
+    </string>
+    <string name="email_is_verified">
+        我的电子邮件已验证
+    </string>
+    <string name="arrive_at_time">
+        到达 %1$s
+    </string>
+    <string name="no_route_url_provided">
+        未提供路由 URL
+    </string>
+    <string name="itinerary_leg_transit_description">
+        %1$s 到 %2$s
+    </string>
+    <string name="trip_viewer_expander">
+        旅行查看器扩展器，双击并按住，然后滑动以展开旅行查看器窗格。
+    </string>
+    <string name="itinerary_list_expander">
+        行程列表扩展器，双击并按住，然后滑动以展开行程列表窗格。
+    </string>
+    <string name="vehicle_on_route_name">
+        车辆 %1$s
+    </string>
+    <string name="search_modes_button">
+        模式筛选按钮，双击可激活
+    </string>
+    <string name="failed_check_trip">
+        检查你选择的旅行是否可行时出现错误.
+    </string>
+    <string name="select_from_location">
+        更改为
+    </string>
+    <string name="trip_viewer_route">
+        路线: &lt;b&gt;%1$s&lt;/b&gt; %2$s
+    </string>
+    <string name="mode_to">
+        %1$s 到 %2$s
+    </string>
+    <string name="sign_in_tag">
+        登录标签
+    </string>
+    <string name="itinerary_start_end_time">
+        &lt;b&gt;行程&lt;/b&gt; %1$s - %2$s
+    </string>
+    <string name="upper_case_letters">
+        大写字母
+    </string>
+    <string name="spin_e_scooter">
+        “Spin”电动滑板车
+    </string>
+    <string name="destination_hint">
+        输入目的地名称或选择地图
+    </string>
+    <string name="reach_max_saved_trip_warning_message">
+         您已达到 %1$d 条已保存行程的上限。请从已保存的行程中删除未使用的行程，然后重试。
+    </string>
+    <string name="devices_registered">
+        %1$d 设备 已注册
+    </string>
+    <string name="route_found">
+        找到 %1$d 路线
+    </string>
+    <string name="calories_info_hide_details">
+        隐藏细节
+    </string>
+    <string name="enter_location">
+        输入位置
+    </string>
+    <string name="walking">
+        正在行走
+    </string>
+    <string name="plan_trip_two_lines">
+        「计划旅行」
+    </string>
+    <string name="maximum_walk">
+        最大步行距离
+    </string>
+    <string name="successfully_create_trip">
+        您的偏好设置已保存。
+    </string>
+    <string name="show_results">
+        显示结果
+    </string>
+    <string name="delete_home">
+        删除您的家庭住址按钮
+    </string>
+    <string name="park_and_ride">
+        停车换乘.
+    </string>
+    <string name="reduce_fares_format">
+        \* %1$s仅适用于老年人和残疾人。青少年免费骑行，双击打开链接
+    </string>
+    <string name="reduce_fares_highlighted_text">
+        折扣票价
+    </string>
+    <string name="reduce_fares_url">
+        https://info.myorca.com/zh/使用虎鲸/节省的方法/
+    </string>
+    <string name="map_settings">
+        地图设置，双击激活
+    </string>
+    <string name="attention">
+        注意力
+    </string>
+    <string name="likely_not_accessible">
+        暂无轮椅可用情况相关信息
+    </string>
+
+    <string name="more_options">
+        更多的选择
+    </string>
+    <string name="advanced_preferences">
+        高级首选项
+    </string>
+    <string name="i_like_to">
+        我想…
+    </string>
+
+    <string name="route_preference">
+        选择首选路线…
+    </string>
+    <string name="accessible_trip">
+        无障碍旅行
+    </string>
+
+    <string name="fewest_transfers">
+        最少的传输
+    </string>
+    <string name="fastest">
+        Fastest
+    </string>
+    <string name="less_walking">
+        少走路
+    </string>
+
+    <string name="my_preferred_mode">
+        模式选项
+    </string>
+
+    <string name="advance_transit">
+        公共交通
+    </string>
+    <string name="advance_cycle">
+        自行车
+    </string>
+    <string name="advance_drive">
+        驾驶
+    </string>
+    <string name="advance_walk">
+        步行
+    </string>
+    <string name="advance_rental">
+        租
+    </string>
+
+    <string name="real_time">
+        即时的
+    </string>
+
+    <string name="sms_warning_msg">
+        请完成验证过程以设置短信通知。
+    </string>
+
+    <string name="advanced_popup_title">
+        您有未保存的更改
+    </string>
+    <string name="keep_editing">
+        继续编辑
+    </string>
+    <string name="discard_changes">
+        放弃更改
+    </string>
+    <string name="plan_your_trip">
+        计划你的旅行
+    </string>
+    <string name="addition_modes_toggle_msg">
+        选择附加模式将包括/排除模式类别内的服务。打开/关闭您想要包含在旅行中的旅行模式。
+    </string>
+    <string name="accessible_trip_toggle_msg">
+        选择无障碍旅行将优先考虑使用轮椅登机的旅程，并为旅程的每一段提供无障碍评级。
+    </string>
+    <string name="address_landmarks_places">
+        地址、地标和地点
+    </string>
+    <string-array name="search_options">
+        <item>现在离开</item>
+        <item>之后出发</item>
+        <item>到达</item>
+    </string-array>
+    <string name="all_transit">
+        所有中转
+    </string>
+    <string name="first_hill">
+        第一山
+    </string>
+    <string name="sounder">
+        发声器
+    </string>
+    <string name="cash">
+        现金
+    </string>
+    <string name="adult">
+        成人
+    </string>
+    <string name="youth">
+        青年
+    </string>
+    <string name="senior">
+        长者
+    </string>
+    <string-array name="items_expandable_level_one">
+        <item>@string/adult</item>
+        <item>@string/youth</item>
+        <item>@string/senior</item>
+    </string-array>
+
+    <string name="mode_combination_error_title">
+        无公交连接
+    </string>
+    <string name="locations_are">
+        地点是
+    </string>
+    <string name="location_is">
+        位置是
+    </string>
+    <string name="preferred_mode_alter">备选方案:</string>
+    <string name="mode_combination_error_invalid_mode">无法使用所选模式计划行程。尝试在模式选择中包括公交。</string>
+
+    <string name="my_preferred_trip">行程选择</string>
+
+    <string name="error_occurred">发生错误</string>
+    <string name="incorrect_credentials">电子邮件或密码错误</string>
+    <string name="user_exists">用户已存在</string>
+    <string name="valid_password">请输入有效密码</string>
+    <string name="password_reset_success">成功，密码重置电子邮件已发送。</string>
+    <string name="too_many_attempts">帐户被锁定，尝试次数过多。请稍后重试。</string>
+
+    <string name="no_longer_possible_heading">行程已不可能进行</string>
+    <string name="no_longer_possible_description">行程规划器无法找到您在一周内任何选定日期的行程。请尝试重新规划您的行程，寻找其他路线。</string>
+    <string name="past_trip_description">这是过去的单次行程。</string>
+    <string name="past_trip_heading">这是过去的行程</string>
+    <string name="next_trip_not_possible_description">行程规划器无法找到您今天的行程. 请尝试重新规划您的行程寻找其他路线.</string>
+    <string name="next_trip_not_possible_heading">行程今日不可用</string>
+
+    <string name="trip_starting_soon_no_realtime">行程即将开始 (没有实时更新).</string>
+    <string name="trip_start_time_earlier">开始时间比预期早 %1$s</string>
+    <string name="trip_starting_soon_on_time">行程即将开始而且大约是准时的.</string>
+    <string name="trip_start_time_delayed">行程开始时间延迟 %1$s!</string>
+    <string name="trip_progress_on_time">旅程正在进行中而且大约是准时的.</string>
+    <string name="trip_progress_delayed">旅程正在进行中并延迟了 %1$d %2$d</string>
+    <string name="trip_progress_earlier">旅程正在进行中将比预计时间早 %1$d 到达!</string>
+    <string name="trip_is_due_to_arrive_at">旅程将于 %1$s 到达目的地.</string>
+    <string name="trip_progress_no_real_time">旅程正在进行中 (没有可用的实时更新).</string>
+
+    <string name="trip_name_cant_blank">请输入一个行程名称.</string>
+    <string name="trip_name_duplicate">另一个保存行程已经使用了这个名字. \n请选择一个不同的名字.</string>
+    <string name="place_name_text">地名:</string>
+    <string name="place_name_duplicate">您已经在另一个地点使用这个名字. \n请输入一个不同的名字.</string>
+    <string name="trip_days_at_least_one">Please select at least one day to monitor.</string>
+    <string name="address_name_text">地址:</string>
+    <string name="location_type_text">位置类型：</string>
+
+</resources>

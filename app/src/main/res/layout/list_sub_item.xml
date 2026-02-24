@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_sublist_item"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_extra_large"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/grey_vertical_line"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/fare_table_line2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingBottom="4dp"
+            android:src="@drawable/fare_table_line1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:background="@drawable/rounded_black_border_grey"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/sub_item_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="@dimen/padding_medium"
+                    android:text="N/A"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/small_text_size" />
+
+                <TextView
+                    android:id="@+id/sub_item_cost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/padding_medium"
+                    android:text="$0.00"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/small_text_size" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/sub_item_discount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_medium"
+                android:text="@string/transfer_discount_info"
+                android:textColor="#F44336"
+                android:textSize="@dimen/small_text_size"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_reduce_fares"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_medium_large"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_marginEnd="@dimen/margin_medium_large"
+        android:accessibilityHeading="true"
+        android:text="@string/reduce_fares"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/content_text_size"
+        android:textStyle="bold"
+        android:visibility="gone" />
+</LinearLayout>
+
+
+
+
+

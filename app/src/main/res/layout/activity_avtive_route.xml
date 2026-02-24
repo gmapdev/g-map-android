@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows = "true"
+    >
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="@dimen/aoda_width"
+        android:layout_height="@dimen/aoda_height"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_marginEnd="@dimen/margin_medium"
+
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:background="@drawable/ic_layer_bkg_default"
+        android:contentDescription="@string/search_bar_back_button"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_close_white"
+        app:tint="@color/colorBlack" />
+
+    <ImageView
+        android:id="@+id/iv_indoor_navigation"
+        android:layout_width="@dimen/layer_icon_bg_width"
+        android:layout_height="@dimen/layer_icon_bg_height"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_below="@+id/iv_back"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_building"
+        android:visibility="gone"
+        android:contentDescription="@string/indoor_navigation"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        >
+        <ImageView
+            android:id="@+id/iv_mute"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_medium"
+            android:padding="15dp"
+            android:src="@drawable/ic_preview_trip_notification"
+            app:tint="@android:color/white"
+            android:background="@drawable/ic_layer_bkg_default"
+            android:backgroundTint="@color/colorPrimary"
+            />
+        <RelativeLayout
+            android:id="@+id/rl_locate_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="@dimen/margin_medium"
+            android:contentDescription="@string/locate_me_button"
+            >
+            <ImageView
+                android:id="@+id/iv_locate_me_bg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_layer_bkg_default"
+                />
+
+            <ImageView
+                android:id="@+id/iv_locate_me"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_locateme" />
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/ll_trip_overview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_medium"
+            android:layout_margin="@dimen/margin_large"
+            android:background="@drawable/rounded_primary_bg"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_instruction"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/content_text_size"
+                    android:textColor="@color/colorBlack"
+                    android:text="@string/live_tracking_started"/>
+
+                <TextView
+                    android:id="@+id/tv_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/layer_text_size"
+                    android:textColor="@color/colorBlack"/>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_itinerary_detail"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:src="@drawable/ic_details"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_active_route_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:layout_marginStart="@dimen/margin_large"
+        android:layout_marginEnd="@dimen/margin_large"
+
+        android:paddingTop="@dimen/padding_medium"
+        android:paddingBottom="@dimen/padding_medium"
+        android:background="@drawable/top_rounded_white_with_shadow_bg"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_route_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_medium"
+                    android:textSize="@dimen/content_text_size_sp"
+                    android:textColor="@android:color/black"
+                    android:text="@string/route_details" />
+
+                <TextView
+                    android:id="@+id/tv_active_route_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_marginStart="@dimen/margin_extra_large"
+                    android:textSize="@dimen/title_text_size_sp"
+                    android:textColor="@android:color/black"
+                    android:hint="@string/calculating" />
+
+                <TextView
+                    android:id="@+id/tv_active_route_duration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_marginStart="@dimen/margin_extra_large"
+                    android:textSize="@dimen/content_text_size_sp"
+                    android:textColor="@android:color/black"
+                    android:hint="@string/duration" />
+
+                <TextView
+                    android:id="@+id/tv_active_route_distance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_extra_large"
+                    android:textSize="@dimen/content_text_size_sp"
+                    android:textColor="@android:color/black"
+                    android:hint="@string/distance"/>
+            </LinearLayout>
+
+            <!-- Close button positioned to the right of the trip details -->
+            <ImageView
+                android:id="@+id/iv_close_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_medium"
+                android:src="@drawable/ic_close_white"
+                android:contentDescription="@string/close_button_description"
+                app:tint="@color/colorBlack"
+                android:layout_gravity="top"/> <!-- Center vertically relative to the text views -->
+
+        </LinearLayout>
+
+        <!-- ListView below the TextViews -->
+        <ListView
+            android:id="@+id/lv_itinerary_leg_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/margin_extra_large"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_large"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            android:maxHeight="100dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_indoor_navigation_popup_live"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@color/colorHalfTransparent"
+        android:visibility="gone"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/margin_large"
+            android:padding="@dimen/padding_large"
+            android:background="@drawable/rounded_white_bg"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/layer_icon_size"
+                    android:layout_height="@dimen/layer_icon_size"
+                    android:layout_marginStart="@dimen/margin_medium"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_indoor_origin" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_medium"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="@string/you_arrive_at"
+                    android:textSize="@dimen/content_text_size_sp"
+                    android:layout_gravity="center_vertical"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_indoor_navigation_address_live"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_small"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/content_text_size_sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="@string/do_you_want_to_open_indoor_navigation"
+                android:textSize="@dimen/content_text_size_sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tv_indoor_navigation_popup_building_live"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:text="@string/indoor_navigation_button_hint"
+                android:textSize="@dimen/content_text_size_sp"
+                android:textColor="@color/colorGrey"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/tv_indoor_navigation_popup_cancel_live"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="@dimen/padding_medium"
+                    android:paddingBottom="@dimen/padding_medium"
+                    android:textColor="@android:color/white"
+                    android:text="@string/cancel"
+                    android:textSize="@dimen/content_text_size_sp"
+                    android:gravity="center"
+                    android:background="@drawable/rounded_dark_grey_bg"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_indoor_navigation_popup_open_live"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="@dimen/padding_medium"
+                    android:paddingBottom="@dimen/padding_medium"
+                    android:layout_marginStart="@dimen/margin_medium"
+                    android:textColor="@android:color/white"
+                    android:text="@string/open"
+                    android:textSize="@dimen/content_text_size_sp"
+                    android:gravity="center"
+                    android:background="@drawable/rounded_primary_bg"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_arrive_destination_popup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@color/colorHalfTransparent"
+        android:visibility="gone"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/margin_large"
+            android:padding="@dimen/padding_medium"
+            android:background="@drawable/rounded_white_bg"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/layer_icon_size"
+                    android:layout_height="@dimen/layer_icon_size"
+                    android:layout_marginStart="@dimen/margin_medium"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_indoor_origin" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_medium"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="@string/destination_arrived"
+                    android:textSize="@dimen/content_text_size_sp"
+                    android:layout_gravity="center_vertical"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_arrive_destination_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/content_text_size_sp"
+                />
+
+            <TextView
+                android:id="@+id/tv_arrive_destination_confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/padding_medium"
+                android:paddingBottom="@dimen/padding_medium"
+                android:paddingStart="@dimen/padding_large"
+                android:paddingEnd="@dimen/padding_large"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:text="@string/ok"
+                android:textSize="@dimen/content_text_size_sp"
+                android:background="@drawable/rounded_primary_bg"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_audio_notification_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_medium"
+        android:paddingStart="@dimen/padding_medium"
+        android:paddingEnd="@dimen/padding_medium"
+        android:paddingTop="@dimen/padding_large"
+        android:paddingBottom="@dimen/padding_large"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rounded_primary_bg"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/iv_audio_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_audio_notification"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/tv_audio_notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:textColor="@color/white"
+            android:textSize="@dimen/content_text_size_sp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="@string/audio_notification_off"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+</RelativeLayout>
+

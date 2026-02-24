@@ -1,0 +1,42 @@
+[
+  {
+    "type": "Entrance",
+    "name": "South Entrance",
+    "message": null
+  },
+  {
+    "type": "Entrance",
+    "name": "North Entrance",
+    "message": null
+  },
+  {
+    "type": "Exit",
+    "name": "South Entrance",
+    "message": null
+  },
+  {
+    "type": "Exit",
+    "name": "North Entrance",
+    "message": null
+  },
+  {
+    "type": "Exit",
+    "name": "Elevator",
+    "message": null
+  },
+  {
+    "type": "Entrance",
+    "name": "Elevator",
+    "message": null
+  },
+  {
+    "type": "Exit",
+    "name": "North Exit - West",
+    "message": null
+  },
+  {
+    "type": "Exit",
+    "name": "North Exit - East",
+    "message": null
+  }
+]

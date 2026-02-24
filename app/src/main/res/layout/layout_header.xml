@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    android:background="@color/colorPrimary">
+    <ImageView
+        android:id="@+id/iv_menu"
+        android:layout_width="@dimen/icon_width"
+        android:layout_height="@dimen/icon_height"
+        android:padding="@dimen/normal_icon_padding"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_menu"
+        />
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="@dimen/icon_width"
+        android:layout_height="@dimen/icon_height"
+        android:padding="@dimen/large_icon_padding"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_leftarrow"
+        app:tint="@android:color/white"
+        android:visibility="gone"
+        android:contentDescription="@string/back_button"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_login_logo"
+            />
+        <TextView
+            android:id="@+id/tv_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/title_text_size"
+            android:accessibilityHeading="true"
+            tools:targetApi="p"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginEnd="56dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/title_text_size_sp"
+            android:accessibilityHeading="true"
+            tools:targetApi="p"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/text_hit_box_height"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/margin_medium"
+        android:accessibilityHeading="true"
+        android:gravity="center_vertical"
+        android:text="@string/sign_in"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/header_text_size"
+        tools:targetApi="p" />
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="@dimen/icon_width"
+        android:layout_height="@dimen/icon_height"
+        android:padding="@dimen/padding_small"
+        android:layout_gravity="center_vertical"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/margin_medium"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="@dimen/icon_width"
+        android:layout_height="@dimen/icon_width"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/margin_medium"
+        android:padding="@dimen/padding_medium"
+        android:src="@drawable/ic_cancel"
+        app:tint="@android:color/white"
+        android:visibility="gone"
+        android:contentDescription="@string/close"/>
+</RelativeLayout>
+

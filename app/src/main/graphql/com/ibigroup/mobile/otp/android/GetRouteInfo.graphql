@@ -1,0 +1,44 @@
+query RouteInfo($routeId: String!) {
+ route(id: $routeId) {
+      id: gtfsId
+      desc
+      agency {
+        id: gtfsId
+        name
+        url
+        timezone
+        lang
+        phone
+      }
+      longName
+      shortName
+      mode
+    	type
+      color
+      textColor
+      bikesAllowed
+      routeBikesAllowed: bikesAllowed
+      url
+      patterns {
+        id
+        headsign
+        name
+        patternGeometry {
+          points
+          length
+        }
+        stops {
+          code
+          id: gtfsId
+          lat
+          lon
+          name
+          locationType
+          routes {
+            textColor
+            color
+          }
+        }
+      }
+    }
+}

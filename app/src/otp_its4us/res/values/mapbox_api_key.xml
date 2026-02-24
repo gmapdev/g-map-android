@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="mapbox_api_key" templateMergeStrategy="preserve" translatable="false">
+
+    </string>
+
+</resources>

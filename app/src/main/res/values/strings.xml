@@ -1,0 +1,873 @@
+<resources>
+    <string name="sign_in">Sign In</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="request_fine_location_explanation">The app requires location services to be enabled in order to function.</string>
+    <string name="request_fine_location_confirmation">The app requires location services to be enabled in order to function. Please go to Permissions and turn on location services.</string>
+    <string name="streets">Streets</string>
+    <string name="satellite">Satellite</string>
+    <string name="park_and_ride_locations">Park + Ride</string>
+    <string name="transit_stops">Transit Stops</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="destination_hint">Enter destination or choose on map</string>
+    <string name="plan_a_trip">Plan a trip:</string>
+    <string name="from_here">From here</string>
+    <string name="to_here">To here</string>
+    <string name="stop_viewer">Stop Viewer</string>
+    <string name="stop_id_colon">Stop ID:</string>
+    <string name="where_to_go">Enter destination or choose on map</string>
+    <string name="today">Today</string>
+    <string name="leave_now">Leave now</string>
+    <string name="current_location_not_available">Current location not available</string>
+    <string name="recently_searched">Recently Searched</string>
+    <string name="current_location_address">(Current Location)</string>
+    <string name="set_origin">SET ORIGIN</string>
+    <string name="set_destination">SET DESTINATION</string>
+    <string name="enter_location">Enter Location</string>
+    <string name="use_current_location">Use Current Location</string>
+    <string name="edit">Edit</string>
+    <string name="click_view_details">Click to view details</string>
+    <string name="itinerary_found_with_num">%1$d Trip Found</string>
+    <string name="itineraries_found_with_num">%1$d Trips Found</string>
+    <string name="we_found_options_with_num">WE FOUND %1$d OPTIONS</string>
+    <string name="we_found_option_with_num">WE FOUND %1$d OPTION</string>
+    <string name="we_found_one_option">WE FOUND 1 OPTION</string>
+    <string name="expand_map">Expand Map</string>
+    <string name="show_results">Show Results</string>
+    <string name="best_option">Best option</string>
+    <string name="duration">Duration</string>
+    <string name="arrival_time">Arrival time</string>
+    <string name="departure_time">Departure time</string>
+    <string name="cost">Cost</string>
+    <string name="walk_time">Walk time</string>
+    <string name="min_with_num">%1$d min</string>
+    <string name="hr_with_num">%1$d hr</string>
+    <string name="hr_min_with_num">%1$d hr, %2$d min</string>
+    <string name="maximum_walk">MAXIMUM WALK</string>
+    <string name="walk_speed">WALK SPEED</string>
+    <string name="optimize_for">OPTIMIZE FOR</string>
+    <string name="depart_at">Depart at</string>
+    <string name="arrive_by">Arrive by</string>
+    <string name="set_time">Set Time</string>
+    <string name="set">Set</string>
+    <string name="pm">PM</string>
+    <string name="am">AM</string>
+    <string name="depart">Depart</string>
+    <string name="arrive">Arrive</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="last">Last</string>
+    <string name="search_empty_field_warning">Please define the following fields to plan a trip: %1$s</string>
+    <string name="waiting">Waiting</string>
+    <string name="mode_to">%1$s to %2$s</string>
+    <string name="view_all_options">View all options</string>
+    <string name="sign_in_to_save_trip">Sign in to save trip</string>
+    <string name="save_trip">Save trip</string>
+    <string name="cannot_save_trip">Cannot save</string>
+    <string name="trip_details">Trip Details</string>
+    <string name="at">at</string>
+    <string name="calories_burned">Calories Burned:</string>
+    <string name="calories_burned_detail"><![CDATA[By taking this trip, you\'ll spend <b>%1$s</b> walking and <b>%2$s</b> biking.]]></string>
+    <string name="calories_burned_guidelines"><![CDATA[Adapted from <font color=#295680>Dietary Guidelines for Americans 2005, page 16, Table 4.</font>]]></string>
+    <string name="minutes_with_num">%1$d minutes</string>
+    <string name="minute_with_num">%1$d minute</string>
+    <string name="feet_with_num">%1$d feet</string>
+    <string name="miles_with_num">%1$.1f miles</string>
+    <string name="itinerary_leg_description">%1$s %2$s to %3$s</string>
+    <string name="itinerary_leg_transit_description">%1$s to %2$s</string>
+    <string name="itinerary_leg_transit_description_without_route_name">to %1$s</string>
+    <string name="transit_fare">Transit Fare:</string>
+    <string name="type_of_payment" >Type of payment</string>
+    <string name="fare_table">Fare Table</string>
+    <string name="reduce_fares" >\* Reduced fare applies only to seniors and disabled individuals. Youth ride free.</string>
+    <string name="transfer_discount_info"> Transfer discount of $%.2f is applied</string>
+
+    <string name="subway_route_provider"><![CDATA[Service operated by <font color=#4182BC>%1$s &nbsp</font>]]></string>
+    <string name="stop_id_with_num">Stop ID %1$s</string>
+    <string name="bold_stop_id_with_num">Stop ID: %1$s</string>
+    <string name="trip_viewer">Trip Viewer</string>
+    <string name="ride_duration_with_stops">Ride %1$d min / %2$d stops</string>
+    <string name="step_on">%1$s on %2$s</string>
+    <string name="view_schedule">View schedule</string>
+    <string name="departure_time_info"><![CDATA[Departure times are shown in <b>%1$s.</b>]]></string>
+    <string name="auto_refresh_arrivals">Auto-refresh arrivals?</string>
+    <string name="route">Route</string>
+    <string name="departure">Departure</string>
+    <string name="capital_departure">DEPARTURE</string>
+    <string name="capital_status">STATUS</string>
+    <string name="capital_scheduled">SCHEDULED</string>
+    <string name="view_next_arrivals">View next arrivals</string>
+    <string name="allowed">Allowed</string>
+    <string name="view">View</string>
+    <string name="trip_viewer_route"><![CDATA[Route: <b>%1$s</b> %2$s]]></string>
+    <string name="bike">Bike</string>
+    <string name="drive">Drive</string>
+    <string name="finding_your_options">FINDING YOUR OPTIONS...</string>
+    <string name="route_to"><![CDATA[<b>%1$s</b> To %2$s]]></string>
+    <string name="use">Use</string>
+    <string name="restore_my_defaults">Restore my defaults</string>
+    <string name="forgot_my_options">Forgot my options</string>
+    <string name="bus">Bus</string>
+    <string name="marta_rail">MARTA Rail</string>
+    <string name="atl_street_car">Atlanta\nStreetcar</string>
+    <string name="route_viewer">Route Viewer</string>
+    <string name="start_over">Start Over</string>
+    <string name="no_route_url_provided">No route URL provided.</string>
+    <string name="route_viewer_route"><![CDATA[<b>%1$s</b> %2$s]]></string>
+    <string name="cap_continue">Continue</string>
+    <string name="head">Head</string>
+    <string name="right">Right</string>
+    <string name="left">Left</string>
+    <string name="hard_right">Hard right</string>
+    <string name="hard_left">Hard left</string>
+    <string name="uturn_right">Uturn right</string>
+    <string name="uturn_left">Uturn left</string>
+    <string name="slight_right">Slight right</string>
+    <string name="slight_left">Slight left</string>
+    <string name="slightly_right">Slightly right</string>
+    <string name="slightly_left">Slightly left</string>
+    <string name="due">Due</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="send_email">Send Email</string>
+    <string name="dont_remember_password">Don\'t remember your password?</string>
+    <string name="sign_up_terms">By signing up, you agree to our terms of service and privacy policy.</string>
+    <string name="email_hint">Email</string>
+    <string name="your_password">Password</string>
+    <string name="create_new_account">Create a new account</string>
+    <string name="create_new_account_hint">You must agree to the terms of service to continue.</string>
+    <string name="create_new_account_terms">I confirm that I am at least 18 years old, and I have read and consent to the <a href="https://atlrides.com/#/terms-of-service">Terms of Service</a> for using the Trip Planner.</string>
+    <string name="create_new_account_optional"><b>Optional</b>: I consent to the Trip Planner storing my historical planned trips in order to improve transit services in my area. <a href="https://atlrides.com/#/terms-of-storage/">More info</a> </string>
+    <string name="notification_preferences">Notification preferences</string>
+    <string name="notification_preferences_hint">You can receive notifications about trips you frequently take.</string>
+    <string name="how_to_receive_notifications">How would you like to receive notifications?</string>
+    <string name="notification_emails_sent_to">Notification emails will be sent to:</string>
+    <string name="email">Email</string>
+    <string name="sms">SMS</string>
+    <string name="dont_notify_me">Don\'t notify me</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="add_your_locations">Add your locations</string>
+    <string name="add_your_locations_hint">Add the places you frequent often to save time planning trips:</string>
+    <string name="email_invalid">Must be a valid email address</string>
+    <string name="email_cant_blank">Email can\'t be blank</string>
+    <string name="password_cant_blank">Password can\'t be empty</string>
+
+    <string name="your_password_must_contain">Your password must contain:</string>
+    <string name="at_least_eight_characters">At least 8 characters</string>
+    <string name="at_least_3_out_of_4_types_characters">At least 3 of the following:</string>
+    <string name="lower_case_letters">Lower case letters(a-z)</string>
+    <string name="upper_case_letters">Upper case letters(A-Z)</string>
+    <string name="numbers">Numbers(i.e. 0–9)</string>
+    <string name="special_characters">Special characters(i.e. !@#$%^&amp;*)</string>
+    <string name="verify_email_address">Verify your email address</string>
+    <string name="verify_email_address_hint">Please check your email inbox and follow the link in the message to verify your email address before finishing your account setup.\n\nOnce you\'re verified, click the button below to continue.\n\nYou can plan trips and return to this page anytime to continue setting up your account.</string>
+    <string name="email_is_verified">My Email is verified</string>
+    <string name="resend_verification_email">Resend verification Email</string>
+    <string name="enter_phone_number_for_sms_notifications">Enter your phone number for SMS notifications:</string>
+    <string name="send_verification_text">Send verification text</string>
+    <string name="enter_phone_number">enter phone number</string>
+    <string name="reset_password_text">Please enter your email address. We will send you an email to reset your password.</string>
+
+    <string name="sms_notifications_sent_to">SMS notifications will be sent to:</string>
+    <string name="change_number">Change number</string>
+    <string name="verify">Verify</string>
+    <string name="request_a_new_code">Request a new code</string>
+    <string name="check_verification_code_hint">Please check the SMS messaging app on your mobile phone for a text message with a verification code, and enter the code below (code expires after 10 minutes).</string>
+    <string name="verification_code">Verification code:</string>
+    <string name="home">Home</string>
+    <string name="set_home_address">Set your home address</string>
+    <string name="work">Work</string>
+    <string name="set_work_address">Set your work address</string>
+    <string name="add_another_place">Add another place</string>
+    <string name="finish">Finish</string>
+    <string name="account_setup_complete">Account setup complete!</string>
+    <string name="ready_to_start_planning_trips">You are ready to start planning your trips.</string>
+    <string name="verified">Verified</string>
+    <string name="verification_code_hint">123456</string>
+    <string name="preferences_saved">Your preferences have been saved.</string>
+    <string name="add_new_place">Add a new place</string>
+    <string name="set_place_name">Set place name</string>
+    <string name="search_for_location">Search for location</string>
+    <string name="add_new_location_hint">Please set a  location for this place</string>
+    <string name="save">Save</string>
+    <string name="select_from_location">Select from location</string>
+    <string name="get_address_failed">Failed to retrieve address. Please try again later.</string>
+    <string name="my_account">My account</string>
+    <string name="help">Help</string>
+    <string name="sign_out">Sign out</string>
+    <string name="delete_account_warning">Are you sure you would like to delete your user account? Once you do so, it cannot be recovered.</string>
+    <string name="terms">Terms</string>
+    <string name="my_locations">Favorite Places</string>
+    <string name="notifications">Notifications</string>
+    <string name="delete_my_account">Delete my account</string>
+    <string name="save_preferences">Save Preferences</string>
+    <string name="trips">Trips</string>
+    <string name="settings">Settings</string>
+    <string name="no_saved_trips">You have no saved trips</string>
+    <string name="no_saved_trips_hint">Perform a trip search from the map first.</string>
+    <string name="notification_sms_hint">0123456789</string>
+    <string name="verification_code_sent">Verification code has been sent, please check</string>
+    <string name="verification_code_sent_failed">Failed to send verification code to the phone number</string>
+    <string name="verify_verification_code_failed">Failed to verify the code for the phone number. Request error</string>
+    <string name="verify_verification_code_successfully">The phone number has been verified</string>
+    <string name="pending">Pending</string>
+    <string name="save_preferences_successfully">Your preferences have been saved.</string>
+    <string name="save_preferences_failed">Failed to save preferences</string>
+    <string name="delete_account_successfully">Your account has been deleted</string>
+    <string name="delete_account_failed">Failed to delete your account</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="resend_verification_email_successfully">The email verification message has been resent.</string>
+    <string name="resend_verification_email_failed">Failed to resend the verification email.</string>
+    <string name="retrieve_user_info_failed_unauthorized">Failed to retrieve user information. Please try logging in again.</string>
+    <string name="retrieve_user_info_failed_other">Failed to retrieve user information. Please try again later.</string>
+
+    <string name="save_new_trip">Save new trip</string>
+    <string name="trip_information">Trip information</string>
+    <string name="select_itinerary">Selected itinerary:</string>
+    <string name="name_trip">Please provide a name for this trip:</string>
+    <string name="trip_days">What days do you take this trip?</string>
+    <string name="trip_days_hint">Your trip is available on the days of the week as indicated above.</string>
+    <string name="trip_notifications">Trip notifications</string>
+    <string name="notify_via_email">Notify me when:</string>
+    <string name="realtime_alert_on_journey">There is a realtime alert flagged on my journey</string>
+    <string name="alternative_route_recommended_options">An alternative route or transfer point is recommended</string>
+    <string name="delay_options">There are delays or disruptions of more than</string>
+    <string name="advanced_settings">Advanced settings</string>
+    <string name="monitor_this_trip">Monitor this trip</string>
+    <string name="before_begins_ends">before it begins until it ends.</string>
+
+    <string name="mon">Mon.</string>
+    <string name="tue">Tue.</string>
+    <string name="wed">Wed.</string>
+    <string name="thu">Thu.</string>
+    <string name="fri">Fri.</string>
+    <string name="sat">Sat.</string>
+    <string name="sun">Sun.</string>
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+    <string name="sunday">Sun</string>
+    <string name="happens_on"><![CDATA[<b>%1$s</b>]]></string>
+    <string name="notifications_lead_time"><![CDATA[<b>%1$d mins</b>]]></string>
+    <string name="notifications_disabled"><![CDATA[<b>Disabled</b>]]></string>
+    <string name="lost_data_warning">You haven\'t saved your new trip yet. If you leave, it will be lost.</string>
+    <string name="successfully_create_trip">Your Preferences were saved</string>
+    <string name="failed_create_trip">Failed to create the trip information</string>
+    <string name="successfully_update_trip">Successfully updated the trip information</string>
+    <string name="failed_update_trip">Failed to update the trip information</string>
+    <string name="failed_delete_trip">Failed to delete the trip</string>
+    <string name="failed_get_trip_list">Failed to retrieve the saved trips</string>
+    <string name="failed_get_trip_list_cdta"><![CDATA[<b><font color=#FFFFFF>Failed to retrieve the saved trips</font></b>]]></string>
+
+    <string name="itinerary_start_end_time"><![CDATA[<b>Itinerary</b> %1$s - %2$s]]></string>
+    <string name="from_origin_to_destination"><![CDATA[From <b>%1$s</b> to <b>%2$s</b>]]></string>
+    <string name="pause">Pause</string>
+    <string name="delete">Delete</string>
+    <string name="resume">Resume</string>
+    <string name="delete_saved_trip_warning">Would you like to remove this trip?</string>
+    <string name="edit_saved_trip">Edit saved trip</string>
+    <string name="view_saved_trip">View saved trip</string>
+    <string name="next_trip_starts_on">Next trip starts on %1$s at %2$s</string>
+    <string name="trip_is_due_to">Trip is due to begin at %1$s. (realtime monitoring will begin at %2$s)</string>
+    <string name="unsnooze_trip_analysis">Unsnooze trip analysis</string>
+    <string name="unsnooze_trip_analysis_hint">Unsnooze trip monitoring to see the updated status</string>
+    <string name="unsnooze_trip_analysis_title">Trip monitoring is snoozed for today</string>
+    <string name="last_checked">Last checked: %1$s ago</string>
+
+    <string name="pause_trip_title">Trip monitoring is paused</string>
+    <string name="pause_trip_hint">Resume trip monitoring to see the updated status</string>
+    <string name="snoose_for_rest_today">Snooze for rest of today</string>
+    <string name="loading">Loading…</string>
+    <string name="failed_check_trip">Failed to check trip</string>
+
+    <string name="route_agency_info">Operated by %1$s</string>
+    <string name="edit_place">Edit place</string>
+    <string-array name="default_control_arrays">
+        <item>Yes (default)</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="delay_arrays">
+        <item>5 min (default)</item>
+        <item>10 min</item>
+        <item>15 min</item>
+    </string-array>
+
+    <string-array name="monitor_trip_arrays">
+        <item>15 min</item>
+        <item>30 min (default)</item>
+        <item>45 min</item>
+        <item>1 hour</item>
+    </string-array>
+
+    <string-array name="default_control_arrays_value">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+
+    <string-array name="delay_arrays_value">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="monitor_trip_arrays_value">
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+    </string-array>
+
+    <string-array name="maximum_walk_arrays">
+        <item>1/10 mile</item>
+        <item>1/4 mile</item>
+        <item>1/2 mile</item>
+        <item>3/4 mile</item>
+        <item>1 mile</item>
+        <item>2 miles</item>
+        <item>5 miles</item>
+    </string-array>
+
+    <string-array name="walk_speed_arrays">
+        <item>2 MPH</item>
+        <item>3 MPH</item>
+        <item>4 MPH</item>
+    </string-array>
+
+    <string-array name="walk_speed_arrays_otp">
+        <item>1 MPH</item>
+        <item>2 MPH</item>
+        <item>3 MPH</item>
+        <item>4 MPH</item>
+        <item>5 MPH</item>
+    </string-array>
+
+    <string-array name="optimize_option_arrays">
+        <item>Speed</item>
+        <item>Fewest Transfers</item>
+    </string-array>
+
+    <string-array name="maximum_walk_arrays_value">
+        <item>160.9</item>
+        <item>402.3</item>
+        <item>804.5</item>
+        <item>1207</item>
+        <item>1609</item>
+        <item>3218</item>
+        <item>8045</item>
+    </string-array>
+
+    <string-array name="walk_speed_arrays_value">
+        <item>0.89</item>
+        <item>1.34</item>
+        <item>1.79</item>
+    </string-array>
+<!--    1 MPH: 0.45,    2 MPH: 0.89,    3 MPH: 1.34,    4 MPH: 1.78,    5 MPH: 2.23-->
+    <string-array name="walk_speed_arrays_value_otp">
+        <item>0.45</item>
+        <item>0.89</item>
+        <item>1.34</item>
+        <item>1.78</item>
+        <item>2.23</item>
+    </string-array>
+    <string-array name="optimize_option_arrays_value">
+        <item>QUICK</item>
+        <item>TRANSFERS</item>
+    </string-array>
+
+    <string-array name="itinerary_sort_arrays">
+        <item>Best Option</item>
+        <item>Duration</item>
+        <item>Arrive Time</item>
+        <item>Departure Time</item>
+        <item>Walk Time</item>
+        <item>Cost</item>
+    </string-array>
+
+    <string-array name="itinerary_sort_arrays_without_cost">
+        <item>Best Option</item>
+        <item>Duration</item>
+        <item>Arrive Time</item>
+        <item>Departure Time</item>
+        <item>Walk Time</item>
+    </string-array>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="plan_trip">Plan Trip</string>
+    <string name="stops">Stops</string>
+    <string name="routes">Routes</string>
+    <string name="my_trips">My Trips</string>
+    <string name="account_settings">My Settings</string>
+    <string name="map_details">Map Details</string>
+    <string name="map_type">Map Type</string>
+    <string name="rail">Rail</string>
+    <string name="route_filter_mode_rail">Rail</string>
+    <string name="search_for_a_route">Find a Route</string>
+    <string name="search_for_a_stop">Search for a transit stop</string>
+    <string name="plan_trip_two_lines">Plan\nTrip</string>
+    <string name="from_here_two_lines">From\nHere</string>
+    <string name="to_here_two_lines">To\nHere</string>
+    <string name="auto_refresh">Auto Refresh</string>
+    <string name="departures">Departures</string>
+    <string name="schedule">Schedule</string>
+    <string name="destination">Destination</string>
+    <string name="empty_fav_stops">No favorite stops.</string>
+    <string name="fav_stop_hint">To find a stop, search in\nthe bar above or tab a\ntransit stop on the map</string>
+    <string name="view_on_agency_website">More Details</string>
+    <string name="fav_stops">Favorite Stops.</string>
+    <string name="login_to_see_fav_stops">Please login to see favorite stops.</string>
+    <string name="attention">Attention</string>
+    <string name="remove_fav_stop_warning">You are going to remove [%1$s] from favorite list. Are you sure?</string>
+    <string name="my_favorite_stops">My Favorite Stops</string>
+    <string name="stops_found">%1$d Stops Found</string>
+    <string name="no_stops_found">No Stops Found</string>
+    <string name="e_scooter">E-Scooter</string>
+    <string name="rental">Rent</string>
+    <string name="spin_e_scooter">Spin E-scooter</string>
+    <string name="pick_up_spin_e_scooter">Pick up Spin E-scooter</string>
+    <string name="ride">Ride</string>
+    <string name="please_enter_a_trip_name">Please enter a trip name</string>
+    <string name="layer_control_button">Layer control</string>
+    <string name="locate_me_button">Locate me</string>
+    <string name="stop_viewer_expander">Stop viewer expander, double tap and hold and then swipe to expand the Stop viewer pane.</string>
+    <string name="trip_viewer_expander">Trip viewer expander, double tap and hold and then swipe to expand the Trip viewer pane.</string>
+    <string name="stops_expander">Stops expander, double tap and hold and then swipe to expand the Stops viewer pane.</string>
+    <string name="expander">Expander</string>
+    <string name="itinerary_list_expander">Itinerary list expander, double tap and hold and then swipe to expand the Itinerary list pane.</string>
+    <string name="routes_viewer_expander">Routes viewer expander, double tap and hold and then swipe to expand the Route viewer pane.</string>
+    <string name="itinerary_detail_expander">Itinerary detail expander, double tap and hold and then swipe to expand the Itinerary detail pane.</string>
+    <string name="back_button">Back</string>
+    <string name="switch_origin_destination_button">Switch origin and destination</string>
+    <string name="transit_search_mode">Transit search mode</string>
+    <string name="walk_search_mode">Walk search mode</string>
+    <string name="drive_search_mode">Drive search mode</string>
+    <string name="bike_search_mode">Bike search mode</string>
+    <string name="rental_search_mode">Rental search mode</string>
+    <string name="setting_button">Settings</string>
+    <string name="itinerary_search_button">Plan Trip</string>
+    <string name="close">Close</string>
+    <string name="favorite_places">Favorite Places</string>
+    <string name="search_bar_collapse_button">Collapse search bar</string>
+    <string name="search_bar_expand_button">Expand search bar</string>
+    <string name="search_bar_back_button">exit search bar</string>
+    <string name="vehicle_on_route_time">%1$d seconds ago</string>
+    <string name="vehicle_on_route_speed">traveling at %1$d mph</string>
+    <string name="vehicle_on_route_name">Vehicle %1$s</string>
+    <string name="saved_trips">My Trips</string>
+    <string name="before_scheduled_departure">Before scheduled departure</string>
+    <string name="Logged_in_as_email">Logged in as %1$s</string>
+    <string name="edit_home">Edit home</string>
+    <string name="edit_work">Edit work</string>
+
+    <string name="mins_late">%1$d min late</string>
+    <string name="mins_early">%1$d min early</string>
+    <string name="reset_button">Reset</string>
+    <string name="leave_now_two_lines">Leave\nnow</string>
+    <string name="connection_failed_msg">The server could not be reached. Please try again later.</string>
+    <string name="on_time">On time</string>
+    <string name="token_expired_message">Session has expired. Please log in again.</string>
+    <string name="warning">Warning</string>
+    <string name="origin">origin</string>
+    <string name="destination_lower_case">destination</string>
+    <string name="and">" and "</string>
+    <string name="no_available_dates">Trip is not possible today</string>
+    <string name="checking_itinerary_existence">Checking itinerary existence for each day of the week ...</string>
+    <string name="towards">Towards</string>
+    <string name="real_time_bus_unavailable">No bus locations found. Please try again later.</string>
+    <string name="car">Drive</string>
+    <string name="walk">Walk</string>
+    <string name="transit">Transit</string>
+    <string name="bikeshare">Bikeshare</string>
+    <string name="search_rail_mode">SUBWAY</string>
+
+    <string name="expand">Expand stops in this direction</string>
+    <string name="collapse">Collapse stops in this direction</string>
+    <string name="calories_info_show">Show details</string>
+    <string name="calories_info_hide">Hide details</string>
+    <string name="save_route">save new trip</string>
+    <string name="search_modes_button">Search modes</string>
+    <string name="departure_colon">"Departure: "</string>
+    <string name="arrive_colon">"Arrive: "</string>
+    <string name="light_rail">Light Rail</string>
+    <string name="ferry">Ferry</string>
+    <string name="from_hint">From</string>
+    <string name="play_button">Resume</string>
+    <string name="filter_control_button">Filter control</string>
+    <string name="agency">AGENCY</string>
+    <string name="modes">MODES</string>
+    <string name="all_agencies">All Agencies</string>
+    <string name="all_modes">All Modes</string>
+    <string name="street_car">Streetcar</string>
+    <string name="delete_home">Delete home address button</string>
+    <string name="delete_work">Delete work address button</string>
+    <string name="create_new_account_terms_url">https://atlrides.com/#/terms-of-service</string>
+    <string name="create_new_account_optional_url">https://atlrides.com/#/terms-of-storage</string>
+    <string name="search_for_a_route_text_field">Search for a route text field</string>
+    <string name="agency_filter_button">Agency filter button</string>
+    <string name="mode_filter_button">Mode filter button</string>
+    <string name="user_profile_button">User profile button</string>
+    <string name="monorail">Monorail</string>
+    <string name="gondola">Gondola</string>
+    <string name="mode_gondola">Gondola</string>
+    <string name="notification_channel_default">Application</string>
+    <string name="notification_channel_second">General Notification</string>
+    <string name="menu">Menu</string>
+    <string name="leave_feedback">Leave feedback</string>
+    <string name="service_alerts">Service Alerts</string>
+    <string name="accessibility">Accessibility</string>
+    <string name="safety_and_security">Safety and Security</string>
+    <string name="stations">Stations</string>
+    <string name="how_to_pay">How to Pay</string>
+    <string name="walking">walking</string>
+    <string name="you_leave">You leave</string>
+    <string name="walk_transit">Walk + Transit</string>
+    <string name="drive_transit">Drive + Transit</string>
+    <string name="other">Other</string>
+    <string name="routes_found">%1$d Routes Found</string>
+    <string name="route_found">%1$d Route Found</string>
+    <string name="bike_transit">Bike + Transit</string>
+    <string name="bikeshare_transit">Bikeshare + Transit</string>
+    <string name="scooter_transit">E-Scooter + Transit</string>
+
+    <string name="calories_info_show_details">Show Calories Burned information.</string>
+    <string name="calories_info_hide_details">Hide Calories Burned information.</string>
+    <string name="park_and_ride">Park and Ride.</string>
+    <string name="map_settings">Map settings</string>
+    <string name="enter_start_location">Enter start location</string>
+    <string name="enter_destination">Enter destination</string>
+    <string name="or">or</string>
+    <string name="no_internet">No Internet</string>
+    <string name="no_internet_message">We can\'t access the internet. Try connecting via WiFi or cellular data.</string>
+    <string name="link">Link Light Rail</string>
+    <string name="water_taxi">Water Taxi</string>
+    <string name="reach_max_saved_trip_warning_message">You already have reached the maximum of %1$d saved trips. Please remove unused trips from your saved trips, and try again.</string>
+    <string name="no_fare_information">No fare information</string>
+    <string name="time_spent_active">Time Spent Active:</string>
+    <string name="departure_pdt">Departure times are shown in <b>PDT</b></string>
+
+    <string name="plan_trip_tag">plan trip tag</string>
+    <string name="menu_tag">menu tag</string>
+    <string name="routes_tag">routes tag</string>
+    <string name="my_trips_tag">my trips tag</string>
+    <string name="sign_in_tag">sign in tag</string>
+
+    <string name="switch_locations">Switch Locations</string>
+    <string name="rent">Rent</string>
+    <string name="shared_bike">Shared Bike</string>
+    <string name="shared_car">Shared Drive</string>
+
+
+    <string name="location_blocked">Access to your location is blocked. To use your current location, enable location permissions from your device app settings.</string>
+    <string name="close_search_mode">close mode search pop up</string>
+    <string name="close_setting">close setting pop up</string>
+
+
+    <string name="shared_vehicle">Shared Vehicle</string>
+    <string name="free_floating_bike">Free-floating bike</string>
+    <string name="link_first_capital">Link</string>
+    <string name="you_arrive">You arrive</string>
+
+    <string name="search_mode_title">Preferred Mode of Travel:</string>
+    <string name="avoid_walking">Avoid Walking</string>
+    <string name="accessible_routing">Accessible Routing</string>
+    <string name="allow_bike_rental">Allow Bike Rental</string>
+    <string name="walk_speed_no_caps">Walk Speed</string>
+
+    <string name="mode_combination_error">Cannot plan a trip using the selected modes. Try including transit in your mode selection.</string>
+    <string name="allow_scooter_rental">Allow Scooter Rental</string>
+    <string name="receive_notifications_via">Receive notifications about your saved trips via:</string>
+    <string name="verify_email_to_save_trips">Please verify your email before saving your favorite trips.</string>
+    <string name="consent_to_terms_to_save_trips">Please agree to the terms of service to save favorite trips.\n</string>
+
+    <string name="push_notifications">Push notifications</string>
+    <string name="devices_registered">%1$d devices registered</string>
+    <string name="request_post_push_explanation">The app requires notifications services to be enabled in order to function.</string>
+    <string name="request_post_push_confirmation">The app requires notifications services to be enabled in order to function. Please go to Permissions and turn on notifications services.</string>
+
+
+
+
+
+    <string name="mostly_accessible">Wheelchair accessible</string>
+    <string name="likely_not_accessible">Wheelchair accessibility\ninformation unavailable</string>
+    <string name="inaccessible">Not wheelchair accessible</string>
+
+    <string name="title_alerts">Alerts</string>
+    <string name="effective_as_of">Effective as of</string>
+    <string name="more">More</string>
+    <string name="one_alert">1 alert</string>
+    <string name="more_alert">alerts</string>
+
+    <string name="sms_hint">By providing your phone number, you agree to receive verification and trip monitoring SMS messages. Additional costs from your phone carrier may apply.</string>
+    <string name="link_scooter">Link Scooter</string>
+    <string name="stay_on_board_at">Stay on Board at %1$s</string>
+    <string name="plan_new_trip">Plan New Trip</string>
+    <string name="failed_retrieve_auto_complete">Failed to retrieve the auto complete</string>
+    <string name="accessibility_profile">Mobility Profile</string>
+    <string name="accessibility_profile_subtitle">Define your Mobility Profile</string>
+    <string name="accessibility_profile_hint">Please answer a few questions to customize the tripplanning experience to your needs and preferences.</string>
+    <string name="accessibility_profile_first_section_title">1. Do you reqularly use a mobility assistive device?(Check all that apply)</string>
+    <string name="accessibility_profile_second_section_title">2. Do you have any mobility limitations that cause you towalk more slowly or more carefully than other people?</string>
+    <string name="accessibility_profile_third_section_title">3. Do you have any vision limitations?</string>
+    <string name="no_assistive_device">No Assistive Device</string>
+    <string name="white_cane">White Cane</string>
+    <string name="manual_walker">Manual Walker</string>
+    <string name="wheeled_walker">Wheeled Walker</string>
+    <string name="cane">Cane</string>
+    <string name="crutches">Crutches</string>
+    <string name="stroller">Stroller</string>
+    <string name="service_animal">Service Animal</string>
+    <string name="mobility_scooter">Mobility Scooter</string>
+    <string name="electric_wheelchair">Electric Wheelchair</string>
+    <string name="manual_traditional_wheelchair">Manual/Traditional Wheelchair</string>
+    <string name="low_vision">Low-vision</string>
+    <string name="legally_blind">Legally-blind</string>
+    <string name="no_vision_limitations">No vision limitations</string>
+    <string name="review_accessibility_questions">Review Accessibility Questions</string>
+    <string name="haptic_feedback">Haptic Feedback</string>
+    <string name="start_route">Start Route</string>
+    <string name="distance">Distance</string>
+    <string name="calculating">Calculating…</string>
+    <string name="route_details">Details of Trip</string>
+    <string name="arrive_at_time">Arrive at %1$s</string>
+    <string name="duration_left">%1$s left</string>
+    <string name="around_distance">Around %1$s</string>
+    <string name="min">min</string>
+    <string name="mins">mins</string>
+    <string name="hour">hour</string>
+    <string name="hours">hours</string>
+    <string name="h">h</string>
+    <string name="close_button_description">Close trip details pop-up.</string>
+
+
+    <string name="incorrect_password">Incorrect password.</string>
+    <string name="press_back_to_save_changes">Press Back to save changes.</string>
+    <string name="saving_configuration">Saving configuration…</string>
+    <string name="Back_to_Default">Back to Default</string>
+    <string name="Enable_Simulation_Mode">Enable Simulation Mode</string>
+    <string name="Device_Id">Device Id</string>
+    <string name="App_Id">App Id</string>
+    <string name="Server_URL">Server URL</string>
+    <string name="Enter_device_id">Enter device id…</string>
+    <string name="Enter_app_id">Enter app id…</string>
+    <string name="default_title">Default</string>
+    <string name="Enter_server_url">Enter server url…</string>
+    <string name="default_value">Based on the app original setting</string>
+    <string name="production_title">Production</string>
+    <string name="production_value">https://cfg.ibigroupmobile.com</string>
+    <string name="staging_value">https://cfg-dev.ibigroupmobile.com</string>
+    <string name="staging_title">Staging</string>
+    <string name="device_push_token">Device Push Token</string>
+    <string name="setup_configuration_server">Setup Configuration Server as Below:</string>
+    <string name="indoor_map">Indoor Map</string>
+    <string name="enter_your_origin">Enter your origin</string>
+    <string name="enter_your_destination">Enter your destination</string>
+    <string name="available_locations">Available Locations:</string>
+    <string name="search">Search</string>
+    <string name="please_select_destination">Please select a destination.</string>
+    <string name="then">Then</string>
+    <string name="route_instructions">Route Instructions</string>
+    <string name="audio_notification_off">Audio Notification is turned OFF</string>
+    <string name="audio_notification_on">Audio Notification is turned ON</string>
+    <string name="arrive_at_destination">You have arrived</string>
+    <string name="distance_with_value">Distance: %1$.0f feet</string>
+    <string name="proceed_distance">After: %1$.0f feet</string>
+    <string name="you_arrive_at">You have arrived at:</string>
+    <string name="do_you_want_to_open_indoor_navigation">Do you want to open indoor navigation?</string>
+    <string name="open">Open</string>
+    <string name="indoor_navigation">Indoor navigation</string>
+    <string name="current_location">Current Location</string>
+    <string name="enter_destination_capital">Enter Destination</string>
+    <string name="you_have_arrived">You have arrived</string>
+    <string name="off_route_warning_message">It looks like you\'ve deviated from your route. Would you like to re-route?</string>
+    <string name="unsave_change_title">You have unsaved changes</string>
+    <string name="keep_editing">Keep editing</string>
+    <string name="discard_changes">Discard changes</string>
+    <string name="cash">Cash</string>
+
+    <string name="reduce_fares_format">\* %1$s applies only to seniors and disabled individuals. Youth ride free.</string>
+    <string name="reduce_fares_highlighted_text">Reduced fare</string>
+    <string name="reduce_fares_url">https://info.myorca.com/using-orca/ways-to-save/</string>
+    <string name="all_transit">All transit</string>
+    <string name="first_hill">Streetcar</string>
+    <string name="sounder">Sounder</string>
+
+    <string name="adult">Adult</string>
+    <string name="youth">Youth</string>
+    <string name="senior">Senior</string>
+    <string name="locations_are">locations are</string>
+    <string name="location_is">location is</string>
+    <string name="preferred_mode_alter">Alternative modes:</string>
+    <string name="on_certain_days_each_week">On certain days each week</string>
+    <string name="only_on_selected_date">Only on %1$s</string>
+    <string name="gmap_indoor_notification">This app uses foreground services to communicate with Bluetooth beacons to allow for indoor navigation.</string>
+    <string name="live_tracking_started">Live tracking started</string>
+    <string name="indoor_deviation_tts_content">It appears that you deviated from route, action required</string>
+
+    <string name="sms_warning_msg">Please complete the verification process in order to set up SMS notifications.</string>
+    <string name="preview_trip">Preview Trip</string>
+    <string name="start_the_journey">Start the journey</string>
+    <string name="arrive_exit_popup_message">It appears you have arrived at a building exit. Please choose from the following:</string>
+    <string name="navigate_to_another_room">Navigate to another room in the building</string>
+    <string name="start_saved_trip">Start a saved trip</string>
+    <string name="continue_indoor_navigation">Continue with indoor navigation</string>
+    <string name="destination_arrived">Destination Arrived</string>
+    <string name="preview_trip_back_button">exit the preview trip page</string>
+
+    <string name="distance_with_colon">Distance:</string>
+    <string name="indoor_navigation_button_hint">Indoor navigation is available when the button is visible in the top left corner.</string>
+    <string name="start_trip">Start Trip</string>
+    <string name="notification_for_trip">Notification</string>
+    <string name="bus_to">Bus to %1$s</string>
+
+    <string name="travel_companions">Travel companions</string>
+    <string name="travel_companions_hint">Invite an existing G-MAP user to be a travel companion by entering their email. When they accept, their status will change to "verified", and you can share your trip status and plan trips based on one another\'s mobility profile.</string>
+    <string name="current_travel_companions">Current travel companions:</string>
+    <string name="no_travel_companion">You do not have any existing travel companions.</string>
+    <string name="add_new_travel_companion">Add a new travel companion</string>
+    <string name="delete_travel_companions">Do you want to delete companion %1$s?</string>
+    <string name="setting_updated">This setting has been updated.</string>
+    <string name="send_invitation">Send invitation</string>
+    <string name="travel_companion_email_hint">friend.email@example.com</string>
+
+    <string name="travel_companion_mobility_profile_hint">If you have a travel companion, you can choose to plan this trip according to their mobility profile.</string>
+    <string name="use_mobility_profile">User mobility profile:</string>
+    <string name="mobility_profile">Mobility Profile</string>
+    <string name="myself">Myself</string>
+
+    <string name="primary_traveler">Primary traveler:</string>
+    <string name="companion_on_this_trip">Companion on this trip:</string>
+    <string name="observers_watching_this_trip">Observers watching this trip:</string>
+    <string name="select">Select…</string>
+    <string name="select_an_option">Select an Option</string>
+    <string name="select_options">Select Options</string>
+    <string name="disable_log">You have successfully disabled the log.</string>
+    <string name="enable_log">You have successfully enabled the log.</string>
+    <string name="upload_log_confirmation_message">Are you planning to upload the log?</string>
+    <string name="delete_log_confirmation_message">Are you planning to delete the log?</string>
+    <string name="successfully_uploaded_log">You have successfully uploaded the log to the cloud.</string>
+    <string name="successfully_deleted_log">You have successfully deleted the log.</string>
+
+    <string name="request_background_location_explanation">This live tracking feature requires background location services permissions to submit the current Location data when the app is in the background. Please select the "Allow all the time" option to enable this.</string>
+    <string name="request_background_location_confirmation">This live tracking feature requires background location services permissions to submit the current Location data when the app is in the background. Please go to Permissions > Location and select the "Allow all the time" option to enable this.</string>
+    <string name="reroute_successfully">Reroute successfully</string>
+    <string name="reroute_no_itineray_found">There was no re-route itinerary found</string>
+    <string name="reroute_failed">Failed to re-route. Would you like to try again?</string>
+    <string name="splash_app_name">Georgia Mobility and\nAccessibility Planner</string>
+
+    <string name="upload_log_status">Timestamp: %1$s</string>
+    <string name="clear">Clear</string>
+    <string name="follow_me_function_enabled">Follow me function enabled</string>
+    <string name="follow_me_function_disabled">Follow me function disabled</string>
+    <string name="background_location_tracking_hint">%1$s is checking your location in the background for live tracking"</string>
+    <string name="same_origin_destination_error">Planning a trip is not possible with the same origin and destination</string>
+    <string name="no_options">No options</string>
+    <string name="invalid">Invalid</string>
+    <string name="you_have_arrived_at">You have arrived at</string>
+    <string name="you_have_arrived_your_destination">You have arrived at your destination.</string>
+    <string name="i_like_to">I\'d like to…</string>
+    <string name="route_preference">Route preference…</string>
+    <string name="accessible_trip">Accessible Routing</string>
+
+    <string name="fewest_transfers">Fewest transfers</string>
+    <string name="fastest">Fastest</string>
+    <string name="less_walking">Less walking</string>
+
+    <string name="my_preferred_mode">Mode Options</string>
+
+    <string name="advance_transit">Transit</string>
+    <string name="advance_cycle">Cycle</string>
+    <string name="advance_drive">Drive</string>
+    <string name="advance_walk">Walk</string>
+    <string name="advance_rental">Rental</string>
+
+    <string name="advanced_popup_title">You have unsaved changes</string>
+    <string name="more_options">More options</string>
+    <string name="my_preferred_trip">Trip Options</string>
+    <string name="addition_modes_toggle_msg">Selecting <b>Additional Modes</b> will include/exclude services within mode categories. Toggle on/off modes of travel you\'d like to include for your trip.</string>
+    <string name="accessible_trip_toggle_msg">Selecting <b>Accessible Routing</b> will prioritize journeys with wheelchair boarding and provide Accessibility rating for each leg of the journey.</string>
+    <string name="advanced_preferences">Advanced Preferences</string>
+    <string name="notify_email_push_sms">Notify me via email, push notifications, and SMS when:</string>
+    <string name="notify_email_push">Notify me via email and push notifications when:</string>
+    <string name="notify_push_sms">Notify me via push notifications and SMS when:</string>
+    <string name="notify_email_sms">Notify me via email and SMS when:</string>
+    <string name="notify_push">Notify me via push notifications when:</string>
+    <string name="notify_email">Notify me via email when:</string>
+    <string name="notify_sms">Notify me via SMS when:</string>
+
+    <string name="notification_warning_title">Notifications are turned off for your account.</string>
+
+    <string name="notification_warning_msg"> To receive alerts for your saved trips, enable notifications in your account settings, and try saving a trip again.</string>
+    <string name="select_time_date">Please choose a date and time by selecting the date or time picker</string>
+    <string name="sort_item_for_talk_back">Itineraries are sorted by travel</string>
+    <string-array name="search_options">
+        <item>Leave now</item>
+        <item>Depart at</item>
+        <item>Arrive by</item>
+    </string-array>
+    <string name="trip_name_cant_blank">Please enter a trip name.</string>
+    <string name="trip_name_duplicate">Another saved trip already uses this name.\nPlease choose a different name.</string>
+    <string name="place_name_text">Place name:</string>
+    <string name="place_name_duplicate">You are already using this name for another place.\nPlease enter a different name.</string>
+    <string name="trip_days_at_least_one">Please select at least one day to monitor.</string>
+
+
+    <string name="e_scooter_with_service_name">E-Scooter: %1$s</string>
+    <string name="no_stop_times">No stop times found for date.</string>
+    <string name="real_time">REAL-TIME</string>
+<string name="unable_to_monitor_heading" translatable="false">Unable to monitor trip</string>
+    <string name="unable_to_monitor_description" translatable="false">
+    After multiple failed attempts to locate your itinerary, monitoring has been snoozed for today as one or more changes to the itinerary may have occurred.
+    To resume trip monitoring, tap Un‑snooze.  If monitoring is still not available, tap Plan New Trip to save an up‑to‑date itinerary to monitor.
+</string>
+    <string name="unsnooze_trip" translatable="false">Un‑snooze trip</string>
+    <string name="trip_start_time_delayed">Trip start time is delayed by %1$s!</string>
+    <string name="trip_progress_on_time">Trip is in progress and is about on time.</string>
+    <string name="trip_progress_delayed">Trip is in progress and is delayed %1$d minutes and %2$d seconds</string>
+
+
+    <string name="error_occurred">An error occurred</string>
+    <string name="incorrect_credentials">Wrong email or password</string>
+    <string name="user_exists">The user already exists.</string>
+    <string name="valid_password">Email and password must be valid or must not be empty.</string>
+    <string name="password_reset_success">We\'ve just sent you an email to reset your password.</string>
+    <string name="too_many_attempts">Account locked, too many attempts. Please try again later.</string>
+
+    <string name="no_longer_possible_heading">Trip is no longer possible</string>
+    <string name="no_longer_possible_description">The trip planner was unable to find your trip on any selected days of the week. Please try re-planning your itinerary to find an alternative route.</string>
+    <string name="past_trip_description">This is a one-time trip that occurred in the past.</string>
+    <string name="past_trip_heading">Trip is in the past</string>
+    <string name="next_trip_not_possible_description">The trip planner was unable to find your trip today. Please try re-planning your itinerary to find an alternative route.</string>
+    <string name="next_trip_not_possible_heading">Trip is not possible today</string>
+
+    <string name="trip_starting_soon_no_realtime">Trip is starting soon (no realtime updates available).</string>
+    <string name="trip_start_time_earlier">Trip start time is happening %1$s earlier than expected!</string>
+    <string name="trip_starting_soon_on_time">Trip is starting soon and is about on time.</string>
+    <string name="trip_progress_earlier">Trip is in progress and is arriving %1$d seconds earlier than expected!</string>
+    <string name="trip_is_due_to_arrive_at">Trip is due to arrive at the destination at %1$s</string>
+    <string name="trip_progress_no_real_time">Trip is in progress (no realtime updates available)</string>
+
+
+    <string name="address_name_text">Address:</string>
+    <string name="location_type_text">Location type:</string>
+
+    <string name="plan_your_trip">
+        Plan your trip
+    </string>
+    <string name="previous_button">Previous Button</string>
+    <string name="next_button">Next Button</string>
+    
+    <string name="field_mask_asterisk_required">Fields marked with an asterisk (*) are required.</string>
+    <string name="map_labels">Map Labels</string>
+    <string name="tap_retrun_trip">Tap to return to your active %1$s trip.</string>
+
+
+</resources>

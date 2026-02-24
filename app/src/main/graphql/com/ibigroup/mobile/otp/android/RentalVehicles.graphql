@@ -1,0 +1,19 @@
+query GetRentalVehicles {
+    rentalVehicles {
+        id
+        name
+        network
+        vehicleId
+        lon
+        lat
+        vehicleType {
+          formFactor
+          propulsionType
+        }
+        rentalUris {
+          android
+          ios
+          web
+        }
+    }
+}

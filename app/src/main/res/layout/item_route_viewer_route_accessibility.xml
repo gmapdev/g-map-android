@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:id="@+id/ll_route_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_route"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/iv_route_logo"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/margin_medium" />
+
+            <ImageView
+                android:id="@+id/iv_route_type"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:src="@drawable/ic_bus"
+                app:tint="@android:color/black" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_route"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="@dimen/margin_medium"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/rounded_dark_grey_bg"
+            android:ellipsize="end"
+            android:maxLines="5"
+            android:paddingStart="@dimen/padding_medium"
+            android:paddingTop="3dp"
+            android:paddingEnd="@dimen/padding_medium"
+            android:paddingBottom="3dp"
+            android:textSize="@dimen/content_text_size_sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_route_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/content_text_size_sp" />
+
+        <TextView
+            android:id="@+id/tv_route_agency_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:text="@string/no_route_url_provided"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/layer_text_size_sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_route_agency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_route_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:gravity="center_vertical"
+                android:text="@string/no_route_url_provided"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/layer_text_size_sp" />
+        </LinearLayout>
+
+        <include
+            android:id="@+id/ll_route_directions_stops"
+            layout="@layout/layout_route_directions_stops_accessibility"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="@dimen/margin_small"
+        android:background="#CCCCCC" />
+    </LinearLayout>
+</RelativeLayout>

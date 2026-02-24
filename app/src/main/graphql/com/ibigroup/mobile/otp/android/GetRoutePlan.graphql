@@ -1,0 +1,226 @@
+query Plan(
+  $fromPlace: String!
+  $toPlace: String!
+  $modes: [TransportMode]
+  $banned: InputBanned
+  $time: String
+  $date: String
+  $wheelchair: Boolean
+  $bikeReluctance: Float
+  $carReluctance: Float
+  $walkReluctance: Float
+  $walkSpeed: Float
+  $arriveBy: Boolean
+  $numItineraries: Int
+  $mobilityProfile: String
+) {
+  plan(
+    arriveBy: $arriveBy
+    bikeReluctance: $bikeReluctance
+    carReluctance: $carReluctance
+    date: $date
+    fromPlace: $fromPlace
+    # Currently only supporting EN locale, used for times and text
+    locale: "en"
+    numItineraries: $numItineraries
+    time: $time
+    toPlace: $toPlace
+    transportModes: $modes
+    walkReluctance: $walkReluctance
+    walkSpeed:$walkSpeed
+    wheelchair: $wheelchair
+    banned: $banned
+    mobilityProfile: $mobilityProfile
+  ) {
+    itineraries {
+      accessibilityScore
+      duration
+      endTime
+      legs {
+        accessibilityScore
+        agency {
+          alerts {
+            alertDescriptionText
+            alertHeaderText
+            alertUrl
+            effectiveStartDate
+            id
+          }
+          id
+          name
+          timezone
+          url
+        }
+        alerts {
+                    alertDescriptionText
+                    alertHeaderText
+                    alertUrl
+                    effectiveStartDate
+                    id
+                  }
+        arrivalDelay
+        departureDelay
+        distance
+        dropoffType
+        duration
+        endTime
+        fareProducts {
+          id
+          product {
+            __typename
+            id
+            medium {
+              id
+              name
+            }
+            name
+            riderCategory {
+              id
+              name
+            }
+            ... on DefaultFareProduct {
+              price {
+                amount
+                currency {
+                  code
+                  digits
+                }
+              }
+            }
+          }
+        }
+        from {
+          lat
+          lon
+          name
+          rentalVehicle {
+            id
+            network
+          }
+          stop {
+            alerts {
+              alertDescriptionText
+              alertHeaderText
+              alertUrl
+              effectiveStartDate
+              id
+            }
+            code
+            gtfsId
+            id
+          }
+          vertexType
+        }
+        interlineWithPreviousLeg
+        intermediateStops {
+          lat
+          locationType
+          lon
+          name
+          stopCode: code
+          stopId: id
+        }
+        legGeometry {
+          length
+          points
+        }
+        mode
+        pickupBookingInfo {
+          earliestBookingTime {
+            daysPrior
+          }
+        }
+        pickupType
+        realTime
+        realtimeState
+        rentedBike
+        route {
+          alerts {
+            alertDescriptionText
+            alertHeaderText
+            alertUrl
+            effectiveStartDate
+            id
+          }
+          color
+          id
+          longName
+          shortName
+          textColor
+          type
+        }
+        startTime
+        steps {
+          absoluteDirection
+          alerts {
+            alertDescriptionText
+            alertHeaderText
+            alertUrl
+            effectiveStartDate
+            id
+          }
+          area
+          distance
+          elevationProfile {
+            distance
+            elevation
+          }
+          lat
+          lon
+          relativeDirection
+          stayOn
+          streetName
+        }
+        to {
+          lat
+          lon
+          name
+          rentalVehicle {
+            id
+            network
+          }
+          stop {
+            alerts {
+              alertDescriptionText
+              alertHeaderText
+              alertUrl
+              effectiveStartDate
+              id
+            }
+            code
+            gtfsId
+            id
+          }
+          vertexType
+        }
+        transitLeg
+        trip {
+          arrivalStoptime {
+            stop {
+              gtfsId
+              id
+            }
+          }
+          departureStoptime {
+            stop {
+              gtfsId
+              id
+            }
+          }
+
+          gtfsId
+          id
+          tripHeadsign
+        }
+      }
+      startTime
+      waitingTime
+      walkTime
+    }
+    routingErrors {
+      code
+      description
+      inputField
+    }
+  }
+}

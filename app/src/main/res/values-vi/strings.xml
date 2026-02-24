@@ -1,0 +1,1914 @@
+<resources>
+    <string name="sign_in">
+        Đăng nhập
+    </string>
+    <string name="ok">
+        Chấp nhận
+    </string>
+    <string name="cancel">
+        Hủy bỏ
+    </string>
+    <string name="streets">
+        Đường phố
+    </string>
+    <string name="satellite">
+        Vệ tinh
+    </string>
+    <string name="park_and_ride_locations">
+        Đậu xe và đi xe công cộng
+    </string>
+    <string name="from_here">
+         Từ đây
+    </string>
+    <string name="to_here">
+         đến đây
+    </string>
+    <string name="stop_viewer">
+         Xem điểm dừng
+    </string>
+    <string name="stop_id_colon">
+        Điểm dừng số
+    </string>
+    <string name="today">
+        Hôm nay
+    </string>
+    <string name="leave_now">
+        Rời đi ngay bây giờ
+    </string>
+    <string name="recently_searched">
+        Gần đây đã tìm kiếm
+    </string>
+    <string name="current_location_address">
+        (Vị trí hiện tại)
+    </string>
+    <string name="duration">
+        Thời gian
+    </string>
+    <string name="cost">
+        Phí tổn
+    </string>
+    <string name="depart_at">
+        Khởi hành lúc
+    </string>
+    <string name="arrive_by">
+        Đến nơi trước
+    </string>
+    <string name="yesterday">
+        Hôm qua
+    </string>
+    <string name="trip_details">
+        Chi tiết chuyến đi
+    </string>
+    <string name="fare_table">
+        Bảng giá vé
+    </string>
+    <string name="route">
+        Tuyến đường
+    </string>
+    <string name="departure">
+        Khởi hành
+    </string>
+    <string name="capital_scheduled">
+        LÊN KẾ HOẠCH
+    </string>
+    <string name="bike">
+        Xe đạp
+    </string>
+    <string name="drive">
+        Lái xe
+    </string>
+    <string name="bus">
+        Xe buýt
+    </string>
+    <string name="cap_continue">
+        Tiếp tục
+    </string>
+    <string name="right">
+        Rẽ phải
+    </string>
+    <string name="left">
+        Rẽ trái
+    </string>
+    <string name="hard_right">
+        Rẽ phải đột ngột
+    </string>
+    <string name="hard_left">
+        Rẽ trái đột ngột
+    </string>
+    <string name="slight_right">
+        Hơi rẽ phải
+    </string>
+    <string name="slight_left">
+        Hơi rẽ trái
+    </string>
+    <string name="due">
+        Đến hạn
+    </string>
+    <string name="log_in">
+        Đăng nhập
+    </string>
+    <string name="sign_up">
+        Đăng ký
+    </string>
+    <string name="email_hint">
+        e-mail
+    </string>
+    <string name="your_password">
+        Mật khẩu
+    </string>
+    <string name="create_new_account">
+        Tạo tài khoản mới
+    </string>
+    <string name="create_new_account_hint">
+        Bạn phải đồng ý với các điều khoản của dịch vụ để tiếp tục.
+    </string>
+    <string name="notification_preferences_hint">
+        Bạn có thể nhận được thông báo về những chuyến đi bạn thường xuyên thực hiện.
+    </string>
+    <string name="how_to_receive_notifications">
+        Bạn muốn nhận thông báo bằng cách nào?
+    </string>
+    <string name="notification_emails_sent_to">
+        Email thông báo sẽ được gửi tới:
+    </string>
+    <string name="email">
+        e-mail
+    </string>
+    <string name="sms">
+        tin nhắn
+    </string>
+    <string name="back">
+        Trở lại
+    </string>
+    <string name="next">
+        Tiếp theo
+    </string>
+    <string name="add_your_locations_hint">
+        Thêm những địa điểm bạn thường đến để tiết kiệm thời gian lên kế hoạch cho chuyến đi:
+    </string>
+    <string name="email_invalid">
+        Phải la một địa chỉ email hợp lệ.
+    </string>
+    <string name="your_password_must_contain">
+        Mật khẩu của bạn phải chứa:
+    </string>
+    <string name="at_least_eight_characters">
+        Ít nhất 8 ký tự.
+    </string>
+    <string name="at_least_3_out_of_4_types_characters">
+        Ít nhất 3 trong số những điều sau đây:
+    </string>
+    <string name="verify_email_address">
+        Xác minh địa chỉ email của bạn
+    </string>
+    <string name="send_verification_text">
+        Gửi văn bản xác minh
+    </string>
+    <string name="sms_notifications_sent_to">
+        Thông báo qua SMS sẽ được gửi tới:
+    </string>
+    <string name="change_number">
+        Thay đổi số điện thoại
+    </string>
+    <string name="verify">
+        Kiểm chứng
+    </string>
+    <string name="request_a_new_code">
+        Yêu cầu một mã mới
+    </string>
+    <string name="check_verification_code_hint">
+        Vui lòng kiểm tra ứng dụng nhắn tin SMS trên điện thoại di động của bạn để thấy tin nhắn với mã xác minh và nhập mã bên dưới (mã hết hạn sau 10 phút).
+    </string>
+    <string name="verification_code">
+        Mã xác nhận:
+    </string>
+    <string name="home">
+        nhà
+    </string>
+    <string name="set_home_address">
+        Đặt địa chỉ nhà của bạn
+    </string>
+    <string name="work">
+        công việc
+    </string>
+    <string name="set_work_address">
+        Đặt địa chỉ cơ quan của bạn
+    </string>
+    <string name="add_another_place">
+        Thêm một nơi khác
+    </string>
+    <string name="finish">
+        Kết thúc
+    </string>
+    <string name="account_setup_complete">
+        Hoàn tất việc thiết lập tài khoản!
+    </string>
+    <string name="ready_to_start_planning_trips">
+        Bạn đã sẵn sàng để bắt đầu lên kế hoạch cho các chuyến đi của bạn.
+    </string>
+    <string name="verified">
+        Đã xác minh
+    </string>
+    <string name="preferences_saved">
+        Những sở thích của bạn đã được lưu lại.
+    </string>
+    <string name="add_new_place">
+        Thêm địa điểm mới
+    </string>
+    <string name="set_place_name">
+        Đặt tên cho vị trí
+    </string>
+    <string name="search_for_location">
+        Tìm kiếm vị trí
+    </string>
+    <string name="save">
+        Tiết kiệm
+    </string>
+    <string name="help">
+        Giúp đỡ
+    </string>
+    <string name="sign_out">
+        Đăng xuất
+    </string>
+    <string name="terms">
+        Điều khoản
+    </string>
+    <string name="my_locations">
+        Những nơi yêu thích
+    </string>
+    <string name="notifications">
+        Thông báo
+    </string>
+    <string name="delete_my_account">
+        Xóa tài khoản của tôi
+    </string>
+    <string name="save_preferences">
+        Lưu lại những ưu tiên
+    </string>
+    <string name="no_saved_trips">
+        Bạn không có những chuyến đi được lưu
+    </string>
+    <string name="no_saved_trips_hint">
+        Trước tiên, thực hiện tìm kiếm chuyến đi từ bản đồ.
+    </string>
+    <string name="verification_code_sent">
+        Mã xác thực đã được gửi đi, vui lòng kiểm tra
+    </string>
+    <string name="pending">
+        Chưa xác minh
+    </string>
+    <string name="save_preferences_successfully">
+        Những sở thích của bạn đã được lưu lại.
+    </string>
+    <string name="no">
+        Không
+    </string>
+    <string name="save_new_trip">
+        Lưu chuyến đi mới
+    </string>
+    <string name="trip_information">
+        Thông tin chuyến đi
+    </string>
+    <string name="select_itinerary">
+        Hành trình đã chọn:
+    </string>
+    <string name="name_trip">
+        Vui lòng cung cấp tên cho chuyến đi này:
+    </string>
+    <string name="trip_days">
+        Bạn thực hiện chuyến đi này vào những ngày nào?
+    </string>
+    <string name="trip_days_hint">
+        Chuyến đi của bạn có sẵn vào những ngày trong tuần như đã nêu ở trên.
+    </string>
+    <string name="trip_notifications">
+        Thông báo chuyến đi
+    </string>
+    <string name="notify_via_email">
+        Thông báo cho tôi khi:
+    </string>
+    <string name="realtime_alert_on_journey">
+        Có một cảnh báo thời gian thực được gắn cờ trên hành trình của tôi
+    </string>
+    <string name="alternative_route_recommended_options">
+        Một tuyến đường hoặc điểm trung chuyển thay thế được khuyến nghị
+    </string>
+    <string name="delay_options">
+        Có sự chậm trễ hoặc gián đoạn của hơn
+    </string>
+    <string name="advanced_settings">
+        Cài đặt nâng cao
+    </string>
+    <string name="mon">
+        Thứ hai
+    </string>
+    <string name="tue">
+        Thứ ba
+    </string>
+    <string name="wed">
+        Thứ tư
+    </string>
+    <string name="thu">
+        Thứ năm
+    </string>
+    <string name="fri">
+        Thứ sáu
+    </string>
+    <string name="sat">
+        Thứ bảy
+    </string>
+    <string name="sun">
+        Chủ nhật
+    </string>
+    <string name="monday">
+        Thứ hai
+    </string>
+    <string name="tuesday">
+        Thứ ba
+    </string>
+    <string name="wednesday">
+        Thứ tư
+    </string>
+    <string name="thursday">
+        Thứ năm
+    </string>
+    <string name="friday">
+        Thứ sáu
+    </string>
+    <string name="saturday">
+        Thứ bảy
+    </string>
+    <string name="sunday">
+        Chủ nhật
+    </string>
+    <string name="pause">
+        Tạm ngừng
+    </string>
+    <string name="edit_saved_trip">
+        Chỉnh sửa chuyến đi được lưu
+    </string>
+    <string name="unsnooze_trip_analysis">
+        Bật lại phân tích chuyến đi
+    </string>
+    <string name="unsnooze_trip_analysis_hint">
+        Bật lại tính năng giám sát chuyến đi để xem trạng thái cập nhậ
+    </string>
+    <string name="unsnooze_trip_analysis_title">
+        Tạm dừng việc giám sát chuyến đi cho ngày hôm nay
+    </string>
+    <string name="pause_trip_title">
+        Tạm dừng việc giám sát chuyến đi
+    </string>
+    <string name="pause_trip_hint">
+        Tiếp tục giám sát chuyến đi để xem trạng thái cập nhật
+    </string>
+    <string name="snoose_for_rest_today">
+        Tạm dừng phần còn lại của ngày hôm nay
+    </string>
+    <string name="title_home">
+        nhà
+    </string>
+    <string name="title_notifications">
+        Thông báo
+    </string>
+    <string name="routes">
+        Tuyến đường
+    </string>
+    <string name="my_trips">
+        Chuyến đi của tôi
+    </string>
+    <string name="account_settings">
+        Cài đặt của tôi
+    </string>
+    <string name="map_details">
+        Chi Tiết Bản Đồ
+    </string>
+    <string name="map_type">
+        Loại Bản Đồ
+    </string>
+    <string name="auto_refresh">
+        Tự Động Làm Mới
+    </string>
+    <string name="departures">
+        Khởi hành
+    </string>
+    <string name="schedule">
+        Lịch trình
+    </string>
+    <string name="destination">
+        Điểm Đến
+    </string>
+    <string name="view_on_agency_website">
+        Thêm chi tiết
+    </string>
+    <string name="my_favorite_stops">
+        Trạm Dừng Yêu Thích Của Tôi
+    </string>
+    <string name="rental">
+        Thuê xe
+    </string>
+    <string name="ride">
+        Ngồi trên xe
+    </string>
+    <string name="please_enter_a_trip_name">
+        Vui lòng nhập tên chuyến đi
+    </string>
+    <string name="back_button">
+        Trở lại
+    </string>
+    <string name="close">
+        Đóng
+    </string>
+    <string name="favorite_places">
+        Những nơi yêu thích
+    </string>
+    <string name="saved_trips">
+        Chuyến đi của tôi
+    </string>
+    <string name="before_scheduled_departure">
+        Trước giờ khởi hành theo lịch trình
+    </string>
+    <string name="on_time">
+        Kịp thời
+    </string>
+    <string name="no_available_dates">
+        Không thể thực hiện chuyến đi hôm nay
+    </string>
+    <string name="towards">
+        Hướng
+    </string>
+    <string name="car">
+        Lái xe
+    </string>
+    <string name="walk">
+        Đi bộ
+    </string>
+    <string name="transit">
+        Giao thông công cộng
+    </string>
+    <string name="ferry">
+        Phà
+    </string>
+    <string name="all_agencies">
+        Tất cả các đại lý phương tiện công cộng
+    </string>
+    <string name="all_modes">
+        Tất cả các phương tiện
+    </string>
+    <string name="street_car">
+        Streetcar
+    </string>
+    <string name="menu">
+        Thực đơn
+    </string>
+    <string name="service_alerts">
+        Cảnh báo dịch vụ Sound Transit
+    </string>
+    <string name="accessibility">
+        Khả năng tiếp cận trong Sound Transit
+    </string>
+    <string name="safety_and_security">
+        An toàn và An ninh của Sound Transit
+    </string>
+    <string name="stations">
+        Trạm
+    </string>
+    <string name="how_to_pay">
+        Cách Thanh Toán
+    </string>
+    <string name="walk_transit">
+        Đi bộ + Giao thông công cộng
+    </string>
+    <string name="drive_transit">
+        Lái xe + Giao thông công cộng
+    </string>
+    <string name="other">
+        Khác
+    </string>
+    <string name="bike_transit">
+        Xe đạp + Giao thông công cộng
+    </string>
+    <string name="bikeshare_transit">
+        Giao thông công cộng + Xe đạp chung
+    </string>
+    <string name="scooter_transit">
+        Xe tay ga điện + Giao thông công cộng
+    </string>
+    <string name="enter_start_location">
+        Nhập vị trí bắt đầu
+    </string>
+    <string name="enter_destination">
+        Nhập điểm đến
+    </string>
+    <string name="or">
+        Hoặc
+    </string>
+    <string name="link">
+        Đường sắt nhẹ LINK
+    </string>
+    <string name="water_taxi">
+        Taxi nước
+    </string>
+    <string name="time_spent_active">
+        Thời Gian Hoạt Động: ~
+    </string>
+    <string name="switch_locations">
+        Chuyển đổi địa điểm
+    </string>
+    <string name="rent">
+        Thuê xe
+    </string>
+    <string name="avoid_walking">
+        Tránh Đi Bộ
+    </string>
+    <string name="accessible_routing">
+        Định tuyến có thể truy cập
+    </string>
+    <string name="allow_bike_rental">
+        Cho phép thuê xe đạp
+    </string>
+    <string name="walk_speed_no_caps">
+        Tốc độ đi bộ
+    </string>
+    <string name="allow_scooter_rental">
+        Cho phép thuê xe tay ga điện tử
+    </string>
+    <string name="verify_email_to_save_trips">
+        Vui lòng xác minh email của bạn để lưu lại những chuyến đi yêu thích của bạn.
+    </string>
+    <string name="mostly_accessible">
+        Có lối đi dành cho xe lăn
+    </string>
+    <string name="inaccessible">
+        Không có lối đi dành cho xe lăn
+    </string>
+    <string name="title_alerts">
+        cảnh báo
+    </string>
+    <string name="more">
+        Hơn
+    </string>
+    <string name="more_alert">
+        cảnh báo
+    </string>
+    <string name="sms_hint">
+        Qua việc cung cấp số điện thoại của mình, quý vị đồng ý nhận thông báo và tin nhắn SMS về việc theo dõi chuyến đi. Nhà cung cấp dịch vụ điện thoại của quý vị có thể tính thêm chi phí.
+    </string>
+    <string name="hour">
+        tiếng
+    </string>
+    <string name="hours">
+        tiếng
+    </string>
+    <string-array name="walk_speed_arrays_otp">
+        <item>
+            1 MPH
+        </item>
+        <item>
+            2 MPH
+        </item>
+        <item>
+            3 MPH
+        </item>
+        <item>
+            4 MPH
+        </item>
+        <item>
+            5 MPH
+        </item>
+    </string-array>
+    <string-array name="itinerary_sort_arrays">
+        <item>
+            Thời gian
+        </item>
+        <item>
+            Thời gian đến
+        </item>
+        <item>
+            Thời gian khởi hành
+        </item>
+        <item>
+            Thời gian đi bộ
+        </item>
+        <item>
+            Phí tổn
+        </item>
+    </string-array>
+    <string-array name="walk_speed_arrays_value_otp">
+        <item>
+            0.45
+        </item>
+        <item>
+            0.89
+        </item>
+        <item>
+            1.34
+        </item>
+        <item>
+            1.78
+        </item>
+        <item>
+            2.23
+        </item>
+    </string-array>
+    <string-array name="monitor_trip_arrays_value">
+        <item>
+            15
+        </item>
+        <item>
+            30
+        </item>
+        <item>
+            45
+        </item>
+        <item>
+            60
+        </item>
+    </string-array>
+    <string-array name="delay_arrays_value">
+        <item>
+            5
+        </item>
+        <item>
+            10
+        </item>
+        <item>
+            15
+        </item>
+    </string-array>
+    <string-array name="maximum_walk_arrays">
+        <item>
+            1/10 dặm
+        </item>
+        <item>
+            1/4 dặm
+        </item>
+        <item>
+            1/2 dặm
+        </item>
+        <item>
+            3/4 dặm
+        </item>
+        <item>
+            1 dặm
+        </item>
+        <item>
+            2 dặm
+        </item>
+        <item>
+            5 dặm
+        </item>
+    </string-array>
+    <string-array name="default_control_arrays">
+        <item>
+            Có (mặc định)
+        </item>
+        <item>
+            KHÔNG
+        </item>
+    </string-array>
+    <string-array name="optimize_option_arrays">
+        <item>
+            Tốc độ
+        </item>
+        <item>
+            Chuyển nhượng ít nhất
+        </item>
+    </string-array>
+    <string-array name="maximum_walk_arrays_value">
+        <item>
+            160.9
+        </item>
+        <item>
+            402.3
+        </item>
+        <item>
+            804.5
+        </item>
+        <item>
+            1207
+        </item>
+        <item>
+            1609
+        </item>
+        <item>
+            3218
+        </item>
+        <item>
+            8045
+        </item>
+    </string-array>
+    <string-array name="walk_speed_arrays">
+        <item>
+            2 MPH
+        </item>
+        <item>
+            3 MPH
+        </item>
+        <item>
+            4 MPH
+        </item>
+    </string-array>
+    <string-array name="default_control_arrays_value">
+        <item>
+            Đúng rồi
+        </item>
+        <item>
+            Sai
+        </item>
+    </string-array>
+    <string-array name="optimize_option_arrays_value">
+        <item>
+            NHANH
+        </item>
+        <item>
+            CHUYỂN NHƯỢNG
+        </item>
+    </string-array>
+    <string-array name="monitor_trip_arrays">
+        <item>
+            15 phút
+        </item>
+        <item>
+            30 phút (mặc định)
+        </item>
+        <item>
+            45 phút
+        </item>
+        <item>
+            1 giờ
+        </item>
+    </string-array>
+    <string-array name="walk_speed_arrays_value">
+        <item>
+            0.89
+        </item>
+        <item>
+            1.34
+        </item>
+        <item>
+            1.79
+        </item>
+    </string-array>
+    <string-array name="delay_arrays">
+        <item>
+            5 phút (mặc định)
+        </item>
+        <item>
+            10 phút
+        </item>
+        <item>
+            15 phút
+        </item>
+    </string-array>
+    <string name="allowed">
+        Được phép
+    </string>
+    <string name="enter_phone_number_for_sms_notifications">
+        Nhập số điện thoại của bạn để nhận thông báo SMS:
+    </string>
+    <string name="add_your_locations">
+        Thêm vị trí của bạn
+    </string>
+    <string name="delete_saved_trip_warning">
+        Bạn có muốn loại bỏ chuyến đi này không?
+    </string>
+    <string name="bikeshare">
+        Xe đạp thuê
+    </string>
+    <string name="view_all_options">
+        Xem tất cả các tùy chọn
+    </string>
+    <string name="resume">
+        Tiếp tục
+    </string>
+    <string name="cannot_save_trip">
+        Không thể tiết kiệm
+    </string>
+    <string name="resend_verification_email_successfully">
+        Thông báo xác minh email đã được gửi lại.
+    </string>
+    <string name="mode_gondola">
+        Thuyền chèo đáy bằng
+    </string>
+    <string name="calories_info_show">
+        Hiển thị chi tiết
+    </string>
+    <string name="gondola">
+        Thuyền chèo đáy bằng
+    </string>
+    <string name="warning">
+        Cảnh báo
+    </string>
+    <string name="my_account">
+        Tài khoản của tôi
+    </string>
+    <string name="trip_viewer">
+        Xem chuyến đi
+    </string>
+    <string name="origin">
+        Điểm xuất phát
+    </string>
+    <string name="arrival_time">
+        Thời gian đến
+    </string>
+    <string name="click_view_details">
+        Bấm để xem chi tiết
+    </string>
+    <string name="tomorrow">
+        Ngày mai
+    </string>
+    <string name="edit_place">
+        Chỉnh sửa vị trí
+    </string>
+    <string name="calories_info_hide">
+        Ẩn chi tiết
+    </string>
+    <string name="destination_lower_case">
+        điểm đến
+    </string>
+    <string name="delete_account_warning">
+        Bạn có chắc bạn muốn xóa tài khoản người dùng của mình không? Một khi bạn làm như vậy, nó không thể được phục hồi.
+    </string>
+    <string name="route_filter_mode_rail">
+        Đường ray
+    </string>
+    <string name="use">
+        Sử dụng
+    </string>
+    <string name="departure_time">
+        Giờ khởi hành
+    </string>
+    <string name="settings">
+        Cài đặt
+    </string>
+    <string name="best_option">
+        Lựa chọn tốt nhất
+    </string>
+    <string name="route_viewer">
+        Xem tuyến đường
+    </string>
+    <string name="notification_preferences">
+        Tùy chọn thông báo
+    </string>
+    <string name="edit">
+        Chỉnh sửa
+    </string>
+    <string name="plan_trip">
+        Kế hoạch cho một chuyến đi
+    </string>
+    <string name="e_scooter">
+        Xe tay ga điện
+    </string>
+    <string name="plan_new_trip">
+        Lên kế hoạch cho chuyến đi mới
+    </string>
+    <string name="trips">
+        Chuyến đi
+    </string>
+    <string name="to">
+        Đến
+    </string>
+    <string name="transit_stops">
+        Điểm dừng của phương tiện công cộng
+    </string>
+    <string name="view">
+        Lượt xem
+    </string>
+    <string name="view_schedule">
+        Xem lịch trình
+    </string>
+    <string name="last">
+        Cuối
+    </string>
+    <string name="walk_time">
+        Thời gian đi bộ
+    </string>
+    <string name="setting_button">
+        Cài đặt
+    </string>
+    <string name="receive_notifications_via">
+        Nhận thông báo về các chuyến đi đã lưu bằng:
+    </string>
+    <string name="play_button">
+        Tiếp tục
+    </string>
+    <string name="itinerary_search_button">
+        Lên kế hoạch cho chuyến đi
+    </string>
+    <string name="plan_a_trip">
+        Kế hoạch cho một chuyến đi:
+    </string>
+    <string name="save_trip">
+        Lưu chuyến đi
+    </string>
+    <string name="mode_combination_error">
+        Không thể lên kế hoạch cho chuyến đi bằng các phương thức đã lựa chọn. Hãy thử đưa phương tiện công cộng vào phần lựa chọn phương thức của quý vị.
+    </string>
+    <string name="rail">
+        Đường ray
+    </string>
+    <string name="current_location_not_available">
+        Vị trí hiện tại không có sẵn
+    </string>
+    <string name="haptic_feedback">
+        Phản hồi xúc giác
+    </string>
+    <string name="no_assistive_device">
+        Không có thiết bị hỗ trợ
+    </string>
+    <string name="delete_work">
+        Nút xóa địa chỉ nơi làm việc của quý vị, nhấp đúp để xóa %1
+    </string>
+    <string name="user_profile_button">
+        Nút Hồ Sơ Người Dùng, Nhấp đúp để kích hoạt
+    </string>
+    <string name="search_rail_mode">
+        SUBWAY
+    </string>
+    <string name="rental_search_mode">
+        Nút Thuê Phương Tiện, Nhấp đúp để kích hoạt
+    </string>
+    <string name="search_for_a_route">
+        Tìm một tuyến đường
+    </string>
+    <string name="consent_to_terms_to_save_trips">
+        Hãy đồng ý với các điều khoản dịch vụ để lưu lại những chuyến đi yêu thích.
+    </string>
+    <string name="ride_duration_with_stops">
+        Đi %1$d / %2$d điểm dừng
+    </string>
+    <string name="link_first_capital">
+        liên kết
+    </string>
+    <string name="manual_walker">
+        Xe tập đi bằng tay
+    </string>
+    <string name="am">
+        Sáng
+    </string>
+    <string name="lost_data_warning">
+        Bạn chưa lưu chuyến đi mới của mình. Nếu bạn rời đi, nó sẽ bị mất.
+    </string>
+    <string name="low_vision">
+        Tầm nhìn thấp
+    </string>
+    <string name="calories_burned_guidelines">
+        <![CDATA[Phỏng theo <font color=#295680>Hướng dẫn chế độ ăn uống cho người Mỹ năm 2005, trang 16, Bảng 4.</font>]]>
+    </string>
+    <string name="at">
+        tại
+    </string>
+    <string name="mode_filter_button">
+        Nút Lọc Phương Thức, Nhấp đúp để kích hoạt.
+    </string>
+    <string name="login_to_see_fav_stops">
+        Vui lòng đăng nhập để lưu lại địa điểm.
+    </string>
+    <string name="bold_stop_id_with_num">
+        Điểm dừng số %1$s
+    </string>
+    <string name="itineraries_found_with_num">
+        Đã tìm thấy %1$d chuyến đi
+    </string>
+    <string name="wheeled_walker">
+        Xe tập đi có bánh xe
+    </string>
+    <string name="monorail">
+        Đường ray đơn
+    </string>
+    <string name="mins">
+        phút
+    </string>
+    <string name="set">
+        Bộ
+    </string>
+    <string name="route_to">
+        <![CDATA[<b>%1$s</b> Đến %2$s]]>
+    </string>
+    <string name="get_address_failed">
+        Không thể truy xuất địa chỉ. Vui lòng thử lại sau.
+    </string>
+    <string name="h">
+        giờ
+    </string>
+    <string name="walk_search_mode">
+        Chế độ tìm kiếm đi bộ
+    </string>
+    <string name="no_vision_limitations">
+        Không có giới hạn tầm nhìn
+    </string>
+    <string name="capital_departure">
+        Khởi hành
+    </string>
+    <string name="type_of_payment">
+        Hình thức thanh toán
+    </string>
+    <string name="reset_button">
+        Nút Đặt Lại, Nhấp đúp để kích hoạt
+    </string>
+    <string name="verification_code_sent_failed">
+       Yêu cầu mã số mới cho số điện thoại không thành công
+    </string>
+    <string name="set_destination">
+        Nhập điểm đến
+    </string>
+    <string name="password_cant_blank">
+        Mật khẩu không thể trống
+    </string>
+    <string name="failed_update_trip">
+        Không tìm thấy thông tin chuyến đi.
+    </string>
+    <string name="last_checked">
+        Kiểm tra lần cuối: cách đây %1$s
+    </string>
+    <string name="notification_channel_default">
+        Ứng dụng
+    </string>
+    <string name="empty_fav_stops">
+        Không có điểm dừng yêu thích
+    </string>
+    <string name="transit_fare">
+        Giá vé xe công cộng:
+    </string>
+    <string name="route_agency_info">
+        Được điều hành bởi %1$s
+    </string>
+    <string name="calories_burned">
+        Calo bị đốt cháy:
+    </string>
+    <string name="start_over">
+        Bắt đầu lại
+    </string>
+    <string name="send_email">
+        GỬI EMAIL
+    </string>
+    <string name="one_alert">
+        1 cảnh báo
+    </string>
+    <string name="expander">
+        Bộ mở rộng
+    </string>
+    <string name="real_time_bus_unavailable">
+        Không tìm thấy địa điểm xe buýt. Vui lòng thử lại sau.
+    </string>
+    <string name="stop_viewer_expander">
+        Nút Chế Độ Xem Trạm Dừng, Nhấp Đúp Để Mở Chế Độ Xem Trạm Dừng.
+    </string>
+    <string name="menu_tag">
+        thẻ thực đơn
+    </string>
+    <string name="request_fine_location_confirmation">
+        Quyền truy cập vào địa điểm của quý vị bị chặn. Để sử dụng địa điểm hiện tại của mình, quý vị hãy cho phép sử dụng vị trí trong trình duyệt và tải lại trang này.
+    </string>
+    <string name="retrieve_user_info_failed_unauthorized">
+        Người dùng từ chối cấp quyền
+    </string>
+    <string name="verify_email_address_hint">
+        Vui lòng kiểm tra hộp thư đến trong email của bạn và vào đường link trong tin nhắn để xác minh địa chỉ email của bạn trước khi hoàn thành việc thiết lập tài khoản của bạn.\n\nKhi bạn đã được xác minh, nhấp vào nút bên dưới để tiếp tục.
+    </string>
+    <string name="token_expired_message">
+        Lỗi khi thiết lập phiên ủy quyền
+    </string>
+    <string name="push_notifications">
+        Thông báo đẩy
+    </string>
+    <string name="waiting">
+        Chờ
+    </string>
+    <string name="capital_status">
+        TRẠNG THÁI
+    </string>
+    <string name="add_new_location_hint">
+        Nhập vị trí
+    </string>
+    <string name="fav_stops">
+        Trạm Dừng Yêu Thích Của Tôi
+    </string>
+    <string name="shared_bike">
+        Xe đạp thuê
+    </string>
+    <string name="fav_stop_hint">
+        Để tìm điểm dừng, hãy tìm kiếm trong thanh phía trên hoặc tab điểm dừng chuyển tuyến trên bản đồ.
+    </string>
+    <string name="uturn_right">
+        Quay mặt bên phải
+    </string>
+    <string name="set_time">
+        Bộ chọn ngày và giờ
+    </string>
+    <string name="create_new_account_optional">
+        <b>Không bắt buộc</b>: Tôi đồng ý để Công cụ lập kế hoạch chuyến đi lưu trữ các chuyến đi
+        đã lên kế hoạch trước đây của tôi để cải thiện dịch vụ chuyển tuyến trong khu vực của tôi.
+    </string>
+    <string name="more_information">
+        Thêm thông tin
+    </string>
+    <string name="stroller">
+        Xe đẩy
+    </string>
+    <string name="we_found_options_with_num">
+        Đã tìm thấy %1$d tùy chọn
+    </string>
+    <string name="departure_time_info">
+        <![CDATA[Thời gian khởi hành được hiển thị trong &lt;b&gt;%1$s.&lt;/b&gt;]]>
+    </string>
+    <string name="failed_get_trip_list_cdta">
+       <![CDATA[<b><font color=#FFFFFF>Lỗi khi tìm nạp các chuyến đi</font></b>]]>
+    </string>
+    <string name="calories_burned_detail">
+        <![CDATA[Nếu thực hiện chuyến đi này, quý vị sẽ dành <b>%1$s</b> để đi bộ
+        và <b>%2$s</b> để đi xe đạp.]]>
+    </string>
+    <string name="from_origin_to_destination">
+       <![CDATA[Từ <b>%1$s</b> đến <b>%2$s</b>]]>
+    </string>
+    <string name="itinerary_detail_expander">
+        Chi tiết hành trình
+    </string>
+    <string name="edit_work">
+        Đặt địa chỉ cơ quan của bạn
+    </string>
+    <string name="crutches">
+        nạng
+    </string>
+    <string name="notification_channel_second">
+        Thông báo
+    </string>
+    <string name="notifications_lead_time">
+        <![CDATA[<b>%1$d phút</b>]]>
+    </string>
+    <string name="modes">
+        CHẾ ĐỘ
+    </string>
+    <string name="sign_in_to_save_trip">
+        Vui lòng xác minh email của bạn để lưu lại những chuyến đi yêu thích của bạn.
+    </string>
+    <string name="start_route">
+        Bắt đầu lộ trình
+    </string>
+    <string name="departure_pdt">
+        Thời gian khởi hành được hiển thị trong PDT
+    </string>
+    <string name="finding_your_options">
+        Tìm lựa chọn của bạn…
+    </string>
+    <string name="leave_now_two_lines">
+        Rời đi ngay bây giờ
+    </string>
+    <string name="auto_refresh_arrivals">
+        Tự Động Làm Mới
+    </string>
+    <string name="effective_as_of">
+        Hiệu quả như
+    </string>
+    <string name="no_fare_information">
+        Không có thông tin giá vé
+    </string>
+    <string name="save_route">
+        Lưu chuyến đi mới
+    </string>
+    <string name="plan_trip_tag">
+        tag kế hoạch chuyến đi
+    </string>
+    <string name="loading">
+        Đang tải...
+    </string>
+    <string name="hr_min_with_num">
+        %1$d giờ, %2$d phút
+    </string>
+    <string name="edit_home">
+        Chỉnh sửa trang chủ
+    </string>
+    <string name="from_hint">
+        Từ đây
+    </string>
+    <string name="connection_failed_msg">
+        Máy chủ không thể kết nối được. Vui lòng thử lại sau.
+    </string>
+    <string name="stop_id_with_num">
+        Điểm dừng số %1$s
+    </string>
+    <string name="departure_colon">
+        "Khởi hành: "
+    </string>
+    <string name="you_arrive">
+        "Đến nơi trước: "
+    </string>
+    <string name="accessibility_profile">
+        Hồ sơ trợ năng
+    </string>
+    <string name="shared_car">
+        Bộ nhớ dùng chung (Ô tô)
+    </string>
+    <string name="locate_me_button">
+        Tìm Vị Trí Của Tôi, Nhấp đúp để kích hoạt
+    </string>
+    <string name="failed_retrieve_auto_complete">
+        Không thể truy xuất bản tự động hoàn tất
+    </string>
+    <string name="agency_filter_button">
+        Nút Lọc Theo Cơ Quan, Nhấp đúp để kích hoạt
+    </string>
+    <string name="calories_info_show_details">
+        Nút đóng lại, nhấp đúp để đóng phần mô tả tính toán lượng calo.
+    </string>
+    <string name="accessibility_profile_subtitle">
+        Xác định hồ sơ di động của bạn
+    </string>
+    <string name="slightly_right">
+        Hơi rẽ phải
+    </string>
+    <string name="routes_viewer_expander">
+        Trình mở rộng trình xem tuyến đường, nhấn đúp và giữ rồi vuốt để mở rộng ngăn
+        Trình xem tuyến đường.
+    </string>
+    <string name="search_bar_back_button">
+        thoát thanh tìm kiếm
+    </string>
+    <string name="verify_verification_code_successfully">
+        Số điện thoại đã được xác minh thành công.
+    </string>
+    <string name="create_new_account_terms_start">
+        Tôi xác nhận rằng tôi từ 13 tuổi trở lên và tôi đã đọc và đồng ý với
+    </string>
+    <string name="terms_of_service">
+        Điều khoản của dịch vụ
+    </string>
+    <string name="create_new_account_terms_end">
+        để sử dụng Công cụ lập kế hoạch chuyến đi.
+    </string>
+    <string name="location_blocked">
+        Quyền truy cập vào địa điểm của quý vị bị chặn. Để sử dụng địa điểm hiện tại của mình,
+        quý vị hãy cho phép sử dụng vị trí trong trình duyệt và tải lại trang này.
+    </string>
+    <string name="request_fine_location_explanation">
+        Quyền truy cập vào địa điểm của quý vị bị chặn. Để sử dụng địa điểm hiện tại của mình,
+        quý vị hãy cho phép sử dụng vị trí trong trình duyệt và tải lại trang này.
+    </string>
+    <string name="electric_wheelchair">
+        Xe lăn điện
+    </string>
+    <string name="failed_create_trip">
+        Không tạo được thông tin chuyến đi
+    </string>
+    <string name="notifications_disabled">
+        &lt;b&gt;Đã tắt&lt;/b&gt;
+    </string>
+    <string name="walk_speed">
+        Tốc độ đi bộ
+    </string>
+    <string name="save_preferences_failed">
+        Lưu tùy chọn không thành công.
+    </string>
+    <string name="next_trip_starts_on">
+        Chuyến tiếp theo bắt đầu vào %1$s lúc %2$s.
+    </string>
+    <string name="expand">
+        Mở rộng điểm dừng theo hướng này
+    </string>
+    <string name="minutes_with_num">
+        %1$d phút
+    </string>
+    <string name="marta_rail">
+        Đường sắt MARTA
+    </string>
+    <string name="delete">
+        Xóa chuyến đi
+    </string>
+    <string name="create_new_account_terms_url">
+        https://atlrides.com/#/terms-of-service
+    </string>
+    <string name="delete_account_successfully">
+        Tài khoản người dùng của bạn đã bị xóa.
+    </string>
+    <string name="head">
+        Cái đầu
+    </string>
+    <string name="and">
+        " Và "
+    </string>
+    <string name="title_dashboard">
+        bảng điều khiển
+    </string>
+    <string name="feet_with_num">
+        %1$d feet
+    </string>
+    <string name="from_here_two_lines">
+        Từ\nĐây
+    </string>
+    <string name="checking_itinerary_existence">
+        Kiểm tra sự tồn tại của hành trình cho mỗi ngày trong tuần...
+    </string>
+    <string name="dont_remember_password">
+        Bạn đã quên mật khẩu của mình?
+    </string>
+    <string name="resend_verification_email_failed">
+        Gửi lại email xác minh
+    </string>
+    <string name="stops_found">
+        Đã tìm thấy %1$d điểm dừng
+    </string>
+    <string name="shared_vehicle">
+        Phương Tiện Đi Chung
+    </string>
+    <string name="leave_feedback">
+        Để lại phản hồi
+    </string>
+    <string name="pm">
+        Chiều
+    </string>
+    <string name="collapse">
+        Thu gọn dừng theo hướng này
+    </string>
+    <string name="miles_with_num">
+        %1$.1f dặm
+    </string>
+    <string name="notification_sms_hint">
+        0123456789
+    </string>
+    <string name="expand_map">
+        Chi Tiết Bản Đồ
+    </string>
+    <string name="reset_password_text">
+        Vui lòng nhập email của bạn. Chúng tôi sẽ gửi cho bạn một email để xác nhận việc thay đổi mật khẩu.
+    </string>
+    <string name="before_begins_ends">
+        trước khi nó bắt đầu cho đến khi nó kết thúc.
+    </string>
+    <string name="forgot_my_options">
+        Hãy quên các tùy chọn của tôi
+    </string>
+    <string name="accessibility_profile_hint">
+        Vui lòng trả lời một số câu hỏi để tùy chỉnh trải nghiệm lập kế hoạch chuyến đi theo nhu
+        cầu và sở thích của bạn.
+    </string>
+    <string name="accessibility_profile_second_section_title">
+        2. Bạn có bất kỳ hạn chế nào về khả năng vận động khiến bạn đi bộ chậm hơn hoặc cẩn
+        thận hơn những người khác không?
+    </string>
+    <string name="we_found_option_with_num">
+        Đã tìm thấy %1$d tùy chọn
+    </string>
+    <string name="mobility_scooter">
+        Xe tay ga di động
+    </string>
+    <string name="sign_up_terms">
+        Bằng cách đăng ký, bạn đồng ý với các điều khoản dịch vụ và chính sách quyền riêng tư của chúng tôi. Nhấn đúp để kích hoạt";
+    </string>
+    <string name="create_new_account_optional_url">
+        https://atlrides.com/#/terms-of-storage
+    </string>
+    <string name="free_floating_bike">
+        Xe đạp để tự do
+    </string>
+    <string name="stops">
+        Điểm dừng của phương tiện công cộng
+    </string>
+    <string name="failed_get_trip_list">
+        Truy xuất các mục thông báo chuyến đi đã lưu không thành công
+    </string>
+    <string name="routes_found">
+        Đã tìm thấy %1$d tuyến đường
+    </string>
+    <string name="title_activity_tab">
+        TabHoạt động
+    </string>
+    <string name="search_for_a_route_text_field">
+        Tìm một tuyến đường
+    </string>
+    <string name="stay_on_board_at">
+        Ở trên xe tại %1$s
+    </string>
+    <string name="routes_tag">
+        thẻ tuyến đường
+    </string>
+    <string name="route_viewer_route">
+        <![CDATA[<b>%1$s</b> %2$s]]>
+    </string>
+    <string name="min">
+        phút
+    </string>
+    <string name="retrieve_user_info_failed_other">
+        Không thể truy xuất thông tin người dùng. Vui lòng thử lại sau.
+    </string>
+    <string name="switch_origin_destination_button">
+        Nút Hoán Đổi Điểm Đầu và Điểm Đến, Nhấp đúp để kích hoạt
+    </string>
+    <string name="search_mode_title">
+        Lựa chọn phương thức vận chuyển:
+    </string>
+    <string name="special_characters">
+        Các ký tự đặc biệt (ví dụ !@#$%^&amp;*)
+    </string>
+    <string name="enter_phone_number">
+        Nhập số điện thoại của bạn
+    </string>
+    <string name="drive_search_mode">
+        Chế độ tìm kiếm ổ đĩa
+    </string>
+    <string name="no_stops_found">
+        Không tìm thấy thời gian dừng cho ngày.
+    </string>
+    <string name="no_internet_message">
+        Chúng tôi không thể truy cập Internet. Hãy thử kết nối qua WiFi hoặc dữ liệu di động.
+    </string>
+    <string name="close_search_mode">
+        Chế độ đóng cửa sổ tìm kiếm bật lên
+    </string>
+    <string name="restore_my_defaults">
+        Khôi phục mặc định của tôi
+    </string>
+    <string name="layer_control_button">
+        Kiểm soát lớp
+    </string>
+    <string name="remove_fav_stop_warning">
+        Bạn sắp xóa [%1$s] khỏi danh sách yêu thích. Bạn có chắc chắn không?
+    </string>
+    <string name="stops_expander">
+        Dừng trình mở rộng, nhấn đúp và giữ rồi vuốt để mở rộng ngăn trình xem Dừng.
+    </string>
+    <string name="no_internet">
+        Không có mạng
+    </string>
+    <string name="bike_search_mode">
+        Chế độ tìm kiếm xe đạp
+    </string>
+    <string name="numbers">
+        Số (0-9)
+    </string>
+    <string name="link_scooter">
+        Xe tay ga "Liên kết"
+    </string>
+    <string name="minute_with_num">
+        %1$d phút
+    </string>
+    <string name="light_rail">
+        Đường sắt nhẹ
+    </string>
+    <string name="lower_case_letters">
+        Chữ thường
+    </string>
+    <string name="transfer_discount_info">
+        Giảm giá chuyển khoản $%.2f được áp dụng
+    </string>
+    <string name="min_with_num">
+        %1$d phút
+    </string>
+    <string name="min_with_num_with_about">~ %1$d phút</string>
+    <string name="itinerary_leg_description">
+        %1$s %2$s Đến %3$s
+    </string>
+    <string name="accessibility_profile_third_section_title">
+        3. Bạn có bất kỳ hạn chế nào về thị lực không?
+    </string>
+    <string name="accessibility_profile_first_section_title">
+        1. Bạn có thường xuyên sử dụng thiết bị hỗ trợ di chuyển không?
+        (Đánh dấu tất cả những gì áp dụng)
+    </string>
+    <string name="my_trips_tag">
+        Tag chuyến đi của tôi
+    </string>
+    <string name="arrive_colon">
+        "Đến nơi trước: "
+    </string>
+    <string name="failed_delete_trip">
+        Không thể xóa chuyến đi
+    </string>
+    <string name="verification_code_hint">
+        123456
+    </string>
+    <string name="search_bar_collapse_button">
+        Nút Thu Nhỏ, Nhấp đúp để kích hoạt
+    </string>
+    <string name="close_setting">
+        Đóng cửa sổ bật lên cài đặt
+    </string>
+    <string name="cane">
+        Mía
+    </string>
+    <string name="service_animal">
+        Động vật phục vụ
+    </string>
+    <string name="optimize_for">
+        OPTIMIZE FOR
+    </string>
+    <string name="atl_street_car">
+        Atlanta\nXe điện
+    </string>
+    <string name="distance">
+        Khoảng cách
+    </string>
+    <string name="to_here_two_lines">
+        Đến Đây
+    </string>
+    <string name="email_cant_blank">
+        Phải la một địa chỉ email hợp lệ.
+    </string>
+    <string name="mins_late">
+        %1$d trễ một phút
+    </string>
+    <string name="happens_on">
+        <![CDATA[<b>%1$s</b>]]>
+    </string>
+    <string name="we_found_one_option">
+        Đã tìm thấy 1 tùy chọn
+    </string>
+    <string name="hr_with_num">
+        %1$d giờ
+    </string>
+    <string name="arrive">
+        Đến
+    </string>
+    <string name="Logged_in_as_email">
+        Đăng nhập với danh nghĩa %1$s
+    </string>
+    <string name="yes">
+        Có (mặc định)
+    </string>
+    <string name="you_leave">
+        Bạn rời khỏi
+    </string>
+    <string name="calculating">
+        Đang chờ tính toán…
+    </string>
+    <string name="subway_route_provider">
+        <![CDATA[Dịch vụ được điều hành bởi <font color=#4182BC>%1$s &nbsp</font>]]>
+    </string>
+    <string name="set_origin">
+        Chọn điểm xuất phát
+    </string>
+    <string name="itinerary_found_with_num">
+        Đã tìm thấy %1$d chuyến đi
+    </string>
+    <string name="filter_control_button">
+        Kiểm soát bộ lọc
+    </string>
+    <string name="successfully_update_trip">
+        Cài đặt này đã được cập nhật.
+    </string>
+    <string name="step_on">
+        %1$s TRÊN %2$s
+    </string>
+    <string name="manual_traditional_wheelchair">
+        Xe lăn tay/truyền thống
+    </string>
+    <string name="where_to_go">
+        Nhập điểm đến hoặc chọn trên bản đồ
+    </string>
+    <string name="view_next_arrivals">
+        Xem những người đến tiếp theo
+    </string>
+    <string name="dont_notify_me">
+        Đừng thông báo cho tôi
+    </string>
+    <string name="delete_account_failed">
+        Lỗi cập nhật hồ sơ.
+    </string>
+    <string name="trip_is_due_to">
+        Chuyến đi sẽ bắt đầu lúc %1$s. (Việc theo dõi thời gian thực sẽ bắt đầu lúc %2$s)
+    </string>
+    <string name="resend_verification_email">
+        Gửi lại email xác minh
+    </string>
+    <string name="request_post_push_explanation">
+        Ứng dụng yêu cầu bật dịch vụ thông báo để hoạt động.
+    </string>
+    <string name="pick_up_spin_e_scooter">
+        Đón xe tay ga điện tử Spin
+    </string>
+    <string name="legally_blind">
+        Mù về mặt pháp lý
+    </string>
+    <string name="use_current_location">
+        Sử dụng vị trí hiện tại
+    </string>
+    <string name="around_distance">
+        khoảng %1$s
+    </string>
+    <string name="mins_early">
+        %1$d sớm một phút
+    </string>
+    <string name="search_for_a_stop">
+        Tìm kiếm điểm dừng chuyển tuyến
+    </string>
+    <string name="agency">
+        HÃNG
+    </string>
+    <string name="monitor_this_trip">
+        Theo dõi chuyến đi này trước khi bắt đầu cho đến khi kết thúc
+    </string>
+    <string name="vehicle_on_route_speed">
+        Di chuyển với tốc độ %1$d MPH.
+    </string>
+    <string name="search_empty_field_warning">
+        Vui lòng xác định các trường sau để lên kế hoạch cho chuyến đi: %1$s
+    </string>
+    <string name="verify_verification_code_failed">
+        Yêu cầu mã số mới cho số điện thoại không thành công
+    </string>
+    <string name="vehicle_on_route_time">
+        %1$d Cách đây vài giây
+    </string>
+    <string name="itinerary_leg_transit_description_without_route_name">
+        Đến %1$s
+    </string>
+    <string name="review_accessibility_questions">
+        Xem lại câu hỏi về khả năng tiếp cận
+    </string>
+    <string name="request_post_push_confirmation">
+        Để nhận thông báo cho các chuyến đi đã lưu của bạn,
+        bật thông báo trong cài đặt tài khoản của bạn và thử lưu lại một chuyến đi.
+    </string>
+    <string name="white_cane">
+        Gậy trắng
+    </string>
+    <string name="transit_search_mode">
+        Chế độ tìm kiếm chuyển tuyến
+    </string>
+    <string name="duration_left">
+        %1$s bên trái
+    </string>
+    <string name="uturn_left">
+        Quay trái
+    </string>
+    <string name="slightly_left">
+        Hơi sang trái
+    </string>
+    <string name="from">
+        Từ đây
+    </string>
+    <string name="depart">
+        Khởi hành
+    </string>
+    <string name="search_bar_expand_button">
+        Nút Mở Rộng Thanh Tìm Kiếm, Nhấp đúp để kích hoạt
+    </string>
+    <string name="email_is_verified">
+        Email của tôi đã được xác minh
+    </string>
+    <string name="arrive_at_time">
+        Đến nơi %1$s
+    </string>
+    <string name="no_route_url_provided">
+        Không có URL tuyến đường nào được cung cấp
+    </string>
+    <string name="itinerary_leg_transit_description">
+        %1$s ĐẾN %2$s
+    </string>
+    <string name="trip_viewer_expander">
+        Trình mở rộng trình xem chuyến đi, nhấn đúp và giữ rồi vuốt để mở rộng
+        khung Trình xem chuyến đi.
+    </string>
+    <string name="itinerary_list_expander">
+        Trình mở rộng danh sách hành trình, nhấn đúp và giữ rồi vuốt để mở rộng
+        ngăn danh sách hành trình.
+    </string>
+    <string name="vehicle_on_route_name">
+        Xe %1$s
+    </string>
+    <string name="search_modes_button">
+        Nút Lọc Phương Thức, Nhấp đúp để kích hoạt
+    </string>
+    <string name="failed_check_trip">
+        Lỗi kiểm tra xem chuyến đi được chọn của bạn là có thể.
+    </string>
+    <string name="select_from_location">
+        Hay đổi thành địa điểm
+    </string>
+    <string name="trip_viewer_route">
+        <![CDATA[Tuyến đường: &lt;b&gt;%1$s&lt;/b&gt; %2$s]]>
+    </string>
+    <string name="mode_to">
+        %1$s Đến %2$s
+    </string>
+    <string name="sign_in_tag">
+        Thẻ đăng nhập
+    </string>
+    <string name="itinerary_start_end_time">
+       <![CDATA[<b>Hành trình</b> %1$s - %2$s]]>
+    </string>
+    <string name="upper_case_letters">
+        Chữ in hoa
+    </string>
+    <string name="spin_e_scooter">
+        Xe tay ga điện tử "Spin"
+    </string>
+    <string name="destination_hint">
+        Nhập điểm đến hoặc chọn vào bản đồ
+    </string>
+    <string name="reach_max_saved_trip_warning_message">
+        Bạn đã đạt được tối đa %1$d năm chuyến đi được lưu.
+        Vui lòng loại bỏ các chuyến đi không sử dụng khỏi các chuyến đi được lưu của bạn và thử lại.
+    </string>
+    <string name="devices_registered">
+        %1$d thiết bị đã đăng ký
+    </string>
+    <string name="route_found">
+        %1$d Đã tìm thấy tuyến đường
+    </string>
+    <string name="calories_info_hide_details">
+        Ẩn chi tiết
+    </string>
+    <string name="enter_location">
+        Nhập vị trí
+    </string>
+    <string name="walking">
+        đang đi bộ
+    </string>
+    <string name="plan_trip_two_lines">
+        Lên kế hoạch chuyến đi
+    </string>
+    <string name="maximum_walk">
+        BƯỚC ĐI TỐI ĐA
+    </string>
+    <string name="successfully_create_trip">
+        Những sở thích của bạn đã được lưu lại.
+    </string>
+    <string name="show_results">
+        Hiển thị kết quả
+    </string>
+    <string name="delete_home">
+        Nút xóa địa chỉ nhà riêng của quý vị
+    </string>
+    <string name="park_and_ride">
+        Đậu và lái.
+    </string>
+    <string name="reduce_fares_format">
+        \* %1$s chỉ áp dụng cho người cao tuổi và người
+        khuyết tật. Tuổi trẻ đi xe miễn phí, nhấn đúp để mở Liên kết.
+    </string>
+    <string name="reduce_fares_highlighted_text">
+        Giá vé giảm
+    </string>
+    <string name="reduce_fares_url">
+        https://info.myorca.com/vi/sử-dụng-orca/cách-tiết-kiệm/
+    </string>
+    <string name="map_settings">
+        Cài đặt bản đồ, nhấn đúp để kích hoạt
+    </string>
+    <string name="attention">
+        Chú ý
+    </string>
+    <string name="likely_not_accessible">
+        Không có thông tin về lối đi dành cho xe lăn
+    </string>
+
+    <string name="more_options">
+        Lựa chọn khác
+    </string>
+    <string name="advanced_preferences">
+        Tùy chọn nâng cao
+    </string>
+    <string name="i_like_to">
+        Tôi muốn…
+    </string>
+
+    <string name="route_preference">
+        Chọn các tuyến đường ưa thích…
+    </string>
+    <string name="accessible_trip">
+        Chuyến đi có thể truy cập
+    </string>
+
+    <string name="fewest_transfers">
+        Chuyển nhượng ít nhất
+    </string>
+    <string name="fastest">
+        Fastest
+    </string>
+    <string name="less_walking">
+        Ít đi bộ
+    </string>
+
+    <string name="my_preferred_mode">
+        Tùy chọn chế độ
+    </string>
+
+    <string name="advance_transit">
+        Giao thông công cộng
+    </string>
+    <string name="advance_cycle">
+        Xe đạp
+    </string>
+    <string name="advance_drive">
+        Lái xe
+    </string>
+    <string name="advance_walk">
+        Đi bộ
+    </string>
+    <string name="advance_rental">
+        Thuê xe
+    </string>
+
+    <string name="real_time">
+        THỜI GIAN THỰC
+    </string>
+
+    <string name="sms_warning_msg">
+        Vui lòng hoàn tất quy trình xác minh để thiết lập thông báo qua SMS.
+    </string>
+
+    <string name="advanced_popup_title">
+        Bạn có các thay đổi chưa lưu
+    </string>
+    <string name="keep_editing">
+        Tiếp tục chỉnh sửa
+    </string>
+    <string name="discard_changes">
+        Loại bỏ những thay đổi
+    </string>
+    <string name="plan_your_trip">
+        Lên kế hoạch cho chuyến đi của bạn
+    </string>
+    <string name="addition_modes_toggle_msg">
+        Việc chọn Chế độ bổ sung sẽ bao gồm/loại trừ các dịch vụ trong danh mục chế độ. Bật/tắt các
+        phương thức di chuyển mà bạn muốn đưa vào chuyến đi của mình.
+    </string>
+    <string name="accessible_trip_toggle_msg">
+        Việc chọn Chuyến đi dành cho người khuyết tật sẽ ưu tiên các hành trình có xe lăn và cung
+        cấp xếp hạng Khả năng tiếp cận cho mỗi chặng của hành trình.
+    </string>
+    <string name="address_landmarks_places">
+        Địa chỉ, Địa danh và Địa điểm
+    </string>
+    <string-array name="search_options">
+        <item>Rời đi ngay bây giờ</item>
+        <item>Khởi hành sau</item>
+        <item>Đến nơi trước</item>
+    </string-array>
+    <string name="all_transit">
+        Tất cả quá cảnh
+    </string>
+    <string name="first_hill">
+        Đồi Đầu Tiên
+    </string>
+    <string name="sounder">
+        Máy phát âm thanh
+    </string>
+    <string name="cash">
+        Tiền mặt
+    </string>
+    <string name="adult">
+        Người lớn
+    </string>
+    <string name="youth">
+        Thiếu niên
+    </string>
+    <string name="senior">
+        Người lớn tuổi
+    </string>
+    <string-array name="items_expandable_level_one">
+        <item>@string/adult</item>
+        <item>@string/youth</item>
+        <item>@string/senior</item>
+    </string-array>
+
+    <string name="mode_combination_error_title">
+        Không có kết nối bằng phương tiện công cộng nào
+    </string>
+    <string name="locations_are">
+        địa điểm là
+    </string>
+    <string name="location_is">
+        vị trí là
+    </string>
+
+    <string name="preferred_mode_alter">Các tùy chọn thay thế:</string>
+    <string name="mode_combination_error_invalid_mode">Không thể lên kế hoạch cho chuyến đi bằng các phương thức đã lựa chọn. Hãy thử đưa phương tiện công cộng vào phần lựa chọn phương thức của quý vị.</string>
+
+    <string name="my_preferred_trip">Tùy chọn chuyến đi</string>
+
+    <string name="error_occurred">Đã xảy ra lỗi</string>
+    <string name="incorrect_credentials">Sai email hoặc mật khẩu</string>
+    <string name="user_exists">Người dùng đã tồn tại</string>
+    <string name="valid_password">Vui lòng nhập mật khẩu hợp lệ</string>
+    <string name="password_reset_success">Thành công, email đặt lại mật khẩu đã được gửi.</string>
+    <string name="too_many_attempts">Tài khoản bị khóa, thử quá nhiều lần. Vui lòng thử lại sau.</string>
+
+    <string name="no_longer_possible_heading">Không thể thực hiện chuyến đi được nữa</string>
+    <string name="no_longer_possible_description">Người lập kế hoạch chuyến đi không thể tìm thấy chuyến đi của bạn vào bất kỳ ngày nào trong tuần được chọn. Vui lòng thử cài đặt lại hành trình của bạn để tìm một tuyến đường thay thế.</string>
+    <string name="past_trip_description">Đây là chuyến đi một lần, đã diễn ra trong quá khứ.</string>
+    <string name="past_trip_heading">Chuyến đi là trong quá khứ</string>
+    <string name="next_trip_not_possible_description">Người lập kế hoạch chuyến đi đã không thể tìm thấy chuyến đi của bạn ngày hôm nay. Vui lòng thử cài đặt lại hành trình của bạn để tìm một tuyến đường thay thế.</string>
+    <string name="next_trip_not_possible_heading">Không thể thực hiện chuyến đi ngày hôm nay</string>
+
+    <string name="trip_starting_soon_no_realtime">Chuyến đi đang bắt đầu sớm (không có cập nhật về thời gian thực).</string>
+    <string name="trip_start_time_earlier">Thời gian bắt đầu chuyến đi đang diễn ra sớm hơn %1$s so với dự kiến!</string>
+    <string name="trip_starting_soon_on_time">Chuyến đi đang bắt đầu sớm và sắp đúng giờ.</string>
+    <string name="trip_start_time_delayed">Thời gian bắt đầu chuyến đi bị trì hoãn %1$s!</string>
+    <string name="trip_progress_on_time">Chuyến đi đang được tiến hành và đúng giờ.</string>
+    <string name="trip_progress_delayed">Chuyến đi đang được tiến hành và bị trì hoãn %1$d %2$d</string>
+    <string name="trip_progress_earlier">Chuyến đi đang diễn ra và sẽ đến sớm hơn %1$d so với dự kiến!</string>
+    <string name="trip_is_due_to_arrive_at">Chuyến đi sẽ đến đích lúc %1$s</string>
+    <string name="trip_progress_no_real_time">Chuyến đi đang được tiến hành (không có cập nhật thời gian thực có sẵn).</string>
+
+    <string name="trip_name_cant_blank">Vui lòng nhập tên chuyến đi.</string>
+    <string name="trip_name_duplicate">Một chuyến đi được lưu khác đã sử dụng tên này. \nVui lòng chọn một tên khác.</string>
+    <string name="place_name_text">Tên địa điểm:</string>
+    <string name="place_name_duplicate">Bạn đã sử dụng tên này cho một nơi khác. \nVui lòng nhập một tên khác.</string>
+    <string name="trip_days_at_least_one">Please select at least one day to monitor.</string>
+    <string name="address_name_text">Địa chỉ:</string>
+    <string name="location_type_text">Loại địa điểm:</string>
+
+</resources>

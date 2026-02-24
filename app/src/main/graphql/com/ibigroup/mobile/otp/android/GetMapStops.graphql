@@ -1,0 +1,12 @@
+query MapStops {
+    stops {
+        id: gtfsId
+        code
+        lat
+        lon
+        name
+        stoptimesWithoutPatterns {
+            serviceDay
+        }
+    }
+}

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@color/colorHalfTransparent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_large"
+        android:background="@drawable/rounded_white_with_shadow_bg"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_large"
+                android:layout_gravity="center_vertical"
+                android:text="@string/use"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_text_size"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:id="@+id/ll_home_setting_bus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginStart="@dimen/margin_extra_large"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_home_setting_bus"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_bus"
+                    android:scaleType="centerInside"
+                     />
+
+                <TextView
+                    android:id="@+id/tv_home_setting_bus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:text="@string/bus"
+                    android:textSize="@dimen/content_text_size"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_home_setting_marta_rail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:id="@+id/iv_home_setting_marta_rail"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_rail"
+                    android:scaleType="centerInside"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_home_setting_marta_rail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:text="@string/marta_rail"
+                    android:textSize="@dimen/content_text_size"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_home_setting_atl_street_car"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:id="@+id/iv_home_setting_atl_street_car"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_streetcar"
+                    android:scaleType="centerInside"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_home_setting_atl_street_car"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:gravity="center_horizontal"
+                    android:text="@string/atl_street_car"
+                    android:textSize="@dimen/content_text_size"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_home_setting_ferry"
+                android:layout_width="56dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginStart="@dimen/margin_large"
+                android:gravity="center"
+                android:paddingTop="@dimen/padding_small"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+                <ImageView
+                    android:id="@+id/iv_home_setting_ferry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_ferry"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_home_setting_ferry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="22dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:text="@string/ferry"
+                    android:textSize="@dimen/tiny_text_size"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_home_setting_gondola"
+                android:layout_width="56dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginStart="@dimen/margin_large"
+                android:gravity="center"
+                android:paddingTop="@dimen/padding_small"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+                <ImageView
+                    android:id="@+id/iv_home_setting_gondola"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_gondola"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_home_setting_gondola"
+                    android:layout_width="wrap_content"
+                    android:layout_height="22dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:text="@string/mode_gondola"
+                    android:textSize="@dimen/tiny_text_size"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_large"
+            android:layout_marginEnd="@dimen/margin_large"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/maximum_walk"
+                android:textSize="@dimen/content_text_size"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+
+            <Spinner
+                android:id="@+id/sp_maximum_walk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_small"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:entries="@array/maximum_walk_arrays"
+
+                />
+            <ImageView
+                android:layout_width="@dimen/small_icon_size"
+                android:layout_height="@dimen/small_icon_size"
+                android:src="@drawable/ic_downarrow"
+                android:layout_gravity="center_vertical"
+                app:tint="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_large"
+            android:layout_marginEnd="@dimen/margin_large"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/walk_speed"
+                android:textSize="@dimen/content_text_size"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+            <Spinner
+                android:id="@+id/sp_walk_speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_small"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:entries="@array/walk_speed_arrays"
+
+                />
+            <ImageView
+                android:layout_width="@dimen/small_icon_size"
+                android:layout_height="@dimen/small_icon_size"
+                android:src="@drawable/ic_downarrow"
+                android:layout_gravity="center_vertical"
+                app:tint="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_large"
+            android:layout_marginEnd="@dimen/margin_large"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/optimize_for"
+                android:textSize="@dimen/content_text_size"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+            <Spinner
+                android:id="@+id/sp_optimize_option"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_small"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:entries="@array/optimize_option_arrays"
+
+                />
+            <ImageView
+                android:layout_width="@dimen/small_icon_size"
+                android:layout_height="@dimen/small_icon_size"
+                android:src="@drawable/ic_downarrow"
+                android:layout_gravity="center_vertical"
+                app:tint="@android:color/black" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_medium"
+            android:visibility="gone"
+            >
+            <TextView
+                android:id="@+id/tv_forgot_my_options"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/aoda_height"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/forgot_my_options"
+                android:textSize="@dimen/content_text_size"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/tv_restore_my_defaults"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/aoda_height"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/restore_my_defaults"
+                android:textSize="@dimen/content_text_size"
+                android:textColor="@color/colorPrimary"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_home_setting_ok"
+            android:layout_width="@dimen/aoda_width"
+            android:layout_height="@dimen/aoda_height"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:text="@string/ok"
+            android:textSize="@dimen/content_text_size"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</RelativeLayout>

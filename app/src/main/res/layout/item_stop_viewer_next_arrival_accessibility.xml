@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:id="@+id/ll_next_arrival_times_controller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/iv_arrival_logo"
+            android:layout_width="@dimen/stop_viewer_schedule_route_name_width"
+            android:layout_height="@dimen/stop_viewer_schedule_route_name_width"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/padding_medium"
+            android:layout_marginStart="10dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_next_arrival_head_sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_medium"
+            android:text="26 To ALABAMA"
+            android:textColor="@color/colorItineraryBlack"
+            android:textSize="@dimen/address_input_text_size_sp"
+            android:maxLines="5"
+            android:ellipsize="end"
+            />
+
+        <TextView
+            android:id="@+id/tv_next_arrival_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_small"
+            android:layout_gravity="center_vertical"
+            android:text="8 min"
+            android:layout_margin="@dimen/margin_medium"
+            android:textColor="#A83c3c43"
+            android:textSize="@dimen/address_input_text_size_sp"
+            />
+
+        <ImageView
+            android:id="@+id/iv_next_arrival_times_controller"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_width"
+            android:layout_gravity="center_vertical"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_down"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_next_arrival_times_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorLightGrey"/>
+
+    <ListView
+        android:id="@+id/lv_stop_viewer_arrival_times"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="@dimen/margin_medium"
+        />
+</LinearLayout>
+

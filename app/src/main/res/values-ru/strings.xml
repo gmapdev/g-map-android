@@ -1,0 +1,1917 @@
+<resources>
+    <string name="sign_in">
+        Войти
+    </string>
+    <string name="ok">
+        ладно
+    </string>
+    <string name="cancel">
+        Отмена
+    </string>
+    <string name="streets">
+        Улицы
+    </string>
+    <string name="satellite">
+        Спутник
+    </string>
+    <string name="park_and_ride_locations">
+        Парковочное место
+    </string>
+    <string name="from_here">
+        Отсюда
+    </string>
+    <string name="to_here">
+        Сюда
+    </string>
+    <string name="stop_viewer">
+        Средство просмотра остановок
+    </string>
+    <string name="stop_id_colon">
+        Идентификатор остановки:
+    </string>
+    <string name="today">
+        Сегодня
+    </string>
+    <string name="leave_now">
+        Выйти
+    </string>
+    <string name="recently_searched">
+        Недавно искали
+    </string>
+    <string name="current_location_address">
+        (Текущее местоположение)
+    </string>
+    <string name="duration">
+        Продолжительность
+    </string>
+    <string name="cost">
+        Стоимость
+    </string>
+    <string name="depart_at">
+        Отправление в
+    </string>
+    <string name="arrive_by">
+        Прибытие к
+    </string>
+    <string name="yesterday">
+        Вчера
+    </string>
+    <string name="trip_details">
+        Подробные сведения о поездке
+    </string>
+    <string name="fare_table">
+        Таблица тарифов
+    </string>
+    <string name="route">
+        Маршрут
+    </string>
+    <string name="departure">
+        Отправление
+    </string>
+    <string name="capital_scheduled">
+        ПО РАСПИСАНИЮ
+    </string>
+    <string name="bike">
+        Велосипед
+    </string>
+    <string name="drive">
+        Поездка в транспортном средстве
+    </string>
+    <string name="bus">
+        Автобус
+    </string>
+    <string name="cap_continue">
+        Продолжайте движение
+    </string>
+    <string name="right">
+        Направо
+    </string>
+    <string name="left">
+        Налево
+    </string>
+    <string name="hard_right">
+        Строго направо
+    </string>
+    <string name="hard_left">
+        Строго налево
+    </string>
+    <string name="slight_right">
+        Немного правее
+    </string>
+    <string name="slight_left">
+        Немного левее
+    </string>
+    <string name="due">
+        Отправляется
+    </string>
+    <string name="log_in">
+        Войти
+    </string>
+    <string name="sign_up">
+        Зарегистрироваться
+    </string>
+    <string name="email_hint">
+        электронная почта
+    </string>
+    <string name="your_password">
+        Пароль
+    </string>
+    <string name="create_new_account">
+        Создайте учетную запись
+    </string>
+    <string name="create_new_account_hint">
+        Для продолжения примите условия использования.
+    </string>
+    <string name="notification_preferences_hint">
+        Вы можете получать уведомления о поездках, которые вы часто совершаете.
+    </string>
+    <string name="how_to_receive_notifications">
+        Как вы хотите получать уведомления?
+    </string>
+    <string name="notification_emails_sent_to">
+        Письма с уведомлениями будут отправлены по адресу:
+    </string>
+    <string name="email">
+        электронная почта
+    </string>
+    <string name="sms">
+        SMS
+    </string>
+    <string name="back">
+        Назад
+    </string>
+    <string name="next">
+        Далее
+    </string>
+    <string name="add_your_locations_hint">
+        Добавляйте места, в которых вы часто бываете, чтобы планировать поездки еще быстрее:
+    </string>
+    <string name="email_invalid">
+        Адрес эл. почты должен быть действительным.
+    </string>
+    <string name="your_password_must_contain">
+        Ваш пароль должен содержать:
+    </string>
+    <string name="at_least_eight_characters">
+        Минимум 8 символов.
+    </string>
+    <string name="at_least_3_out_of_4_types_characters">
+        По крайней мере 3 из следующих:
+    </string>
+    <string name="verify_email_address">
+        Подтвердите адрес электронной почты
+    </string>
+    <string name="send_verification_text">
+        Отправьте текстовое сообщение с кодом подтверждения
+    </string>
+    <string name="sms_notifications_sent_to">
+        СМС-уведомления будут отправляться на:
+    </string>
+    <string name="change_number">
+        Изменить номер
+    </string>
+    <string name="verify">
+        Подтвердить
+    </string>
+    <string name="request_a_new_code">
+        Запросить новый код
+    </string>
+    <string name="check_verification_code_hint">
+        Откройте приложение для обмена SMS на телефоне и найдите текстовое сообщение с кодом подтверждения. Затем введите код ниже (срок действия кода: 10 минут).
+    </string>
+    <string name="verification_code">
+        Код подтверждения:
+    </string>
+    <string name="home">
+        дом
+    </string>
+    <string name="set_home_address">
+        Установите свой домашний адрес
+    </string>
+    <string name="work">
+        работа
+    </string>
+    <string name="set_work_address">
+        Установите свой рабочий адрес
+    </string>
+    <string name="add_another_place">
+        Добавить дополнительное место
+    </string>
+    <string name="finish">
+        Завершить
+    </string>
+    <string name="account_setup_complete">
+        Настройка учетной записи завершена!
+    </string>
+    <string name="ready_to_start_planning_trips">
+        Вы готовы планировать поездки.
+    </string>
+    <string name="verified">
+        Подтверждено
+    </string>
+    <string name="preferences_saved">
+        Ваши параметры сохранены.
+    </string>
+    <string name="add_new_place">
+        Добавить новое место
+    </string>
+    <string name="set_place_name">
+        Присвоение названия места
+    </string>
+    <string name="search_for_location">
+        Поиск местоположения
+    </string>
+    <string name="save">
+        Сохранить
+    </string>
+    <string name="help">
+        Помощь
+    </string>
+    <string name="sign_out">
+        Выйти
+    </string>
+    <string name="terms">
+        Условия
+    </string>
+    <string name="my_locations">
+        Избранные места
+    </string>
+    <string name="notifications">
+        Уведомления
+    </string>
+    <string name="delete_my_account">
+        Удалить мою учетную запись
+    </string>
+    <string name="save_preferences">
+        Сохранить параметры
+    </string>
+    <string name="no_saved_trips">
+        У вас нет сохраненных поездок
+    </string>
+    <string name="no_saved_trips_hint">
+        Сперва выполните поиск поездок на карте.
+    </string>
+    <string name="verification_code_sent">
+        Код подтверждения отправлен, пожалуйста, проверьте
+    </string>
+    <string name="pending">
+        Ожидание
+    </string>
+    <string name="save_preferences_successfully">
+        Ваши параметры сохранены.
+    </string>
+    <string name="no">
+        Нет
+    </string>
+    <string name="save_new_trip">
+        Сохранить поездку
+    </string>
+    <string name="trip_information">
+        Информация о поездке
+    </string>
+    <string name="select_itinerary">
+        Выбранный маршрут:
+    </string>
+    <string name="name_trip">
+        Укажите имя поездки:
+    </string>
+    <string name="trip_days">
+        В какие дни вы хотите совершать эту поездку?
+    </string>
+    <string name="trip_days_hint">
+        Поездка доступна для указанных выше дней.
+    </string>
+    <string name="trip_notifications">
+        Уведомления о поездке
+    </string>
+    <string name="notify_via_email">
+        Сообщите мне, когда:
+    </string>
+    <string name="realtime_alert_on_journey">
+        Для моего пути есть предупреждение в режиме реального времени
+    </string>
+    <string name="alternative_route_recommended_options">
+        Рекомендуется использовать пересадку или альтернативный маршрут
+    </string>
+    <string name="delay_options">
+        Задержки или сбои в работе более чем на
+    </string>
+    <string name="advanced_settings">
+        Расширенные настройки
+    </string>
+    <string name="mon">
+        Пн.
+    </string>
+    <string name="tue">
+        Вт.
+    </string>
+    <string name="wed">
+        Ср.
+    </string>
+    <string name="thu">
+        Чт.
+    </string>
+    <string name="fri">
+        Пт.
+    </string>
+    <string name="sat">
+        Сб.
+    </string>
+    <string name="sun">
+        Вс.
+    </string>
+    <string name="monday">
+        Пн
+    </string>
+    <string name="tuesday">
+        Вт
+    </string>
+    <string name="wednesday">
+        Ср
+    </string>
+    <string name="thursday">
+        Чт
+    </string>
+    <string name="friday">
+        Пт
+    </string>
+    <string name="saturday">
+        Сб
+    </string>
+    <string name="sunday">
+        Вс
+    </string>
+    <string name="pause">
+        Приостановить
+    </string>
+    <string name="edit_saved_trip">
+        Редактировать сохраненную поездку
+    </string>
+    <string name="unsnooze_trip_analysis">
+        Восстановить работу службы анализа поездок
+    </string>
+    <string name="unsnooze_trip_analysis_hint">
+        Восстановите отслеживание поездки, чтобы просматривать изменение ее статуса
+    </string>
+    <string name="unsnooze_trip_analysis_title">
+        На сегодня отслеживание поездки отложено
+    </string>
+    <string name="pause_trip_title">
+        Отслеживание поездки приостановлено
+    </string>
+    <string name="pause_trip_hint">
+        Возобновите отслеживание поездки, чтобы просматривать изменение ее статуса
+    </string>
+    <string name="snoose_for_rest_today">
+        Отложить до конца дня
+    </string>
+    <string name="title_home">
+        дом
+    </string>
+    <string name="title_notifications">
+        Уведомления
+    </string>
+    <string name="routes">
+        Маршруты
+    </string>
+    <string name="my_trips">
+        Мои поездки
+    </string>
+    <string name="account_settings">
+        Мои настройки
+    </string>
+    <string name="map_details">
+        Подробности карты
+    </string>
+    <string name="map_type">
+        Тип карты
+    </string>
+    <string name="auto_refresh">
+        Автоматическое обновление
+    </string>
+    <string name="departures">
+        Отправление
+    </string>
+    <string name="schedule">
+        Расписание
+    </string>
+    <string name="destination">
+        Место Назначения
+    </string>
+    <string name="view_on_agency_website">
+        Подробнее
+    </string>
+    <string name="my_favorite_stops">
+        Избранные остановки
+    </string>
+    <string name="rental">
+        Прокат
+    </string>
+    <string name="ride">
+        Поездка
+    </string>
+    <string name="please_enter_a_trip_name">
+        Укажите имя поездки
+    </string>
+    <string name="back_button">
+        Назад
+    </string>
+    <string name="close">
+        Закрыть
+    </string>
+    <string name="favorite_places">
+        Избранные места
+    </string>
+    <string name="saved_trips">
+        Мои поездки
+    </string>
+    <string name="before_scheduled_departure">
+        До запланированного вылета
+    </string>
+    <string name="on_time">
+        Вовремя
+    </string>
+    <string name="no_available_dates">
+        Сегодня поездка невозможна
+    </string>
+    <string name="towards">
+        По направлению
+    </string>
+    <string name="car">
+        Поездка в транспортном средстве
+    </string>
+    <string name="walk">
+        Пешком
+    </string>
+    <string name="transit">
+        Общественный транспорт
+    </string>
+    <string name="ferry">
+        Паром
+    </string>
+    <string name="all_agencies">
+        Все агентства
+    </string>
+    <string name="all_modes">
+        Все режимы
+    </string>
+    <string name="street_car">
+        Streetcar
+    </string>
+    <string name="menu">
+        Меню
+    </string>
+    <string name="service_alerts">
+        Оповещения сервиса Звуковой Транзит
+    </string>
+    <string name="accessibility">
+        Доступность в звуковом транзите
+    </string>
+    <string name="safety_and_security">
+        Звуковая транспортная безопасность и безопасность
+    </string>
+    <string name="stations">
+        Станции
+    </string>
+    <string name="how_to_pay">
+        Как заплатить
+    </string>
+    <string name="walk_transit">
+        Пешком + Общественный транспорт
+    </string>
+    <string name="drive_transit">
+        Поездка в транспортном средстве + Общественный транспорт
+    </string>
+    <string name="other">
+        Другое
+    </string>
+    <string name="bike_transit">
+        велосипед + Общественный транспорт
+    </string>
+    <string name="bikeshare_transit">
+        Прокат велосипедов + Общественный транспорт
+    </string>
+    <string name="scooter_transit">
+        Электросамокат + Общественный транспорт
+    </string>
+    <string name="enter_start_location">
+        Введите место отправления
+    </string>
+    <string name="enter_destination">
+        Введите пункт назначения
+    </string>
+    <string name="or">
+        Или
+    </string>
+    <string name="link">
+        Трамвай ЛИНК
+    </string>
+    <string name="water_taxi">
+        Водное такси
+    </string>
+    <string name="time_spent_active">
+        Время в активном режиме: ~
+    </string>
+    <string name="switch_locations">
+        Переключить местоположения
+    </string>
+    <string name="rent">
+        Прокат
+    </string>
+    <string name="avoid_walking">
+        Избегайте ходьбы
+    </string>
+    <string name="accessible_routing">
+        Доступная маршрутизация
+    </string>
+    <string name="allow_bike_rental">
+        Разрешить прокат велосипеда
+    </string>
+    <string name="walk_speed_no_caps">
+        Скорость ходьбы
+    </string>
+    <string name="allow_scooter_rental">
+        Разрешить аренду электронного скутера
+    </string>
+    <string name="verify_email_to_save_trips">
+        Пожалуйста, подтвердите свой адрес электронной почты, чтобы сохранить любимые поездки.
+    </string>
+    <string name="mostly_accessible">
+        Есть доступ для инвалидных колясок
+    </string>
+    <string name="inaccessible">
+        Нет доступа для инвалидных колясок
+    </string>
+    <string name="title_alerts">
+        Несколько предупреждений
+    </string>
+    <string name="more">
+        Более
+    </string>
+    <string name="more_alert">
+        Несколько предупреждений
+    </string>
+    <string name="sms_hint">
+        Указывая свой номер телефона, вы соглашаетесь получать SMS-сообщения с подтверждением и мониторингом поездки. Вашим оператором мобильной связи могут взиматься дополнительные пени.
+    </string>
+    <string name="hour">
+        час
+    </string>
+    <string name="hours">
+        часы
+    </string>
+    <string-array name="walk_speed_arrays_otp">
+        <item>
+            1 MPH
+        </item>
+        <item>
+            2 MPH
+        </item>
+        <item>
+            3 MPH
+        </item>
+        <item>
+            4 MPH
+        </item>
+        <item>
+            5 MPH
+        </item>
+    </string-array>
+    <string-array name="itinerary_sort_arrays">
+        <item>
+            Продолжительность
+        </item>
+        <item>
+            Время прибытия
+        </item>
+        <item>
+            Время отправления
+        </item>
+        <item>
+            Время прогулки
+        </item>
+        <item>
+            Стоимость
+        </item>
+    </string-array>
+    <string-array name="walk_speed_arrays_value_otp">
+        <item>
+            0.45
+        </item>
+        <item>
+            0.89
+        </item>
+        <item>
+            1.34
+        </item>
+        <item>
+            1.78
+        </item>
+        <item>
+            2.23
+        </item>
+    </string-array>
+    <string-array name="monitor_trip_arrays_value">
+        <item>
+            15
+        </item>
+        <item>
+            30
+        </item>
+        <item>
+            45
+        </item>
+        <item>
+            60
+        </item>
+    </string-array>
+    <string-array name="delay_arrays_value">
+        <item>
+            5
+        </item>
+        <item>
+            10
+        </item>
+        <item>
+            15
+        </item>
+    </string-array>
+    <string-array name="maximum_walk_arrays">
+        <item>
+            1/10 мили
+        </item>
+        <item>
+            1/4 мили
+        </item>
+        <item>
+            1/2 мили
+        </item>
+        <item>
+            3/4 мили
+        </item>
+        <item>
+            1 миля
+        </item>
+        <item>
+            2 мили
+        </item>
+        <item>
+            5 миль
+        </item>
+    </string-array>
+    <string-array name="default_control_arrays">
+        <item>
+            Да (по умолчанию)
+        </item>
+        <item>
+            Нет
+        </item>
+    </string-array>
+    <string-array name="optimize_option_arrays">
+        <item>
+            Скорость
+        </item>
+        <item>
+            Наименьшее количество переводов
+        </item>
+    </string-array>
+    <string-array name="maximum_walk_arrays_value">
+        <item>
+            160.9
+        </item>
+        <item>
+            402.3
+        </item>
+        <item>
+            804.5
+        </item>
+        <item>
+            1207
+        </item>
+        <item>
+            1609
+        </item>
+        <item>
+            3218
+        </item>
+        <item>
+            8045
+        </item>
+    </string-array>
+    <string-array name="walk_speed_arrays">
+        <item>
+            2 MPH
+        </item>
+        <item>
+            3 MPH
+        </item>
+        <item>
+            4 MPH
+        </item>
+    </string-array>
+    <string-array name="default_control_arrays_value">
+        <item>
+            правда
+        </item>
+        <item>
+            ложь
+        </item>
+    </string-array>
+    <string-array name="optimize_option_arrays_value">
+        <item>
+            БЫСТРЫЙ
+        </item>
+        <item>
+            ТРАНСФЕРЫ
+        </item>
+    </string-array>
+    <string-array name="monitor_trip_arrays">
+        <item>
+            15 минута
+        </item>
+        <item>
+            30 минута (по умолчанию)
+        </item>
+        <item>
+            45 минута
+        </item>
+        <item>
+            1 час
+        </item>
+    </string-array>
+    <string-array name="walk_speed_arrays_value">
+        <item>
+            0.89
+        </item>
+        <item>
+            1.34
+        </item>
+        <item>
+            1.79
+        </item>
+    </string-array>
+    <string-array name="delay_arrays">
+        <item>
+            5 минута (по умолчанию)
+        </item>
+        <item>
+            10 минута
+        </item>
+        <item>
+            15 минута
+        </item>
+    </string-array>
+    <string name="allowed">
+        Разрешено
+    </string>
+    <string name="enter_phone_number_for_sms_notifications">
+        Введите номер телефона для смс-уведомлений:
+    </string>
+    <string name="add_your_locations">
+        Добавьте места
+    </string>
+    <string name="delete_saved_trip_warning">
+        Удалить эту поездку?
+    </string>
+    <string name="bikeshare">
+        Прокат велосипедов
+    </string>
+    <string name="view_all_options">
+        Просмотреть все варианты
+    </string>
+    <string name="resume">
+        Возобновить
+    </string>
+    <string name="cannot_save_trip">
+        Невозможно сохранить
+    </string>
+    <string name="resend_verification_email_successfully">
+        Сообщение с подтверждением адреса электронной почты отправлено повторно.
+    </string>
+    <string name="mode_gondola">
+        Гондола
+    </string>
+    <string name="calories_info_show">
+        Показать детали
+    </string>
+    <string name="gondola">
+        Гондола
+    </string>
+    <string name="warning">
+        Предупреждение
+    </string>
+    <string name="my_account">
+        Моя учетная запись
+    </string>
+    <string name="trip_viewer">
+        Средство просмотра поездки
+    </string>
+    <string name="origin">
+        Место отправления
+    </string>
+    <string name="arrival_time">
+        Время прибытия
+    </string>
+    <string name="click_view_details">
+        Нажмите, чтобы просмотреть подробную информацию
+    </string>
+    <string name="tomorrow">
+        Завтра
+    </string>
+    <string name="edit_place">
+        Редактировать место
+    </string>
+    <string name="calories_info_hide">
+        Скрыть детали
+    </string>
+    <string name="destination_lower_case">
+        место назначения
+    </string>
+    <string name="delete_account_warning">
+        Действительно удалить учетную запись? После удаления ее невозможно будет восстановить.
+    </string>
+    <string name="route_filter_mode_rail">
+        Рельсовый транспорт
+    </string>
+    <string name="use">
+        Воспользоваться
+    </string>
+    <string name="departure_time">
+        Время отправления
+    </string>
+    <string name="settings">
+        Настройки
+    </string>
+    <string name="best_option">
+        Лучший вариант
+    </string>
+    <string name="route_viewer">
+        Средство просмотра маршрутов
+    </string>
+    <string name="notification_preferences">
+        Параметры уведомлений
+    </string>
+    <string name="plan_trip">
+        Запланировать Поездку
+    </string>
+    <string name="e_scooter">
+        Электросамокат
+    </string>
+    <string name="plan_new_trip">
+        Запланировать поездку
+    </string>
+    <string name="trips">
+        Поездки
+    </string>
+    <string name="to">
+        Куда
+    </string>
+    <string name="view">
+        Просмотреть
+    </string>
+    <string name="view_schedule">
+        Просмотреть расписание
+    </string>
+    <string name="last">
+        Последний
+    </string>
+    <string name="walk_time">
+        Время прогулки
+    </string>
+    <string name="setting_button">
+        Настройки
+    </string>
+    <string name="receive_notifications_via">
+        Получайте уведомления о сохраненных поездках через:
+    </string>
+    <string name="play_button">
+        Возобновить
+    </string>
+    <string name="itinerary_search_button">
+        Запланировать поездку
+    </string>
+    <string name="plan_a_trip">
+        Запланировать поездку:
+    </string>
+    <string name="save_trip">
+        Сохранить поездку
+    </string>
+    <string name="mode_combination_error">
+        Невозможно спланировать поездку с использованием выбранных режимов. Попробуйте включить транзит в выбор режима.
+    </string>
+    <string name="rail">
+        Рельсовый транспорт
+    </string>
+    <string name="current_location_not_available">
+        Текущее местоположение недоступно
+    </string>
+    <string name="haptic_feedback">
+        Тактильная обратная связь
+    </string>
+    <string name="no_assistive_device">
+        Нет вспомогательного устройства
+    </string>
+    <string name="delete_work">
+        Кнопка «Удалить рабочий адрес». Нажмите дважды, чтобы удалить. %1
+    </string>
+    <string name="user_profile_button">
+        Кнопка «Профиль пользователя». Нажмите дважды, чтобы активировать.
+    </string>
+    <string name="search_rail_mode">
+        Метро
+    </string>
+    <string name="rental_search_mode">
+        Кнопка «Прокат». Нажмите дважды, чтобы активировать.
+    </string>
+    <string name="search_for_a_route">
+        Найти маршрут
+    </string>
+    <string name="consent_to_terms_to_save_trips">
+        Пожалуйста, согласитесь с условиями обслуживания, чтобы сохранить избранные поездки.
+    </string>
+    <string name="ride_duration_with_stops">
+        Поездка: %1$d / остановки (%2$d)
+    </string>
+    <string name="link_first_capital">
+        Связь
+    </string>
+    <string name="manual_walker">
+        Ручной ходунок
+    </string>
+    <string name="am">
+        до полудня
+    </string>
+    <string name="lost_data_warning">
+        Вы еще не сохранили новую поездку. Если вы уйдете, оно будет потеряно.
+    </string>
+    <string name="low_vision">
+        Плохое зрение
+    </string>
+    <string name="calories_burned_guidelines">
+        <![CDATA[Адаптировано из <font color=#295680>Dietary Guidelines for Americans 2005,
+        стр. 16, Таблица 4.</font>]]>
+    </string>
+    <string name="at">
+        в
+    </string>
+    <string name="mode_filter_button">
+        Кнопка «Фильтр режима». Нажмите дважды, чтобы активировать.
+    </string>
+    <string name="login_to_see_fav_stops">
+        Пожалуйста, войдите в систему, чтобы сохранять местоположения.
+    </string>
+    <string name="bold_stop_id_with_num">
+        Идентификатор остановки: %1$s
+    </string>
+    <string name="itineraries_found_with_num">
+        Найдено поездок: %1$d (только на русском и тагальском языке)
+    </string>
+    <string name="wheeled_walker">
+        Колесный ходунок
+    </string>
+    <string name="monorail">
+        Монорельс
+    </string>
+    <string name="mins">
+        минуты
+    </string>
+    <string name="set">
+        Набор
+    </string>
+    <string name="route_to">
+      <![CDATA[<b>%1$s</b> Куда %2$s]]>
+    </string>
+    <string name="get_address_failed">
+        Не удалось получить адрес. Пожалуйста, повторите попытку позже.
+    </string>
+    <string name="h">
+        час
+    </string>
+    <string name="walk_search_mode">
+        Режим поиска ходьбы
+    </string>
+    <string name="no_vision_limitations">
+        Нет ограничений по зрению
+    </string>
+    <string name="capital_departure">
+        ОТПРАВЛЕНИЕ
+    </string>
+    <string name="type_of_payment">
+        Тип платежа
+    </string>
+    <string name="reset_button">
+        Кнопка «Перезагрузка». Нажмите дважды, чтобы активировать.
+    </string>
+    <string name="verification_code_sent_failed">
+        Не удалось запросить новый код для номера телефона.
+    </string>
+    <string name="set_destination">
+        Введите пункт назначения
+    </string>
+    <string name="password_cant_blank">
+        Пароль не может быть пустым.
+    </string>
+    <string name="failed_update_trip">
+        Информации о поездке не найдено.
+    </string>
+    <string name="last_checked">
+        Последняя проверка: %1$s назад
+    </string>
+    <string name="notification_channel_default">
+        Приложение
+    </string>
+    <string name="empty_fav_stops">
+        Избранные остановки
+    </string>
+    <string name="transit_fare">
+        Стоимость проезда в общественном транспорте:
+    </string>
+    <string name="route_agency_info">
+        Оператор: %1$s
+    </string>
+    <string name="calories_burned">
+        Сожженные калории:
+    </string>
+    <string name="start_over">
+        Начать сначала
+    </string>
+    <string name="send_email">
+        ОТПРАВИТЬ ПО ЭЛЕКТРОННОЙ ПОЧТЕ
+    </string>
+    <string name="one_alert">
+        1 предупреждение
+    </string>
+    <string name="expander">
+        Расширитель
+    </string>
+    <string name="real_time_bus_unavailable">
+        Автобусные остановки не найдены. Пожалуйста, повторите попытку позже.
+    </string>
+    <string name="stop_viewer_expander">
+        Кнопка «Вид остановки». Нажмите дважды, чтобы открыть изображение «Вид остановки».
+    </string>
+    <string name="menu_tag">
+        тег меню
+    </string>
+    <string name="request_fine_location_confirmation">
+        Доступ к вашему местоположению заблокирован. Чтобы использовать ваше текущее местоположение, включите разрешение на определение местоположения в браузере и перезагрузите страницу.
+    </string>
+    <string name="retrieve_user_info_failed_unauthorized">
+        Пользователь отказал в разрешении
+    </string>
+    <string name="verify_email_address_hint">
+        Прежде чем завершить настройку учетной записи, откройте папку входящих вашей электронной почты. Затем откройте письмо со ссылкой для подтверждения и перейдите по ней, чтобы подтвердить адрес электронной почты.\n\nПосле подтверждения нажмите кнопку ниже, чтобы продолжить.
+    </string>
+    <string name="token_expired_message">
+        Ошибка установления сеанса авторизации
+    </string>
+    <string name="push_notifications">
+        Всплывающие уведомления
+    </string>
+    <string name="waiting">
+        Ожидающий
+    </string>
+    <string name="capital_status">
+        ПОЛОЖЕНИЕ ДЕЛ
+    </string>
+    <string name="add_new_location_hint">
+        Ввести местоположение
+    </string>
+    <string name="fav_stops">
+        Избранные остановки
+    </string>
+    <string name="shared_bike">
+        Bелосипед в прокат
+    </string>
+    <string name="fav_stop_hint">
+        Чтобы найти остановку, выполните поиск в панели выше или вкладки транзитная остановка на карте.
+    </string>
+    <string name="uturn_right">
+        Правый разворот
+    </string>
+    <string name="set_time">
+        Выбор даты/времени
+    </string>
+    <string name="create_new_account_optional">
+        <b>Необязательно</b>: я даю согласие на то, чтобы планировщик поездок хранил архивные данные
+        о моих запланированных поездках с целью улучшения услуг общественного транспорта в моем районе.
+    </string>
+    <string name="more_information">
+        Подробнее
+    </string>
+    <string name="stroller">
+        Бродяга
+    </string>
+    <string name="we_found_options_with_num">
+        Найдено несколько вариантов %1$d
+    </string>
+    <string name="departure_time_info">
+        <![CDATA[Время отправки указано для <b>%1$s.</b>]]>
+    </string>
+    <string name="failed_get_trip_list_cdta">
+        &lt;b&gt;&lt;font color=#FFFFFF&gt;FОшибка получения поездок&lt;/font&gt;&lt;/b&gt;
+    </string>
+    <string name="calories_burned_detail">
+        <![CDATA[Проделав этот маршрут, вы потратите <b>%1$s</b> на ходьбу и <b>%2$s</b> на езду на велосипеде.]]>
+    </string>
+    <string name="from_origin_to_destination">
+        <![CDATA[Из <b>%1$s</b> в <b>%2$s</b>]]>
+    </string>
+    <string name="itinerary_detail_expander">
+        Сведения о маршруте
+    </string>
+    <string name="edit_work">
+        Установите свой рабочий адрес
+    </string>
+    <string name="crutches">
+        Костыли
+    </string>
+    <string name="notification_channel_second">
+        Уведомления
+    </string>
+    <string name="notifications_lead_time">
+        <![CDATA[<b>%1$d минуты</b>]]>
+    </string>
+    <string name="modes">
+        Режимы
+    </string>
+    <string name="sign_in_to_save_trip">
+        Пожалуйста, подтвердите свой адрес электронной почты, чтобы сохранить любимые поездки.
+    </string>
+    <string name="start_route">
+        Начать маршрут
+    </string>
+    <string name="departure_pdt">
+        Время отправки указано для PDT
+    </string>
+    <string name="finding_your_options">
+        Поиск вариантов…
+    </string>
+    <string name="leave_now_two_lines">
+        Выйти
+    </string>
+    <string name="auto_refresh_arrivals">
+        Автоматическое обновление?
+    </string>
+    <string name="effective_as_of">
+        Действует с
+    </string>
+    <string name="no_fare_information">
+        Нет информации о тарифах
+    </string>
+    <string name="save_route">
+        Сохранить поездку
+    </string>
+    <string name="plan_trip_tag">
+        тег планирования поездки
+    </string>
+    <string name="loading">
+        Загрузка...
+    </string>
+    <string name="hr_min_with_num">
+        %1$d ч, %2$d мин
+    </string>
+    <string name="edit_home">
+        Редактировать домашнюю страницу
+    </string>
+    <string name="from_hint">
+        Отсюда
+    </string>
+    <string name="connection_failed_msg">
+        Не удалось связаться с сервером. Пожалуйста, повторите попытку позже.
+    </string>
+    <string name="stop_id_with_num">
+        Идентификатор остановки: %1$s
+    </string>
+    <string name="departure_colon">
+        "Отправление: "
+    </string>
+    <string name="you_arrive">
+        "Прибытие к: "
+    </string>
+    <string name="accessibility_profile">
+        Профиль доступности
+    </string>
+    <string name="shared_car">
+        Общий диск (автомобиль)
+    </string>
+    <string name="locate_me_button">
+        Найти меня. Нажмите дважды, чтобы активировать.
+    </string>
+    <string name="failed_retrieve_auto_complete">
+        Не удалось получить автозаполнение.
+    </string>
+    <string name="agency_filter_button">
+        Кнопка «Фильтр Агентства». Нажмите дважды, чтобы активировать
+    </string>
+    <string name="calories_info_show_details">
+        Кнопка «Закрыть». Нажмите дважды, чтобы закрыть описание калькулятора калорий.
+    </string>
+    <string name="accessibility_profile_subtitle">
+        Определите свой профиль мобильности
+    </string>
+    <string name="slightly_right">
+        Немного правее
+    </string>
+    <string name="routes_viewer_expander">
+        Расширитель средства просмотра маршрутов. Дважды коснитесь и удерживайте его,
+        а затем проведите пальцем по экрану, чтобы развернуть панель средства просмотра маршрутов.
+    </string>
+    <string name="search_bar_back_button">
+        выйти из панели поиска
+    </string>
+    <string name="verify_verification_code_successfully">
+        Номер телефона был успешно отправлен.
+    </string>
+    <string name="create_new_account_terms_start">
+        Я подтверждаю, что мне исполнилось 13 лет и что я прочитал и принимаю
+    </string>
+    <string name="terms_of_service">
+        Условия
+        использования
+    </string>
+    <string name="create_new_account_terms_end">
+        планировщика поездок.
+    </string>
+    <string name="location_blocked">
+        Доступ к вашему местоположению заблокирован. Чтобы использовать ваше текущее местоположение,
+        включите разрешение на определение местоположения в браузере и перезагрузите страницу.
+    </string>
+    <string name="request_fine_location_explanation">
+        Доступ к вашему местоположению заблокирован. Чтобы использовать ваше текущее местоположение,
+        включите разрешение на определение местоположения в браузере и перезагрузите страницу.
+    </string>
+    <string name="electric_wheelchair">
+        Электрическая инвалидная коляска
+    </string>
+    <string name="failed_create_trip">
+        Не удалось создать информацию о поездке.
+    </string>
+    <string name="notifications_disabled">
+        <![CDATA[<b>отключены</b>]]>
+    </string>
+    <string name="walk_speed">
+        Скорость ходьбы
+    </string>
+    <string name="save_preferences_failed">
+        Не удалось сохранить параметры предпочтений
+    </string>
+    <string name="next_trip_starts_on">
+        Начало следующей поездки: %1$s в %2$s.
+    </string>
+    <string name="expand">
+        Развернуть остановки в этом направлении
+    </string>
+    <string name="minutes_with_num">
+        %1$d минуты
+    </string>
+    <string name="marta_rail">
+        МАРТА Рейл
+    </string>
+    <string name="delete">
+        Удалить поездку
+    </string>
+    <string name="create_new_account_terms_url">
+        https://atlrides.com/#/terms-of-service
+    </string>
+    <string name="delete_account_successfully">
+        Учетная запись удалена.
+    </string>
+    <string name="head">
+        Голова
+    </string>
+    <string name="and">
+        " и "
+    </string>
+    <string name="title_dashboard">
+        Панель приборов
+    </string>
+    <string name="feet_with_num">
+        %1$d футов
+    </string>
+    <string name="from_here_two_lines">
+        От\nЗдесь
+    </string>
+    <string name="checking_itinerary_existence">
+        Проверка маршрута на каждый день недели...
+    </string>
+    <string name="dont_remember_password">
+        Вы забыли свой пароль?
+    </string>
+    <string name="resend_verification_email_failed">
+        Отправить письмо с подтверждением еще раз
+    </string>
+    <string name="stops_found">
+        Найдено остановок: %1$d
+    </string>
+    <string name="shared_vehicle">
+        Общие транспортные средства
+    </string>
+    <string name="leave_feedback">
+        Оставить отзыв
+    </string>
+    <string name="pm">
+        после полудня
+    </string>
+    <string name="collapse">
+        Обрушение останавливается в этом направлении
+    </string>
+    <string name="miles_with_num">
+        %1$.1f миль
+    </string>
+    <string name="notification_sms_hint">
+        0123456789
+    </string>
+    <string name="expand_map">
+        Вид карты послойно
+    </string>
+    <string name="reset_password_text">
+        Пожалуйста, введите свой адрес электронной почты. Мы отправим вам электронное письмо для подтверждения смены пароля.
+    </string>
+    <string name="before_begins_ends">
+        прежде чем оно начнется, пока оно не закончится.
+    </string>
+    <string name="forgot_my_options">
+        Удалить варианты
+    </string>
+    <string name="accessibility_profile_hint">
+        Пожалуйста, ответьте на несколько вопросов, чтобы настроить процесс планирования поездки
+        в соответствии с вашими потребностями и предпочтениями.
+    </string>
+    <string name="accessibility_profile_second_section_title">
+       2. Есть ли у вас какие-либо ограничения в передвижении, из-за которых вы ходите медленнее
+        или осторожнее, чем другие люди?
+    </string>
+    <string name="we_found_option_with_num">
+        Найден %1$d
+    </string>
+    <string name="mobility_scooter">
+        Мобильный скутер
+    </string>
+    <string name="edit">
+        Edit
+    </string>
+    <string name="sign_up_terms">
+        Зарегистрировавшись, вы соглашаетесь с нашими условиями обслуживания и политикой конфиденциальности. Нажмите дважды, чтобы активировать.
+    </string>
+    <string name="create_new_account_optional_url">
+        https://atlrides.com/#/terms-of-storage
+    </string>
+    <string name="free_floating_bike">
+        Арендный велосипед не на станции
+    </string>
+    <string name="stops">
+        Остановки общественного транспорта
+    </string>
+    <string name="failed_get_trip_list">
+        Не удалось получить сохраненные уведомления о поездке
+    </string>
+    <string name="routes_found">
+        %1$d найдено маршрутов
+    </string>
+    <string name="title_activity_tab">
+        TabActivity
+    </string>
+    <string name="search_for_a_route_text_field">
+        Найти маршрут
+    </string>
+    <string name="stay_on_board_at">
+        Не выходите в месте %1$s
+    </string>
+    <string name="routes_tag">
+        тег маршрутов
+    </string>
+    <string name="route_viewer_route">
+        <![CDATA[<b>%1$s</b> %2$s]]>
+    </string>
+    <string name="min">
+        минута
+    </string>
+    <string name="retrieve_user_info_failed_other">
+        Не удалось получить информацию о пользователе. Пожалуйста, повторите попытку позже.
+    </string>
+    <string name="switch_origin_destination_button">
+        Кнопка селектора пункта отправления и пункта назначения. Нажмите дважды, чтобы активировать.
+    </string>
+    <string name="search_mode_title">
+        Выберите виды транспорта:
+    </string>
+    <string name="special_characters">
+        Специальные символы (например, !@#$%^&amp;*)
+    </string>
+    <string name="enter_phone_number">
+        Введите свой номер телефона
+    </string>
+    <string name="drive_search_mode">
+        Режим поиска на диске
+    </string>
+    <string name="no_stops_found">
+        Не удалось найти время остановок для этой даты.
+    </string>
+    <string name="no_internet_message">
+        Мы не можем получить доступ к Интернету. Попробуйте подключиться через Wi-Fi или сотовую сеть.
+    </string>
+    <string name="close_search_mode">
+        Всплывающее окно поиска в режиме закрытия
+    </string>
+    <string name="restore_my_defaults">
+        Mои настройки по умолчанию
+    </string>
+    <string name="layer_control_button">
+        Управление слоями
+    </string>
+    <string name="remove_fav_stop_warning">
+        Вы собираетесь удалить [%1$s] из списка избранного. Вы уверены?
+    </string>
+    <string name="stops_expander">
+        Расширитель остановок: дважды коснитесь и удерживайте, а затем проведите пальцем по экрану,
+        чтобы развернуть панель просмотра остановок.
+    </string>
+    <string name="no_internet">
+        Без интернета
+    </string>
+    <string name="transit_stops">
+        Остановки общественного транспорта
+    </string>
+    <string name="bike_search_mode">
+        Режим поиска велосипеда
+    </string>
+    <string name="numbers">
+        Числа (0-9)
+    </string>
+    <string name="link_scooter">
+        Скутер "Линк"
+    </string>
+    <string name="minute_with_num">
+        %1$d мин
+    </string>
+    <string name="light_rail">
+        Скоростной трамвай
+    </string>
+    <string name="lower_case_letters">
+        Строчные буквы
+    </string>
+    <string name="transfer_discount_info">
+        Применяется скидка на пересадку в размере $%.2f
+    </string>
+    <string name="min_with_num">
+        %1$d мин
+    </string>
+    <string name="min_with_num_with_about">~ %1$d мин</string>
+    <string name="itinerary_leg_description">
+        %1$s %2$s Куда %3$s
+    </string>
+    <string name="accessibility_profile_third_section_title">
+        3. Есть ли у вас ограничения по зрению?
+    </string>
+    <string name="accessibility_profile_first_section_title">
+        1. Регулярно ли вы пользуетесь вспомогательными устройствами для передвижения?
+        (Проверить все, что относится)
+    </string>
+    <string name="my_trips_tag">
+        Тег "Мои поездки"
+    </string>
+    <string name="arrive_colon">
+        "Прибытие к: "
+    </string>
+    <string name="failed_delete_trip">
+        Не удалось удалить поездку.
+    </string>
+    <string name="verification_code_hint">
+        123456
+    </string>
+    <string name="search_bar_collapse_button">
+        Кнопка «Свернуть». Нажмите дважды, чтобы активировать.
+    </string>
+    <string name="close_setting">
+        Закрыть всплывающее окно настроек
+    </string>
+    <string name="cane">
+        Трость
+    </string>
+    <string name="service_animal">
+        Служебное животное
+    </string>
+    <string name="optimize_for">
+        ОПТИМИЗИРОВАТЬ ДЛЯ
+    </string>
+    <string name="atl_street_car">
+        Атланта\nТрамвай
+    </string>
+    <string name="distance">
+        Расстояние
+    </string>
+    <string name="to_here_two_lines">
+        Сюда
+    </string>
+    <string name="email_cant_blank">
+        Адрес эл. почты должен быть действительным.
+    </string>
+    <string name="mins_late">
+        %1$d минута позже
+    </string>
+    <string name="happens_on">
+        <![CDATA[<b>%1$s</b>]]>
+    </string>
+    <string name="we_found_one_option">
+        Найден 1 вариант
+    </string>
+    <string name="hr_with_num">
+        %1$d ч
+    </string>
+    <string name="arrive">
+        Прибытие
+    </string>
+    <string name="Logged_in_as_email">
+        ход осуществлен в качестве %1$s
+    </string>
+    <string name="yes">
+        Да (по умолчанию)
+    </string>
+    <string name="you_leave">
+        Отправление
+    </string>
+    <string name="calculating">
+        Ожидание расчета…
+    </string>
+    <string name="subway_route_provider">
+        <![CDATA[Услуги, предоставляемые агентством <font color=#4182BC>%1$s &nbsp</font>]]>
+    </string>
+    <string name="set_origin">
+        Выбрать место отправления
+    </string>
+    <string name="itinerary_found_with_num">
+        %1$d Поездка найдена
+    </string>
+    <string name="filter_control_button">
+        Управление фильтром
+    </string>
+    <string name="successfully_update_trip">
+        Этот параметр был обновлен.
+    </string>
+    <string name="step_on">
+        %1$s на %2$s
+    </string>
+    <string name="manual_traditional_wheelchair">
+        Ручная/традиционная инвалидная коляска
+    </string>
+    <string name="where_to_go">
+        Введите место назначения или выбирать на карте
+    </string>
+    <string name="view_next_arrivals">
+        Посмотреть следующие поступления
+    </string>
+    <string name="dont_notify_me">
+        Не уведомляйте меня
+    </string>
+    <string name="delete_account_failed">
+        Ошибка редактирования профиля.
+    </string>
+    <string name="trip_is_due_to">
+        Поездка должна начаться в %1$s. (Отслеживание в реальном времени запустится в %2$s)
+    </string>
+    <string name="resend_verification_email">
+        Отправить письмо с подтверждением еще раз
+    </string>
+    <string name="request_post_push_explanation">
+        Для работы приложения необходимо включить службы уведомлений.
+    </string>
+    <string name="pick_up_spin_e_scooter">
+        Возьмите в руки самокат Spin E-scooter.
+    </string>
+    <string name="legally_blind">
+        Юридически слепой
+    </string>
+    <string name="use_current_location">
+        Использовать текущее местоположение
+    </string>
+    <string name="around_distance">
+        около %1$s
+    </string>
+    <string name="mins_early">
+        %1$d минута раньше
+    </string>
+    <string name="search_for_a_stop">
+        Искать транзитную остановку
+    </string>
+    <string name="agency">
+        АГЕНТСТВО
+    </string>
+    <string name="monitor_this_trip">
+        Мониторинг данной поездки до ее начала
+    </string>
+    <string name="vehicle_on_route_speed">
+        Поездка со скоростью %1$d MPH
+    </string>
+    <string name="search_empty_field_warning">
+        Заполните следующие поля, чтобы запланировать поездку: %1$s
+    </string>
+    <string name="verify_verification_code_failed">
+        Не удалось запросить новый код для номера телефона.
+    </string>
+    <string name="vehicle_on_route_time">
+        %1$d секунды назад
+    </string>
+    <string name="itinerary_leg_transit_description_without_route_name">
+        Куда %1$s
+    </string>
+    <string name="review_accessibility_questions">
+        Обзор вопросов о доступности
+    </string>
+    <string name="request_post_push_confirmation">
+        Чтобы получать для сохраненных поездок,
+        включите уведомления в настройках учетной записи и сохраните поездку еще раз.
+    </string>
+    <string name="white_cane">
+        Белая трость
+    </string>
+    <string name="transit_search_mode">
+        Режим поиска транзита
+    </string>
+    <string name="duration_left">
+        %1$s hалево
+    </string>
+    <string name="uturn_left">
+        Левый разворот
+    </string>
+    <string name="slightly_left">
+        Немного левее
+    </string>
+    <string name="from">
+        Отсюда
+    </string>
+    <string name="depart">
+        Отправление в
+    </string>
+    <string name="search_bar_expand_button">
+        Кнопка «Расширение строки поиска». Нажмите дважды, чтобы активировать.
+    </string>
+    <string name="email_is_verified">
+        Адрес электронной почты подтвержден
+    </string>
+    <string name="arrive_at_time">
+        Прибытие в %1$s
+    </string>
+    <string name="no_route_url_provided">
+        URL-адрес маршрута не указан.
+    </string>
+    <string name="itinerary_leg_transit_description">
+        %1$s К %2$s
+    </string>
+    <string name="trip_viewer_expander">
+        Расширение средства просмотра поездок. Дважды коснитесь и удерживайте, а затем проведите
+        пальцем по экрану, чтобы развернуть панель просмотра поездок.
+    </string>
+    <string name="itinerary_list_expander">
+        Расширитель списка маршрутов: дважды нажмите и удерживайте, а затем проведите пальцем
+        по экрану, чтобы развернуть панель списка маршрутов.
+    </string>
+    <string name="vehicle_on_route_name">
+        Tранспортное средство %1$s
+    </string>
+    <string name="search_modes_button">
+        Кнопка «Фильтр режима». Нажмите дважды, чтобы активировать.
+    </string>
+    <string name="failed_check_trip">
+        При проверке возможности выбранной поездки произошла ошибка.
+    </string>
+    <string name="select_from_location">
+        Изменить на местоположение
+    </string>
+    <string name="trip_viewer_route">
+        <![CDATA[Маршрут: <b>%1$s</b> %2$s]]>
+    </string>
+    <string name="mode_to">
+        %1$s Куда %2$s
+    </string>
+    <string name="sign_in_tag">
+        тег входа в систему
+    </string>
+    <string name="itinerary_start_end_time">
+       <![CDATA[<b>Маршрут</b> %1$s - %2$s]]>
+    </string>
+    <string name="upper_case_letters">
+        Заглавные буквы
+    </string>
+    <string name="spin_e_scooter">
+        Электросамокат "Spin"
+    </string>
+    <string name="destination_hint">
+        Введите место назначения или выбирать на карте
+    </string>
+    <string name="reach_max_saved_trip_warning_message">
+        Вы уже достигли максимального количества сохраненных поездок (%1$d).
+        Удалите неиспользованные поездки из сохраненных поездок и повторите попытку.
+    </string>
+    <string name="devices_registered">
+        %1$d устройства зарегистрированы
+    </string>
+    <string name="route_found">
+        %1$d найдено маршрутов
+    </string>
+    <string name="calories_info_hide_details">
+        Скрыть детали
+    </string>
+    <string name="enter_location">
+        Ввести местоположение
+    </string>
+    <string name="walking">
+        Пешком
+    </string>
+    <string name="plan_trip_two_lines">
+        Запланировать поездку
+    </string>
+    <string name="maximum_walk">
+        Максимальная дальность прогулки
+    </string>
+    <string name="successfully_create_trip">
+        Ваши параметры сохранены.
+    </string>
+    <string name="show_results">
+        Показать детали
+    </string>
+    <string name="delete_home">
+        Кнопка Удалить домашний адрес
+    </string>
+    <string name="park_and_ride">
+        Парковочное место.
+    </string>
+    <string name="reduce_fares_format" >\* %1$s распространяются только на пожилых людей и людей с
+    ограниченными возможностями. Молодежь ездит бесплатно. Нажмите дважды, чтобы открыть ссылку.
+    </string>
+    <string name="reduce_fares_highlighted_text">
+        Льготные тарифы
+    </string>
+    <string name="reduce_fares_url">
+        https://info.myorca.com/ru/использование-косатки/способы-экономии/
+    </string>
+    <string name="map_settings">
+        настройки карты, дважды нажмите, чтобы активировать
+    </string>
+    <string name="attention">
+        Внимание
+    </string>
+    <string name="likely_not_accessible">
+        Информация о доступе инвалидных колясок отсутствует
+    </string>
+
+    <string name="more_options">
+        Больше вариантов
+    </string>
+    <string name="advanced_preferences">
+        Расширенные настройки
+    </string>
+    <string name="i_like_to">
+        Я хотел бы…
+    </string>
+
+    <string name="route_preference">
+        Выбор предпочтительных маршрутов…
+    </string>
+    <string name="accessible_trip">
+        Доступная поездка
+    </string>
+
+    <string name="fewest_transfers">
+        Наименьшее количество переводов
+    </string>
+    <string name="fastest">
+        Fastest
+    </string>
+    <string name="less_walking">
+        Меньше ходьбы пешком
+    </string>
+
+    <string name="my_preferred_mode">
+        Параметры режима
+    </string>
+
+    <string name="advance_transit">
+        Общественный транспорт
+    </string>
+    <string name="advance_cycle">
+        Велосипед
+    </string>
+    <string name="advance_drive">
+        Поездка в транспортном средстве
+    </string>
+    <string name="advance_walk">
+        Пешком
+    </string>
+    <string name="advance_rental">
+        Прокат
+    </string>
+
+    <string name="real_time">
+        РЕАЛЬНОЕ ВРЕМЯ
+    </string>
+
+    <string name="sms_warning_msg">
+        Пожалуйста, завершите процесс проверки, чтобы настроить SMS-уведомления.
+    </string>
+
+    <string name="advanced_popup_title">
+        У вас есть несохраненные изменения
+    </string>
+    <string name="keep_editing">
+        Продолжайте редактировать
+    </string>
+    <string name="discard_changes">
+        Отменить изменения
+    </string>
+    <string name="plan_your_trip">
+        Спланируйте поездку
+    </string>
+    <string name="addition_modes_toggle_msg">
+        При выборе дополнительных режимов будут включены/исключены услуги в категориях режимов.
+        Включите или выключите режимы путешествия, которые вы хотите включить в свою поездку.
+    </string>
+    <string name="accessible_trip_toggle_msg">
+        При выборе «Поездки для людей с ограниченными возможностями» приоритет будет отдан
+        поездкам с посадкой на инвалидных колясках, а также будет предоставлен рейтинг доступности
+        для каждого этапа путешествия.
+    </string>
+    <string name="address_landmarks_places">
+        Адреса, достопримечательности и места
+    </string>
+    <string-array name="search_options">
+        <item>Выйти</item>
+        <item>Вылет после</item>
+        <item>Прибытие к</item>
+    </string-array>
+    <string name="all_transit">
+        Весь транзит
+    </string>
+    <string name="first_hill">
+        Первый холм
+    </string>
+    <string name="sounder">
+        эхолот
+    </string>
+    <string name="cash">
+        Наличные
+    </string>
+    <string name="adult">
+        Взрослые
+    </string>
+    <string name="youth">
+        Детский
+    </string>
+    <string name="senior">
+        Пожилые
+    </string>
+    <string-array name="items_expandable_level_one">
+        <item>@string/adult</item>
+        <item>@string/youth</item>
+        <item>@string/senior</item>
+    </string-array>
+
+    <string name="mode_combination_error_title">
+        Нет транзитного сообщения
+    </string>
+    <string name="locations_are">
+        места находятся
+    </string>
+    <string name="location_is">
+        местоположение это
+    </string>
+
+    <string name="preferred_mode_alter">Альтернативные варианты:</string>
+    <string name="mode_combination_error_invalid_mode">Невозможно спланировать поездку с использованием выбранных режимов. Попробуйте включить транзит в выбор режима.</string>
+
+    <string name="my_preferred_trip">Варианты поездки</string>
+
+    <string name="error_occurred">Произошла ошибка</string>
+    <string name="incorrect_credentials">Неправильный адрес электронной почты или пароль</string>
+    <string name="user_exists">Пользователь уже существует</string>
+    <string name="valid_password">Пожалуйста, введите действительный пароль</string>
+    <string name="password_reset_success">Успех, письмо для сброса пароля отправлено.</string>
+    <string name="too_many_attempts">Аккаунт заблокирован, слишком много попыток. Пожалуйста, повторите попытку позже.</string>
+
+    <string name="no_longer_possible_heading">Поездка более недоступна</string>
+    <string name="no_longer_possible_description">Планировщику не удалось найти вашу поездку на сегодня. Повторно проложите маршрут, чтобы найти альтернативные варианты.</string>
+    <string name="past_trip_description">Это разовая поездка, которая произошла в прошлом.</string>
+    <string name="past_trip_heading">Поездка в прошлом</string>
+    <string name="next_trip_not_possible_description">Планировщику не удалось найти вашу поездку на выбранные дни недели. Повторно проложите маршрут, чтобы найти альтернативные варианты.</string>
+    <string name="next_trip_not_possible_heading">Поездка сегодня невозможна</string>
+
+    <string name="trip_starting_soon_no_realtime">Поездка скоро начнется (обновления в реальном времени недоступны).</string>
+    <string name="trip_start_time_earlier">Начало поездки произойдет на %1$s раньше ожидаемого!</string>
+    <string name="trip_starting_soon_on_time">Поездка скоро начнется. Без задержек.</string>
+    <string name="trip_start_time_delayed">Начало поездки откладывается на %1$s!</string>
+    <string name="trip_progress_on_time">Поездка выполнятся. Прибытие в запланированное время..</string>
+    <string name="trip_progress_delayed">Поездка выполняется. Задержка: %1$d %2$d</string>
+    <string name="trip_progress_earlier">Поездка выполняется. Прибытие к месту назначения на %1$d раньше ожидаемого.</string>
+    <string name="trip_is_due_to_arrive_at">Прибытие к месту назначения в %1$s</string>
+    <string name="trip_progress_no_real_time">Поездка выполняется (обновления в реальном времени недоступны).</string>
+
+    <string name="trip_name_cant_blank">Укажите имя поездки.</string>
+    <string name="trip_name_duplicate">У вас уже сохранена поездка с таким именем. \nУкажите другое имя.</string>
+    <string name="place_name_text">Название места:</string>
+    <string name="place_name_duplicate">Это имя уже используется для другого места. \nУкажите другое имя.</string>
+    <string name="trip_days_at_least_one">Please select at least one day to monitor.</string>
+    <string name="address_name_text">Aдрес:</string>
+    <string name="location_type_text">Тип местонахождения:</string>
+
+
+</resources>

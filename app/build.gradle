@@ -1,0 +1,186 @@
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.9.2'
+        classpath("com.apollographql.apollo:apollo-gradle-plugin:2.5.14")
+    }
+
+}
+
+plugins {
+    id 'com.android.application'
+    // Apply the Google Services plugin (if it's not there already).
+    id 'com.google.gms.google-services'
+    // Add the Firebase Crashlytics plugin.
+    id 'com.google.firebase.crashlytics'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    //id("com.apollographql.apollo3").version("3.7.3")
+    id("com.apollographql.apollo").version("2.5.14")
+}
+apply plugin: "com.apollographql.apollo"
+
+allprojects {
+    repositories {
+        maven { url "https://maven.google.com" }
+        mavenCentral()
+        google()
+        jcenter()
+        maven {
+            url "https://cxapp.jfrog.io/artifactory/cxapp/"
+        }
+        maven {
+            url 'https://api.mapbox.com/downloads/v2/releases/maven'
+            authentication {
+                basic(BasicAuthentication)
+            }
+        }
+    }
+}
+
+android {
+    compileSdkVersion 36
+
+    defaultConfig {
+        applicationId "com.ibigroup.mobile.otp.its4us.android"
+        minSdkVersion 23
+        targetSdkVersion 36
+        versionCode 59
+        versionName "1.1"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+//---> Add for Auth0
+
+
+        //setProperty("archivesBaseName", "app-otp-releaseV"+versionName+"(" + versionCode + ")")
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+        }
+
+        android.applicationVariants.all { variant ->
+            variant.outputs.all { output ->
+                def newName = output.outputFile.name
+
+                newName = newName.replace("-release", "-releaseV${variant.versionName}(${versionCode})" )
+
+                // on below line we are setting the
+                // outputFile Name to our apk file
+                output.outputFileName = newName
+            }
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    flavorDimensions "version"
+    productFlavors {
+        otp_its4us{
+            dimension "version"
+            manifestPlaceholders = [
+                    applicationLabel: "G-MAP",
+                    auth0Domain: "",
+                    auth0Scheme: "https"
+            ]
+            applicationId 'com.ibigroup.mobile.otp.its4us.android'
+            versionCode 101
+            versionName '1.0'
+            minSdkVersion 23
+            targetSdkVersion 36
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    kotlinOptions {
+        jvmTarget = "11"
+    }
+    buildFeatures {
+        viewBinding true
+    }
+    namespace 'com.ibigroup.mobile.otp.android'
+}
+apollo {
+    packageName.set("com.ibigroup.mobile.otp.android")
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar", '*.aar'])
+
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v9:0.9.0'
+
+    implementation 'androidx.viewpager2:viewpager2:1.0.0'
+    implementation 'com.apollographql.apollo:apollo-runtime:2.5.14'
+
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+
+    implementation files('libs/ibilib.jar')
+
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.9.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+//    implementation(files("libs/extend-service.aar"))
+    testImplementation("junit:junit:4.13.2")
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    implementation("com.jibestream.jmapandroidsdk:jmapandroidsdk:6.0.4")
+    implementation("com.jibestream.plugins:mapuikit:1.1.3")
+    implementation("com.jibestream.plugins:navigationkit:2.0.1")
+    implementation("com.cxapp.odp:extend:1.5.6.6")
+
+
+    implementation 'com.google.android.material:material:1.3.0'
+
+    // Add the Firebase Crashlytics SDK.
+    implementation 'com.google.firebase:firebase-crashlytics:18.0.0'
+    // Recommended: Add the Google Analytics SDK.
+    implementation 'com.google.firebase:firebase-analytics:18.0.3'
+
+    implementation 'com.mcxiaoke.volley:library:1.0.19'
+    implementation 'com.google.code.gson:gson:2.8.6'
+
+
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.1'
+    implementation 'com.mapbox.mapboxsdk:mapbox-java-services:2.2.10'
+    implementation 'com.mapbox.mapboxsdk:mapbox-sdk-services:4.1.0'
+    implementation 'org.apache.httpcomponents:httpmime:4.3.6'
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-markerview-v9:0.4.0'
+    implementation 'com.google.maps.android:android-maps-utils:2.2.5'
+    implementation 'com.google.android.gms:play-services-maps:18.2.0'
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-telemetry:6.1.0'
+    implementation 'com.auth0.android:lock:3.2.1'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    //implementation("com.apollographql.apollo3:apollo-runtime:3.7.3")
+    implementation 'com.google.firebase:firebase-messaging:23.1.2'
+    implementation 'androidx.work:work-runtime-ktx:2.7.1'
+
+
+    implementation 'com.google.guava:guava:33.4.8-jre'
+    implementation 'com.google.firebase:firebase-core:21.1.1'
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginEnd="@dimen/margin_medium"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="@string/travel_companions_hint"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/address_input_text_size_sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="@string/current_travel_companions"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/address_input_text_size_sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_current_travel_companions_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:text="@string/no_travel_companion"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/address_input_text_size_sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="@string/add_new_travel_companion"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/address_input_text_size_sp"
+            android:textStyle="bold" />
+        <ListView
+            android:id="@+id/lv_travel_companion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="@dimen/margin_medium"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_travel_companion_email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:hint="@string/travel_companion_email_hint"
+                android:inputType="textEmailAddress"
+                android:minHeight="@dimen/aoda_height" />
+
+            <TextView
+                android:id="@+id/tv_send_travel_companion_invitation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_small"
+                android:background="@drawable/rounded_primary_bg"
+                android:backgroundTint="@color/colorDateCheckBoxBg"
+                android:gravity="center_vertical"
+                android:minHeight="@dimen/aoda_height"
+                android:paddingStart="@dimen/padding_small"
+                android:paddingEnd="@dimen/padding_small"
+                android:text="@string/send_invitation"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/content_text_size_sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
+

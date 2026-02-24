@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:orientation="vertical"
+        >
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/iv_schedule_logo"
+            android:layout_width="@dimen/stop_viewer_schedule_route_name_width"
+            android:layout_height="@dimen/stop_viewer_schedule_route_name_width"
+            android:layout_marginStart="10dp"
+            android:padding="@dimen/padding_medium"
+            android:visibility="gone"
+            android:layout_gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/tv_schedule_route"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:maxLines="10"
+            android:textSize="@dimen/layer_text_size_sp"
+            />
+        <TextView
+            android:id="@+id/tv_schedule_to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/layer_text_size_sp"
+            />
+        <TextView
+            android:id="@+id/tv_schedule_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1:56 am"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/layer_text_size_sp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="@dimen/margin_small"
+            android:background="@android:color/darker_gray" />
+
+    </LinearLayout>
+
+</LinearLayout>

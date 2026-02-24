@@ -1,0 +1,56 @@
+query StopTimes($stopId: String!) {
+  stop(id: $stopId) 
+      {      
+         id: gtfsId
+         code
+         lat
+         lon
+         locationType
+         name
+         wheelchairBoarding
+         zoneId
+         routes
+         {  
+            id: gtfsId  
+            agency {    
+               gtfsId    
+               name  
+            }  
+         longName  
+         mode  
+         color  
+         textColor  
+         shortName
+         }
+         stopTimes: 
+            stoptimesForPatterns(numberOfDepartures: 3) 
+               {  
+               pattern 
+                  {    
+                     desc: name    
+                     headsign    
+                     id: code  
+                  }  
+                  times: stoptimes 
+                     {    
+                        arrivalDelay    
+                        departureDelay    
+                        headsign    
+                        realtime    
+                        realtimeArrival    
+                        realtimeDeparture    
+                        realtimeState    
+                        scheduledArrival    
+                        scheduledDeparture    
+                        serviceDay    
+                        stop {      
+                           id: gtfsId    
+                        }    
+                        timepoint    
+                        trip {      
+                           id    
+                        }
+                     }
+               }
+         }
+}

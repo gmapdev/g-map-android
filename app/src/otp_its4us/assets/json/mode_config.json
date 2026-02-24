@@ -1,0 +1,42 @@
+[
+  {
+    "filter": "walk, transit",
+    "mode": "WALK,BUS,SUBWAY,TRAM",
+    "numItineraries": 2
+  },
+  {
+    "filter": "bike, transit",
+    "mode": "BICYCLE,BUS,SUBWAY,TRAM",
+    "numItineraries": 2
+  },
+  {
+    "filter": "bike, transit, rental",
+    "mode": "BICYCLE_RENT,BUS,SUBWAY,TRAM",
+    "numItineraries": 1
+  },
+  {
+    "filter": "walk",
+    "mode": "WALK",
+    "numItineraries": 3
+  },
+  {
+    "filter": "bike, rental",
+    "mode": "BICYCLE_RENT",
+    "numItineraries": 3
+  },
+  {
+    "filter": "bike",
+    "mode": "BICYCLE",
+    "numItineraries": 3
+  },
+  {
+    "filter": "drive",
+    "mode": "CAR",
+    "numItineraries": 3
+  },
+  {
+    "filter": "drive, walk, transit",
+    "mode": "CAR_PARK,WALK,BUS,SUBWAY,TRAM",
+    "numItineraries": 3
+  }
+]

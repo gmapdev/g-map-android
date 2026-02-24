@@ -1,0 +1,23 @@
+query RoutesList {
+    routes {
+        id: gtfsId
+        agency {
+          id: gtfsId
+          name
+          url
+          timezone
+          lang
+          phone
+          fareUrl
+        }
+        longName
+        shortName
+        type
+        color
+        textColor
+        mode
+        routeBikesAllowed: bikesAllowed
+        bikesAllowed
+        desc
+    }
+}

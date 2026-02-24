@@ -1,0 +1,58 @@
+{
+  "Feedback": {
+    "title": "Leave Feedback",
+    "icon": "ic_leavefeedbacks",
+    "type": "link",
+    "url": "https://arc-survey.vercel.app/",
+    "isVisible": true,
+    "order": 1
+  },
+  "Alerts": {
+    "title": "Service Alerts",
+    "icon": "ic_alerts",
+    "type": "link",
+    "url": "https://www.soundtransit.org/ride-with-us/service-alerts",
+    "isVisible": false,
+    "order": 2
+  },
+  "Accessibility": {
+    "title": "Accessibility",
+    "icon": "ic_accessibility",
+    "type": "link",
+    "url": "https://www.soundtransit.org/ride-with-us/know-before-you-go/transit-accessibility",
+    "isVisible": false,
+    "order": 3
+  },
+  "Safety": {
+    "title": "Safety and Security",
+    "icon": "ic_safety",
+    "type": "link",
+    "url": "https://www.soundtransit.org/ride-with-us/know-before-you-go/safety-security",
+    "isVisible": false,
+    "order": 4
+  },
+  "Pay": {
+    "title": "How to Pay",
+    "icon": "ic_pay",
+    "type": "link",
+    "url": "https://www.soundtransit.org/ride-with-us/how-to-pay",
+    "isVisible": false,
+    "order": 5
+  },
+  "Stations": {
+    "title": "Stations",
+    "icon": "ic_stations",
+    "type": "link",
+    "url": "https://www.soundtransit.org/ride-with-us/stations",
+    "isVisible": false,
+    "order": 6
+  },
+  "Help": {
+    "title": "Help",
+    "icon": "ic_help",
+    "type": "link",
+    "url": "https://georgia-map.com/",
+    "isVisible": true,
+    "order": 7
+  }
+}

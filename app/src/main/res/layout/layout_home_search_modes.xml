@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@color/colorHalfTransparent"
+    >
+
+    <ImageView
+        android:id="@+id/iv_close_search_mode"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_large"
+        android:layout_marginEnd="@dimen/margin_large"
+        android:layout_marginBottom="@dimen/margin_large"
+        android:contentDescription="@string/close_search_mode"
+        android:src="@drawable/ic_close" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/margin_large"
+        android:padding="@dimen/padding_large"
+        android:background="@drawable/rounded_white_with_shadow_bg"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_modes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.constraintlayout.helper.widget.Flow
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:flow_wrapMode="aligned"
+                app:flow_horizontalGap="@dimen/margin_medium"
+                app:flow_verticalGap="@dimen/margin_medium"
+                app:constraint_referenced_ids="rl_search_mode_transit,rl_search_mode_bike,rl_search_mode_walk,rl_search_mode_drive,rl_search_mode_rental"
+                tools:ignore="MissingConstraints" />
+            <RelativeLayout
+                android:id="@+id/rl_search_mode_transit"
+                android:layout_width="@dimen/search_mode_width"
+                android:layout_height="80dp"
+                android:background="@drawable/rounded_primary_bg"
+                android:contentDescription="@string/transit_search_mode"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/margin_small"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_marginEnd="@dimen/margin_small"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:src="@drawable/black_circle_bg"
+                    app:tint="@android:color/white" />
+
+                <ImageView
+                    android:id="@+id/iv_search_mode_transit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/search_mode_image_height"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_classicmode"
+                    app:tint="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/tv_search_mode_transit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_search_mode_transit"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/transit"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/content_text_size_sp"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_search_mode_walk"
+                android:layout_width="@dimen/search_mode_width"
+                android:layout_height="@dimen/search_mode_height"
+                android:contentDescription="@string/walk_search_mode"
+                android:background="@drawable/rounded_primary_bg">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin_small"
+                    android:src="@drawable/black_circle_bg"
+                    app:tint="@android:color/white" />
+                <ImageView
+                    android:id="@+id/iv_search_mode_walk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/search_mode_image_height"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_walk"
+                    app:tint="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/tv_search_mode_walk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_search_mode_walk"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/walk"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/content_text_size_sp"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_search_mode_drive"
+                android:layout_width="@dimen/search_mode_width"
+                android:layout_height="@dimen/search_mode_height"
+                android:contentDescription="@string/drive_search_mode"
+                android:background="@drawable/rounded_primary_bg">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin_small"
+                    android:src="@drawable/black_circle_bg"
+                    app:tint="@android:color/white" />
+                <ImageView
+                    android:id="@+id/iv_search_mode_drive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/search_mode_image_height"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_car"
+                    app:tint="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/tv_search_mode_drive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_search_mode_drive"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/car"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/content_text_size_sp"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_search_mode_bike"
+                android:layout_width="@dimen/search_mode_width"
+                android:layout_height="@dimen/search_mode_height"
+                android:background="@drawable/rounded_primary_bg"
+                android:contentDescription="@string/bike_search_mode">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin_small"
+                    android:src="@drawable/black_circle_bg"
+                    app:tint="@android:color/white" />
+                <ImageView
+                    android:id="@+id/iv_search_mode_bike"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/search_mode_image_height"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_bicycle"
+                    app:tint="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/tv_search_mode_bike"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_search_mode_bike"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/bike"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/content_text_size_sp"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_search_mode_rental"
+                android:layout_width="@dimen/search_mode_width"
+                android:layout_height="@dimen/search_mode_height"
+                android:background="@drawable/rounded_primary_bg"
+                android:contentDescription="@string/rental_search_mode">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin_small"
+                    android:src="@drawable/black_circle_bg"
+                    app:tint="@android:color/white" />
+                <ImageView
+                    android:id="@+id/iv_search_mode_rental"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/search_mode_image_height"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_mobile"
+                    app:tint="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/tv_search_mode_rental"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_search_mode_rental"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/rental"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/content_text_size_sp"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</RelativeLayout>

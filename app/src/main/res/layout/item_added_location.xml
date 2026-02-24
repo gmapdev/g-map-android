@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:id="@+id/ll_location"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_white_with_shadow_bg"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/iv_added_location_type"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:padding="@dimen/padding_small"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_account_location"
+            app:tint="@android:color/black" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/margin_small"
+            android:layout_marginEnd="@dimen/margin_small"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/tv_added_location_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/set_place_name"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/title_text_size_sp"
+                android:accessibilityHeading="true"
+                tools:targetApi="p"
+                />
+            <TextView
+                android:id="@+id/tv_added_location_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="10"
+                android:ellipsize="end"
+                android:text="@string/search_for_location"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_text_size_sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_delete_location"
+        android:layout_width="@dimen/add_location_height"
+        android:layout_height="@dimen/add_location_height"
+        android:layout_marginStart="@dimen/margin_small"
+        android:background="@drawable/rounded_white_with_shadow_bg"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+
+            android:layout_centerInParent="true"
+            android:padding="@dimen/padding_small"
+            android:src="@drawable/ic_delete" />
+    </RelativeLayout>
+
+</LinearLayout>

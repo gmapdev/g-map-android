@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Selected state -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorMicroMobilityRoute" /> <!-- Yellow color when selected -->
+            <stroke android:color="@color/colorMicroMobilityRoute" android:width="2dp" /> <!-- Yellow border -->
+            <corners android:radius="1dp" /> <!-- Rounded corners -->
+        </shape>
+    </item>
+
+    <!-- Default state -->
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFF9C4" /> <!-- White color when not selected -->
+            <stroke android:color="@color/colorMicroMobilityRoute" android:width="2dp" /> <!-- Yellow border -->
+            <corners android:radius="1dp" /> <!-- Rounded corners -->
+        </shape>
+    </item>
+</selector>

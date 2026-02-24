@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_medium_large"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:accessibilityHeading="true"
+        android:text="@string/type_of_payment"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/address_input_text_size_sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/costTypeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_medium_large"
+        android:layout_marginEnd="@dimen/margin_medium_large"
+        android:layout_marginTop="@dimen/margin_medium_large"
+        android:background="@drawable/spinner_bg_grey_rounded"
+        android:spinnerMode="dropdown" />
+
+
+    <ExpandableListView
+        android:id="@+id/expandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_medium_large" />
+
+
+</LinearLayout>

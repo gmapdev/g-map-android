@@ -1,0 +1,19 @@
+query GetRouteVehicles($routeId: String!) {
+  route(id: $routeId) {
+    shortName
+    longName
+    gtfsId
+    patterns {
+      name
+      vehiclePositions {
+        lat
+        lon
+        vehicleId
+        label
+        speed
+        heading
+        lastUpdated
+      }
+    }
+  }
+}

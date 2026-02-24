@@ -1,0 +1,1917 @@
+<resources>
+    <string name="sign_in">
+        Mag-log in
+    </string>
+    <string name="ok">
+        OK
+    </string>
+    <string name="cancel">
+        Kanselahin
+    </string>
+    <string name="streets">
+        Mga Kalye
+    </string>
+    <string name="satellite">
+        Satellite
+    </string>
+    <string name="park_and_ride_locations">
+        Park Et Devam Et
+    </string>
+    <string name="from_here">
+         Mula rito
+    </string>
+    <string name="to_here">
+         Papunta rito
+    </string>
+    <string name="stop_viewer">
+         Ihinto ang Viewer
+    </string>
+    <string name="stop_id_colon">
+        ID ng Hintuan:
+    </string>
+    <string name="today">
+        Ngayong Araw
+    </string>
+    <string name="leave_now">
+        Umalis ngayon
+    </string>
+    <string name="recently_searched">
+        Kamakailang Hinanap
+    </string>
+    <string name="current_location_address">
+        (Kasalukuyang lokasyon)
+    </string>
+    <string name="duration">
+        Tagal
+    </string>
+    <string name="cost">
+        Halaga
+    </string>
+    <string name="depart_at">
+        Umalis nang
+    </string>
+    <string name="arrive_by">
+        Dumating bago ang
+    </string>
+    <string name="yesterday">
+        Kahapon
+    </string>
+    <string name="trip_details">
+        Mga Detalye ng Biyahe
+    </string>
+    <string name="fare_table">
+        Talaan ng Pamasahe
+    </string>
+    <string name="route">
+        Ruta
+    </string>
+    <string name="departure">
+        Pag-alis
+    </string>
+    <string name="capital_scheduled">
+        NAKAISKEDYUL
+    </string>
+    <string name="bike">
+        Bisikleta
+    </string>
+    <string name="drive">
+        Nagmamaneho
+    </string>
+    <string name="bus">
+        Bus
+    </string>
+    <string name="cap_continue">
+        Continue
+    </string>
+    <string name="right">
+        Right
+    </string>
+    <string name="left">
+        Left
+    </string>
+    <string name="hard_right">
+        Hard right
+    </string>
+    <string name="hard_left">
+        Hard left
+    </string>
+    <string name="slight_right">
+        Slight right
+    </string>
+    <string name="slight_left">
+        Slight left
+    </string>
+    <string name="due">
+        Takdang Petsa
+    </string>
+    <string name="log_in">
+        Mag-log in
+    </string>
+    <string name="sign_up">
+        Mag-sign Up
+    </string>
+    <string name="email_hint">
+        email
+    </string>
+    <string name="your_password">
+        Password
+    </string>
+    <string name="create_new_account">
+        Gumawa ng bagong account
+    </string>
+    <string name="create_new_account_hint">
+        Dapat kang sumang-ayon sa mga tuntunin ng serbisyo para magpatuloy.
+    </string>
+    <string name="notification_preferences_hint">
+        Maaari kang makatanggap ng mga abiso tungkol sa mga paglalakbay na madalas mong gawin.
+    </string>
+    <string name="how_to_receive_notifications">
+        Paano mo gustong makatanggap ng mga notification?
+    </string>
+    <string name="notification_emails_sent_to">
+        Ang mga email ng notification ay ipapadala sa:
+    </string>
+    <string name="email">
+        email
+    </string>
+    <string name="sms">
+        SMS
+    </string>
+    <string name="back">
+        Bumalik
+    </string>
+    <string name="next">
+        Susunod
+    </string>
+    <string name="add_your_locations_hint">
+        Idagdag ang mga lugar na madalas mong puntahan para makatipid sa oras sa pagpaplano ng mga biyahe:
+    </string>
+    <string name="email_invalid">
+        Dapat ay isang wastong e-mail address.
+    </string>
+    <string name="your_password_must_contain">
+        Ang iyong password ay dapat maglaman ng:
+    </string>
+    <string name="at_least_eight_characters">
+        Hindi bababa sa 8 character
+    </string>
+    <string name="at_least_3_out_of_4_types_characters">
+        Hindi bababa sa 3 sa mga sumusunod:
+    </string>
+    <string name="verify_email_address">
+        I-verify ang iyong email address
+    </string>
+    <string name="send_verification_text">
+        Magpadala ng text sa pag-verify
+    </string>
+    <string name="sms_notifications_sent_to">
+        Ang mga abiso sa SMS ay ipapadala sa:
+    </string>
+    <string name="change_number">
+        Baguhin ang numero
+    </string>
+    <string name="verify">
+        I-verify
+    </string>
+    <string name="request_a_new_code">
+        Humiling ng bagong code
+    </string>
+    <string name="check_verification_code_hint">
+        Tingnan ang app sa SMS messaging sa iyong mobile phone para sa isang text message na may code sa pag-verify, at ilagay ang code sa ibaba (mag-e-expire ang code pagkalipas ng 10 minuto).
+    </string>
+    <string name="verification_code">
+        Code sa pag-verify:
+    </string>
+    <string name="home">
+        bahay
+    </string>
+    <string name="set_home_address">
+        Itakda ang address ng iyong tahanan
+    </string>
+    <string name="work">
+        trabaho
+    </string>
+    <string name="set_work_address">
+        Itakda ang address ng iyong trabaho
+    </string>
+    <string name="add_another_place">
+        Magdagdag ng iba pang lugar
+    </string>
+    <string name="finish">
+        Tapos na
+    </string>
+    <string name="account_setup_complete">
+        Tapos nang i-set up ang account!
+    </string>
+    <string name="ready_to_start_planning_trips">
+        Handa ka nang simulan na planuhin ang mga biyahe mo.
+    </string>
+    <string name="verified">
+        Na-verify
+    </string>
+    <string name="preferences_saved">
+        Na-save ang iyong mga kagustuhan.
+    </string>
+    <string name="add_new_place">
+        Magdagdag ng bagong lugar
+    </string>
+    <string name="set_place_name">
+        Itakda ang pangalan ng lugar
+    </string>
+    <string name="search_for_location">
+        Maghanap ng lokasyon
+    </string>
+    <string name="save">
+        I-save
+    </string>
+    <string name="help">
+        Tulong
+    </string>
+    <string name="sign_out">
+        Mag-log out
+    </string>
+    <string name="terms">
+        Mga Tuntunin
+    </string>
+    <string name="my_locations">
+        Mga paboritong lugar
+    </string>
+    <string name="notifications">
+        Mga Notification
+    </string>
+    <string name="delete_my_account">
+        I-delete ang aking account
+    </string>
+    <string name="save_preferences">
+        I-save ang mga kagustuhan
+    </string>
+    <string name="no_saved_trips">
+        Wala kang naka-save na biyahe
+    </string>
+    <string name="no_saved_trips_hint">
+        Maghanap muna ng biyahe sa mapa.
+    </string>
+    <string name="verification_code_sent">
+        Naipadala na ang code sa pag-verify, pakitingnan
+    </string>
+    <string name="pending">
+        Nakabinbin
+    </string>
+    <string name="save_preferences_successfully">
+        Na-save ang iyong mga kagustuhan.
+    </string>
+    <string name="no">
+        Hindi
+    </string>
+    <string name="save_new_trip">
+        I-save ang bagong biyahe
+    </string>
+    <string name="trip_information">
+        Impormasyon ng biyahe
+    </string>
+    <string name="select_itinerary">
+        Piniling itinerary:
+    </string>
+    <string name="name_trip">
+        Pangalanan ang biyaheng ito:
+    </string>
+    <string name="trip_days">
+        Anong mga araw mo ginagawa ang biyaheng ito?
+    </string>
+    <string name="trip_days_hint">
+        Available ang iyong biyahe sa mga araw ng linggo na nakasaad sa itaas.
+    </string>
+    <string name="trip_notifications">
+        Mga notification sa biyahe
+    </string>
+    <string name="notify_via_email">
+        Abisuhan ako kapag:
+    </string>
+    <string name="realtime_alert_on_journey">
+        May realtime na alertong na-flag sa aking paglalakbay
+    </string>
+    <string name="alternative_route_recommended_options">
+        Inirerekomenda ang isang alternatibong ruta o transfer point
+    </string>
+    <string name="delay_options">
+        May mga pagkaantala o abalang mahigit sa
+    </string>
+    <string name="advanced_settings">
+        Mga advanced na setting
+    </string>
+    <string name="mon">
+        Lun.
+    </string>
+    <string name="tue">
+        Mar.
+    </string>
+    <string name="wed">
+        Miy.
+    </string>
+    <string name="thu">
+        Huw.
+    </string>
+    <string name="fri">
+        Biy.
+    </string>
+    <string name="sat">
+        Sab.
+    </string>
+    <string name="sun">
+        Lin.
+    </string>
+    <string name="monday">
+        Lun
+    </string>
+    <string name="tuesday">
+        Mar
+    </string>
+    <string name="wednesday">
+        Miy
+    </string>
+    <string name="thursday">
+        Huw
+    </string>
+    <string name="friday">
+        Biy
+    </string>
+    <string name="saturday">
+        Sab
+    </string>
+    <string name="sunday">
+        Lin
+    </string>
+    <string name="pause">
+        I-pause
+    </string>
+    <string name="edit_saved_trip">
+        I-edit ang na-save na biyahe
+    </string>
+    <string name="unsnooze_trip_analysis">
+        I-unsnooze ang pagsusuri ng biyahe
+    </string>
+    <string name="unsnooze_trip_analysis_hint">
+        I-unsnooze ang pagsubaybay sa biyahe para makita ang updated na status
+    </string>
+    <string name="unsnooze_trip_analysis_title">
+        Naka-snooze ang pagsubaybay sa biyahe ngayong araw
+    </string>
+    <string name="pause_trip_title">
+        Naka-pause ang pagsubaybay sa biyahe
+    </string>
+    <string name="pause_trip_hint">
+        Ipagpatuloy ang pagsubaybay sa biyahe para makita ang updated na status
+    </string>
+    <string name="snoose_for_rest_today">
+        I-snooze para sa natitirang bahagi ng araw
+    </string>
+    <string name="title_home">
+        bahay
+    </string>
+    <string name="title_notifications">
+        Mga Notification
+    </string>
+    <string name="routes">
+        Mga Ruta
+    </string>
+    <string name="my_trips">
+        Aking mga biyahe
+    </string>
+    <string name="account_settings">
+        Aking mga setting
+    </string>
+    <string name="map_details">
+        Mga Detalye ng Mapa
+    </string>
+    <string name="map_type">
+        Uri ng Mapa
+    </string>
+    <string name="auto_refresh">
+        Awtomatikong Pag-refresh
+    </string>
+    <string name="departures">
+        Mga pag-alis
+    </string>
+    <string name="schedule">
+        Iskedyul
+    </string>
+    <string name="destination">
+        Patutunguhan
+    </string>
+    <string name="view_on_agency_website">
+        Higit Pang Detalye
+    </string>
+    <string name="my_favorite_stops">
+        Aking Mga Paboritong Hintuan
+    </string>
+    <string name="rental">
+        Magrenta
+    </string>
+    <string name="ride">
+        Sumakay
+    </string>
+    <string name="please_enter_a_trip_name">
+        Maglagay ng pangalan ng biyahe
+    </string>
+    <string name="back_button">
+        Bumalik
+    </string>
+    <string name="close">
+        Isara
+    </string>
+    <string name="favorite_places">
+        Mga paboritong lugar
+    </string>
+    <string name="saved_trips">
+        Aking mga biyahe
+    </string>
+    <string name="before_scheduled_departure">
+        Bago ang nakatakdang pag-alis
+    </string>
+    <string name="on_time">
+        Tamang oras
+    </string>
+    <string name="no_available_dates">
+        Hindi posible ang biyahe ngayong araw
+    </string>
+    <string name="towards">
+        Papuntang
+    </string>
+    <string name="car">
+        Nagmamaneho
+    </string>
+    <string name="walk">
+        Naglalakad
+    </string>
+    <string name="transit">
+        Pampublikong Transportasyon
+    </string>
+    <string name="ferry">
+        Ferry
+    </string>
+    <string name="all_agencies">
+        Lahat ng Ahensya
+    </string>
+    <string name="all_modes">
+        Lahat ng Mode
+    </string>
+    <string name="street_car">
+        Streetcar
+    </string>
+    <string name="menu">
+        Menu
+    </string>
+    <string name="service_alerts">
+        Mga Alerto sa Serbisyo ng Sound Transit
+    </string>
+    <string name="accessibility">
+        Accessibility sa Sound Transit
+    </string>
+    <string name="safety_and_security">
+        Kaligtasan at Seguridad ng Sound Transit
+    </string>
+    <string name="stations">
+        Mga Istasyon
+    </string>
+    <string name="how_to_pay">
+        Paano Magbayad
+    </string>
+    <string name="walk_transit">
+        Naglalakad + Pampublikong Transportasyon
+    </string>
+    <string name="drive_transit">
+        Nagmamaneho + Pampublikong Transportasyon
+    </string>
+    <string name="other">
+        Iba pa
+    </string>
+    <string name="bike_transit">
+        bisikleta + Pampublikong Transportasyon
+    </string>
+    <string name="bikeshare_transit">
+        Bikeshare + Pampublikong Transportasyon
+    </string>
+    <string name="scooter_transit">
+        E-scooter + Pampublikong Transportasyon
+    </string>
+    <string name="enter_start_location">
+        Ilagay ang lokasyon ng pagsisimula
+    </string>
+    <string name="enter_destination">
+        Ipasok ang patutunguhan
+    </string>
+    <string name="or">
+        o
+    </string>
+    <string name="link">
+        LINK Light Rail
+    </string>
+    <string name="water_taxi">
+        Water Taxi
+    </string>
+    <string name="time_spent_active">
+        Oras na Ginugol sa pagiging Aktibo: ~
+    </string>
+    <string name="switch_locations">
+        Lumipat ng lokasyon
+    </string>
+    <string name="rent">
+        Magrenta
+    </string>
+    <string name="avoid_walking">
+        Iwasang maglakad
+    </string>
+    <string name="accessible_routing">
+        Accessible na Pagruruta
+    </string>
+    <string name="allow_bike_rental">
+        Payagan ang pagrenta ng bisikleta
+    </string>
+    <string name="walk_speed_no_caps">
+        Ang bilis maglakad
+    </string>
+    <string name="allow_scooter_rental">
+        Payagan ang pagrenta ng e-scooter
+    </string>
+    <string name="verify_email_to_save_trips">
+        Paki-verify ang iyong email para i-save ang iyong mga paboritong biyahe.
+    </string>
+    <string name="mostly_accessible">
+        Naa-acess ng naka-wheelchair
+    </string>
+    <string name="inaccessible">
+        Hindi naa-access ng naka-wheelchair
+    </string>
+    <string name="title_alerts">
+        Alerts
+    </string>
+    <string name="more">
+        Higit pa
+    </string>
+    <string name="more_alert">
+        alerts
+    </string>
+    <string name="sms_hint">
+        Sa pamamagitan ng pagbibigay ng iyong numero ng telepono, sumasang-ayon kang makatanggap ng mga SMS message sa pag-verify at pagsubaybay ng biyahe. Maaaring nalalapat ang mga karagdagang gastos mula sa carrier ng telepono mo.
+    </string>
+    <string name="hour">
+        oras
+    </string>
+    <string name="hours">
+        oras
+    </string>
+    <string-array name="walk_speed_arrays_otp">
+        <item>
+            1 MPH
+        </item>
+        <item>
+            2 MPH
+        </item>
+        <item>
+            3 MPH
+        </item>
+        <item>
+            4 MPH
+        </item>
+        <item>
+            5 MPH
+        </item>
+    </string-array>
+    <string-array name="itinerary_sort_arrays">
+        <item>
+            Tagal
+        </item>
+        <item>
+            Oras ng pagdating
+        </item>
+        <item>
+            Oras ng pag-alis
+        </item>
+        <item>
+            Tagal ng paglalakad
+        </item>
+        <item>
+            Halaga
+        </item>
+    </string-array>
+    <string-array name="walk_speed_arrays_value_otp">
+        <item>
+            0.45
+        </item>
+        <item>
+            0.89
+        </item>
+        <item>
+            1.34
+        </item>
+        <item>
+            1.78
+        </item>
+        <item>
+            2.23
+        </item>
+    </string-array>
+    <string-array name="monitor_trip_arrays_value">
+        <item>
+            15
+        </item>
+        <item>
+            30
+        </item>
+        <item>
+            45
+        </item>
+        <item>
+            60
+        </item>
+    </string-array>
+    <string-array name="delay_arrays_value">
+        <item>
+            5
+        </item>
+        <item>
+            10
+        </item>
+        <item>
+            15
+        </item>
+    </string-array>
+    <string-array name="maximum_walk_arrays">
+        <item>
+            1/10 milya
+        </item>
+        <item>
+            1/4 milya
+        </item>
+        <item>
+            1/2 milya
+        </item>
+        <item>
+            3/4 milya
+        </item>
+        <item>
+            1 milya
+        </item>
+        <item>
+            2 milya
+        </item>
+        <item>
+            5 milya
+        </item>
+    </string-array>
+    <string-array name="default_control_arrays">
+        <item>
+            Oo (default)
+        </item>
+        <item>
+            Hindi
+        </item>
+    </string-array>
+    <string-array name="optimize_option_arrays">
+        <item>
+            Bilis
+        </item>
+        <item>
+            Pinakamakaunting Paglilipat
+        </item>
+    </string-array>
+    <string-array name="maximum_walk_arrays_value">
+        <item>
+            160.9
+        </item>
+        <item>
+            402.3
+        </item>
+        <item>
+            804.5
+        </item>
+        <item>
+            1207
+        </item>
+        <item>
+            1609
+        </item>
+        <item>
+            3218
+        </item>
+        <item>
+            8045
+        </item>
+    </string-array>
+    <string-array name="walk_speed_arrays">
+        <item>
+            2 MPH
+        </item>
+        <item>
+            3 MPH
+        </item>
+        <item>
+            4 MPH
+        </item>
+    </string-array>
+    <string-array name="default_control_arrays_value">
+        <item>
+            totoo
+        </item>
+        <item>
+            false
+        </item>
+    </string-array>
+    <string-array name="optimize_option_arrays_value">
+        <item>
+            MABILIS
+        </item>
+        <item>
+            MGA PAGLIPAT
+        </item>
+    </string-array>
+    <string-array name="monitor_trip_arrays">
+        <item>
+            15 min
+        </item>
+        <item>
+            30 min (default)
+        </item>
+        <item>
+            45 min
+        </item>
+        <item>
+            1 oras
+        </item>
+    </string-array>
+    <string-array name="walk_speed_arrays_value">
+        <item>
+            0.89
+        </item>
+        <item>
+            1.34
+        </item>
+        <item>
+            1.79
+        </item>
+    </string-array>
+    <string-array name="delay_arrays">
+        <item>
+            5 min (default)
+        </item>
+        <item>
+            10 min
+        </item>
+        <item>
+            15 min
+        </item>
+    </string-array>
+    <string name="allowed">
+        Pinapayagan
+    </string>
+    <string name="enter_phone_number_for_sms_notifications">
+        Ilagay ang iyong numero ng telepono para sa mga SMS notification:
+    </string>
+    <string name="add_your_locations">
+        Idagdag ang iyong mga lokasyon
+    </string>
+    <string name="delete_saved_trip_warning">
+        Gusto mo bang alisin ang biyaheng ito?
+    </string>
+    <string name="bikeshare">
+        Bikeshare
+    </string>
+    <string name="view_all_options">
+        Tingnan ang lahat ng opsyon
+    </string>
+    <string name="resume">
+        Ipagpatuloy
+    </string>
+    <string name="cannot_save_trip">
+        Hindi ma-save
+    </string>
+    <string name="resend_verification_email_successfully">
+        Ipinadala ulit ang mensahe ng pag-verify sa email.
+    </string>
+    <string name="mode_gondola">
+        Gondola
+    </string>
+    <string name="calories_info_show">
+        Ipakita ang mga detalye
+    </string>
+    <string name="gondola">
+        Gondola
+    </string>
+    <string name="warning">
+        Babala
+    </string>
+    <string name="my_account">
+        Aking account
+    </string>
+    <string name="trip_viewer">
+        Viewer ng Biyahe
+    </string>
+    <string name="origin">
+        Pinagmulan
+    </string>
+    <string name="arrival_time">
+        Oras ng pagdating
+    </string>
+    <string name="click_view_details">
+        I-click para tingnan ang mga detalye
+    </string>
+    <string name="tomorrow">
+        Bukas
+    </string>
+    <string name="edit_place">
+        I-edit ang lugar
+    </string>
+    <string name="calories_info_hide">
+        Itago ang mga detalye
+    </string>
+    <string name="destination_lower_case">
+        patutunguhan
+    </string>
+    <string name="delete_account_warning">
+        Sigurado ka bang gusto mong i-delete ang iyong user account? Kapag ginawa mo ito, hindi na ito mare-recover.
+    </string>
+    <string name="route_filter_mode_rail">
+        Tren
+    </string>
+    <string name="use">
+        Gamitin
+    </string>
+    <string name="departure_time">
+        Oras ng pag-alis
+    </string>
+    <string name="settings">
+        Mga Setting
+    </string>
+    <string name="best_option">
+        Pinakamainam na opsyon
+    </string>
+    <string name="route_viewer">
+        Viewer ng Ruta
+    </string>
+    <string name="notification_preferences">
+        Mga kagustuhan sa notification
+    </string>
+    <string name="plan_trip">
+        Magplano ng Biyahe
+    </string>
+    <string name="e_scooter">
+        E-Scooter
+    </string>
+    <string name="plan_new_trip">
+        Magplano ng Bagong Biyahe
+    </string>
+    <string name="trips">
+        Mga Biyahe
+    </string>
+    <string name="to">
+        Papuntang
+    </string>
+    <string name="view">
+        Tingnan
+    </string>
+    <string name="view_schedule">
+        Tingnan ang iskedyul
+    </string>
+    <string name="last">
+        Huli
+    </string>
+    <string name="walk_time">
+        Tagal ng paglalakad
+    </string>
+    <string name="setting_button">
+        Mga Setting
+    </string>
+    <string name="receive_notifications_via">
+        Makatanggap ng mga notification tungkol sa iyong mga naka-save na biyahe sa pamamagitan ng:
+    </string>
+    <string name="play_button">
+        Ipagpatuloy
+    </string>
+    <string name="itinerary_search_button">
+        Planuhin ang Biyahe
+    </string>
+    <string name="plan_a_trip">
+        Magplano ng biyahe:
+    </string>
+    <string name="save_trip">
+        I-save ang biyahe
+    </string>
+    <string name="mode_combination_error">
+        Hindi makapagplano ng biyahe gamit ang mga piniling mode. Subukang isama ang pampublikong transportasyon sa pagpili mo ng mode.
+    </string>
+    <string name="rail">
+        Tren
+    </string>
+    <string name="current_location_not_available">
+        Hindi available ang kasalukuyang lokasyon
+    </string>
+    <string name="haptic_feedback">
+        Haptic Feedback
+    </string>
+    <string name="no_assistive_device">
+        Walang Assistive Device
+    </string>
+    <string name="delete_work">
+        Button ng i-delete ang iyong address ng trabaho, i-tap nang dalawang beses para i-delete %1$s
+    </string>
+    <string name="user_profile_button">
+        Button ng Profile ng User, I-tap nang dalawang beses para i-activate
+    </string>
+    <string name="search_rail_mode">
+        SUBWAY
+    </string>
+    <string name="rental_search_mode">
+        Button ng Mga Rental, I-tap nang dalawang beses para i-activate
+    </string>
+    <string name="search_for_a_route">
+        Maghanap ng Ruta
+    </string>
+    <string name="consent_to_terms_to_save_trips">
+        Mangyaring sumang-ayon sa mga tuntunin ng serbisyo upang i-save ang mga paboritong biyahe.
+    </string>
+    <string name="ride_duration_with_stops">
+        Ride %1$d min / %2$d stops
+    </string>
+    <string name="link_first_capital">
+        Link
+    </string>
+    <string name="manual_walker">
+        Manu-manong Walker
+    </string>
+    <string name="am">
+        n.u.
+    </string>
+    <string name="lost_data_warning">
+        Hindi mo pa nase-save ang iyong bagong biyahe. Kung aalis ka, mawawala ito.
+    </string>
+    <string name="low_vision">
+        Malabong paningin
+    </string>
+    <string name="calories_burned_guidelines">
+        <![CDATA[Hinango mula sa <font color=#295680>Mga Alituntunin sa Pagdidiyeta para sa mga
+        Amerikano 2005, pahina 16, Talahanayan 4.</font>]]>
+    </string>
+    <string name="at">
+        sa
+    </string>
+    <string name="mode_filter_button">
+        Button ng Filter ng Mode, I-tap nang dalawang beses para i-activate.
+    </string>
+    <string name="login_to_see_fav_stops">
+        Mangyaring mag-log in para mag-save ng mga lokasyon.
+    </string>
+    <string name="bold_stop_id_with_num">
+        ID ng Hintuan: %1$s
+    </string>
+    <string name="itineraries_found_with_num">
+        Nahanap ang %1$d na Biyahe
+    </string>
+    <string name="wheeled_walker">
+        May gulong na Walker
+    </string>
+    <string name="monorail">
+        Monorail
+    </string>
+    <string name="mins">
+        minuto
+    </string>
+    <string name="set">
+        Itakda
+    </string>
+    <string name="route_to">
+        &lt;b&gt;%1$s&lt;/b&gt; Papuntang %2$s
+    </string>
+    <string name="get_address_failed">
+        Nabigong makuha ang address. Subukang muli mamaya.
+    </string>
+    <string name="h">
+        hora
+    </string>
+    <string name="walk_search_mode">
+        Walk search mode
+    </string>
+    <string name="no_vision_limitations">
+        Walang limitasyon sa paningin
+    </string>
+    <string name="capital_departure">
+        PAG-ALIS
+    </string>
+    <string name="type_of_payment">
+        Uri ng pagbabayad
+    </string>
+    <string name="reset_button">
+        Button ng I-reset, I-tap nang dalawang beses para i-activate
+    </string>
+    <string name="verification_code_sent_failed">
+        Hindi nakahiling ng bagong code para sa numero ng telepono
+    </string>
+    <string name="set_destination">
+        Ipasok ang patutunguhan
+    </string>
+    <string name="password_cant_blank">
+        Hindi maaaring walang laman ang password.
+    </string>
+    <string name="failed_update_trip">
+        Walang mahanap na impormasyon sa paglalakbay.
+    </string>
+    <string name="last_checked">
+        Huling tiningnan: %1$s ang nakalipas
+    </string>
+    <string name="notification_channel_default">
+        Aplikasyon
+    </string>
+    <string name="empty_fav_stops">
+        Walang paboritong hintuan
+    </string>
+    <string name="transit_fare">
+        Pamasahe sa Pampublikong Transportasyon:
+    </string>
+    <string name="route_agency_info">
+        Pinapatakbo ng %1$s
+    </string>
+    <string name="calories_burned">
+        Mga nasunog na calorie:
+    </string>
+    <string name="start_over">
+        Magsimulang Muli
+    </string>
+    <string name="send_email">
+        IPADALA ANG EMAIL
+    </string>
+    <string name="one_alert">
+        1 alert
+    </string>
+    <string name="expander">
+        Expander
+    </string>
+    <string name="real_time_bus_unavailable">
+        Walang nakitang lokasyon ng bus. Subukang muli mamaya.
+    </string>
+    <string name="stop_viewer_expander">
+        Button ng Viewer ng Hintuan, I-tap nang dalawang beses para Buksan ang Viewer ng Hintuan
+    </string>
+    <string name="menu_tag">
+        tag ng menu
+    </string>
+    <string name="request_fine_location_confirmation">
+        Naka-block ang access sa lokasyon mo. Para gamitin ang kasalukuyang lokasyon mo, i-enable ang mga pahintulot sa lokasyon mula sa browser mo, at i-reload ang page.
+    </string>
+    <string name="retrieve_user_info_failed_unauthorized">
+        Tinanggihan ng user ang pahintulot
+    </string>
+    <string name="verify_email_address_hint">
+        Tingnan ang inbox ng iyong email at sundan ang link sa mensahe para i-verify ang iyong email address bago tapusin ang pag-set up sa iyong account.\n\nKapag na-verify ka na, i-click ang button sa ibaba para magpatuloy.
+    </string>
+    <string name="token_expired_message">
+        Nagka-error sa pag-establish sa auth session
+    </string>
+    <string name="push_notifications">
+        Mga push notification
+    </string>
+    <string name="waiting">
+        Naghihintay
+    </string>
+    <string name="capital_status">
+        STATUS
+    </string>
+    <string name="add_new_location_hint">
+        Ilagay ang lokasyon
+    </string>
+    <string name="fav_stops">
+        Aking Mga Paboritong Hintuan
+    </string>
+    <string name="shared_bike">
+        Shared Bike
+    </string>
+    <string name="fav_stop_hint">
+        Upang makahanap ng hintuan, maghanap sa bar sa itaas o mag-tab ng transit stop sa mapa.
+    </string>
+    <string name="uturn_right">
+        Uturn right
+    </string>
+    <string name="set_time">
+        Selector ng Petsa/Oras
+    </string>
+    <string name="create_new_account_optional">
+        <b>Opsyonal</b>: Pinapahintulutan ko ang Planner ng Biyahe na i-store ang aking mga dati
+        nang nakaplanong biyahe para mapahusay ang mga serbisyo sa transportasyon sa aking lugar.
+    </string>
+    <string name="more_information">
+        Higit pang impormasyon
+    </string>
+    <string name="stroller">
+        Andador
+    </string>
+    <string name="we_found_options_with_num">
+        Nakakita kami ng %1$d
+    </string>
+    <string name="departure_time_info">
+        Ipinapakita ang mga oras ng pag-alis sa &lt;b&gt;%1$s.&lt;/b&gt;
+    </string>
+    <string name="failed_get_trip_list_cdta">
+        &lt;b&gt;&lt;font color=#FFFFFF&gt;Nagka-error sa pag-fetch sa mga field trip&lt;/font&gt;&lt;/b&gt;
+    </string>
+    <string name="calories_burned_detail">
+        Sa pagbiyahe nang ganitong paraan, gugugol ka ng %1$s sa paglalakad at %2$s sa pagbibisikleta.
+    </string>
+    <string name="from_origin_to_destination">
+        Mula sa %1$s papuntang %2$s
+    </string>
+    <string name="itinerary_detail_expander">
+        Mga detalye ng itinerary
+    </string>
+    <string name="edit_work">
+        Itakda ang address ng iyong trabaho
+    </string>
+    <string name="crutches">
+        Mga saklay
+    </string>
+    <string name="notification_channel_second">
+        Mga Notification
+    </string>
+    <string name="notifications_lead_time">
+        <![CDATA[<b>%1$d minuto</b>]]>
+    </string>
+    <string name="modes">
+        Mga mode
+    </string>
+    <string name="sign_in_to_save_trip">
+        Paki-verify ang iyong email para i-save ang iyong mga paboritong biyahe.
+    </string>
+    <string name="start_route">
+        Simulan ang Ruta
+    </string>
+    <string name="departure_pdt">
+        Ipinapakita ang mga oras ng pag-alis sa PDT
+    </string>
+    <string name="finding_your_options">
+        Hinahanap ang iyong mga opsyon…
+    </string>
+    <string name="leave_now_two_lines">
+        Umalis ngayon
+    </string>
+    <string name="auto_refresh_arrivals">
+        Awtomatikong Pag-refresh?
+    </string>
+    <string name="effective_as_of">
+        Epektibo mula noong
+    </string>
+    <string name="no_fare_information">
+        Walang impormasyon sa pamasahe
+    </string>
+    <string name="save_route">
+        I-save ang bagong biyahe
+    </string>
+    <string name="plan_trip_tag">
+        plan trip tag
+    </string>
+    <string name="loading">
+        Naglo-load...
+    </string>
+    <string name="hr_min_with_num">
+        %1$d hr, %2$d minuto
+    </string>
+    <string name="edit_home">
+        I-edit ang Home
+    </string>
+    <string name="from_hint">
+        Mula rito
+    </string>
+    <string name="connection_failed_msg">
+        Hindi maabot ang server. Subukang muli mamaya.
+    </string>
+    <string name="stop_id_with_num">
+        ID ng Hintuan: %1$s
+    </string>
+    <string name="departure_colon">
+        "Pag-alis: "
+    </string>
+    <string name="you_arrive">
+        "Dumating bago ang: "
+    </string>
+    <string name="accessibility_profile">
+        Profile ng Accessibility
+    </string>
+    <string name="shared_car">
+        Shared Drive (Kotse)
+    </string>
+    <string name="locate_me_button">
+        Hanapin Ako, I- tap nang dalawang beses para i-activate
+    </string>
+    <string name="failed_retrieve_auto_complete">
+        Nabigong makuha ang auto complete
+    </string>
+    <string name="agency_filter_button">
+        Button ng Filter ng Ahensya, I-tap nang dalawang beses para i-activate
+    </string>
+    <string name="calories_info_show_details">
+        Button ng isara, I-tap nang dalawang beses para isara ang paglalarawan ng pagkalkula ng mga calorie
+    </string>
+    <string name="accessibility_profile_subtitle">
+        Profile ng Accessibility
+    </string>
+    <string name="slightly_right">
+        Slight right
+    </string>
+    <string name="routes_viewer_expander">
+        Routes viewer expander, i-double tap at hold at pagkatapos ay mag-swipe
+        para palawakin ang Route viewer pane.
+    </string>
+    <string name="search_bar_back_button">
+        lumabas sa search bar
+    </string>
+    <string name="verify_verification_code_successfully">
+        Matagumpay na naisumite ang numero ng teleponong
+    </string>
+    <string name="create_new_account_terms_start">
+        Kinukumpirma kong ako ay may edad na hindi bababa sa 13 taong gulang, at nabasa at
+        pinapahintulutan ko ang
+    </string>
+    <string name="terms_of_service">
+        Mga Tuntunin ng Paggamit
+    </string>
+    <string name="create_new_account_terms_end">
+        para sa Planner ng Biyahe.
+    </string>
+    <string name="location_blocked">
+        Naka-block ang access sa lokasyon mo. Para gamitin ang kasalukuyang lokasyon mo, i-enable ang mga pahintulot sa lokasyon mula sa browser mo, at i-reload ang page.
+    </string>
+    <string name="request_fine_location_explanation">
+        Naka-block ang access sa lokasyon mo. Para gamitin ang kasalukuyang lokasyon mo,
+        i-enable ang mga pahintulot sa lokasyon mula sa browser mo, at i-reload ang page.
+    </string>
+    <string name="electric_wheelchair">
+        Electric Wheelchair
+    </string>
+    <string name="failed_create_trip">
+        Nabigong gawin ang impormasyon sa paglalakbay
+    </string>
+    <string name="notifications_disabled">
+        &lt;b&gt;Naka-disable&lt;/b&gt;
+    </string>
+    <string name="walk_speed">
+        Bilis ng Paglalakad
+    </string>
+    <string name="save_preferences_failed">
+        Hindi na-save ang mga kagustuhan
+    </string>
+    <string name="next_trip_starts_on">
+        Magsisimula ang susunod na biyahe sa %1$s nang %2$s.
+    </string>
+    <string name="expand">
+        Expand stop sa direksyong ito
+    </string>
+    <string name="minutes_with_num">
+        %1$d minuto
+    </string>
+    <string name="marta_rail">
+        Riles ng MARTA
+    </string>
+    <string name="delete">
+        I-delete ang Biyahe
+    </string>
+    <string name="create_new_account_terms_url">
+        https://atlrides.com/#/terms-of-service
+    </string>
+    <string name="delete_account_successfully">
+        Na-delete ang iyong user account na
+    </string>
+    <string name="head">
+        Ulo
+    </string>
+    <string name="and">
+        " at "
+    </string>
+    <string name="title_dashboard">
+        Dashboard
+    </string>
+    <string name="feet_with_num">
+        %1$d talampakan
+    </string>
+    <string name="from_here_two_lines">
+        Mula sa\nDito
+    </string>
+    <string name="checking_itinerary_existence">
+        Tinitingnan kung may itinerary para sa bawat araw ng linggo...
+    </string>
+    <string name="dont_remember_password">
+        Nakalimutan mo na ba ang iyong password?
+    </string>
+    <string name="resend_verification_email_failed">
+       Ipadala ulit ang email ng pag-verify
+    </string>
+    <string name="stops_found">
+        Nahanap ang %1$d Stop
+    </string>
+    <string name="shared_vehicle">
+        Mga Nakabahaging Sasakyan
+    </string>
+    <string name="leave_feedback">
+        Mag-iwan ng opinyon
+    </string>
+    <string name="pm">
+        n.h.
+    </string>
+    <string name="collapse">
+        Humihinto ang pagbagsak sa direksyong ito
+    </string>
+    <string name="miles_with_num">
+        %1$.1f milya
+    </string>
+    <string name="notification_sms_hint">
+        0123456789
+    </string>
+    <string name="expand_map">
+        Layer View ng Mapa
+    </string>
+    <string name="reset_password_text">
+        Ilagay ang iyong email. Padadalhan ka namin ng email para kumpirmahin ang pagbabago ng password.
+    </string>
+    <string name="before_begins_ends">
+        bago magsimula hanggang sa matapos.
+    </string>
+    <string name="forgot_my_options">
+        Kalimutan ang aking mga opsyon
+    </string>
+    <string name="accessibility_profile_hint">
+        Mangyaring sagutin ang ilang mga tanong upang i-customize ang karanasan sa pagpaplano ng
+        biyahe sa iyong mga pangangailangan at kagustuhan.
+    </string>
+    <string name="accessibility_profile_second_section_title">
+        2. Mayroon ka bang anumang mga limitasyon sa kadaliang kumilos na nagiging sanhi ng iyong
+        paglalakad nang mas mabagal o mas maingat kaysa sa ibang mga tao?
+    </string>
+    <string name="we_found_option_with_num">
+        Nakakita kami ng mga pagpipilian %1$d
+    </string>
+    <string name="mobility_scooter">
+        Mobility Scooter
+    </string>
+    <string name="edit">
+        I-edit
+    </string>
+    <string name="sign_up_terms">
+        Sa pamamagitan ng pag-sign up, sumasang-ayon ka sa aming mga tuntunin ng serbisyo at patakaran sa privacy, I-double tap para i-activate
+    </string>
+    <string name="create_new_account_optional_url">
+        https://atlrides.com/#/terms-of-storage
+    </string>
+    <string name="free_floating_bike">
+        Free-floating na bisikleta
+    </string>
+    <string name="stops">
+        Mga Hintuan ng Pampublikong Transportasyon
+    </string>
+    <string name="failed_get_trip_list">
+        Hindi nakuha ang mga item ng notification ng naka-save na biyahe
+    </string>
+    <string name="routes_found">
+        %1$d Mga ruta ang natagpuan
+    </string>
+    <string name="title_activity_tab">
+        TabActivity
+    </string>
+    <string name="search_for_a_route_text_field">
+        Maghanap ng Ruta
+    </string>
+    <string name="stay_on_board_at">
+        Manatiling on board sa %1$s
+    </string>
+    <string name="routes_tag">
+        tag ng mga ruta
+    </string>
+    <string name="route_viewer_route">
+        &lt;b&gt;%1$s&lt;/b&gt; %2$s
+    </string>
+    <string name="min">
+        min
+    </string>
+    <string name="retrieve_user_info_failed_other">
+        Nabigong makuha ang impormasyon ng user. Subukang muli mamaya.N
+    </string>
+    <string name="switch_origin_destination_button">
+        Button ng I-switch ang Pinanggalingan at Patutunguhan, I-tap nang dalawang beses para i-activate
+    </string>
+    <string name="search_mode_title">
+        Pumili ng mga paraan ng transportasyon:
+    </string>
+    <string name="special_characters">
+        Mga espesyal na character (hal. !@#$%^&amp;*)
+    </string>
+    <string name="enter_phone_number">
+        Ilagay ang iyong numero ng telepono
+    </string>
+    <string name="drive_search_mode">
+        Drive search mode
+    </string>
+    <string name="no_stops_found">
+        Walang nakitang oras ng paghinto para sa petsa.
+    </string>
+    <string name="no_internet_message">
+        Hindi namin ma-access ang internet. Subukang kumonekta sa pamamagitan ng WiFi o cellular data.
+    </string>
+    <string name="close_search_mode">
+        Isara ang mode search pop up
+    </string>
+    <string name="restore_my_defaults">
+        I-restore my defaults
+    </string>
+    <string name="layer_control_button">
+        Kontrol ng layer
+    </string>
+    <string name="remove_fav_stop_warning">
+        Aalisin mo ang [%1$s] sa paboritong listahan. Sigurado ka ba?
+    </string>
+    <string name="stops_expander">
+        Ihihinto ang expander, i-double tap at i-hold at pagkatapos ay mag-swipe upang
+        palawakin ang Stops viewer pane.
+    </string>
+    <string name="no_internet">
+        Walang internet
+    </string>
+    <string name="transit_stops">
+        Mga Hintuan ng Pampublikong Transportasyon
+    </string>
+    <string name="bike_search_mode">
+        Bike search mode
+    </string>
+    <string name="numbers">
+        Mga Numero (0-9)
+    </string>
+    <string name="link_scooter">
+        "Link" Scooter
+    </string>
+    <string name="minute_with_num">
+        %1$d minuto
+    </string>
+    <string name="light_rail">
+        Banayad na Riles
+    </string>
+    <string name="lower_case_letters">
+        Mga maliliit na titik
+    </string>
+    <string name="transfer_discount_info">
+        Inilapat ang diskwento sa paglipat na $%.2f
+    </string>
+    <string name="min_with_num">
+        %1$d minuto
+    </string>
+    <string name="min_with_num_with_about">~ %1$d minuto</string>
+    <string name="itinerary_leg_description">
+        %1$s %2$s Papuntang %3$s
+    </string>
+    <string name="accessibility_profile_third_section_title">
+        3. Mayroon ka bang limitasyon sa paningin?
+    </string>
+    <string name="accessibility_profile_first_section_title">
+        1. Regular ka bang gumagamit ng mobility assistive device?
+        (Lagyan ng check ang lahat ng naaangkop)
+    </string>
+    <string name="my_trips_tag">
+        Mga trip ko tag
+    </string>
+    <string name="arrive_colon">
+        "Dumating bago ang: "
+    </string>
+    <string name="failed_delete_trip">
+        Nabigong tanggalin ang biyahe
+    </string>
+    <string name="verification_code_hint">
+        123456
+    </string>
+    <string name="search_bar_collapse_button">
+        Button ng I-collapse, I-tap nang dalawang beses para i-activate
+    </string>
+    <string name="close_setting">
+        Isara ang setting ng pop up
+    </string>
+    <string name="cane">
+        Tungkod
+    </string>
+    <string name="service_animal">
+        Serbisyong Hayop
+    </string>
+    <string name="optimize_for">
+        I-optimize PARA SA
+    </string>
+    <string name="atl_street_car">
+        Atlanta\nStreetcar
+    </string>
+    <string name="distance">
+        Distansya
+    </string>
+    <string name="to_here_two_lines">
+        Papunta Rito
+    </string>
+    <string name="email_cant_blank">
+        Dapat ay isang wastong e-mail address.
+    </string>
+    <string name="mins_late">
+        %1$d minutong huli
+    </string>
+    <string name="happens_on">
+        &lt;b&gt;%1$s&lt;/b&gt;
+    </string>
+    <string name="we_found_one_option">
+        Nakakita kami ng 1
+    </string>
+    <string name="hr_with_num">
+        %1$d oras
+    </string>
+    <string name="arrive">
+        Darating
+    </string>
+    <string name="Logged_in_as_email">
+        Naka-log in bilang %1$s
+    </string>
+    <string name="yes">
+        Oo (default)
+    </string>
+    <string name="you_leave">
+        Aalis ka
+    </string>
+    <string name="calculating">
+        Hinihintay na makalkula...
+    </string>
+    <string name="subway_route_provider">
+        Ang serbisyo ay pinapatakbo ng &lt;font color=#4182BC&gt;%1$s &amp;nbsp&lt;/font&gt;
+    </string>
+    <string name="set_origin">
+        Itakda ang Pinagmulan
+    </string>
+    <string name="itinerary_found_with_num">
+        %1$d Nahanap ang Biyahe
+    </string>
+    <string name="filter_control_button">
+        Kontrol ng filter
+    </string>
+    <string name="successfully_update_trip">
+        Na-update na ang setting na ito.
+    </string>
+    <string name="step_on">
+        %1$s sa %2$s
+    </string>
+    <string name="manual_traditional_wheelchair">
+        Manwal/Tradisyonal na Wheelchair
+    </string>
+    <string name="where_to_go">
+        Ilagay ang destinasyon o pumili sa mapa
+    </string>
+    <string name="view_next_arrivals">
+        Tingnan ang mga susunod na pagdating
+    </string>
+    <string name="dont_notify_me">
+        Huwag mo akong ipaalam
+    </string>
+    <string name="delete_account_failed">
+        Error sa pag-update ng profile
+    </string>
+    <string name="trip_is_due_to">
+        Magsisimula ang biyahe nang %1$s. (Magsisimula ang realtime na pagsubaybay nang %2$s)
+    </string>
+    <string name="resend_verification_email">
+        Ipadala ulit ang email ng pag-verify
+    </string>
+    <string name="request_post_push_explanation">
+        Ang app ay nangangailangan ng mga serbisyo ng mga notification na paganahin upang gumana.
+    </string>
+    <string name="pick_up_spin_e_scooter">
+        Kunin ang Spin E-scooter
+    </string>
+    <string name="legally_blind">
+        Bulag
+    </string>
+    <string name="use_current_location">
+        Gamitin ang Kasalukuyang Lokasyon
+    </string>
+    <string name="around_distance">
+        humigit-kumulang %1$s
+    </string>
+    <string name="mins_early">
+        %1$d min maaga
+    </string>
+    <string name="search_for_a_stop">
+        Maghanap ng transit stop
+    </string>
+    <string name="agency">
+        AHENSIYA
+    </string>
+    <string name="monitor_this_trip">
+        Subaybayan ang biyaheng ito bago ito magsimula
+    </string>
+    <string name="vehicle_on_route_speed">
+        Bumibiyahe nang %1$d MPH
+    </string>
+    <string name="search_empty_field_warning">
+        Ilarawan ang mga sumusunod na field para makapagplano ng biyahe: %1$s
+    </string>
+    <string name="verify_verification_code_failed">
+        Hindi nakahiling ng bagong code para sa numero ng telepono
+    </string>
+    <string name="vehicle_on_route_time">
+        %1$d ilang segundo ang nakalipas
+    </string>
+    <string name="itinerary_leg_transit_description_without_route_name">
+        Papuntang %1$s
+    </string>
+    <string name="review_accessibility_questions">
+        Suriin ang Mga Tanong sa Accessibility
+    </string>
+    <string name="request_post_push_confirmation">
+        Para makatanggap ng mga alerto para sa iyong mga naka-save na biyahe,
+        i-enable ang mga notification sa mga setting ng iyong account,
+        at subukang mag-save ulit ng biyahe.
+    </string>
+    <string name="white_cane">
+        Puting Tungkod
+    </string>
+    <string name="transit_search_mode">
+        Transit search mode
+    </string>
+    <string name="duration_left">
+        %1$s left
+    </string>
+    <string name="uturn_left">
+        Uturn left
+    </string>
+    <string name="slightly_left">
+        Slightly left
+    </string>
+    <string name="from">
+        Mula rito
+    </string>
+    <string name="depart">
+        Umalis nang
+    </string>
+    <string name="search_bar_expand_button">
+        Button ng I-expand ang Search Bar, I-tap nang dalawang beses para i-activate
+    </string>
+    <string name="email_is_verified">
+        Na-verify ang aking email
+    </string>
+    <string name="arrive_at_time">
+        Darating nang %1$s
+    </string>
+    <string name="no_route_url_provided">
+        Walang ibinigay na URL ng ruta
+    </string>
+    <string name="itinerary_leg_transit_description">
+        %1$s Papuntang %2$s
+    </string>
+    <string name="trip_viewer_expander">
+        Trip viewer expander, i-double tap at hold at pagkatapos ay mag-swipe para palawakin
+        ang Trip viewer pane.
+    </string>
+    <string name="itinerary_list_expander">
+        Itinerary list expander, i-double tap at hold at pagkatapos ay mag-swipe para
+        palawakin ang Itinerary list pane.
+    </string>
+    <string name="vehicle_on_route_name">
+        Sasakyan %1$s
+    </string>
+    <string name="search_modes_button">
+        Button ng Filter ng Mode, I-tap nang dalawang beses para i-activate
+    </string>
+    <string name="failed_check_trip">
+        Nagka-error sa pagtingin kung posible ang napili mong biyahe.
+    </string>
+    <string name="select_from_location">
+        Gawing lokasyon ng
+    </string>
+    <string name="trip_viewer_route">
+        Ruta: &lt;b&gt;%1$s&lt;/b&gt; %2$s
+    </string>
+    <string name="mode_to">
+        %1$s Papuntang %2$s
+    </string>
+    <string name="sign_in_tag">
+        mag-sign in na tag
+    </string>
+    <string name="itinerary_start_end_time">
+        &lt;b&gt;Itineraryo&lt;/b&gt; %1$s - %2$s
+    </string>
+    <string name="upper_case_letters">
+        Malaking titik
+    </string>
+    <string name="spin_e_scooter">
+        Spin E-scooter
+    </string>
+    <string name="destination_hint">
+        Ilagay ang destinasyon o pumili sa mapa
+    </string>
+    <string name="reach_max_saved_trip_warning_message">
+        Naabot mo na ang maximum na %1$d na naka-save na mga biyahe. Mangyaring alisin ang
+        mga hindi nagamit na biyahe mula sa iyong mga naka-save na biyahe, at subukang muli.
+    </string>
+    <string name="devices_registered">
+        %1$d mga device rehistrado
+    </string>
+    <string name="route_found">
+        %1$d mga ruta ang natagpuan
+    </string>
+    <string name="calories_info_hide_details">
+        Itago ang mga detalye
+    </string>
+    <string name="enter_location">
+        Ilagay ang lokasyon
+    </string>
+    <string name="walking">
+        Paglalakad
+    </string>
+    <string name="plan_trip_two_lines">
+        Magplano ng biyahe
+    </string>
+    <string name="maximum_walk">
+        Maximum na Paglalakad
+    </string>
+    <string name="successfully_create_trip">
+        Na-save ang iyong mga kagustuhan.
+    </string>
+    <string name="show_results">
+        Ipakita ang mga detalye
+    </string>
+    <string name="delete_home">
+        Button ng i-delete ang iyong address ng tahanan
+    </string>
+    <string name="park_and_ride">
+        Park Et Devam Et.
+    </string>
+    <string name="reduce_fares_format">
+        \* Nalalapat lamang ang %1$s sa mga nakatatanda atmay kapansanan na indibidwal.
+        Malayang sumakay ang kabataan.
+    </string>
+    <string name="reduce_fares_highlighted_text">
+        Pinababang Pamasahe
+    </string>
+    <string name="reduce_fares_url">
+        https://info.myorca.com/tl/gamit-ang-orca/mga-paraan-upang-makatipid/
+    </string>
+    <string name="map_settings">
+        Mga setting ng mapa, i-double tap para i-activate
+    </string>
+    <string name="attention">
+        Pansin
+    </string>
+    <string name="likely_not_accessible">
+        Hindi available ang impormasyon sa pagiging naa-access ng naka-wheelchair
+    </string>
+
+    <string name="more_options">
+        Higit pang mga pagpipilian
+    </string>
+    <string name="advanced_preferences">
+        Mga advanced na kagustuhan
+    </string>
+    <string name="i_like_to">
+        Gusto ko…
+    </string>
+
+    <string name="route_preference">
+        Piliin ang mga mas gustong ruta…
+    </string>
+    <string name="accessible_trip">
+        Accessible na biyahe
+    </string>
+
+    <string name="fewest_transfers">
+        Pinakamakaunting Paglilipat
+    </string>
+    <string name="fastest">
+        Fastest
+    </string>
+    <string name="less_walking">
+        Mas Kaunting Paglalakad
+    </string>
+
+    <string name="my_preferred_mode">
+        Mga Opsyon sa Mode
+    </string>
+
+    <string name="advance_transit">
+        Pampublikong Transportasyon
+    </string>
+    <string name="advance_cycle">
+        Bisikleta
+    </string>
+    <string name="advance_drive">
+        Nagmamaneho
+    </string>
+    <string name="advance_walk">
+        Naglalakad
+    </string>
+    <string name="advance_rental">
+        Magrenta
+    </string>
+
+    <string name="real_time">
+        TOTOONG ORAS
+    </string>
+
+    <string name="sms_warning_msg">
+        Pakikumpleto ang proseso ng pag-verify para makapag-set up ng mga SMS notification.
+    </string>
+
+    <string name="advanced_popup_title">
+        Mayroon kang mga hindi na-save na pagbabago
+    </string>
+    <string name="keep_editing">
+        Ituloy ang pag-edit
+    </string>
+    <string name="discard_changes">
+        Itapon ang mga pagbabago
+    </string>
+    <string name="plan_your_trip">
+        Planuhin ang iyong paglalakbay
+    </string>
+    <string name="addition_modes_toggle_msg">
+        Ang pagpili ng Mga Karagdagang Mode ay magsasama/magbubukod ng mga serbisyo sa loob ng mga
+        kategorya ng mode. I-toggle ang on/off na mga mode ng paglalakbay na gusto mong isama
+        para sa iyong biyahe.
+    </string>
+    <string name="accessible_trip_toggle_msg">
+        Ang pagpili sa Accessible Trip ay magbibigay ng priyoridad sa mga paglalakbay na may
+        wheelchair boarding at magbibigay ng Accessibility rating para sa bawat bahagi ng paglalakbay.
+    </string>
+    <string name="address_landmarks_places">
+        Mga Address, Landmark at Lugar
+    </string>
+    <string-array name="search_options">
+        <item>Umalis ngayon</item>
+        <item>Umalis pagkatapos</item>
+        <item>Dumating bago ang</item>
+    </string-array>
+    <string name="all_transit">
+        Lahat ng transit
+    </string>
+    <string name="first_hill">
+        Unang Burol
+    </string>
+    <string name="sounder">
+        Sounder
+    </string>
+    <string name="cash">
+        Cash
+    </string>
+    <string name="adult">
+        Nasa Hustong Gulang
+    </string>
+    <string name="youth">
+        Kabataan
+    </string>
+    <string name="senior">
+        Nakatatanda
+    </string>
+    <string-array name="items_expandable_level_one">
+        <item>@string/adult</item>
+        <item>@string/youth</item>
+        <item>@string/senior</item>
+    </string-array>
+
+    <string name="mode_combination_error_title">
+        Walang koneksyon sa pampublikong transportasyon
+    </string>
+    <string name="locations_are">
+        mga lokasyon ay
+    </string>
+    <string name="location_is">
+        lokasyon ay
+    </string>
+
+    <string name="preferred_mode_alter">Mga alternatibong opsyon:</string>
+    <string name="mode_combination_error_invalid_mode">Hindi makapagplano ng biyahe gamit ang mga piniling mode. Subukang isama ang pampublikong transportasyon sa pagpili mo ng mode.</string>
+
+    <string name="my_preferred_trip">Mga Pagpipilian sa Biyahe</string>
+
+    <string name="error_occurred">May naganap na error</string>
+    <string name="incorrect_credentials">Maling email o password</string>
+    <string name="user_exists">Umiiral na ang user</string>
+    <string name="valid_password">Mangyaring magpasok ng wastong password</string>
+    <string name="password_reset_success">Tagumpay, naipadala na ang email sa pag-reset ng password.</string>
+    <string name="too_many_attempts">Naka-lock ang account, masyadong maraming pagsubok. Pakisubukang muli mamaya.</string>
+
+    <string name="no_longer_possible_heading">Hindi na posible ang biyahe</string>
+    <string name="no_longer_possible_description">Hindi nakita ng planner ng biyahe ang iyong biyahe ngayong araw. Subukang planuhin ulit ang iyong itinerary para makakita ng alternatibong ruta.</string>
+    <string name="past_trip_description">Ito ay minsanang paglalakbay na naganap sa nakaraan.</string>
+    <string name="past_trip_heading">Mga nakaraang biyahe</string>
+    <string name="next_trip_not_possible_description">Hindi nakita ng planner ng biyahe ang iyong biyahe sa anumang napiling araw ng linggo. Subukang planuhin ulit ang iyong itinerary para makakita ng alternatibong ruta.</string>
+    <string name="next_trip_not_possible_heading">Hindi posible ang biyahe ngayon</string>
+
+    <string name="trip_starting_soon_no_realtime">Malapit nang magsimula ang biyahe (walang realtime na update na available).</string>
+    <string name="trip_start_time_earlier">Nagsisimula na ang biyahe %1$s na mas maaga kaysa sa inaasahan!</string>
+    <string name="trip_starting_soon_on_time">Malapit nang magsimula at nasa oras ang biyahe.</string>
+    <string name="trip_start_time_delayed">Naantala ang oras ng pagsisimula ng biyahe nang  %1$s!</string>
+    <string name="trip_progress_on_time">Nasa biyahe sa kasalukuyan at nasa oras ito.</string>
+    <string name="trip_progress_delayed">Nasa biyahe sa kasalukuyan at naantala ito nang %1$d %2$d</string>
+    <string name="trip_progress_earlier">Nasa biyahe sa kasalukuyan at darating nang %1$d ena mas maaga kaysa sa inaasahan!</string>
+    <string name="trip_is_due_to_arrive_at">Darating sa patutunguhan nang %1$s</string>
+    <string name="trip_progress_no_real_time">Nasa biyahe sa kasalukuyan (walang realtime na update na available).</string>
+
+    <string name="trip_name_cant_blank">Maglagay ng pangalan ng biyahe.</string>
+    <string name="trip_name_duplicate">May gumagamit nang naka-save na biyahe sa pangalang ito. \nGumamit ng ibang pangalan.</string>
+    <string name="place_name_text">Pangalan ng lugar:</string>
+    <string name="place_name_duplicate">Ginagamit mo na ang pangalang ito para sa ibang lugar. \nMaglagay ng ibang pangalan.</string>
+    <string name="trip_days_at_least_one">Please select at least one day to monitor.</string>
+    <string name="address_name_text">Address:</string>
+    <string name="location_type_text">Uri ng lokasyon:</string>
+
+</resources>

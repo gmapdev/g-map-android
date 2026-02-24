@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+
+    >
+
+    <ImageView
+        android:id="@+id/iv_item_plan_trip_error"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_exclamation"
+        android:layout_gravity="center"
+        android:layout_marginBottom ="10dp"
+
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/tv_title_plan_trip_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No trips found."
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="@dimen/margin_small"
+            
+
+            />
+
+    <TextView
+        android:id="@+id/tv_plan_trip_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No trips found."
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="@dimen/margin_small"
+        android:layout_marginBottom ="10dp"
+
+        />
+
+    </LinearLayout>
+
+
+
+        
+
+
+</LinearLayout>

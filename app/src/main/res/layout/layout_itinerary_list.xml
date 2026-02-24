@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/ll_itinerary_back_accessibility"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:layout_marginStart="@dimen/margin_medium"
+                    android:layout_marginEnd="@dimen/margin_medium"
+                    android:background="@drawable/rounded_white_with_shadow_bg"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:minHeight="@dimen/input_box_height"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="@dimen/margin_small"
+                        android:layout_weight="1"
+                        android:text="@string/back"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/address_input_text_size_sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_medium"
+                    android:background="@drawable/rounded_white_with_shadow_bg"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <ImageView
+                        android:id="@+id/iv_itinerary_back"
+                        android:layout_width="@dimen/aoda_width"
+                        android:layout_height="@dimen/aoda_height"
+                        android:contentDescription="@string/back_button"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ic_leftarrow" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/medium_icon_width"
+                                android:layout_height="@dimen/medium_icon_height"
+                                android:layout_gravity="center_vertical"
+                                android:padding="@dimen/padding_small"
+                                android:src="@drawable/ic_start_trip" />
+
+                            <TextView
+                                android:id="@+id/tv_itinerary_origin"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:minHeight="@dimen/input_box_height"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginEnd="@dimen/margin_small"
+                                android:layout_weight="1"
+                                android:background="@android:color/transparent"
+
+                                android:gravity="center_vertical"
+                                android:hint="@string/from_hint"
+
+                                android:textColor="@android:color/black"
+                                android:textColorHint="@color/colorHintText"
+                                android:textSize="@dimen/address_input_text_size_sp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorGrey"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:visibility="visible"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/medium_icon_width"
+                                android:layout_height="@dimen/medium_icon_height"
+                                android:layout_gravity="center_vertical"
+                                android:padding="@dimen/padding_small"
+                                android:src="@drawable/ic_to" />
+
+                            <TextView
+                                android:id="@+id/tv_itinerary_destination"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:minHeight="@dimen/input_box_height"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginEnd="@dimen/margin_small"
+                                android:layout_weight="1"
+                                android:background="@android:color/transparent"
+
+                                android:gravity="center_vertical"
+                                android:hint="@string/destination_hint"
+
+                                android:textColor="@android:color/black"
+                                android:textColorHint="@color/colorHintText"
+                                android:textSize="@dimen/address_input_text_size_sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_itinerary_list_expander"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/icon_height"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/itinerary_list_expander"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_handle"
+                    android:visibility="gone"
+                    app:tint="@android:color/white" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="@dimen/margin_medium"
+                    android:layout_marginEnd="@dimen/margin_medium"
+                    android:background="#BCC3CD" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingStart="@dimen/padding_medium"
+                    android:paddingEnd="@dimen/padding_medium">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:id="@+id/ll_accessibility_legend"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="@dimen/margin_medium"
+                            android:gravity="center"
+                            >
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:src="@drawable/ic_info_accessible"
+                                app:tint="@android:color/white"
+                                />
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:src="@drawable/ic_wheelchair"
+                                app:tint="@android:color/white"
+                                />
+
+
+                        </LinearLayout>
+
+
+                    
+                    <RelativeLayout
+                        android:id="@+id/rl_itinerary_sort_accessibility"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/aoda_height"
+                        android:layout_gravity="start"
+                        android:gravity="start"
+                        android:visibility="gone">
+
+                        <Spinner
+                            android:id="@+id/sp_itinerary_sort_accessibility"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:background="@null"
+                            android:entries="@array/itinerary_sort_arrays"
+                            android:gravity="start"
+                            android:paddingEnd="@dimen/padding_medium" />
+
+                        <ImageView
+                            android:id="@+id/iv_itinerary_sort_direction_accessibility"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_centerVertical="true"
+                            android:layout_toEndOf="@+id/sp_itinerary_sort_accessibility"
+                            android:src="@drawable/ic_sort_arrowdown"
+                            />
+                    </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_itineraries_found"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/text_hit_box_height"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:accessibilityHeading="true"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:text="@string/waiting"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/address_input_text_size_sp"
+                        tools:targetApi="p"
+                        android:visibility="invisible"/>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_itinerary_sort"
+                        android:layout_width="@dimen/small_spinner_width"
+                        android:layout_height="@dimen/aoda_height"
+                        android:layout_gravity="center_vertical"
+                        >
+
+                        <Spinner
+                            android:id="@+id/sp_itinerary_sort"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:background="@null"
+                            android:entries="@array/itinerary_sort_arrays"
+                            android:paddingEnd="@dimen/padding_medium" />
+
+                        <ImageView
+                            android:id="@+id/iv_itinerary_sort_direction"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="@dimen/margin_small"
+                            android:src="@drawable/ic_decending" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:id="@+id/ll_plan_trip_errors"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/margin_medium"
+                                android:layout_marginEnd="@dimen/margin_medium"
+                                android:layout_marginTop="@dimen/margin_small"
+                                android:layout_marginBottom ="5dp"
+                                android:accessibilityHeading="true"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/ll_lists_holder"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/margin_medium"
+                                android:layout_marginEnd="@dimen/margin_medium"
+                                android:layout_marginTop="@dimen/margin_small"
+                                android:accessibilityHeading="true"
+                                android:orientation="vertical">
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv_other_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/margin_medium"
+                                android:layout_marginTop="@dimen/margin_large"
+                                android:accessibilityHeading="true"
+                                android:text="@string/other"
+                                android:textColor="@android:color/white"
+                                android:textSize="@dimen/itinerary_list_text_size_sp"
+                                tools:targetApi="p" />
+
+                            <ListView
+                                android:id="@+id/lv_itinerary_list_other"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/margin_medium"
+                                android:layout_marginTop="@dimen/margin_medium"
+                                android:layout_marginEnd="@dimen/margin_medium"
+                                android:divider="@android:color/transparent"
+                                android:dividerHeight="@dimen/margin_medium" />
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                    <ProgressBar
+                        android:id="@+id/pb_itinerary_list"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:indeterminateTint="@android:color/white" />
+
+
+
+
+
+
+                </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

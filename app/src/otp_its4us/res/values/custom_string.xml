@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">G-MAP</string>
+    <string name="leave_now_two_lines">Leave now</string>
+    <string name="atl_street_car">Streetcar</string>
+
+    <string name="receive_notifications_via">You can receive notifications about trips your frequently take.\nHow would you like to receive notifications?</string>
+    <string name="create_new_account_terms_url">https://ta-511.s3.amazonaws.com/otp/g-map_terms_of_use.html</string>
+    <string name="create_new_account_optional_url">https://gmap.ibi-transit.com/#/terms-of-storage</string>
+
+    <string name="create_new_account_terms">I confirm that I am at least 18 years old, and I have read and consent to the <a href="https://gmap.ibi-transit.com/#/terms-of-service">Terms of Service</a> for using the Trip Planner.</string>
+    <string name="create_new_account_optional"><b>Optional</b>: I consent to the Trip Planner storing my historical planned trips in order to improve transit services in my area. <a href="https://gmap.ibi-transit.com/#/terms-of-storage">More info</a> </string>
+
+</resources>

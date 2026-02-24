@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/white_with_shadow_bg"
+    android:orientation="horizontal"
+    android:gravity="center"
+
+>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/ll_bottom_tab_menu_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginStart="33dp"
+            android:gravity="start"
+            android:minHeight="@dimen/aoda_height"
+            android:tag="0"
+
+            >
+
+                <RelativeLayout
+                    android:id="@+id/rl_bottom_tab_menu_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/tv_bottom_tab_menu_user_name"
+                            android:layout_width="@dimen/aoda_width"
+                            android:layout_height="@dimen/aoda_height"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/ic_circle"
+                            android:backgroundTint="@color/colorTabUserUnselected"
+                            android:gravity="center"
+                            android:maxLines="1"
+                            android:text="IBI"
+                            android:textColor="@android:color/black"
+                            android:textSize="15sp"
+
+                            />
+                </RelativeLayout>
+
+
+                <ImageView
+                    android:id="@+id/iv_bottom_tab_menu_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_plantrip"
+                    app:tint="@color/tabColorSelected" />
+
+                <TextView
+                    android:id="@+id/tv_bottom_tab_menu_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="4dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/plan_trip"
+                    android:textColor="@color/tabColorSelected"
+                    android:textSize="@dimen/layer_text_size_sp" />
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:id="@+id/iv_bottom_tab_menu_item_expand"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ic_down_button"
+            app:tint="@color/tabColorUnselected"
+            android:layout_marginEnd="10dp"/>
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+</LinearLayout>
+

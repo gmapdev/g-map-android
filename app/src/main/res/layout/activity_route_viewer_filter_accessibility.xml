@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows = "true"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/ll_itinerary_back_accessibility"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginEnd="@dimen/margin_medium"
+                android:background="@drawable/rounded_white_with_shadow_bg"
+                android:orientation="horizontal"
+                android:visibility="visible"
+
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="@dimen/margin_small"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:minHeight="@dimen/input_box_height"
+                    android:text="@string/back"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/address_input_text_size_sp" />
+
+            </LinearLayout>
+
+
+            <!--            <ImageView-->
+            <!--                android:id="@+id/iv_back"-->
+            <!--                android:layout_width="@dimen/aoda_width"-->
+            <!--                android:layout_height="@dimen/aoda_height"-->
+            <!--                android:layout_gravity="center_vertical"-->
+            <!--                android:src="@drawable/ic_leftarrow"-->
+            <!--                android:scaleType="centerInside"-->
+            <!--                android:visibility="visible"-->
+            <!--                android:contentDescription="@string/back_button"-->
+            <!--                />-->
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small">
+
+                <LinearLayout
+                    android:id="@+id/ll_route_filter_agency_selection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_medium"
+                    android:layout_marginEnd="@dimen/margin_medium"
+                    android:background="@drawable/rounded_white_with_shadow_bg"
+                    android:backgroundTint="@color/colorLightGrey"
+                    android:orientation="horizontal"
+                    android:paddingStart="@dimen/padding_medium"
+                    android:paddingTop="@dimen/padding_medium"
+                    android:paddingEnd="@dimen/padding_medium"
+                    android:paddingBottom="@dimen/padding_medium">
+
+                    <TextView
+                        android:id="@+id/tv_route_filter_agency_selection"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:text="@string/all_agencies"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/content_text_size_sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_sortdown" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_filter_agency_changed"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginEnd="@dimen/margin_medium"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/ic_circle"
+                    android:visibility="gone"
+                    app:tint="@color/colorSettingsChanged" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/ll_route_filter_mode_selection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_medium"
+                    android:layout_marginEnd="@dimen/margin_medium"
+                    android:background="@drawable/rounded_white_with_shadow_bg"
+                    android:backgroundTint="@color/colorLightGrey"
+                    android:orientation="horizontal"
+                    android:paddingStart="@dimen/padding_medium"
+                    android:paddingTop="@dimen/padding_medium"
+                    android:paddingEnd="@dimen/padding_medium"
+                    android:paddingBottom="@dimen/padding_medium">
+
+                    <TextView
+                        android:id="@+id/tv_route_filter_mode_selection"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:text="@string/all_modes"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/content_text_size_sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_sortdown" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_filter_mode_changed"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginEnd="@dimen/margin_medium"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/ic_circle"
+                    android:visibility="gone"
+                    app:tint="@color/colorSettingsChanged" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_medium"
+            android:background="@drawable/rounded_white_with_shadow_bg"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/aoda_width"
+                android:layout_height="@dimen/aoda_height"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/back_button"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_search"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/et_search_a_route"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/margin_small"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:contentDescription=" "
+                android:gravity="center_vertical"
+                android:hint="@string/search_for_a_route"
+                android:inputType="text|textMultiLine"
+                android:maxLines="4"
+                android:textColorHint="@color/colorHintText"
+                android:textSize="@dimen/address_input_text_size_sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_route_filter_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/title_text_size_sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/lv_route_viewer_routes"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription=" "
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            android:gravity="center_vertical"
+            android:hint="@string/search_for_a_route"
+            android:inputType="text"
+            android:maxLines="4"
+            android:paddingStart="@dimen/padding_medium"
+            android:paddingEnd="@dimen/padding_medium"
+            android:textColorHint="@color/colorHintText"
+            android:textSize="@dimen/address_input_text_size_sp" />
+    </LinearLayout>
+    <include
+        android:id="@+id/rl_layout_route_filter_agency"
+        layout="@layout/layout_route_filter_agency"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        />
+
+    <include
+        android:id="@+id/rl_layout_route_filter_mode"
+        layout="@layout/layout_route_filter_mode"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        />
+</RelativeLayout>

@@ -1,0 +1,68 @@
+query StopSchedule(
+    $serviceDay: Long!
+    $stopId: String!
+) {
+    stop(id: $stopId) {
+        gtfsId
+        code
+        lat
+        lon
+        locationType
+        name
+        wheelchairBoarding
+        routes {
+            id: gtfsId
+            agency {
+                gtfsId
+                name
+            }
+            longName
+            mode
+            color
+            textColor
+            shortName
+            patterns {
+                id
+                headsign
+            }
+        }
+        stopTimes: stoptimesForPatterns(numberOfDepartures: 1000, startTime: $serviceDay, omitNonPickups: true, omitCanceled: false) {
+            pattern {
+                desc: name
+                headsign
+                id: code
+                route {
+                    agency {
+                        gtfsId
+                    }
+                    gtfsId
+                }
+                stops {
+                    id: gtfsId
+                }
+            }
+            times: stoptimes {
+                __typename
+                arrivalDelay
+                departureDelay
+                headsign
+                realtime
+                realtimeArrival
+                realtimeDeparture
+                realtimeState
+                scheduledArrival
+                scheduledDeparture
+                serviceDay
+                stop {
+                    __typename
+                    id: gtfsId
+                }
+                timepoint
+                trip {
+                    __typename
+                    id
+                }
+            }
+        }
+    }
+}

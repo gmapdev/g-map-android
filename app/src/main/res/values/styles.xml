@@ -1,0 +1,33 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:actionBarSize">0dp</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+<!--        <item name="android:windowBackground">@drawable/splash_icon</item>-->
+    </style>
+
+    <style name="MyTheme" parent="Lock.Theme">
+        <item name="Auth0.HeaderLogo">@drawable/ic_login_logo</item>
+        <item name="Auth0.HeaderTitle">@string/app_name</item>
+        <item name="Auth0.HeaderTitleColor">@android:color/white</item>
+        <item name="Auth0.HeaderBackground">@color/colorPrimary</item>
+        <item name="Auth0.PrimaryColor">@color/colorPrimary</item>
+        <item name="Auth0.DarkPrimaryColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="MyDatePickerStyle" parent="@android:style/Widget.Material.DatePicker">
+        <item name="android:textSize">35sp</item>
+        <item name="backgroundColor">@color/colorPrimary</item>
+        <item name="Auth0.HeaderBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+</resources>

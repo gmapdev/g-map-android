@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_next_arrival_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_gravity="center_vertical"
+        android:textColor="#5c5c5D"
+        android:text="11:56 am"
+        android:textSize="@dimen/layer_text_size_sp"
+        android:ellipsize="end"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_small"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="29dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_clock"
+            />
+
+        <TextView
+            android:id="@+id/tv_next_arrival_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:text="To ALABAMA"
+            android:textColor="#5c5c5D"
+            android:textSize="@dimen/content_text_size_sp"
+            android:maxLines="5"
+            android:ellipsize="end"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_next_arrival_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:paddingTop="@dimen/padding_small"
+        android:paddingBottom="@dimen/padding_small"
+        android:paddingStart="@dimen/padding_large"
+        android:paddingEnd="@dimen/margin_large"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:text="@string/capital_scheduled"
+        android:textSize="@dimen/layer_text_size_sp"
+        android:maxLines="5"
+        android:ellipsize="end"
+        android:background="@drawable/rounded_primary_bg"
+        />
+
+</LinearLayout>
+

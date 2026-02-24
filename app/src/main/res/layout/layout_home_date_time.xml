@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@color/colorHalfTransparent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_large"
+        android:layout_marginEnd="@dimen/margin_large"
+        android:layout_marginBottom="@dimen/margin_large"
+        android:background="@drawable/rounded_white_with_shadow_bg"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_leave_now"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/aoda_height">
+
+            <RadioButton
+                android:id="@+id/cb_leave_now"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/margin_large"
+                android:checked="true"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@+id/tv_leave_now"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_toEndOf="@+id/cb_leave_now"
+                android:text="@string/leave_now"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_text_size_sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="@dimen/margin_small"
+            android:layout_marginEnd="@dimen/margin_small"
+            android:background="@color/colorLightGrey" />
+
+        <RelativeLayout
+            android:id="@+id/rl_depart_at"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/aoda_height">
+
+            <RadioButton
+                android:id="@+id/cb_depart_at"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/margin_large"
+                android:checked="false"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@+id/tv_depart_at"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_toEndOf="@+id/cb_depart_at"
+                android:text="@string/depart_at"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_text_size_sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_date_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:id="@+id/rl_option_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="@dimen/text_hit_box_height"
+
+                >
+
+                <LinearLayout
+                    android:id="@+id/ll_option_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/spinner_height"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_option_date"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/content_text_size_sp" />
+
+                    <ImageView
+                        android:layout_width="@dimen/layer_icon_size"
+                        android:layout_height="@dimen/layer_icon_size"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="@dimen/margin_medium"
+                        android:src="@drawable/ic_calendar" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/ll_option_date"
+                    android:background="@android:color/black" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_option_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/text_hit_box_height"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/ll_option_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/spinner_height"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_option_time"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/content_text_size_sp" />
+
+                    <ImageView
+                        android:layout_width="@dimen/layer_icon_size"
+                        android:layout_height="@dimen/layer_icon_size"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="@dimen/margin_medium"
+                        android:src="@drawable/ic_time" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/ll_option_time"
+                    android:background="@android:color/black" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="@dimen/margin_small"
+            android:layout_marginEnd="@dimen/margin_small"
+            android:background="@color/colorLightGrey" />
+
+        <RelativeLayout
+            android:id="@+id/rl_arrive_by"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/aoda_height">
+
+            <RadioButton
+                android:id="@+id/cb_arrive_by"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/margin_large"
+                android:checked="false"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@+id/tv_arrive_by"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_toEndOf="@+id/cb_arrive_by"
+                android:text="@string/arrive_by"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_text_size_sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_arrive_by_date_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:id="@+id/rl_arrive_by_option_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/text_hit_box_height"
+                android:layout_weight="1"
+
+                >
+
+                <LinearLayout
+                    android:id="@+id/ll_arrive_by_option_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/spinner_height"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_arrive_by_option_date"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/content_text_size_sp" />
+
+                    <ImageView
+                        android:layout_width="@dimen/layer_icon_size"
+                        android:layout_height="@dimen/layer_icon_size"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="@dimen/margin_medium"
+                        android:src="@drawable/ic_calendar" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/ll_arrive_by_option_date"
+                    android:background="@android:color/black" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_arrive_by_option_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/text_hit_box_height"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/ll_arrive_by_option_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/spinner_height"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_arrive_by_option_time"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/content_text_size_sp" />
+
+                    <ImageView
+                        android:layout_width="@dimen/layer_icon_size"
+                        android:layout_height="@dimen/layer_icon_size"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="@dimen/margin_medium"
+                        android:src="@drawable/ic_time" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/ll_arrive_by_option_time"
+                    android:background="@android:color/black" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="@dimen/margin_small"
+            android:layout_marginEnd="@dimen/margin_small"
+            android:background="@color/colorLightGrey" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/margin_small"
+            >
+            <TextView
+                android:id="@+id/tv_home_date_time_cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/aoda_height"
+                android:layout_weight="1"
+
+                android:gravity="center"
+                android:text="@string/cancel"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/content_text_size_sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_home_date_time_save"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/aoda_height"
+                android:layout_weight="1"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:gravity="center"
+                android:text="@string/save"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/content_text_size_sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

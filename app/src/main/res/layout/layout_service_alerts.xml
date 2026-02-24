@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/appbar_alerts"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_alerts_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_leftarrow"
+            app:tint="@android:color/white"
+            android:layout_marginStart="@dimen/margin_large"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/title_alerts"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/title_text_size"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_route_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_large"
+        android:layout_marginStart="@dimen/margin_large"
+        android:layout_marginEnd="@dimen/margin_large">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_small"
+            android:paddingBottom="@dimen/padding_small"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/view_route_number_header_alerts"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@drawable/top_rounded_white_bg"
+                android:visibility="gone"
+                android:backgroundTint="#000000"
+                />
+
+            <TextView
+                android:id="@+id/tv_itinerary_leg_route_number_alerts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/padding_medium"
+                android:paddingEnd="@dimen/padding_medium"
+                android:paddingTop="@dimen/padding_small"
+                android:paddingBottom="@dimen/padding_small"
+                android:maxWidth="126dp"
+                android:text="1-line"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/address_list_view_text_size_sp"
+                android:textStyle="bold"
+                android:background="@drawable/bottom_rounded_white_bg"
+                android:backgroundTint="#D9D9D9"/>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_numbers_of_alerts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 alert"
+            android:textSize="@dimen/content_text_size_sp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/margin_medium"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_numbers_of_alerts_accessibility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 alert"
+        android:textSize="@dimen/content_text_size_sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_gravity="start"
+        android:layout_marginStart="@dimen/margin_extra_large"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_small"/>
+
+
+    <ListView
+        android:id="@+id/lv_service_alert"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="@dimen/margin_large"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:divider="@android:color/transparent"
+
+        />
+
+
+
+
+
+
+</LinearLayout>

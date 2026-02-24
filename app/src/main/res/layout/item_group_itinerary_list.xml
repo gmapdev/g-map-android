@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_itinearary_accessible_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/accessibile">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_small"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:layout_marginStart="@dimen/margin_large"
+            >
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ic_wheelchair"/>
+            <ImageView
+                android:id="@+id/iv_itinerary_accessible_status"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ic_like"
+                android:layout_marginStart="2dp"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_itinerary_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_duration"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/itinerary_list_text_size_sp"
+            android:textColor="@android:color/black"
+            android:text="39 min"
+            android:accessibilityHeading="true"
+            tools:targetApi="p"
+            android:focusableInTouchMode="true"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/tv_walk_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="125dp"
+            android:maxLines="2"
+            android:ellipsize="end"
+
+            android:textSize="@dimen/content_text_size_sp"
+            android:textColor="@android:color/black"
+            android:text="16 min walking"
+            android:visibility="visible"
+            />
+        <TextView
+            android:id="@+id/tv_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="100dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_marginStart="@dimen/margin_large"
+            android:textSize="@dimen/content_text_size_sp"
+            android:textColor="@android:color/black"
+            android:text="No fare information"
+            />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_modes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_medium"
+        tools:ignore="MissingConstraints">
+
+<!--        <androidx.constraintlayout.helper.widget.Flow-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:constraint_referenced_ids=""-->
+<!--            app:flow_wrapMode="aligned"-->
+<!--            app:flow_horizontalGap="8dp"-->
+<!--            app:flow_verticalGap="8dp"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            />-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:background="?android:attr/listDivider" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_departure_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_medium"
+        tools:ignore="MissingConstraints">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</LinearLayout>

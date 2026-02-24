@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_white_with_shadow_bg"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:id="@+id/ll_origin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_medium"
+                    android:background="@drawable/black_frame_rounded_white_bg"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="@dimen/medium_icon_width_sp"
+                        android:layout_height="@dimen/medium_icon_height_sp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/margin_small"
+                        android:padding="1dp"
+                        android:src="@drawable/ic_origin"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/at_search_origin"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="@dimen/margin_small"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:hint="@string/from_hint"
+                        android:minHeight="@dimen/input_box_height"
+                        android:padding="@dimen/padding_small"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@color/colorHintText"
+                        android:textSize="@dimen/address_input_text_size_dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_origin_underline"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorGrey"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/ll_search_destination"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/margin_medium"
+                    android:layout_marginEnd="@dimen/margin_medium"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_mapview_destination_icon"
+                        android:layout_width="@dimen/medium_icon_width_sp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="@dimen/margin_small"
+                        android:padding="1dp"
+                        android:src="@drawable/ic_to"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/at_search_destination"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="@dimen/margin_small"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:hint="@string/destination_hint"
+                        android:minHeight="@dimen/input_box_height"
+                        android:padding="@dimen/padding_small"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@color/colorHintText"
+                        android:textSize="@dimen/address_input_text_size_dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_address_switch"
+                android:layout_width="@dimen/icon_width"
+                android:layout_height="@dimen/icon_height"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/margin_medium"
+                android:contentDescription="@string/switch_origin_destination_button"
+                android:padding="@dimen/padding_small"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_switch"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!--not using-->
+        <LinearLayout
+            android:id="@+id/ll_switch_locations_accessibility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_medium"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_marginEnd="@dimen/margin_medium"
+                    android:background="@drawable/grey_frame_rounded_white_bg"
+                    android:paddingTop="@dimen/padding_medium"
+                    android:paddingBottom="@dimen/padding_medium">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:minHeight="@dimen/aoda_height"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="3dp"
+                            android:gravity="center_horizontal"
+                            android:text="@string/switch_locations"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/address_input_text_size_sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+        <!--not using-->
+        <LinearLayout
+            android:id="@+id/ll_search_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/rl_search_date_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_medium"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_marginEnd="@dimen/margin_medium"
+                    android:background="@drawable/grey_frame_rounded_white_bg"
+                    android:paddingTop="@dimen/padding_medium"
+                    android:paddingBottom="@dimen/padding_medium">
+
+                    <ImageView
+                        android:id="@+id/iv_clock"
+                        android:layout_width="35dp"
+                        android:layout_height="36dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="@dimen/margin_medium"
+                        android:src="@drawable/ic_clock" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_search_date_time_accessibility"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/iv_clock"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/ll_search_date_time"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center"
+                            android:layout_toEndOf="@+id/iv_clock"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_search_date_time_mode"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="3dp"
+                                android:gravity="center"
+                                android:text="@string/depart"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/address_input_text_size_sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_search_date"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="@dimen/margin_small"
+                                android:gravity="center_vertical"
+                                android:text="@string/today"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/address_input_text_size_sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_search_time"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="@dimen/margin_small"
+                                android:gravity="center_vertical"
+                                android:text="18:16"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/address_input_text_size_sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tv_search_date_accessibility"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/margin_small"
+                            android:gravity="center"
+                            android:text="@string/today"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/address_input_text_size_sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tv_search_time_accessibility"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/margin_small"
+                            android:gravity="center_vertical"
+                            android:text="18:16"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/address_input_text_size_sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_search_bar_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/cl_time_options"
+                layout="@layout/layout_options_dates"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_setting_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/iv_search_setting"
+                android:layout_width="@dimen/aoda_width"
+                android:layout_height="@dimen/aoda_height"
+                android:layout_marginStart="@dimen/margin_small"
+                android:contentDescription="@string/setting_button"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_settings"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_search_modes_controls"
+                android:layout_width="60dp"
+                android:layout_height="@dimen/aoda_height"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@+id/iv_search_setting"
+                android:contentDescription="@string/search_modes_button"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_modes_controls"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_settings_changed"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginStart="43dp"
+                android:src="@drawable/ic_circle"
+                android:visibility="gone"
+                app:tint="@color/colorSettingsChanged" />
+
+
+            <ImageView
+                android:id="@+id/iv_search_modes_controls_changed"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginStart="123dp"
+                android:src="@drawable/ic_circle"
+                android:visibility="gone"
+                app:tint="@color/colorSettingsChanged" />
+
+            <ImageView
+                android:id="@+id/iv_search_bar_reset"
+                android:layout_width="@dimen/aoda_width"
+                android:layout_height="@dimen/aoda_height"
+                android:layout_marginEnd="@dimen/margin_small"
+                android:layout_toStartOf="@+id/ll_plan_trip_search"
+                android:background="@drawable/rounded_white_with_shadow_bg"
+                android:contentDescription="@string/reset_button"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_reset"
+                android:visibility="gone" />
+
+
+            <LinearLayout
+                android:id="@+id/ll_search_mode_icons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical"
+                android:paddingStart="1dp"
+                android:paddingEnd="1dp"
+                android:visibility="gone">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/cl_modes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_marginBottom="@dimen/margin_small">
+
+                    <androidx.constraintlayout.helper.widget.Flow
+                        android:id="@+id/flow"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        app:constraint_referenced_ids="rl_search_mode_transit,rl_search_mode_bike,rl_search_mode_drive,rl_search_mode_rental,rl_search_mode_walk"
+                        app:flow_horizontalGap="@dimen/margin_very_small"
+                        app:flow_verticalGap="@dimen/margin_very_small"
+                        app:flow_wrapMode="aligned"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="MissingConstraints" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl_search_mode_transit"
+                        android:layout_width="@dimen/search_mode_icon_size"
+                        android:layout_height="@dimen/search_mode_icon_size"
+                        android:background="@drawable/rounded_primary_bg"
+                        android:contentDescription="@string/transit_search_mode"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="@dimen/margin_small"
+                            android:layout_marginTop="@dimen/margin_small"
+                            android:layout_marginEnd="@dimen/margin_small"
+                            android:layout_marginBottom="@dimen/margin_small"
+                            android:src="@drawable/black_circle_bg"
+                            app:tint="@android:color/white" />
+
+                        <ImageView
+                            android:id="@+id/iv_search_mode_transit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/search_mode_image_height"
+                            android:layout_centerInParent="true"
+                            android:padding="@dimen/margin_medium"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_transit_group"
+                            app:tint="@android:color/black" />
+
+                        <TextView
+                            android:id="@+id/tv_search_mode_transit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/iv_search_mode_transit"
+                            android:layout_centerHorizontal="true"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:text="@string/transit"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/content_text_size_sp"
+                            android:textStyle="bold"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_search_mode_drive"
+                        android:layout_width="@dimen/search_mode_icon_size"
+                        android:layout_height="@dimen/search_mode_icon_size"
+                        android:background="@drawable/rounded_primary_bg"
+                        android:contentDescription="@string/drive_search_mode"
+                        app:layout_constraintStart_toEndOf="@+id/flow"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/margin_small"
+                            android:src="@drawable/black_circle_bg"
+                            app:tint="@android:color/white" />
+
+                        <ImageView
+                            android:id="@+id/iv_search_mode_drive"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/search_mode_image_height"
+                            android:layout_centerInParent="true"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_car"
+                            app:tint="@android:color/black" />
+
+                        <TextView
+                            android:id="@+id/tv_search_mode_drive"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/iv_search_mode_drive"
+                            android:layout_centerHorizontal="true"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:text="@string/car"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/content_text_size_sp"
+                            android:textStyle="bold"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_search_mode_bike"
+                        android:layout_width="@dimen/search_mode_icon_size"
+                        android:layout_height="@dimen/search_mode_icon_size"
+                        android:background="@drawable/rounded_primary_bg"
+                        android:contentDescription="@string/bike_search_mode"
+                        app:layout_constraintStart_toEndOf="@+id/flow"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="@dimen/margin_small"
+                            android:layout_marginTop="@dimen/margin_small"
+                            android:layout_marginEnd="@dimen/margin_small"
+                            android:layout_marginBottom="@dimen/margin_small"
+                            android:src="@drawable/black_circle_bg"
+                            app:tint="@android:color/white" />
+
+                        <ImageView
+                            android:id="@+id/iv_search_mode_bike"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/search_mode_image_height"
+                            android:layout_centerInParent="true"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_bicycle"
+                            app:tint="@android:color/black" />
+
+                        <TextView
+                            android:id="@+id/tv_search_mode_bike"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/iv_search_mode_bike"
+                            android:layout_centerHorizontal="true"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:text="@string/bike"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/content_text_size_sp"
+                            android:textStyle="bold"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_search_mode_rental"
+                        android:layout_width="@dimen/search_mode_icon_size"
+                        android:layout_height="@dimen/search_mode_icon_size"
+                        android:background="@drawable/rounded_primary_bg"
+                        android:contentDescription="@string/rental_search_mode"
+                        app:layout_constraintEnd_toStartOf="@+id/flow"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="@dimen/margin_small"
+                            android:layout_marginTop="@dimen/margin_small"
+                            android:layout_marginEnd="@dimen/margin_small"
+                            android:layout_marginBottom="@dimen/margin_small"
+                            android:src="@drawable/black_circle_bg"
+                            app:tint="@android:color/white" />
+
+                        <ImageView
+                            android:id="@+id/iv_search_mode_rental"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/search_mode_image_height"
+                            android:layout_centerInParent="true"
+                            android:scaleType="centerInside"
+                            android:padding="@dimen/padding_small"
+                            android:src="@drawable/ic_rental"
+                            app:tint="@android:color/black" />
+
+                        <TextView
+                            android:id="@+id/tv_search_mode_rental"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/iv_search_mode_rental"
+                            android:layout_centerHorizontal="true"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:text="@string/rental"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/content_text_size_sp"
+                            android:textStyle="bold"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_search_mode_walk"
+                        android:layout_width="@dimen/search_mode_icon_size"
+                        android:layout_height="@dimen/search_mode_icon_size"
+                        android:background="@drawable/rounded_primary_bg"
+                        android:contentDescription="@string/walk_search_mode"
+                        app:layout_constraintStart_toEndOf="@+id/flow"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="@dimen/margin_small"
+                            android:layout_marginTop="@dimen/margin_small"
+                            android:layout_marginEnd="@dimen/margin_small"
+                            android:layout_marginBottom="@dimen/margin_small"
+                            android:src="@drawable/black_circle_bg"
+                            app:tint="@android:color/white" />
+
+                        <ImageView
+                            android:id="@+id/iv_search_mode_walk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/search_mode_image_height"
+                            android:layout_centerInParent="true"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_walk"
+                            app:tint="@android:color/black" />
+
+                        <TextView
+                            android:id="@+id/tv_search_mode_walk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/iv_search_mode_walk"
+                            android:layout_centerHorizontal="true"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:text="@string/walk"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/content_text_size_sp"
+                            android:textStyle="bold"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_plan_trip_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_search_mode_icons"
+                android:layout_marginStart="@dimen/margin_small"
+                android:layout_marginTop="@dimen/margin_small"
+                android:layout_marginEnd="@dimen/margin_small"
+                android:background="@drawable/rounded_primary_bg"
+                android:backgroundTint="@color/colorPlanTripBackground"
+                android:contentDescription="@string/plan_trip"
+                android:gravity="center"
+                android:minHeight="@dimen/aoda_height"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_pointer"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/plan_trip"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/content_text_size_min"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_plan_trip_accessibiliy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_small"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_marginEnd="@dimen/margin_small"
+                    android:background="@drawable/unsave_popup_bg"
+                    android:paddingTop="@dimen/padding_small"
+                    android:paddingBottom="@dimen/padding_small">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:minHeight="@dimen/aoda_height"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="3dp"
+                            android:gravity="center_horizontal"
+                            android:text="@string/plan_trip"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/address_input_text_size_dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

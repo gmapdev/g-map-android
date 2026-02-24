@@ -1,0 +1,1916 @@
+<resources>
+    <string name="sign_in">
+        Acceder
+    </string>
+    <string name="ok">
+        Aprobado
+    </string>
+    <string name="cancel">
+        Cancelar
+    </string>
+    <string name="streets">
+        Calles
+    </string>
+    <string name="satellite">
+        Satélite
+    </string>
+    <string name="park_and_ride_locations">
+        Aparcamiento disuasorio
+    </string>
+    <string name="from_here">
+         De aquí
+    </string>
+    <string name="to_here">
+         Hacia aquí
+    </string>
+    <string name="stop_viewer">
+         Visor de paradas
+    </string>
+    <string name="stop_id_colon">
+        Parada n°
+    </string>
+    <string name="today">
+        Hoy
+    </string>
+    <string name="leave_now">
+        Salir ahora
+    </string>
+    <string name="recently_searched">
+        Buscado recientemente
+    </string>
+    <string name="current_location_address">
+        (Ubicación actual)
+    </string>
+    <string name="duration">
+        Duración
+    </string>
+    <string name="cost">
+        Costo
+    </string>
+    <string name="depart_at">
+        Salida a las
+    </string>
+    <string name="arrive_by">
+        Llegada por
+    </string>
+    <string name="yesterday">
+        Ayer
+    </string>
+    <string name="trip_details">
+        Detalles del viaje
+    </string>
+    <string name="fare_table">
+        Tabla de tarifas
+    </string>
+    <string name="route">
+        Ruta
+    </string>
+    <string name="departure">
+        Salida
+    </string>
+    <string name="capital_scheduled">
+        PROGRAMADO
+    </string>
+    <string name="bike">
+        Bicicleta
+    </string>
+    <string name="drive">
+        Conducir
+    </string>
+    <string name="bus">
+        Autobús
+    </string>
+    <string name="cap_continue">
+        Continuar
+    </string>
+    <string name="right">
+        Vire a la derecha
+    </string>
+    <string name="left">
+        Vire a la izquierda
+    </string>
+    <string name="hard_right">
+        Giro a la derecha
+    </string>
+    <string name="hard_left">
+        Giro a la izquierda
+    </string>
+    <string name="slight_right">
+        Ligeramente a la derecha
+    </string>
+    <string name="slight_left">
+        Ligeramente a la izquierda
+    </string>
+    <string name="due">
+        Vencido
+    </string>
+    <string name="log_in">
+        Acceder
+    </string>
+    <string name="sign_up">
+        Enrolar
+    </string>
+    <string name="email_hint">
+        correo electrónico
+    </string>
+    <string name="your_password">
+        Contraseña
+    </string>
+    <string name="create_new_account">
+        Crear una nueva cuenta
+    </string>
+    <string name="create_new_account_hint">
+        Debe aceptar los términos de servicio para continuar.
+    </string>
+    <string name="notification_preferences_hint">
+        Puede recibir notificaciones sobre viajes que realiza con frecuencia.
+    </string>
+    <string name="how_to_receive_notifications">
+        ¿Cómo te gustaría recibir notificaciones?
+    </string>
+    <string name="notification_emails_sent_to">
+        Los correos electrónicos de notificación se enviarán a:
+    </string>
+    <string name="email">
+        correo electrónico
+    </string>
+    <string name="sms">
+        Mensaje de texto
+    </string>
+    <string name="back">
+        Atrás
+    </string>
+    <string name="next">
+        Siguiente
+    </string>
+    <string name="add_your_locations_hint">
+        Agregue los lugares que frecuenta a menudo para ahorrar tiempo en la planificación de los viajes:
+    </string>
+    <string name="email_invalid">
+        Debe ser una dirección de correo electrónico válida.
+    </string>
+    <string name="your_password_must_contain">
+        Su contraseña debe contener:
+    </string>
+    <string name="at_least_eight_characters">
+        Al menos 8 carácteres.
+    </string>
+    <string name="at_least_3_out_of_4_types_characters">
+        Al menos 3 de los siguientes:
+    </string>
+    <string name="verify_email_address">
+        Verifique su dirección de correo electrónico
+    </string>
+    <string name="send_verification_text">
+        Enviar texto de verificación
+    </string>
+    <string name="sms_notifications_sent_to">
+        Las notificaciones por SMS se enviarán a:
+    </string>
+    <string name="change_number">
+        Cambiar número de teléfono
+    </string>
+    <string name="verify">
+        Verificar
+    </string>
+    <string name="request_a_new_code">
+        Solicitar un nuevo código
+    </string>
+    <string name="check_verification_code_hint">
+        Por favor, compruebe en la aplicación de mensajería de texto de su teléfono móvil si hay un mensaje de texto con un código de verificación, e introduzca el código que aparece a continuación. El código caduca a los 10 minutos.
+    </string>
+    <string name="verification_code">
+        Código de verificación:
+    </string>
+    <string name="home">
+        residencia
+    </string>
+    <string name="set_home_address">
+        Establece la dirección de tu casa
+    </string>
+    <string name="work">
+        trabajo
+    </string>
+    <string name="set_work_address">
+        Establece tu dirección de trabajo
+    </string>
+    <string name="add_another_place">
+        Agregue otro lugar
+    </string>
+    <string name="finish">
+        Finalizar
+    </string>
+    <string name="account_setup_complete">
+        ¡Configuración de la cuenta completa!
+    </string>
+    <string name="ready_to_start_planning_trips">
+        Ya está listo para empezar a planificar sus viajes.
+    </string>
+    <string name="verified">
+        Verificado
+    </string>
+    <string name="preferences_saved">
+        Sus preferencias se han guardado.
+    </string>
+    <string name="add_new_place">
+        Agregar un nuevo lugar
+    </string>
+    <string name="set_place_name">
+        Establecer nombre del lugar
+    </string>
+    <string name="search_for_location">
+        Buscar ubicación
+    </string>
+    <string name="save">
+        Guardar
+    </string>
+    <string name="help">
+        Ayuda
+    </string>
+    <string name="sign_out">
+        Firmar la salida
+    </string>
+    <string name="terms">
+        Términos
+    </string>
+    <string name="my_locations">
+        Lugares favoritos
+    </string>
+    <string name="notifications">
+        Notificaciones
+    </string>
+    <string name="delete_my_account">
+        Eliminar mi cuenta
+    </string>
+    <string name="save_preferences">
+        Guardar preferencias
+    </string>
+    <string name="no_saved_trips">
+        No tiene viajes guardados
+    </string>
+    <string name="no_saved_trips_hint">
+        Realice primero una búsqueda de viajes desde el mapa.
+    </string>
+    <string name="verification_code_sent">
+        Se envió el código de verificación, revísalo
+    </string>
+    <string name="pending">
+        Pendiente
+    </string>
+    <string name="save_preferences_successfully">
+        Sus preferencias se han guardado.
+    </string>
+    <string name="no">
+        No
+    </string>
+    <string name="save_new_trip">
+        Guardar un nuevo viaje
+    </string>
+    <string name="trip_information">
+        Información sobre el viaje
+    </string>
+    <string name="select_itinerary">
+        Itinerario seleccionado:
+    </string>
+    <string name="name_trip">
+        Por favor, indique un nombre para este viaje:
+    </string>
+    <string name="trip_days">
+        ¿Qué días hace este viaje?
+    </string>
+    <string name="trip_days_hint">
+        Su viaje está disponible en los días de la semana indicados anteriormente.
+    </string>
+    <string name="trip_notifications">
+        Notificaciones de viaje
+    </string>
+    <string name="notify_via_email">
+        Notifícame cuando:
+    </string>
+    <string name="realtime_alert_on_journey">
+        Hay una alerta en tiempo real marcada en mi viaje
+    </string>
+    <string name="alternative_route_recommended_options">
+        Se recomienda una ruta alternativa o un punto de transferencia
+    </string>
+    <string name="delay_options">
+        Hay retrasos o interrupciones de más de
+    </string>
+    <string name="advanced_settings">
+        Configuración avanzada
+    </string>
+    <string name="mon">
+        Lun.
+    </string>
+    <string name="tue">
+        Mar.
+    </string>
+    <string name="wed">
+        Mié.
+    </string>
+    <string name="thu">
+        Jue.
+    </string>
+    <string name="fri">
+        Vie.
+    </string>
+    <string name="sat">
+        Sáb.
+    </string>
+    <string name="sun">
+        Dom.
+    </string>
+    <string name="monday">
+        Lun
+    </string>
+    <string name="tuesday">
+        Mar
+    </string>
+    <string name="wednesday">
+        Mié
+    </string>
+    <string name="thursday">
+        Jue
+    </string>
+    <string name="friday">
+        Vie
+    </string>
+    <string name="saturday">
+        Sáb
+    </string>
+    <string name="sunday">
+        Dom
+    </string>
+    <string name="pause">
+        Pausa
+    </string>
+    <string name="edit_saved_trip">
+        Editar el viaje guardado
+    </string>
+    <string name="unsnooze_trip_analysis">
+        Reactivar el análisis de los viajes
+    </string>
+    <string name="unsnooze_trip_analysis_hint">
+        Reactivar la supervisión del viaje para ver el estado actualizado
+    </string>
+    <string name="unsnooze_trip_analysis_title">
+        El seguimiento del viaje se ha suspendido por hoy
+    </string>
+    <string name="pause_trip_title">
+        La supervisión del viaje está en pausa
+    </string>
+    <string name="pause_trip_hint">
+        Reanudar la supervisión del viaje para ver el estado actualizado
+    </string>
+    <string name="snoose_for_rest_today">
+        Pausar para el resto del día
+    </string>
+    <string name="title_home">
+        residencia
+    </string>
+    <string name="title_notifications">
+        Notificaciones
+    </string>
+    <string name="routes">
+        Rutas
+    </string>
+    <string name="my_trips">
+        Mis viajes
+    </string>
+    <string name="account_settings">
+        Mis ajustes
+    </string>
+    <string name="map_details">
+        Detalles del mapa
+    </string>
+    <string name="map_type">
+        Tipo de mapa
+    </string>
+    <string name="auto_refresh">
+        Actualización automática
+    </string>
+    <string name="departures">
+        Salidas
+    </string>
+    <string name="schedule">
+        Horario
+    </string>
+    <string name="destination">
+        Destino
+    </string>
+    <string name="view_on_agency_website">
+        Más detalles
+    </string>
+    <string name="my_favorite_stops">
+        Mis paradas favoritas
+    </string>
+    <string name="rental">
+        Alquiler
+    </string>
+    <string name="ride">
+        Paseo
+    </string>
+    <string name="please_enter_a_trip_name">
+        Por favor, introduzca el nombre del viaje
+    </string>
+    <string name="back_button">
+        Atrás
+    </string>
+    <string name="close">
+        Cerrar
+    </string>
+    <string name="favorite_places">
+        Lugares favoritos
+    </string>
+    <string name="saved_trips">
+        Mis viajes
+    </string>
+    <string name="before_scheduled_departure">
+        antes de la salida programada
+    </string>
+    <string name="on_time">
+        A tiempo
+    </string>
+    <string name="no_available_dates">
+        El viaje no es posible hoy
+    </string>
+    <string name="towards">
+        Hacia
+    </string>
+    <string name="car">
+        Conducir
+    </string>
+    <string name="walk">
+        Caminar
+    </string>
+    <string name="transit">
+        Tránsito
+    </string>
+    <string name="ferry">
+        Transbordador
+    </string>
+    <string name="all_agencies">
+        Todas las agencias
+    </string>
+    <string name="all_modes">
+        Todos los modos
+    </string>
+    <string name="street_car">
+        Streetcar
+    </string>
+    <string name="menu">
+        Menú
+    </string>
+    <string name="service_alerts">
+        Sound Transit alertas de servicio
+    </string>
+    <string name="accessibility">
+        Accesibilidad en Sound Transit
+    </string>
+    <string name="safety_and_security">
+        Seguridad y protección del tránsito sólido
+    </string>
+    <string name="stations">
+        Estaciones
+    </string>
+    <string name="how_to_pay">
+        Cómo pagar
+    </string>
+    <string name="walk_transit">
+        Caminar + Tránsito
+    </string>
+    <string name="drive_transit">
+        Coche + Tránsito
+    </string>
+    <string name="other">
+        Otros
+    </string>
+    <string name="bike_transit">
+        La bicicleta + Tránsito
+    </string>
+    <string name="bikeshare_transit">
+        Tránsito + Compartir Bicicleta
+    </string>
+    <string name="scooter_transit">
+        La patineta + Tránsito
+    </string>
+    <string name="enter_start_location">
+        Introduzca la ubicación de inicio
+    </string>
+    <string name="enter_destination">
+        Introduce el destino
+    </string>
+    <string name="or">
+        O
+    </string>
+    <string name="link">
+        Tren ligero Link
+    </string>
+    <string name="water_taxi">
+        Taxi acuático
+    </string>
+    <string name="time_spent_active">
+        Tiempo de actividad: ~
+    </string>
+    <string name="switch_locations">
+        Cambiar de ubicación
+    </string>
+    <string name="rent">
+        Alquiler
+    </string>
+    <string name="avoid_walking">
+        Evite caminar
+    </string>
+    <string name="accessible_routing">
+        Acceso con discapacidades
+    </string>
+    <string name="allow_bike_rental">
+        Permitir alquiler de bicicletas
+    </string>
+    <string name="walk_speed_no_caps">
+        Velocidad de caminata
+    </string>
+    <string name="allow_scooter_rental">
+        Permitir el alquiler de patinetes eléctricos
+    </string>
+    <string name="verify_email_to_save_trips">
+        Por favor verifique su correo electrónico para guardar sus viajes favoritos.
+    </string>
+    <string name="mostly_accessible">
+        Accesible para silla de ruedas
+    </string>
+
+
+    <string name="inaccessible">
+        No es accesible para silla de ruedas
+    </string>
+    <string name="title_alerts">
+        Alertas
+    </string>
+    <string name="more">
+        Más
+    </string>
+    <string name="more_alert">
+        alertas
+    </string>
+    <string name="sms_hint">
+        Al proporcionar tu número de teléfono, aceptas recibir mensajes de verificación y monitoreo de viajes. Tu proveedor telefónico puede aplicar costos adicionales.
+    </string>
+    <string name="hour">
+        hora
+    </string>
+    <string name="hours">
+        horas
+    </string>
+    <string-array name="walk_speed_arrays_otp">
+        <item>
+            1 MPH
+        </item>
+        <item>
+            2 MPH
+        </item>
+        <item>
+            3 MPH
+        </item>
+        <item>
+            4 MPH
+        </item>
+        <item>
+            5 MPH
+        </item>
+    </string-array>
+    <string-array name="itinerary_sort_arrays">
+        <item>
+            Duración
+        </item>
+        <item>
+            Hora de llegada
+        </item>
+        <item>
+            Horario de salida
+        </item>
+        <item>
+            Tiempo de caminata
+        </item>
+        <item>
+            Costo
+        </item>
+    </string-array>
+    <string-array name="walk_speed_arrays_value_otp">
+        <item>
+            0.45
+        </item>
+        <item>
+            0.89
+        </item>
+        <item>
+            1.34
+        </item>
+        <item>
+            1.78
+        </item>
+        <item>
+            2.23
+        </item>
+    </string-array>
+    <string-array name="monitor_trip_arrays_value">
+        <item>
+            15
+        </item>
+        <item>
+            30
+        </item>
+        <item>
+            45
+        </item>
+        <item>
+            60
+        </item>
+    </string-array>
+    <string-array name="delay_arrays_value">
+        <item>
+            5
+        </item>
+        <item>
+            10
+        </item>
+        <item>
+            15
+        </item>
+    </string-array>
+    <string-array name="maximum_walk_arrays">
+        <item>
+            1/10 de milla
+        </item>
+        <item>
+            1/4 de milla
+        </item>
+        <item>
+            1/2 milla
+        </item>
+        <item>
+            3/4 de milla
+        </item>
+        <item>
+            1 milla
+        </item>
+        <item>
+            2 millas
+        </item>
+        <item>
+            5 millas
+        </item>
+    </string-array>
+    <string-array name="default_control_arrays">
+        <item>
+            Sí (predeterminado)
+        </item>
+        <item>
+            No
+        </item>
+    </string-array>
+    <string-array name="optimize_option_arrays">
+        <item>
+            Velocidad
+        </item>
+        <item>
+            Menos transferencias
+        </item>
+    </string-array>
+    <string-array name="maximum_walk_arrays_value">
+        <item>
+            160.9
+        </item>
+        <item>
+            402.3
+        </item>
+        <item>
+            804.5
+        </item>
+        <item>
+            1207
+        </item>
+        <item>
+            1609
+        </item>
+        <item>
+            3218
+        </item>
+        <item>
+            8045
+        </item>
+    </string-array>
+    <string-array name="walk_speed_arrays">
+        <item>
+            2 MPH
+        </item>
+        <item>
+            3 MPH
+        </item>
+        <item>
+            4 MPH
+        </item>
+    </string-array>
+    <string-array name="default_control_arrays_value">
+        <item>
+            verdadera
+        </item>
+        <item>
+            falsa
+        </item>
+    </string-array>
+    <string-array name="optimize_option_arrays_value">
+        <item>
+            RÁPIDO
+        </item>
+        <item>
+            TRASLADOS
+        </item>
+    </string-array>
+    <string-array name="monitor_trip_arrays">
+        <item>
+            15 minuto
+        </item>
+        <item>
+            30 minuto (default)
+        </item>
+        <item>
+            45 minuto
+        </item>
+        <item>
+            1 hora
+        </item>
+    </string-array>
+    <string-array name="walk_speed_arrays_value">
+        <item>
+            0.89
+        </item>
+        <item>
+            1.34
+        </item>
+        <item>
+            1.79
+        </item>
+    </string-array>
+    <string-array name="delay_arrays">
+        <item>
+            5 minutos (predeterminado)
+        </item>
+        <item>
+            10 minutos
+        </item>
+        <item>
+            15 minutos
+        </item>
+    </string-array>
+    <string name="allowed">
+        Permitido
+    </string>
+    <string name="enter_phone_number_for_sms_notifications">
+        Ingrese su número de teléfono para notificaciones por SMS:
+    </string>
+    <string name="add_your_locations">
+        Añade tus ubicaciones
+    </string>
+    <string name="low_vision">
+        Visión baja
+    </string>
+    <string name="delete_saved_trip_warning">
+        ¿Desea eliminar este viaje?
+    </string>
+    <string name="bikeshare">
+        Bicicleta compartida
+    </string>
+    <string name="view_all_options">
+        Ver todas las opciones
+    </string>
+    <string name="resume">
+        Reanudar
+    </string>
+    <string name="cannot_save_trip">
+        No se puede guardar
+    </string>
+    <string name="resend_verification_email_successfully">
+        El mensaje de verificación de correo electrónico ha sido reenviado.
+    </string>
+    <string name="mode_gondola">
+        Góndola
+    </string>
+    <string name="calories_info_show">
+        Mostrar detalles
+    </string>
+    <string name="gondola">
+        Góndola
+    </string>
+    <string name="warning">
+        Advertencia
+    </string>
+    <string name="my_account">
+        Mi cuenta
+    </string>
+    <string name="trip_viewer">
+        Visor de viajes
+    </string>
+    <string name="origin">
+        Origen
+    </string>
+    <string name="arrival_time">
+        Hora de llegada
+    </string>
+    <string name="click_view_details">
+        Haga clic para ver los detalles
+    </string>
+    <string name="tomorrow">
+        Mañana
+    </string>
+    <string name="edit_place">
+        Editar lugar
+    </string>
+    <string name="calories_info_hide">
+        Ocultar detalles
+    </string>
+    <string name="destination_lower_case">
+        destino
+    </string>
+    <string name="delete_account_warning">
+        ¿Está seguro de que desea eliminar su cuenta de usuario? Una vez que lo haga, no se podrá recuperar.
+    </string>
+    <string name="route_filter_mode_rail">
+        Tren
+    </string>
+    <string name="use">
+        Usar
+    </string>
+    <string name="departure_time">
+        Hora de salida
+    </string>
+    <string name="settings">
+        Ajustes
+    </string>
+    <string name="best_option">
+        La mejor opción
+    </string>
+    <string name="route_viewer">
+        Visor de rutas
+    </string>
+    <string name="notification_preferences">
+        Preferencias de notificación
+    </string>
+    <string name="edit">
+        Editar
+    </string>
+    <string name="plan_trip">
+        Planea un Viaje
+    </string>
+    <string name="e_scooter">
+        Scooter eléctrico
+    </string>
+    <string name="plan_new_trip">
+        Planificar un nuevo viaje
+    </string>
+    <string name="trips">
+        Viajes
+    </string>
+    <string name="to">
+        A
+    </string>
+    <string name="transit_stops">
+        Paradas de tránsito
+    </string>
+    <string name="view">
+        Ver
+    </string>
+    <string name="view_schedule">
+        Ver horario
+    </string>
+    <string name="last">
+        Último
+    </string>
+    <string name="walk_time">
+        Tiempo de caminata
+    </string>
+    <string name="setting_button">
+        Ajustes
+    </string>
+    <string name="receive_notifications_via">
+        Recibir notificaciones para sus viajes guardados por:
+    </string>
+    <string name="play_button">
+        Reanudar
+    </string>
+    <string name="itinerary_search_button">
+        Planificar viaje
+    </string>
+    <string name="plan_a_trip">
+        Planea un viaje:
+    </string>
+    <string name="save_trip">
+        Salvar el viaje
+    </string>
+    <string name="mode_combination_error">
+        No se puede planificar un viaje utilizando los modos seleccionados. Prueba a incluir el transporte publico en la selección de modos.
+    </string>
+    <string name="rail">
+        Tren
+    </string>
+    <string name="current_location_not_available">
+        Ubicación actual no disponible
+    </string>
+    <string name="haptic_feedback">
+        Retroalimentación háptica
+    </string>
+    <string name="no_assistive_device">
+        Sin dispositivo de asistencia
+    </string>
+    <string name="delete_work">
+        Botón Borrar tu dirección de trabajo, tocar dos veces para borrar %1
+    </string>
+    <string name="user_profile_button">
+        Botón Perfil de usuario, tocar dos veces para activarlo
+    </string>
+    <string name="search_rail_mode">
+        Metro
+    </string>
+    <string name="rental_search_mode">
+        Botón Rentas, tocar dos veces para activarlo
+    </string>
+    <string name="search_for_a_route">
+        Buscar una ruta
+    </string>
+    <string name="consent_to_terms_to_save_trips">
+        Acepte los términos de servicio para guardar sus viajes favoritos.
+    </string>
+    <string name="ride_duration_with_stops">
+        Paseo %1$d / %2$d paradas
+    </string>
+    <string name="link_first_capital">
+        Enlace
+    </string>
+    <string name="manual_walker">
+        Andador manual
+    </string>
+    <string name="am">
+        a.m.
+    </string>
+    <string name="lost_data_warning">
+        Aún no has guardado tu nuevo viaje. Si te vas, se perderá.
+    </string>
+    <string name="calories_burned_guidelines">
+        <![CDATA[Adaptado de <font color=#295680>Pautas dietéticas para estadounidenses 2005,
+        página 16, Tabla 4.</font>]]>
+    </string>
+    <string name="at">
+        en
+    </string>
+    <string name="mode_filter_button">
+        Botón Filtro de modo, tocar dos veces para activarlo.
+    </string>
+    <string name="login_to_see_fav_stops">
+        Por favor, inicia la sesión para guardar las ubicaciones.
+    </string>
+    <string name="bold_stop_id_with_num">
+        Parada n° %1$s
+    </string>
+    <string name="itineraries_found_with_num">
+        %1$d viajes encontrados
+    </string>
+    <string name="wheeled_walker">
+        Andador con ruedas
+    </string>
+    <string name="monorail">
+        Monocarril
+    </string>
+    <string name="mins">
+        minutos
+    </string>
+    <string name="set">
+        Colocar
+    </string>
+    <string name="route_to">
+        &lt;b&gt;%1$s&lt;/b&gt; A %2$s
+    </string>
+    <string name="get_address_failed">
+        No se pudo recuperar la dirección. Por favor, inténtelo de nuevo más tarde.
+    </string>
+    <string name="h">
+        hora
+    </string>
+    <string name="walk_search_mode">
+        Modo de búsqueda a pie
+    </string>
+    <string name="no_vision_limitations">
+        Sin limitaciones de visión
+    </string>
+    <string name="capital_departure">
+        SALIDA
+    </string>
+    <string name="type_of_payment">
+        Tipo de pago
+    </string>
+    <string name="reset_button">
+        Botón Reiniciar, tocar dos veces para activarlo
+    </string>
+    <string name="verification_code_sent_failed">
+        Error al solicitar un nuevo código para el número de teléfono
+    </string>
+    <string name="set_destination">
+        Introduce el destino
+    </string>
+    <string name="password_cant_blank">
+        La contraseña no puede estar vacía
+    </string>
+    <string name="failed_update_trip">
+        No se puede encontrar información del viaje.
+    </string>
+    <string name="last_checked">
+        Últimos comprobados: Hace %1$s
+    </string>
+    <string name="notification_channel_default">
+        Solicitud
+    </string>
+    <string name="empty_fav_stops">
+        No hay paradas favoritas.
+    </string>
+    <string name="transit_fare">
+        Tarifa de tránsito:
+    </string>
+    <string name="route_agency_info">
+        Servicio operado por %1$s
+    </string>
+    <string name="calories_burned">
+        Calorías quemadas:
+    </string>
+    <string name="start_over">
+        Comenzar de nuevo
+    </string>
+    <string name="send_email">
+        ENVIAR CORREO ELECTRÓNICO
+    </string>
+    <string name="one_alert">
+        1 alerta
+    </string>
+    <string name="expander">
+        Expansor
+    </string>
+    <string name="real_time_bus_unavailable">
+        No se encontraron ubicaciones de autobuses. Por favor, inténtelo de nuevo más tarde.
+    </string>
+    <string name="stop_viewer_expander">
+        Botón de Visualización de paradas, tocar dos veces para abrir la visualización de paradas.
+    </string>
+    <string name="menu_tag">
+        etiqueta de menú
+    </string>
+    <string name="request_fine_location_confirmation">
+        El acceso a tu ubicación está bloqueado. Para utilizar tu ubicación actual, activa los permisos de ubicación desde tu navegador y vuelve a cargar la página.
+    </string>
+    <string name="retrieve_user_info_failed_unauthorized">
+        Usuario sin permiso
+    </string>
+    <string name="verify_email_address_hint">
+        Por favor compruebe el buzón de su correo electrónico y siga el enlace del mensaje para verificar su dirección de correo electrónico antes de finalizar la configuración de su cuenta.\n\nUna vez verificado, haga clic en el botón de abajo para continuar.
+    </string>
+    <string name="token_expired_message">
+        Error al establecer la sesión de autorización
+    </string>
+    <string name="push_notifications">
+        Notificaciones push
+    </string>
+    <string name="waiting">
+        Espera
+    </string>
+    <string name="capital_status">
+        ESTADO
+    </string>
+    <string name="add_new_location_hint">
+        Introduzca la ubicación
+    </string>
+    <string name="fav_stops">
+        Mis paradas favoritas
+    </string>
+    <string name="shared_bike">
+        La bicicleta compartida
+    </string>
+    <string name="fav_stop_hint">
+        Para encontrar una parada, busque en la barra de arriba o presione una parada de tránsito en el mapa.
+    </string>
+    <string name="uturn_right">
+        Media vuelta a la derecha
+    </string>
+    <string name="set_time">
+        Selector de fecha y hora
+    </string>
+    <string name="create_new_account_optional">
+        <b>Opcional</b>: Doy mi consentimiento para que el planificador de viajes almacene mis
+        viajesplanificados históricos para mejorar los servicios de tránsito en mi área.
+    </string>
+    <string name="more_information">
+        Más información
+    </string>
+    <string name="stroller">
+        Paseante
+    </string>
+    <string name="we_found_options_with_num">
+        Encontramos %1$d opciones
+    </string>
+    <string name="departure_time_info">
+        <![CDATA[Las horas de salida se indican en <b>%1$s.</b>]]>
+    </string>
+    <string name="failed_get_trip_list_cdta">
+        &lt;b&gt;&lt;font color=#FFFFFF&gt;Error al obtener viajes&lt;/font&gt;&lt;/b&gt;
+    </string>
+    <string name="calories_burned_detail">
+        Al hacer este viaje, gastarás %1$s caminando y %2$s en bicicleta.
+    </string>
+    <string name="from_origin_to_destination">
+        <![CDATA[De <b>%1$s</b> al <b>%2$s</b>]]>
+    </string>
+    <string name="itinerary_detail_expander">
+        Detalles del itinerario
+    </string>
+    <string name="edit_work">
+        Establece tu dirección de trabajo
+    </string>
+    <string name="crutches">
+        Muletas
+    </string>
+    <string name="notification_channel_second">
+        Notificaciones
+    </string>
+    <string name="notifications_lead_time">
+        <![CDATA[<b>%1$d minutos</b>]]>
+    </string>
+    <string name="modes">
+        MODOS
+    </string>
+    <string name="sign_in_to_save_trip">
+        Por favor verifique su correo electrónico para guardar sus viajes favoritos.
+    </string>
+    <string name="start_route">
+        Iniciar ruta
+    </string>
+    <string name="departure_pdt">
+        Las horas de salida se indican en PDT
+    </string>
+    <string name="finding_your_options">
+        Buscando tus opciones…
+    </string>
+    <string name="leave_now_two_lines">
+        Salir ahora
+    </string>
+    <string name="auto_refresh_arrivals">
+        Actualización automática?
+    </string>
+    <string name="effective_as_of">
+        Efectivo a partir de
+    </string>
+    <string name="no_fare_information">
+        Sin información de tarifas
+    </string>
+    <string name="save_route">
+        Guardar un nuevo viaje
+    </string>
+    <string name="plan_trip_tag">
+        etiqueta de plan de viaje
+    </string>
+    <string name="loading">
+        Cargando...
+    </string>
+    <string name="hr_min_with_num">
+        %1$d hora, %2$d minuto
+    </string>
+    <string name="edit_home">
+        Editar Inicio
+    </string>
+    <string name="from_hint">
+        De aquí
+    </string>
+    <string name="connection_failed_msg">
+        No se pudo contactar al servidor. Por favor, inténtelo de nuevo más tarde.
+    </string>
+    <string name="stop_id_with_num">
+        Parada n° %1$s
+    </string>
+    <string name="departure_colon">
+        "Salida: "
+    </string>
+    <string name="you_arrive">
+        "Llegada por: "
+    </string>
+    <string name="accessibility_profile">
+        Perfil de accesibilidad
+    </string>
+    <string name="shared_car">
+        Unidad compartida (coche)
+    </string>
+    <string name="locate_me_button">
+        Ubicarme, tocar dos veces para activar
+    </string>
+    <string name="failed_retrieve_auto_complete">
+        No se pudo recuperar el auto completado
+    </string>
+    <string name="agency_filter_button">
+        Botón de filtro de la agencia, tocar dos veces para activarlo
+    </string>
+    <string name="calories_info_show_details">
+        Descripción del cálculo de calorías, tocar dos veces para abrir
+    </string>
+    <string name="accessibility_profile_subtitle">
+        Define tu perfil de movilidad
+    </string>
+    <string name="slightly_right">
+        Ligeramente a la derecha
+    </string>
+    <string name="routes_viewer_expander">
+        Expansor del visor de rutas, toque dos veces y mantenga presionado y luego deslice para
+        expandir el panel del visor de rutas.
+    </string>
+    <string name="search_bar_back_button">
+        salir de la barra de búsqueda
+    </string>
+    <string name="verify_verification_code_successfully">
+        El número de teléfono se ha verificado correctamente.
+    </string>
+    <string name="create_new_account_terms_start">
+        Confirmo que tengo al menos 13 años y que he leído y acepto los
+    </string>
+    <string name="terms_of_service">
+        Términos de servicio
+    </string>
+    <string name="create_new_account_terms_end">
+        para usar el Planificador de viajes.
+    </string>
+    <string name="location_blocked">
+        El acceso a tu ubicación está bloqueado. Para utilizar tu ubicación actual, activa los permisos de ubicación desde tu navegador y vuelve a cargar la página.
+    </string>
+    <string name="request_fine_location_explanation">
+        El acceso a tu ubicación está bloqueado. Para utilizar tu ubicación actual,
+        activa los permisos de ubicación desde tu navegador y vuelve a cargar la página.
+    </string>
+    <string name="electric_wheelchair">
+        Silla de ruedas eléctrica
+    </string>
+    <string name="failed_create_trip">
+        No se pudo crear la información del viaje.
+    </string>
+    <string name="notifications_disabled">
+        <![CDATA[<b>Desactivadas</b>]]>
+    </string>
+    <string name="walk_speed">
+        Velocidad de caminata
+    </string>
+    <string name="save_preferences_failed">
+        Error al guardar preferencias
+    </string>
+    <string name="next_trip_starts_on">
+        El próximo viaje comienza el %1$s a las %2$s.
+    </string>
+    <string name="expand">
+        Ampliar paradas en esta dirección.
+    </string>
+    <string name="minutes_with_num">
+        %1$d minutos
+    </string>
+    <string name="marta_rail">
+        Ferrocarril MARTA
+    </string>
+    <string name="delete">
+        Borrar el viaje
+    </string>
+    <string name="create_new_account_terms_url">
+        https://atlrides.com/#/terms-of-service
+    </string>
+    <string name="delete_account_successfully">
+        El de su cuenta de usuario ha sido eliminado.
+    </string>
+    <string name="head">
+        Cabeza
+    </string>
+    <string name="and">
+         " y "
+    </string>
+    <string name="title_dashboard">
+        Panel
+    </string>
+    <string name="feet_with_num">
+        %1$d pies
+    </string>
+    <string name="from_here_two_lines">
+        De\nAquí
+    </string>
+    <string name="checking_itinerary_existence">
+        Comprobación de la existencia de itinerarios para cada día de la semana...
+    </string>
+    <string name="dont_remember_password">
+        ¿Has olvidado tu contraseña?
+    </string>
+    <string name="resend_verification_email_failed">
+        Error al reenviar el código de verificación Inténtalo de nuevo
+    </string>
+    <string name="stops_found">
+        %1$d paradas encontradas
+    </string>
+    <string name="shared_vehicle">
+        Vehículos compartidos
+    </string>
+    <string name="leave_feedback">
+        Deja un comentario
+    </string>
+    <string name="pm">
+        p.m.
+    </string>
+    <string name="collapse">
+        El colapso se detiene en esta dirección.
+    </string>
+    <string name="miles_with_num">
+        %1$.1f millas
+    </string>
+    <string name="notification_sms_hint">
+        0123456789
+    </string>
+    <string name="expand_map">
+        Vista del nivel del mapa
+    </string>
+    <string name="reset_password_text">
+        Por favor introduzca su correo electrónico. Le enviaremos un correo electrónico para confirmar el cambio de contraseña.
+    </string>
+    <string name="before_begins_ends">
+        antes de que comience hasta que termine.
+    </string>
+    <string name="forgot_my_options">
+        Olvidar mis opciones
+    </string>
+    <string name="accessibility_profile_hint">
+        Responda algunas preguntas para personalizar la experiencia de planificación
+        de viajes según sus necesidades y preferencias.
+    </string>
+    <string name="accessibility_profile_second_section_title">
+        2. ¿Tiene alguna limitación de movilidad que le haga caminar más lento o con más
+        cuidado que otras personas?
+    </string>
+    <string name="we_found_option_with_num">
+        Encontramos %1$d opciones
+    </string>
+    <string name="mobility_scooter">
+        Scooter
+    </string>
+    <string name="sign_up_terms">
+        Al inscribirte, aceptas nuestros términos de servicio y política de privacidad.
+    </string>
+    <string name="create_new_account_optional_url">
+        https://atlrides.com/#/terms-of-storage
+    </string>
+    <string name="free_floating_bike">
+        Bicicleta flotante
+    </string>
+    <string name="stops">
+        Paradas de tránsito
+    </string>
+    <string name="failed_get_trip_list">
+        Error al recuperar los elementos guardados de notificación del viaje.
+    </string>
+    <string name="routes_found">
+        %1$d itinerarios encontrados
+    </string>
+    <string name="title_activity_tab">
+        TabActividad
+    </string>
+    <string name="search_for_a_route_text_field">
+        Buscar una ruta
+    </string>
+    <string name="stay_on_board_at">
+        Quédate a bordo en %1$s
+    </string>
+    <string name="routes_tag">
+        etiqueta de rutas
+    </string>
+    <string name="route_viewer_route">
+       <![CDATA[<b>%1$s</b> %2$s]]>
+    </string>
+    <string name="min">
+        minuto
+    </string>
+    <string name="retrieve_user_info_failed_other">
+        No se pudo recuperar la información del usuario. Por favor, inténtelo de nuevo más tarde.
+    </string>
+    <string name="switch_origin_destination_button">
+        Botón Cambiar origen y destino, tocar dos veces para activarq
+    </string>
+    <string name="search_mode_title">
+        Seleccione modos de transporte:
+    </string>
+    <string name="special_characters">
+        Caracteres especiales (por ejemplo, !@#$%^&amp;*)
+    </string>
+    <string name="enter_phone_number">
+        Ingrese su número telefónico
+    </string>
+    <string name="drive_search_mode">
+        Modo de búsqueda de unidades
+    </string>
+    <string name="no_stops_found">
+        No se han encontrado tiempos de parada para la fecha.
+    </string>
+    <string name="no_internet_message">
+        No podemos acceder a Internet. Intente conectarse a través de WiFi o datos móviles.
+    </string>
+    <string name="close_search_mode">
+        Ventana emergente de búsqueda en modo cerrado
+    </string>
+    <string name="restore_my_defaults">
+        Restaurar mis valores predeterminados
+    </string>
+    <string name="layer_control_button">
+        Control de capas
+    </string>
+    <string name="remove_fav_stop_warning">
+        Vas a eliminar a [%1$s] de la lista de favoritos. ¿Está seguro?
+    </string>
+    <string name="stops_expander">
+        Expansor de paradas, toque dos veces y mantenga presionado y luego deslice para expandir
+        el panel del visor de paradas.
+    </string>
+    <string name="no_internet">
+        Sin internet
+    </string>
+    <string name="bike_search_mode">
+        Modo de búsqueda de bicicletas
+    </string>
+    <string name="numbers">
+        Números (0-9)
+    </string>
+    <string name="link_scooter">
+        Scooter Link
+    </string>
+    <string name="minute_with_num">
+        %1$d minuto
+    </string>
+    <string name="light_rail">
+        Tren Ligero
+    </string>
+    <string name="lower_case_letters">
+        Letras minúsculas
+    </string>
+    <string name="transfer_discount_info">
+        Se aplica un descuento de transferencia de $%.2f
+    </string>
+    <string name="min_with_num">
+        %1$d min
+    </string>
+    <string name="min_with_num_with_about">About %1$d min</string>
+    <string name="itinerary_leg_description">
+        %1$s %2$s A %3$s
+    </string>
+    <string name="accessibility_profile_third_section_title">
+        3. ¿Tiene alguna limitación de visión?
+    </string>
+    <string name="accessibility_profile_first_section_title">
+        1. Utiliza habitualmente un dispositivo de ayuda a la movilidad?
+        (Marque todo lo que corresponda)
+    </string>
+    <string name="my_trips_tag">
+        Etiqueta de mis viajes
+    </string>
+    <string name="arrive_colon">
+        "Llegada por: "
+    </string>
+    <string name="failed_delete_trip">
+        No se pudo eliminar el viaje
+    </string>
+    <string name="verification_code_hint">
+        123456
+    </string>
+    <string name="search_bar_collapse_button">
+        Botón Expandir la barra de búsqueda, tocar dos veces para activarlo
+    </string>
+    <string name="close_setting">
+        Cerrar ventana emergente de configuración
+    </string>
+    <string name="cane">
+        Caña
+    </string>
+    <string name="service_animal">
+        Animal de servicio
+    </string>
+    <string name="optimize_for">
+        OPTIMIZAR PARA
+    </string>
+    <string name="atl_street_car">
+        Atlanta\nTranvía
+    </string>
+    <string name="distance">
+        Distancia
+    </string>
+    <string name="to_here_two_lines">
+        Hacia aquí
+    </string>
+    <string name="email_cant_blank">
+        Debe ser una dirección de correo electrónico válida.
+    </string>
+    <string name="mins_late">
+        %1$d minutos tarde
+    </string>
+    <string name="happens_on">
+       <![CDATA[<b>%1$s</b>]]>
+    </string>
+    <string name="we_found_one_option">
+        Encontramos 1 opción
+    </string>
+    <string name="hr_with_num">
+        %1$d hr
+    </string>
+    <string name="arrive">
+        Llegada
+    </string>
+    <string name="Logged_in_as_email">
+        Ingresado como %1$s
+    </string>
+    <string name="yes">
+        Sí (por defecto)
+    </string>
+    <string name="you_leave">
+        Su salida
+    </string>
+    <string name="calculating">
+        Esperando el cálculo…
+    </string>
+    <string name="subway_route_provider">
+        <![CDATA[Servicio operado por <font color=#4182BC>%1$s &nbsp;</font>]]>
+    </string>
+    <string name="set_origin">
+        Establecer el origen
+    </string>
+    <string name="itinerary_found_with_num">
+        %1$d viajes encontrados
+    </string>
+    <string name="filter_control_button">
+        Control de filtro
+    </string>
+    <string name="successfully_update_trip">
+        Este ajuste se actualizó.
+    </string>
+    <string name="step_on">
+        %1$s en %2$s
+    </string>
+    <string name="manual_traditional_wheelchair">
+        Silla de ruedas manual/tradicional
+    </string>
+    <string name="where_to_go">
+        Ingrese destino o elija en el mapa
+    </string>
+    <string name="view_next_arrivals">
+        Ver próximos llegadas
+    </string>
+    <string name="dont_notify_me">
+        No me avises
+    </string>
+    <string name="delete_account_failed">
+        Error al actualizar el perfil.
+    </string>
+    <string name="trip_is_due_to">
+        El viaje debe comenzar a las %1$s. (El seguimiento en tiempo real comenzará a las %2$s)
+    </string>
+    <string name="resend_verification_email">
+        Reenviar correo electrónico de verificación
+    </string>
+    <string name="request_post_push_explanation">
+        La aplicación requiere que los servicios de notificaciones estén habilitados para funcionar.
+    </string>
+    <string name="pick_up_spin_e_scooter">
+        Recoger el scooter eléctrico Spin
+    </string>
+    <string name="legally_blind">
+        Legalmente ciega
+    </string>
+    <string name="use_current_location">
+        Usar ubicación actual
+    </string>
+    <string name="around_distance">
+        alrededor de %1$s
+    </string>
+    <string name="mins_early">
+        %1$d minutos antes
+    </string>
+    <string name="search_for_a_stop">
+        Buscar una parada de tránsito
+    </string>
+    <string name="agency">
+        AGENCIA
+    </string>
+    <string name="monitor_this_trip">
+        Monitorea este viaje desde antes de que comience hasta que termine
+    </string>
+    <string name="vehicle_on_route_speed">
+        Viajando a %1$d MPH
+    </string>
+    <string name="search_empty_field_warning">
+        Defina los siguientes campos para planificar un viaje: %1$s
+    </string>
+    <string name="verify_verification_code_failed">
+        Error al solicitar un nuevo código para el número de teléfono
+    </string>
+    <string name="vehicle_on_route_time">
+        %1$d hace segundos
+    </string>
+    <string name="itinerary_leg_transit_description_without_route_name">
+        A %1$s
+    </string>
+    <string name="review_accessibility_questions">
+        Revisar las preguntas de accesibilidad
+    </string>
+    <string name="request_post_push_confirmation">
+        Para recibir alertas de tus viajes guardados,
+        activa las notificaciones en la configuración de tu cuenta e intenta guardar un viaje de nuevo.
+    </string>
+    <string name="white_cane">
+        Bastón blanco
+    </string>
+    <string name="transit_search_mode">
+        Modo de búsqueda de tránsito
+    </string>
+    <string name="duration_left">
+        %1$s izquierda
+    </string>
+    <string name="uturn_left">
+        Girar a la izquierda
+    </string>
+    <string name="slightly_left">
+        Un poco a la izquierda
+    </string>
+    <string name="from">
+        De aquí
+    </string>
+    <string name="depart">
+        Partir
+    </string>
+    <string name="search_bar_expand_button">
+        Botón Expandir la barra de búsqueda, tocar dos veces para activarlo
+    </string>
+    <string name="email_is_verified">
+        Mi correo electrónico está verificado
+    </string>
+    <string name="arrive_at_time">
+        Llegue a las %1$s
+    </string>
+    <string name="no_route_url_provided">
+        No se proporcionó ninguna URL de ruta
+    </string>
+    <string name="itinerary_leg_transit_description">
+        %1$s A %2$s
+    </string>
+    <string name="trip_viewer_expander">
+        Expansor del visor de viajes, toque dos veces y mantenga presionado y luego deslice para
+        expandir el panel del visor de viajes.
+    </string>
+    <string name="itinerary_list_expander">
+        Expansor de lista de itinerarios, toque dos veces y mantenga presionado y luego deslice
+        para expandir el panel de lista de itinerarios.
+    </string>
+    <string name="vehicle_on_route_name">
+        El vehículo %1$s
+    </string>
+    <string name="search_modes_button">
+        Botón Filtro de modo, tocar dos veces para activarlo
+    </string>
+    <string name="failed_check_trip">
+        Comprobación de errores para ver si el viaje seleccionado es posible.
+    </string>
+    <string name="select_from_location">
+        Cambio de lugar de
+    </string>
+    <string name="trip_viewer_route">
+        <![CDATA[Ruta: <b>%1$s</b> %2$s]]>
+    </string>
+    <string name="mode_to">
+        %1$s A %2$s
+    </string>
+    <string name="sign_in_tag">
+        iniciar sesión en la etiqueta
+    </string>
+    <string name="itinerary_start_end_time">
+        <![CDATA[<b>Itinerario</b> %1$s - %2$s]]>
+    </string>
+    <string name="upper_case_letters">
+        Letras mayúsculas
+    </string>
+    <string name="spin_e_scooter">
+        Patinete eléctrico "Spin"
+    </string>
+    <string name="destination_hint">
+        Introduzca el destino o elegir en el mapa
+    </string>
+    <string name="reach_max_saved_trip_warning_message">
+        Ya alcanzaste el máximo de %1$d viajes guardados.
+        Elimina los viajes no utilizados de tus viajes guardados y vuelve a intentarlo.
+    </string>
+    <string name="devices_registered">
+        %1$d dispositivos registrado
+    </string>
+    <string name="route_found">
+        %1$d itinerario encontrado
+    </string>
+    <string name="calories_info_hide_details">
+        Ocultar detalles.
+    </string>
+    <string name="enter_location">
+        Ingresar ubicación
+    </string>
+    <string name="walking">
+        Caminando
+    </string>
+    <string name="plan_trip_two_lines">
+        Planificar viaje
+    </string>
+    <string name="maximum_walk">
+        PASEO MÁXIMO
+    </string>
+    <string name="successfully_create_trip">
+        Tus preferencias han sido guardadas.
+    </string>
+    <string name="show_results">
+        Mostrar resultados
+    </string>
+    <string name="delete_home">
+        Botón Borrar tu dirección de casa
+    </string>
+    <string name="park_and_ride">
+        Aparcar y montar.
+    </string>
+    <string name="reduce_fares_format">
+        \* %1$s se aplican únicamente a personas mayores y discapacitadas. Los jóvenes viajan gratis.
+    </string>
+    <string name="reduce_fares_highlighted_text">
+        Las tarifas reducidas
+    </string>
+    <string name="reduce_fares_url">
+        https://info.myorca.com/es/utilizando-la-orca/formas-de-ahorrar/
+    </string>
+    <string name="map_settings">
+        Configuración del mapa, toque dos veces para activar
+    </string>
+    <string name="attention">
+        Atención
+    </string>
+    <string name="likely_not_accessible">
+        Información no disponible sobre la accesibilidad para silla de ruedas
+    </string>
+
+    <string name="more_options">
+        Mas opciones
+    </string>
+
+    <string name="advanced_preferences">
+        Preferencias avanzadas
+    </string>
+    <string name="i_like_to">
+        Me gustaría…
+    </string>
+
+    <string name="route_preference">
+        Seleccionar rutas preferidas…
+    </string>
+    <string name="accessible_trip">
+        Viaje accesible
+    </string>
+
+    <string name="fewest_transfers">
+        Menos transferencias
+    </string>
+    <string name="fastest">
+        Fastest
+    </string>
+    <string name="less_walking">
+        Menos caminar
+    </string>
+
+    <string name="my_preferred_mode">
+        Opciones de modo
+    </string>
+
+    <string name="advance_transit">
+        Transportes
+    </string>
+    <string name="advance_cycle">
+        Bicicleta
+    </string>
+    <string name="advance_drive">
+        Coche
+    </string>
+    <string name="advance_walk">
+        Caminar
+    </string>
+    <string name="advance_rental">
+        Alquiler
+    </string>
+
+    <string name="real_time">
+        TIEMPO REAL
+    </string>
+
+    <string name="sms_warning_msg">
+        Por favor, complete el proceso de verificación para configurar las notificaciones por SMS.
+    </string>
+
+    <string name="advanced_popup_title">
+        Tiene cambios sin guardar
+    </string>
+    <string name="keep_editing">
+        Sigue editando
+    </string>
+    <string name="discard_changes">
+        Descartar los cambios
+    </string>
+    <string name="plan_your_trip">
+        Planifica tu viaje
+    </string>
+
+    <string name="addition_modes_toggle_msg">
+        Al seleccionar Modos adicionales se incluirán/excluirán servicios dentro de las categorías
+        de modo. Activa o desactiva los modos de viaje que deseas incluir en tu viaje.
+    </string>
+    <string name="accessible_trip_toggle_msg">Al seleccionar Viaje accesible se priorizarán los
+        viajes con embarque en silla de ruedas y se proporcionará una calificación de accesibilidad
+        para cada tramo del viaje.
+    </string>
+    <string name="address_landmarks_places">
+        Direcciones, monumentos y lugares
+    </string>
+    <string-array name="search_options">
+        <item>Salir ahora</item>
+        <item>Partirá después</item>
+        <item>Llegada por</item>
+    </string-array>
+    <string name="all_transit">
+        Todo el tránsito
+    </string>
+    <string name="first_hill">
+        Primera colina
+    </string>
+    <string name="sounder">
+        Sonda
+    </string>
+    <string name="cash">
+        Efectivo
+    </string>
+    <string name="adult">
+        Adulto
+    </string>
+    <string name="youth">
+        Juventud
+    </string>
+    <string name="senior">
+        Major edad
+    </string>
+    <string-array name="items_expandable_level_one">
+        <item>@string/adult</item>
+        <item>@string/youth</item>
+        <item>@string/senior</item>
+    </string-array>
+
+    <string name="mode_combination_error_title">
+        Sin conexiones
+    </string>
+    <string name="locations_are">
+        ubicaciones son
+    </string>
+    <string name="location_is">
+        ubicación es
+    </string>
+
+    <string name="preferred_mode_alter">Alternativas:</string>
+    <string name="mode_combination_error_invalid_mode">No se puede planificar un viaje utilizando los modos seleccionados. Prueba a incluir el transporte publico en la selección de modos.</string>
+
+    <string name="my_preferred_trip">Opciones de viaje</string>
+
+    <string name="error_occurred">Se produjo un error</string>
+    <string name="incorrect_credentials">Correo electrónico o contraseña incorrectos</string>
+    <string name="user_exists">El usuario ya existe</string>
+    <string name="valid_password">Por favor ingrese una contraseña válida</string>
+    <string name="password_reset_success">Éxito, se ha enviado el correo electrónico para restablecer la contraseña.</string>
+    <string name="too_many_attempts">Cuenta bloqueada, demasiados intentos. Inténtelo de nuevo más tarde.</string>
+
+    <string name="no_longer_possible_heading">El viaje ya no es posible</string>
+    <string name="no_longer_possible_description">El planificador de viajes no pudo encontrar su viaje en ninguno de los días seleccionados de la semana. Intente volver a planificar su itinerario para encontrar una ruta alternativa.</string>
+    <string name="past_trip_description">Este es un viaje único que ocurrió en el pasado.</string>
+    <string name="past_trip_heading">El viaje pertenece al pasado</string>
+    <string name="next_trip_not_possible_description">El planificador de viajes no ha podido encontrar su viaje hoy. Intente volver a planificar su itinerario para encontrar una ruta alternativa.</string>
+    <string name="next_trip_not_possible_heading">El viaje no es posible hoy</string>
+
+    <string name="trip_starting_soon_no_realtime">El viaje comienza pronto (no hay actualizaciones disponibles en tiempo real).</string>
+    <string name="trip_start_time_earlier">¡La hora de inicio del viaje se produce %1$s antes de lo previsto!</string>
+    <string name="trip_starting_soon_on_time">El viaje comienza pronto y es más o menos puntual.</string>
+    <string name="trip_start_time_delayed">¡La hora de inicio del viaje se retrasa %1$s!</string>
+    <string name="trip_progress_on_time">El viaje está en curso y está más o menos a tiempo.</string>
+    <string name="trip_progress_delayed">La hora de inicio del viaje se retrasa %1$d %2$d</string>
+    <string name="trip_progress_earlier">¡El viaje está en marcha y llega %1$d antes de lo previsto!</string>
+    <string name="trip_is_due_to_arrive_at">El viaje debe comenzar a las %1$s</string>
+    <string name="trip_progress_no_real_time">El viaje está en curso (no hay actualizaciones disponibles en tiempo real).</string>
+
+    <string name="trip_name_cant_blank">Por favor, introduzca el nombre del viaje.</string>
+    <string name="trip_name_duplicate">Otro viaje guardado ya utiliza este nombre. \nPor favor, elija un nombre diferente.</string>
+    <string name="place_name_text">Nombre del lugar:</string>
+    <string name="place_name_duplicate">Ya está utilizando este nombre para otro lugar. \nPor favor, introduzca un nombre diferente.</string>
+    <string name="trip_days_at_least_one">Please select at least one day to monitor.</string>
+    <string name="address_name_text">Dirección:</string>
+    <string name="location_type_text">Tipo de ubicación:</string>
+</resources>

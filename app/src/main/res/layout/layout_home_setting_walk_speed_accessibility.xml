@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@drawable/white_bg"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/walk_speed"
+        android:textSize="@dimen/title_text_size_sp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:id="@+id/ll_home_setting_walk_speed_accessibility_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_medium"
+        android:padding="@dimen/padding_medium"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_primary_with_shadow_bg"
+        android:backgroundTint="@color/colorModesBackground"
+        android:contentDescription="@string/back_button"
+        >
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_leftarrow"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_gravity="center_vertical"
+            app:tint="@android:color/white"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="22dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="@string/back"
+            android:textSize="@dimen/title_text_size_sp"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/ll_home_setting_walk_speed_accessibility_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/margin_large"
+            android:layout_marginEnd="@dimen/margin_large">
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

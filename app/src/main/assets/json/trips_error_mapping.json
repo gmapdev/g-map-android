@@ -1,0 +1,42 @@
+[
+  {
+    "errorCode": "NO_TRANSIT_CONNECTION",
+    "displayText": "No transit connections",
+    "displaySubText": "No transit connection was found between your origin and destination on the selected day of service, using the vehicle types you selected."
+  },
+  {
+    "errorCode": "NO_TRANSIT_CONNECTION_IN_SEARCH_WINDOW",
+    "displayText": "No transit connection in search window",
+    "displaySubText": "A transit connection was found, but it was outside the search window, try adjusting your search window, using the vehicle types you selected."
+  },
+  {
+    "errorCode": "OUTSIDE_SERVICE_PERIOD",
+    "displayText": "Outside service period",
+    "displaySubText": "The date specified is outside the range of data currently loaded into the trip planner."
+  },
+  {
+    "errorCode": "SYSTEM_ERROR",
+    "displayText": "Trip Planner Failure",
+    "displaySubText": "An unknown error happened during the search."
+  },
+  {
+    "errorCode": "WALKING_BETTER_THAN_TRANSIT",
+    "displayText": "Transit isn't the fastest way to make this trip",
+    "displaySubText": "Avoiding transit on your trip will be faster than taking transit."
+  },
+  {
+    "errorCode": "LOCATION_NOT_FOUND",
+    "displayText": "Location not accessible",
+    "displaySubText": "$0 $1 not near any streets."
+  },
+  {
+    "errorCode": "NO_STOPS_IN_RANGE",
+    "displayText": "No stops in range",
+    "displaySubText": "$0 $1 not near any transit stops."
+  },
+  {
+    "errorCode": "OUTSIDE_BOUNDS",
+    "displayText": "Location outside bounds",
+    "displaySubText": "$0 $1 not in the bounds of the trip planner."
+  }
+]

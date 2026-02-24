@@ -1,0 +1,88 @@
+[
+  {
+    "latitude": 43.847697916653466,
+    "longitude": -79.33057112419911,
+    "address": "8133 Warden Ave West Gate. #400, Markham, ON L6G 1B3",
+    "place": "Markham",
+    "venueId": 2434,
+    "radiusInMeters": 25
+  },
+  {
+    "latitude": 43.847440163637934,
+    "longitude": -79.3295997241317,
+    "address": "8133 Warden Ave East Gate. #400, Markham, ON L6G 1B3",
+    "place": "Markham",
+    "venueId": 2434,
+    "radiusInMeters": 25
+  },
+  {
+    "latitude": 33.92041379964153,
+    "longitude": -84.16505807706167,
+    "address": "5030 Georgia Belle Ct, Norcross, GA 30093, United States",
+    "place": "OneStop Norcross",
+    "venueId": 2529,
+    "radiusInMeters": 60,
+    "coordinates": [
+      [
+        -84.1655484,
+        33.9206243
+      ],
+      [
+        -84.1650522,
+        33.9198696
+      ],
+      [
+        -84.1643425,
+        33.9201758
+      ],
+      [
+        -84.1645748,
+        33.920533
+      ],
+      [
+        -84.1651499,
+        33.9208208
+      ],
+      [
+        -84.1655484,
+        33.9206243
+      ]
+    ],
+    "type": "polygon"
+  },
+  {
+    "latitude": 33.950946589581434,
+    "longitude": -83.99331018395952,
+    "address": "Gwinnett Justice and Administration Center entrance",
+    "place": "GJAC",
+    "venueId": 2450,
+    "radiusInMeters": 60,
+    "coordinates": [
+      [
+        -83.9944589,
+        33.9520998
+      ],
+      [
+        -83.9945796,
+        33.9511854
+      ],
+      [
+        -83.9917096,
+        33.950865
+      ],
+      [
+        -83.991707,
+        33.9517728
+      ],
+      [
+        -83.9930508,
+        33.9519463
+      ],
+      [
+        -83.9944589,
+        33.9520998
+      ]
+    ],
+    "type": "polygon"
+  }
+]

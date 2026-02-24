@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_create_new_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_extra_large"
+            android:accessibilityHeading="true"
+            android:text="@string/create_new_account"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/title_text_size"
+            android:textStyle="bold"
+            tools:targetApi="p" />
+
+        <TextView
+            android:id="@+id/tv_create_new_account_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="@string/create_new_account_hint"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/content_text_size"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:orientation="horizontal">
+
+
+            <CheckBox
+                android:id="@+id/cb_create_new_account_terms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/aoda_height"
+                android:minWidth="@dimen/aoda_width"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:gravity="center_vertical"
+                />
+
+            <TextView
+                android:id="@+id/tv_create_new_account_terms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/content_text_size_sp"
+                android:textColor="@android:color/black"
+                android:layout_marginEnd="@dimen/margin_medium"
+                android:text="@string/create_new_account_terms"
+                android:gravity="top"
+                android:layout_gravity="start"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/ll_create_new_account_optional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_medium"
+            android:orientation="horizontal"
+            >
+
+            <CheckBox
+                android:id="@+id/cb_create_new_account_optional"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/aoda_height"
+                android:minWidth="@dimen/aoda_width"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:gravity="center_vertical"
+                />
+
+            <TextView
+                android:id="@+id/tv_create_new_account_optional"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/content_text_size_sp"
+                android:textColor="@android:color/black"
+
+                android:layout_marginEnd="@dimen/margin_medium"
+                android:text="@string/create_new_account_optional"
+                android:gravity="top"
+                android:layout_gravity="start"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </LinearLayout>
+</ScrollView>
+

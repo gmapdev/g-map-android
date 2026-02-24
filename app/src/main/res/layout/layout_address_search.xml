@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@drawable/rounded_white_with_shadow_bg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_extra_large"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/iv_search_address_back"
+                android:layout_width="@dimen/icon_width"
+                android:layout_height="@dimen/icon_height"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_leftarrow"
+                android:contentDescription="@string/back_button"
+                />
+            <AutoCompleteTextView
+                android:id="@+id/at_search"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/aoda_height"
+                android:layout_weight="1"
+                android:hint="@string/from"
+                android:layout_gravity="center_vertical"
+                android:imeOptions="actionSearch"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@android:color/transparent"
+                android:textColorHint="@color/colorHintText"
+                android:textSize="@dimen/address_input_text_size_sp"
+                />
+            <ImageView
+                android:id="@+id/iv_clear"
+                android:layout_width="@dimen/aoda_width"
+                android:layout_height="@dimen/aoda_height"
+                android:layout_gravity="center_vertical"
+                android:padding="15dp"
+                android:src="@drawable/ic_cancel"
+                app:tint="@color/colorDarkGrey" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="@dimen/margin_extra_large"
+            android:background="@android:color/black"/>
+
+
+        <ListView
+            android:id="@+id/lv_favorite_places_auto_complete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginStart="@dimen/margin_extra_large"
+            android:layout_marginEnd="@dimen/margin_extra_large"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="1dp"
+            android:nestedScrollingEnabled="true"
+            />
+        <TextView
+            android:id="@+id/tv_stops"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_extra_large"
+            android:layout_marginEnd="@dimen/margin_extra_large"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:textColor="@color/colorRecentSearched"
+            android:textSize="@dimen/address_input_text_size_sp"
+            android:accessibilityHeading="true"
+            android:textStyle="bold"
+            android:text="@string/stops"
+            tools:targetApi="p" />
+
+
+        <ListView
+            android:id="@+id/lv_stops"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginStart="@dimen/margin_extra_large"
+            android:layout_marginEnd="@dimen/margin_extra_large"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="@dimen/list_view_divider_height"
+            android:nestedScrollingEnabled="true"
+            />
+        <TextView
+            android:id="@+id/tv_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_extra_large"
+            android:layout_marginEnd="@dimen/margin_extra_large"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:textColor="@color/colorRecentSearched"
+            android:textSize="@dimen/address_input_text_size_sp"
+            android:accessibilityHeading="true"
+            android:textStyle="bold"
+            android:text="@string/other"
+            tools:targetApi="p" />
+
+
+        <ListView
+            android:id="@+id/lv_auto_complete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginStart="@dimen/margin_extra_large"
+            android:layout_marginEnd="@dimen/margin_extra_large"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="@dimen/list_view_divider_height"
+            android:nestedScrollingEnabled="true"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_recently_searched"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_extra_large"
+            android:layout_marginEnd="@dimen/margin_extra_large"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:textColor="@color/colorRecentSearched"
+            android:textSize="@dimen/address_input_text_size_sp"
+            android:accessibilityHeading="true"
+            android:textStyle="bold"
+            android:text="@string/recently_searched"
+            tools:targetApi="p" />
+
+        <ListView
+            android:id="@+id/lv_recently_searched"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginStart="@dimen/margin_extra_large"
+            android:layout_marginEnd="@dimen/margin_extra_large"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="@dimen/list_view_divider_height"
+            android:nestedScrollingEnabled="true"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginStart="@dimen/margin_extra_large"
+            android:layout_marginEnd="@dimen/margin_extra_large"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_medium"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:id="@+id/iv_current_location"
+                android:layout_width="@dimen/icon_size_in_address_search"
+                android:layout_height="@dimen/icon_size_in_address_search"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_notfound"
+                />
+            <TextView
+                android:id="@+id/tv_current_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/aoda_height"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/address_input_text_size_sp"
+                android:text="@string/current_location_not_available"
+                android:ellipsize="end"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_favorite_places"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_extra_large"
+            android:layout_marginEnd="@dimen/margin_extra_large"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:textColor="@color/colorRecentSearched"
+            android:textSize="@dimen/address_input_text_size_sp"
+            android:accessibilityHeading="true"
+            android:textStyle="bold"
+            android:text="@string/favorite_places"
+            tools:targetApi="p"/>
+
+        <ListView
+            android:id="@+id/lv_favorite_places"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginStart="@dimen/margin_extra_large"
+            android:layout_marginEnd="@dimen/margin_extra_large"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="1dp"
+            />
+    </LinearLayout>
+
+</ScrollView>

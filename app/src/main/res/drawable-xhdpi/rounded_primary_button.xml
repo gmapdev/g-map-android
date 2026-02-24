@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:color="@color/button_primary_font_disabled">
+	    <shape>
+            <gradient
+                android:endColor="@color/button_primary_bg_disabled"
+                android:centerColor="@color/button_primary_bg_disabled"
+                android:startColor="@color/button_primary_bg_disabled"
+                android:angle="90" />
+            <stroke
+                android:width="1dp"
+                android:color="@color/button_primary_border_disabled" />
+            <corners
+                android:radius="10dp" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+	</item>
+	
+    <item android:state_pressed="true" android:color="@color/button_primary_font_selected">
+        <shape>
+            <gradient
+                android:endColor="@color/button_primary_bg_selected"
+                android:centerColor="@color/button_primary_bg_selected"
+                android:startColor="@color/button_primary_bg_selected"
+                android:angle="90" />
+            <stroke
+                android:width="1dp"
+                android:color="@color/button_primary_border_selected" />
+            <corners
+                android:radius="10dp" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+
+    <item android:color="@color/button_primary_font">        
+        <shape>
+            <gradient
+                android:endColor="@color/button_primary_bg"
+                android:centerColor="@color/button_primary_bg"
+                android:startColor="@color/button_primary_bg"
+                android:angle="90" />
+            <stroke
+                android:width="1dp"
+                android:color="@color/button_primary_border" />
+            <corners
+                android:radius="10dp" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+</selector>
