@@ -1,5 +1,7 @@
 # GMap - OpenTripPlanner Android Application
 
+![GMap Banner](gmap.jpg)
+
 **G-MAP — Your journey, your path — Mobility through greater accessibility.**
 
 The Georgia Mobility and Access Planner (G-MAP), developed through a collaboration between the Georgia Department of Transportation, Atlanta Regional Commission, and Gwinnett County, helps travelers find transportation that supports independent living. It focuses on the needs of people with disabilities, older adults, and travelers with limited English proficiency in Gwinnett County.
